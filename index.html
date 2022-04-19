@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/pico.min.css">
+<link href="css/Artalk.css" rel="stylesheet">
 <style>
     .box{
     position:fixed;
@@ -279,6 +280,25 @@ h1, h2, h3 {
                     <div> </div>
                     <div> </div>
                 </div>
+            </article>
+            <article>
+                <div id="ArtalkComments"></div>
+                <script src="Artalk.js"></script>
+                <script>
+                    new Artalk({
+                        el: '#ArtalkComments', // 元素选择
+                        placeholder: '我要说两句', // 占位符
+                        noComment: '目前还没有评论哦', // 无评论时显示
+                        defaultAvatar: 'identicon', // 参考 https://cn.gravatar.com/site/implement/images/#default-image
+                        maxNest: 3, // 指定评论显示的最大嵌套层数
+                        pageKey: window.location.pathname,
+                        serverUrl: 'http://rss.xn--ugu.ml/comments/public/index.php',
+                        readMore: { // 阅读更多配置
+                        pageSize: 15, // 每次请求获取评论数
+                        autoLoad: true // 滚动到底部自动加载
+                        }
+                    });
+                </script>
             </article>
         <p><a href="pure.html" target="_blank">MagicSpeedUp</a><br/>本页部分资源由一个不愿透露姓名的无产主义者提供<br/>使用<a href="https://picocss.com/" target="_blank">Pico.css</a>编写，托管于GitHub.</p>
 </main>
