@@ -21,16 +21,6 @@
 
 如果您有关于本网站的任何问题，或想向本站提供有用的链接/报告死链或网址变更等问题，欢迎向<a href="mailto:i@b-hu.org" target="_blank">i@b-hu.org</a>发送电子邮件。我将在看到消息后第一时间回复您！
 
-## 致谢
-
-本页部分资源由一个不愿透露姓名的无产主义者提供
-
-[#长毛象安利大会](https://alive.bar/tags/%E9%95%BF%E6%AF%9B%E8%B1%A1%E5%AE%89%E5%88%A9%E5%A4%A7%E4%BC%9A)对本站亦有很大贡献
-
-使用[Pico.css](https://picocss.com/)和[Docsify](https://docsify.js.org/)编写，托管于[GitHub](https://github.com/Mengmo03/sources).
-
-*[MagicSpeedUp](./guide/magicspeedup.md)*
-
 ## 联系站长
 
 如果想提交新链接，或报告链接失效/网站等问题，请联系我。
@@ -40,3 +30,13 @@
 - 在[Mastodon](https://alive.bar/@meomo)给我留言<br/>*回复较为及时*
 - 给我发送[电子邮件](mailto:i@b-hu.org)<br/>*看到会回复*
 - 在[我的博客](https://mo.b-hu.org/)评论区留言<br/>*除非你在主页留言，不然我一般看不到：（*
+
+## 致谢
+
+本页部分资源由一个不愿透露姓名的无产主义者提供
+
+[#长毛象安利大会](https://alive.bar/tags/%E9%95%BF%E6%AF%9B%E8%B1%A1%E5%AE%89%E5%88%A9%E5%A4%A7%E4%BC%9A)对本站亦有很大贡献
+
+使用[Pico.css](https://picocss.com/)和[Docsify](https://docsify.js.org/)编写，托管于[GitHub](https://github.com/Mengmo03/sources).
+
+*[MagicSpeedUp](./guide/magicspeedup.md)*
