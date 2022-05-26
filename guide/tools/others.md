@@ -41,6 +41,6 @@
     <div><details><summary>Custom Cursor</summary><p>一个鼠标自定指针网站，有chrome插件+windows客户端<br/>
 网站上有制作好的各种鼠标指针。<br/>
 Windows客户端还可以自己上传图片制作<br/><a href="https://custom-cursor.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
 </div>
