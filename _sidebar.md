@@ -1,0 +1,16 @@
+- 综合
+	- [资料下载](/guide/main/download.md)
+	- [语言相关](/guide/main/languages.md)
+	- [素材相关](/guide/main/items.md)
+	- [资源搜集](/guide/main/sources.md)
+- 学科
+	- [历史相关](/guide/subjects/history.md)
+	- [共产主义](/guide/subjects/communism.md)
+	- [中文相关](/guide/subjects/chinese.md)
+	- [地理相关](/guide/subjects/geography.md)
+	- [法律相关](/guide/subjects/laws.md)
+- 在线工具
+	- [图片处理](/guide/tools/pictures.md)
+	- [文件传输](/guide/tools/files.md)
+	- [其他](/guide/tools/others.md)
+- [杂项](/guide/others.md)

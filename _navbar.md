@@ -1,0 +1,2 @@
+- [博客](https://mo.b-hu.org/)
+- [公告](./guide/announcement.md)
