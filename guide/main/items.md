@@ -30,7 +30,7 @@
 </div>
 <div class="grid">
     <div><details><summary>Openverse</summary><p>适用于图片的搜索引擎，提供了超过 3 亿张可使用的免费图片，来源于公开的 API 以及 Common Crawl 数据库。<br/><a href="https://wordpress.org/openverse/?referrer=creativecommons.org" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>Pixel Me</summary><p>可以将插画，3d图片，真实照片，通通转成像素画，支持自动扣图，转换效果较好<br/><b>注意：这个网站转换的图片商用并不是免费的！</b><br/><a href="https://pixel-me.tokyo/en/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
 
