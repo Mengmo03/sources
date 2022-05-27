@@ -41,6 +41,6 @@
     <div><details><summary>Custom Cursor</summary><p>一个鼠标自定指针网站，有chrome插件+windows客户端<br/>
 网站上有制作好的各种鼠标指针。<br/>
 Windows客户端还可以自己上传图片制作<br/><a href="https://custom-cursor.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-    <div> </div>
+    <div><details><summary>Lorem Ipsum</summary><p>一个英文假文产生网站，方便用来做网页测试。<br/><a href="https://lipsum.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>中文假文产生器</summary><p>可以产生繁体中文的假文，方便用来做网页测试。<br/><a href="https://textgen.cqd.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
