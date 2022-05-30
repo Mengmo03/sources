@@ -44,3 +44,8 @@ Windows客户端还可以自己上传图片制作<br/><a href="https://custom-cu
     <div><details><summary>Lorem Ipsum</summary><p>一个英文假文产生网站，方便用来做网页测试。<br/><a href="https://lipsum.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>中文假文产生器</summary><p>可以产生繁体中文的假文，方便用来做网页测试。<br/><a href="https://textgen.cqd.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>简朴epub阅读器</summary><p>一名台湾网友制作的纯前端在线epub阅读器，不会上传本地数据，用起来很方便。<br/><a href="https://ren1244.github.io/epubReader/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
