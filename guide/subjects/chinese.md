@@ -14,6 +14,9 @@
 </div>
 <div class="grid">
     <div><details><summary>汉语现代诗歌语料库</summary><p>汉语现代诗歌语料库整理，3423诗人，79.5K诗歌，14.98M字。持续扩充...<br/><a href="https://www.chinese-poetry.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>清华大学开放中文词库</summary><p>THUOCL（THU Open Chinese Lexicon）是由清华大学自然语言处理与社会人文计算实验室整理推出的一套高质量的中文词库，词表来自主流网站的社会标签、搜索热词、输入法词库等。THUOCL具有以下特点：<br/>
+包含词频统计信息DF值（Document Frequency），方便用户个性化选择使用。<br/>
+词库经过多轮人工筛选，保证词库收录的准确性。<br/>
+开放更新，将不断更新现有词表，并推出更多类别词表。<br/><a href="http://thuocl.thunlp.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
