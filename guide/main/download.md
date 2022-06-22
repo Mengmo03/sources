@@ -23,7 +23,7 @@
 ## 电子书下载
 
 <div class="grid">
-    <div><details><summary>Z-Library</summary><p>一个免费的电子书共享社区，非注册用户每天可以下载5本，注册后可以下载十本，直接搜索就能用，下载下来的多是PDF/EPUB/MOBI/AZW/AZW3格式的电子书。<br/><a href="https://z-lib.org/" target="_blank" role="button" class="outline">主站</a><br/><a href="https://zh.1lib.domains/" target="_blank" role="button" class="outline">自动寻找可用域名（官方）</a><br/><a href="https://pangniao.net/z-library-zui-xin-di-zhi.html" target="_blank" role="button" class="outline">最新可用域名（非官方）</a><br/><a href="https://www.bookzz.ren/" target="_blank" role="button" class="outline">镜像站（官方）</a></p></details></div>
+    <div><details><summary>Z-Library</summary><p>一个免费的电子书共享社区，非注册用户每天可以下载5本，注册后可以下载十本，直接搜索就能用，下载下来的多是PDF/EPUB/MOBI/AZW/AZW3格式的电子书。<br/><a href="https://z-lib.org/" target="_blank" role="button" class="outline">主站</a><br/><a href="https://zh.1lib.domains/" target="_blank" role="button" class="outline">自动寻找可用域名（官方）</a><br/><a href="https://www.bookzz.ren/" target="_blank" role="button" class="outline">镜像站（官方）</a><br/><a href="https://zh.zlib.life/" target="_blank" role="button" class="outline">镜像站（非官方）</a><br/><a href="https://pangniao.net/z-library-zui-xin-di-zhi.html" target="_blank" role="button" class="outline">可用域名（非官方）</a></p></details></div>
     <div><details><summary>Lore Free</summary><p>另一个电子书共享社区，资源更新速度很慢，但好像可以找到一些比较难找的资源。<br/><a href="https://lorefree.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>PDFDrive</summary><p>一个免费的搜索引擎，允许您搜索，预览和下载数百万个PDF文件到您的设备。<br/><a href="https://www.pdfdrive.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
@@ -50,5 +50,28 @@
 <div class="grid">
     <div><details><summary>【W】Open Library</summary><p>Open Library是互联网档案馆旗下的非营利网站暨在线图书馆项目，收录了许多公有领域图书的在线版本，旨在为每一本已出版的图书创建一个网页。<br/><a href="https://openlibrary.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>台湾华文电子书库</summary><p>台湾华文电子书库（Taiwan eBook）启用上线，电子书 12178 册、政府出版品 595 册、百人千书 1005 册，免费开放读者在线阅览。<br/><a href="https://taiwanebook.ncl.edu.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>理想图书</summary><p>也是基于超星库的一个电子书下载网站，价格更贵，但资源更全。<br/><a href="https://www.lxbook.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>【W】无产阶级图书馆</summary><p>一个可以下载电子书的网站，非注册用户也不限速。但<b>这个网站打开自带国际歌音效，公共场合记得关一下声音再进！</b><br/><a href="https://library.proletarian.me/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>FreeMagazinePDF</summary><p>一个可以下载外刊PDF的网站<br/><a href="https://freemagazinepdf.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>SoBooks</summary><p>一个电子书下载网站<br/><a href="https://sobooks.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>书舟搜索</summary><p>一个电子书下载网站<br/><a href="https://www.shuzhou.cc/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>freembook全站资源</summary><p>freembook全站15.72万书(kindle格式为主) [rar][1.4TB]<br/>访问码：k715<br/><a href="https://115.com/s/swn2iev3nvz?password=k715&#" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+</div>
+
+## 其他
+
+<div class="grid">
+    <div><details><summary>Canon Creative Park</summary><p>可以下载纸制品图纸的网站，进首页右上角选择其他语言也可以，不要选中文，中文页会删减很多内容。<br/>所有图纸都是免费下载，但需要【W】（如果访问的是除中文外其他语种的页面），是否要对应地域的IP才能下载还没测试过，需要注册账号后才能下载。<br/><i>浏览页面不用挂梯，只有下载才要</i><br/><i>带CANON ID标志的才需要挂梯下载，没有标志的下载无需挂梯及登陆</i><br/>下载页面附带很详细的图文教程下载<br/><a href="https://creativepark.canon/en/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>ScriptSlug</summary><p>一个可以查剧本的网站，上面的内容都是免费公开的，开放存档，可用于教育与研究用途，支持使用标题、编剧名或genres搜索。<br/><a href="https://www.scriptslug.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Slides Carnival</summary><p>一个PPT模板网站，很商业，可以选主题，也可以在Google云端硬盘上用<br/>Google的PPT在投影那栏下面有主题编辑器，可以找一找，那边可以改变一切配色版面素材<br/><a href="https://www.slidescarnival.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>PPT BIZCAM</summary><p>一个很漂亮的免费PPT模板网站<br/><a href="http://pptbizcam.co.kr/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>SlidesGo</summary><p>一个免费的PPT模板网站，免费帐户一个月可以下载10个<br/><a href="https://slidesgo.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>

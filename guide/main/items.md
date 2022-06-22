@@ -4,10 +4,7 @@
 
 <div class="grid">
     <div><details><summary>Mixkit Sound</summary><p>一家专门提供各种免费、可商用素材的网站。<br/><a href="https://mixkit.co/free-sound-effects/bleep/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><div><details><summary>PoseSearch</summary><p>一个人体照片网站，画画/写文找参考的时候用<br/>
-- 输入人体部位，调整左侧人的姿势，网站会从谷歌上抓取对应姿势的图片<br/>
-- 特别诡异的pose可能不太行<br/>
-- 建议使用网页版（用鼠标操作）,手机版不太行。<br/><a href="https://x6ud.github.io/pose-search/" target="_blank" role="button" class="outline">访问网站</a></p></details></div></div>
+    <div><div><details><summary>PoseSearch</summary><p>一个人体照片网站，画画/写文找参考的时候用<br/>- 输入人体部位，调整左侧人的姿势，网站会从谷歌上抓取对应姿势的图片<br/>- 特别诡异的pose可能不太行<br/>- 建议使用网页版（用鼠标操作）,手机版不太行。<br/><a href="https://x6ud.github.io/pose-search/" target="_blank" role="button" class="outline">访问网站</a></p></details></div></div>
     <div> </div>
 </div>
 
@@ -31,6 +28,46 @@
 <div class="grid">
     <div><details><summary>Openverse</summary><p>适用于图片的搜索引擎，提供了超过 3 亿张可使用的免费图片，来源于公开的 API 以及 Common Crawl 数据库。<br/><a href="https://wordpress.org/openverse/?referrer=creativecommons.org" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Pixel Me</summary><p>可以将插画，3d图片，真实照片，通通转成像素画，支持自动扣图，转换效果较好<br/><b>注意：这个网站转换的图片商用并不是免费的！</b><br/><a href="https://pixel-me.tokyo/en/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>ThisPersonDoesNotExist</summary><p>可以用AI生成一个不存在的人脸的网站。<br/><a href="https://thispersondoesnotexist.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>CLEANPNG</summary><p>一个免费可商用的图片网站<br/><a href="https://www.cleanpng.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>ハンコでアソブ</summary><p>一些日式西洋风、手账风、艺术感之类的很好用的小ICON，都是PNG档，免费可商用，无需署名<br/><a href="http://hankodeasobu.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>StorySet</summary><p>英文课本插画风的图片，图片可以设定动作、显示项目和主题颜色<br/><a href="https://storyset.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>かわいいフリー素材集 いらすとや</summary><p>一个画风比较古早的日式卡通贴图素材网站，商用时请参照该网站的<a href="https://www.irasutoya.com/p/terms.html" target="_blank">使用条款</a><br/><a href="https://www.irasutoya.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>icooon-mono</summary><p>非常简洁现代的ICON，选色选下载文件（甚至是SVG都可以），使用时请参照其<a href="https://icooon-mono.com/license/" target="_blank">使用条款</a><br/><a href="https://icooon-mono.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>StickPNG</summary><p>一个透明背景的PNG素材网站，有很多灵活的素材，有分类型主题，但不可商用，版权问题比较复杂<br/><a href="https://www.stickpng.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>フリー素材ぱくたそ</summary><p>免费可商用的图库，但有一些限制条款，具体请<a href="https://www.pakutaso.com/userpolicy.html" target="_blank">见此</a><br/><a href="https://www.pakutaso.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>SILHOUETTE DESIGN</summary><p>一个皮影风格的图标库，使用条款<a href="https://kage-design.com/terms-of-use/" target="_blank">见此</a><br/><a href="https://kage-design.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>flaticon</summary><p>免费的矢量图标网站，使用条款<a href="https://www.freepikcompany.com/legal#nav-flaticon-agreement" target="_blank">见此</a><br/><a href="https://www.flaticon.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>罫線</summary><p>免费可商用的分割线网站，使用条款<a href="http://free-line-design.com/?page_id=17" target="_blank">见此</a><br/><a href="http://free-line-design.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Freepik</summary><p>一下设计图库，只要标注网站几乎能使用上面八成以上的设计资源,从背景、设计好的海报到简历菜单统统都有，每一项上都写了各自的CC要求，能商用的素材也非常多，唯一的缺点是免费版每天能下载的次数很少，要慎选图库里的资料，提供的原档大多是esp档，用免费软件inkscape就可以开启编辑<br/><a href="https://www.freepik.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>猫画工房</summary><p>一个以猫猫为主题的素材网站，使用条款<a href="https://nekoillust.com/terms-of-service/" target="_blank">见此</a><br/><del>猫猫，嘿嘿，猫猫！</del><br/><a href="https://nekoillust.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>【W】無料背景 - アキ二号機のイラスト</summary><p>一位Pixiv画师提供的一些免费使用的场景图，使用需标明出处<br/><a href="https://www.pixiv.net/users/61071305/illustrations/%E7%84%A1%E6%96%99%E8%83%8C%E6%99%AF" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Paper-co</summary><p>一个免费可商用的纸张纹理素材网站。<br/><a href="https://free-paper-texture.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>mokcup</summary><p>免费可商用的模型素材网站，使用时需要遵循一些<a href="https://mockups-design.com/license/" target="_blank">许可</a><br/><a href="https://mockups-design.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>ICONFINDER</summary><p>一个付费的图标素材网站<br/><a href="https://www.iconfinder.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>AI・EPS</summary><p>一个免费素材网站<br/><a href="https://www.xn--eckzb3bzhw32znfcp1zduw.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>8sukeの人物イラスト屋</summary><p>一个人物素材网站，卡通向，矢量素材收费<br/><a href="https://www.8suke.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>ガーリー素材</summary><p>一个画风偏少女的免费可商用素材网站，使用许可<a href="http://girlysozai.com/about/" target="_blank">见此</a><br/><a href="http://girlysozai.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Stock Up</summary><p>一个聚合式图片网站，大部分是免费素材，把鼠标悬停在图片上可查看授权情况<br/><a href="https://stockup.sitebuilderreport.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Free stock photos</summary><p>一个免费可商用的素材网站，需要遵循<a href="https://kaboompics.com/page/license-and-faq" target="_blank">许可协议</a><br/><a href="https://kaboompics.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Skitterphoto</summary><p>一个收集CC0授权的图片素材网站，免费可商用，无需署名<br/><a href="https://skitterphoto.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>無料写真素材 東京デート</summary><p>一个以东京为主题的免费可商用素材网站<br/><a href="https://www.tokyo-date.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
 
@@ -42,10 +79,38 @@
     <div><details><summary>毛线球科技的词云</summary><p>这是一个还能提供词频统计和词性分类的小工具，也是最简单的词云生成器了，唯一的遗憾是不提供透明背景，也不支持自定义样式，不过胜在简单。<br/><a href="http://cloud.niucodata.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
+## 音乐/音效
+
+<div class="grid">
+    <div><details><summary>無料効果音で遊ぼう！</summary><p>一个音效网站，分主题，电流声啊翻书声啊到僵尸的吼声啊击剑声啊都有，换成日文版东西更多<br/><a href="https://taira-komori.jpn.org/freesound.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>【W】PeriTune</summary><p>一个免费音乐素材频道，是日本人，和风曲啊中世纪战斗啊有点中二啊之类的音乐很棒，标题里带着ほのぼの的曲子很多也很适合做一般视频的配乐<br/><a href="https://www.youtube.com/c/PeriTune/videos" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>【W】NoCopyrightSounds</summary><p>非常西方的免费音乐频道，很适合用来做那种科技、现代、流行的风格，缺点是曲子没有情绪分类只有乐风、要一个一个听，建议有空时就慢慢听备着用，使用时需要告知来源<br/><a href="https://www.youtube.com/channel/UC_aEa8K-EOJ3D6gOs7HcyNg" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>【W】Vlog No Copyright Music</summary><p>一个西方的免费音乐频道，曲子多半很适合旅游、休闲的视频，提供按情绪分类的清单，使用时需要列出来源<br/><a href="https://www.youtube.com/c/VlogNoCopyrightMusic/featured" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>フリー音楽素材MusMus</summary><p>一个以爵士、轻松风格音乐居多的音乐素材网站，只要标明出处就能免费商用。同时他们也有油管频道。<br/><a href="https://musmus.main.jp/" target="_blank" role="button" class="outline">访问网站</a><a href="https://www.youtube.com/channel/UCQuMmwxT25MPI1E0YXwARhA" target="_blank" role="button" class="outline">油管频道</a></p></details></div>
+    <div><details><summary>H/MIX GALLERY</summary><p>一个很不错的音乐素材网站，非商用可免费，商用需<a href="http://www.hmix.net/music_gallery/info.htm" target="_blank">付费</a><br/><a href="http://www.hmix.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+
 ## 其他
 
 <div class="grid">
     <div><details><summary>Coverr</summary><p>一个免费可商用的航拍视频素材网站。<br/><a href="https://coverr.co/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>3DModelsCC0</summary><p>一个基于 CC0 授权的 3D 模型库，可直接下载 .obj 格式，可用于 3D 打印。<br/><a href="https://www.3dmodelscc0.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>100font</summary><p>一个收集可商用字体的网站。<br/><a href="https://www.100font.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>欧洲古典服饰</summary><p>网友搜集的服装素材相关书籍，大范围是欧洲古典服饰，搜集的目标是17th-18th法国服饰（密码36s9xc，失效不补）<br/><a href="https://share.weiyun.com/sdabuMRX" target="_blank" role="button" class="outline">查看资源</a></p></details></div>
+    <div><details><summary>Videezy</summary><p>有更多向量计算的视频，找火焰啊、水啊、墨水啊、光线啊，这种无主题性的素材这边比较好找<br/><a href="https://www.videezy.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>motiontable</summary><p>一个特效资源库，可以下载一些图形特效周期表<br/><a href="http://foxcodex.html.xdomain.jp/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>缓动函数速查表</summary><p>可以做图形移动速度的网站<br/><a href="https://easings.net/cn" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Textures for 3D</summary><p>一个3D模型素材库<br/><a href="https://www.textures.com/library" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Mixkit</summary><p>一个免费的视频素材网站，具体授权情况<a href="https://mixkit.co/license/" target="_blank">见此</a><br/><a href="https://mixkit.co/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>【W】免费可商用的36个字体</summary><p>台湾网友整理的<br/><a href="https://forum.gamer.com.tw/C.php?bsn=60076&snA=3906436" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>动画素材</summary><p>一个免费的动画素材网站<br/><a href="http://xn--hhro09bn9j8uh.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
 </div>

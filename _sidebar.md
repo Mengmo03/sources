@@ -2,7 +2,8 @@
 	- [资料下载](/guide/main/download.md)
 	- [语言相关](/guide/main/languages.md)
 	- [素材相关](/guide/main/items.md)
-	- [资源搜集](/guide/main/sources.md)
+	- [课程/资讯](/guide/main/online-courses.md)
+	- [综合资源](/guide/main/sources.md)
 - 学科
 	- [历史相关](/guide/subjects/history.md)
 	- [共产主义](/guide/subjects/communism.md)
@@ -11,6 +12,8 @@
 	- [法律相关](/guide/subjects/laws.md)
 - 在线工具
 	- [图片处理](/guide/tools/pictures.md)
-	- [文件传输](/guide/tools/files.md)
+	- [文字相关](/guide/tools/chr.md)
+	- [文件相关](/guide/tools/files.md)
 	- [其他](/guide/tools/others.md)
-- [杂项](/guide/others.md)
+- 其他
+	- [软件/插件](/guide/others/software.md)
