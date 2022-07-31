@@ -7,5 +7,5 @@
 - Android: [https://forever.ypork.com/ssr-download/ss-android.apk](https://forever.ypork.com/ssr-download/ss-android.apk)
 - Windows: [https://forever.ypork.com/ssr-download/v2rayn.zip]
 - MacOS: [https://github.com/yanue/V2rayU](https://github.com/yanue/V2rayU)
-- Magic Link: [Here](vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLlhazlhbEiLAogICJhZGQiOiAiOC4xNDMzNDcyLnh5eiIsCiAgInBvcnQiOiAyOTE4MSwKICAiaWQiOiAiNDI2N2RhMDQtNmJmMC00MjY0LWFjNGYtNGVjNWEzNTlhYTdhIiwKICAiYWlkIjogMCwKICAibmV0IjogIndzIiwKICAidHlwZSI6ICJub25lIiwKICAiaG9zdCI6ICIiLAogICJwYXRoIjogIi9RQmlmMHc1SCIsCiAgInRscyI6ICJ0bHMiCn0=) (50G/Month)
+- Subscribe Link: [Here](https://s.b-hu.org/guide/30MoxGK1LtYGurete3H2dQ6iQHwKDw) (50G/Month)
 
