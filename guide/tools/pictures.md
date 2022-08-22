@@ -48,6 +48,11 @@
     <div><details><summary>Colorion</summary><p>一个好看的配色网站<br/><a href="https://www.colorion.co/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Coolors</summary><p>一个可以通过敲击空格配色的网站，也可以对配色进行细微调整以及从图片中提取配色方案<br/><a href="https://coolors.co/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>GoodPalette</summary><p>一个配色工具，很直观的预览样式非常方便，这个网站是可以配一些对比色，并不止是同色系的配色工具。<br/><a href="https://goodpalette.io/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>UIColors</summary><p>一个同色系自动生成配色的网站，看起来非常和谐<br/><a href="https://uicolors.app/create" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Hue</summary><p>一个开源的颜色工具箱<br/><a href="https://hue.tools/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/pabueco/hue.tools" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
+</div>
 
 ## 图片收集
 

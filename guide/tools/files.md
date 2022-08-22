@@ -24,7 +24,7 @@
 <div class="grid">
     <div><details><summary>金鱼网盘</summary><p>一个不限大小的匿名文件传输工具，可以保存7天文件。<br/><i>* 这个是作者建的demo，更多的是为了方便自己使用，所以请珍惜，不要滥用。同时这也是一个开源程序，如果你有服务器，也可以考虑自己建一个。</i><br/><a href="http://jinyu.lovefc.cn/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://gitee.com/lovefc/jinyu" target="_blank" role="button" class="outline">源码地址</a></p></details></div>
     <div><details><summary>GigaFile</summary><p>一个匿名文件上传网盘，无需注册，单个文件最大300g，电脑网页更可以直接拖动文件夹，最多可以保存100天。缺点是界面比较丑，并且是日文的。<br/><a href="https://gigafile.nu/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><div><details><summary>Firefox Send社区版</summary><p>Firefox Send由于被滥用已经被关闭了，这是社区托管的一个版本。同时你也可以自己下载源代码并构建自己的版本<br/><a href="https://send.zcyph.cc/" target="_blank" role="button" class="outline">访问网站</a><a href="https://gitlab.com/timvisee/send" target="_blank" role="button" class="outline">查看代码</a></p></details></div>
 </div>
 
 ### 没有被墙且支持WebDav的云盘
@@ -56,4 +56,9 @@
     <div><details><summary>Sturt</summary><p>超酷的演示文稿制作网站。（基于impress.js）<br/><a href="http://strut.io/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>PDF24 Tools</summary><p>一个PDF处理网站（有软件），可以合并切割排序压缩解密添加电子签名格式转换，功能应有尽有而且没有文件大小数量的限制，而且完全免费。<br/><a href="https://tools.pdf24.org/zh/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>I❤PDF</summary><p>一个很好用的PDF编辑网站，只是免费版好像有使用次数限制<br/><a href="https://www.ilovepdf.com/zh-cn" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Tinywow</summary><p>一个在线文件处理工具合辑<br/><a href="https://tinywow.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
 </div>

@@ -35,3 +35,8 @@
     <div><details><summary>中文假文产生器</summary><p>可以产生繁体中文的假文，方便用来做网页测试。<br/><a href="https://textgen.cqd.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Lorem Ipsum</summary><p>一个英文假文产生网站，方便用来做网页测试。<br/><a href="https://lipsum.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>CopyBook</summary><p>一个开源的文案项目，包含产品中常用的文案（英文）<br/><a href="https://copybook.me/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/praveenjuge/copybook/" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>

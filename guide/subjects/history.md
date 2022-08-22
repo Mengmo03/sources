@@ -45,3 +45,19 @@
     <div> </div>
     <div> </div>
 </div>
+
+## 文博
+
+<div class="grid">
+    <div><details><summary>故宫博物院数字文物库</summary><p>故宫博物院出品的文物数据库，可以检索到文物的基本信息和图片，收录了8万多件文物<br/><a href="https://digicol.dpm.org.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>【W】故宫典藏资料检索</summary><p>台湾国立故宫博物院出品的文物检索系统，可以查询文物的基本信息和高清图片，收录了10万多件文物<br/><a href="https://digitalarchive.npm.gov.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>敦煌遗书数据库</summary><p>由敦煌研究所开发的数据库系统，可以查询到敦煌文书的高清图片和对应的文字内容<br/><a href="https://dhyssjk.dha.ac.cn/dbc_ys/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+
+## 其它
+
+<div class="grid">
+    <div><details><summary>Europeana</summary><p>一个免费数字图书馆，整合了欧洲各图书馆、博物馆至少四百万笔的数字资源，影像、地图、照片、电子书、报纸、影片，3D等均有。网页以英文为主（有欧洲各语种可选择）<br/><a href="https://www.europeana.eu/en" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>历史资源网</summary><p>香港中文大学教育学院的历史网站，有一些历史资料<br/><a href="https://www.fed.cuhk.edu.hk/history/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+</div>

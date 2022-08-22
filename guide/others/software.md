@@ -33,7 +33,7 @@
 <div class="grid">
     <div><details><summary>Just Color Picker</summary><p>一个免费的取色器软件，好像功能还挺多<br/><a href="https://annystudio.com/software/colorpicker/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Snapseed</summary><p>一个手机APP，调照片的光影和颜色很好用，修复可以涂掉污点，扩增很好用，自由度高，操作偏直觉<br/>提供的是Google Play的下载地址，需要【W】，也可自行去搜索引擎搜索其他下载渠道<br/><a href="https://play.google.com/store/apps/details?id=com.niksoftware.snapseed&hl=zh" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>Microsoft Lens</summary><p>微软出品的良心扫描软件，可以输出PDF/图片类型的文件，而且无需登录！<br/><a href="https://play.google.com/store/apps/details?id=com.microsoft.office.officelens" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 插件
@@ -63,5 +63,5 @@
 <div class="grid">
     <div><details><summary>沙拉查词</summary><p>一个开源的聚合划词插件，支持网页划词查询词义。<br/><a href="https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg" target="_blank" role="button" class="outline">商店地址</a><br/><a href="https://saladict.crimx.com/" target="_blank" role="button" class="outline">官网</a></p></details></div>
     <div><details><summary>Video Speed Controller</summary><p>一个开源的视频倍速播放的小插件，最高支持16倍速。<br/><a href="https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk" target="_blank" role="button" class="outline">商店地址</a><br/><a href="https://github.com/igrigorik/videospeed" target="_blank" role="button" class="outline">官网</a></p></details></div>
-    <div> </div>
+    <div><details><summary>Relingo</summary><p>一个可以在浏览任何网站的时候渐进地背单词的Chrome拓展s<br/><a href="https://relingo.net/zh/index" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>

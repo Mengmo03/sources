@@ -5,10 +5,10 @@
 <div class="grid">
     <div><details><summary>Mixkit Sound</summary><p>一家专门提供各种免费、可商用素材的网站。<br/><a href="https://mixkit.co/free-sound-effects/bleep/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><div><details><summary>PoseSearch</summary><p>一个人体照片网站，画画/写文找参考的时候用<br/>- 输入人体部位，调整左侧人的姿势，网站会从谷歌上抓取对应姿势的图片<br/>- 特别诡异的pose可能不太行<br/>- 建议使用网页版（用鼠标操作）,手机版不太行。<br/><a href="https://x6ud.github.io/pose-search/" target="_blank" role="button" class="outline">访问网站</a></p></details></div></div>
-    <div> </div>
+    <div><details><summary>justsketch</summary><p>画画作参考的一个软件，可以用3D给人物摆做动，这样画人物结构的时候就很方便，这个产品还是有一定的技术门槛，兼容了多设备，有付费功能<br/><a href="https://justsketch.me/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
-## 图片
+## 图片/图标
 
 <div class="grid">
     <div><details><summary>Unsplash</summary><p>一个免费的照片共享网站。<br/><a href="https://unsplash.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
@@ -68,7 +68,32 @@
 <div class="grid">
     <div><details><summary>Skitterphoto</summary><p>一个收集CC0授权的图片素材网站，免费可商用，无需署名<br/><a href="https://skitterphoto.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>無料写真素材 東京デート</summary><p>一个以东京为主题的免费可商用素材网站<br/><a href="https://www.tokyo-date.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>Jam Icons</summary><p>940 个 SVG 图标素材，可以免费下载使用<br/><a href="https://jam-icons.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Simple Icons</summary><p>一个开源的图标库，可以下载很多品牌的 SVG 的标志 LOGO 图标。<br/><a href="https://simpleicons.org/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/simple-icons/simple-icons" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
+    <div><details><summary>Flag-icons</summary><p>一个开源项目，所有国家国旗标志的 SVG 集合，可以下载，也可以引用 CSS<br/><a href="https://flagicons.lipis.dev/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/lipis/flag-icons" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
+    <div><details><summary>VectorWiki</summary><p>可以免费搜索和下载任何矢量的品牌标志<br/><a href="https://vectorwiki.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Crypto Logos</summary><p>一个收录加密货币标志的免费图库，可搜索查找，每个加密货币图标都有透明背景的 .PNG 和矢量图 .SVG 格式，点选就能立即下载，有一些加密货币标志还会列出他们历年标志更新历史。<br/><a href="https://cryptologos.cc/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>fffuel</summary><p>一个非常好看的 SVG 背景和图形的生成器，可以自定义很多参数，自由度很高。<br/><a href="https://fffuel.co/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Artvee</summary><p>这个网站收录的是古典艺术作品，完全免费浏览和下载高分辨率的公共领域艺术品。<br/><a href="https://artvee.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Free Notion-style Icons</summary><p>50 个免费的 Notion 风格的图标。<br/><a href="https://maryamato88.gumroad.com/l/pbmkt" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>khushmeen</summary><p>涂鸦图标。免费供个人和商业使用，且无需署名<br/><a href="https://khushmeen.com/icons.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>pika</summary><p>一个可以生成浏览器截图的开源工具<br/><a href="https://pika.style/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/rishimohan/pika" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>chalk.ist</summary><p>一个开源的代码截图美化工具<br/><a href="https://chalk.ist/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/Idered/chalk.ist" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
+    <div><details><summary>Reshot</summary><p>一个免费的图标，矢量插画，图片下载的网站，可以直接下载矢量源文件，SVG等,无套路无广告无付费，素材都可以商用<br/><a href="https://www.reshot.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>logotouse</summary><p>一个免费logo素材网站，可以下载源文件修改，，可以免费商用<br/><a href="https://www.logotouse.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>cryptofonts</summary><p>免费的加密货币字体和图标。拥有超过 1500 个 CSS 和 SVG 图标。<br/><a href="https://cryptofonts.com/index.php" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>notion icons.v5</summary><p>一个图标网站，可以直接复制进Notion里面，风格统一<br/><a href="https://notionv5.vyshnav.xyz/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Meshgradient</summary><p>在线调整渐变壁纸背景的工具<br/><a href="https://meshgradient.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 词云
@@ -91,6 +116,11 @@
     <div><details><summary>フリー音楽素材MusMus</summary><p>一个以爵士、轻松风格音乐居多的音乐素材网站，只要标明出处就能免费商用。同时他们也有油管频道。<br/><a href="https://musmus.main.jp/" target="_blank" role="button" class="outline">访问网站</a><a href="https://www.youtube.com/channel/UCQuMmwxT25MPI1E0YXwARhA" target="_blank" role="button" class="outline">油管频道</a></p></details></div>
     <div><details><summary>H/MIX GALLERY</summary><p>一个很不错的音乐素材网站，非商用可免费，商用需<a href="http://www.hmix.net/music_gallery/info.htm" target="_blank">付费</a><br/><a href="http://www.hmix.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>Flowful</summary><p>一个由生成器生成的音乐的网站，无需注册，无需付费，永远不会结束。有十几种不同主题特色的生成器供选择，很适合冥想。<br/><a href="https://flowful.app/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
 
 ## 其他
 
@@ -112,5 +142,10 @@
 <div class="grid">
     <div><details><summary>【W】免费可商用的36个字体</summary><p>台湾网友整理的<br/><a href="https://forum.gamer.com.tw/C.php?bsn=60076&snA=3906436" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>动画素材</summary><p>一个免费的动画素材网站<br/><a href="http://xn--hhro09bn9j8uh.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Bunny Fonts</summary><p>一个开源的网络字体平台。除了 Google Font 之外的另一个最佳选择。没有中文字体。<br/><a href="https://fonts.bunny.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Emoji Mart</summary><p>一个开源的用于web 的表情选择器 HTML 组件<br/><a href="https://missiveapp.com/open/emoji-mart" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/missive/emoji-mart" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
+    <div> </div>
     <div> </div>
 </div>

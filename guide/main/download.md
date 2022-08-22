@@ -19,6 +19,11 @@
     <div><details><summary>泉方教育</summary><p>泉方教育除了可以下载文献，云图书馆也是免费注册，还有人工代查功能，文献下载次数没有限制。注意：泉方教育下载文献是通过英文文献名查找的，无法用Doi直接搜索！<br/><a href="http://www.yuntsg.com/html/1/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>【W】Sci-hub</summary><p>一个几乎可以下载任何论文的网站，但因为涉及到版权问题，网址总是打不开，以下是理论可用的链接。<br/><a href="https://sci-hub.tw" target="_blank" role="button" class="outline">访问网站（1）</a><br/><a href="https://sci-hub.se" target="_blank" role="button" class="outline">访问网站（2）</a><br/><a href="https://sci-hub.si" target="_blank" role="button" class="outline">访问网站（3）</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>SSRN</summary><p>社会科学研究网，基本免费，未在期刊正式发表的论文也能下载<br/><a href="https://www.ssrn.com" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div>  </div>
+    <div>  </div>
+</div>
 
 ## 电子书下载
 
@@ -60,6 +65,11 @@
 <div class="grid">
     <div><details><summary>书舟搜索</summary><p>一个电子书下载网站<br/><a href="https://www.shuzhou.cc/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>freembook全站资源</summary><p>freembook全站15.72万书(kindle格式为主) [rar][1.4TB]<br/>访问码：k715<br/><a href="https://115.com/s/swn2iev3nvz?password=k715&#" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>台湾电子书搜寻</summary><p>一个综合搜索各大电子书出版商的网站（需要付费购买）<br/><a href="https://taiwan-ebook-lover.github.io/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>OAPEN</summary><p>一个位于荷兰的学术类电子书库，开放获取，无需注册，无需翻墙。可在右上角输入搜索内容或按学科/出版社/语言/合集筛选，现有英语电子书1.5万本，可以整本下载或通过在线阅读器阅读。<br/><a href="https://oapen.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>DOAB</summary><p>一个位于法国的学术类电子书库，开放获取，无需注册，无需翻墙。可在右上角输入搜索内容或按学科/出版社/语言/合集筛选，现有英语电子书3万本，会跳转到books.openedition.org在线阅读。<br/><a href="https://doabooks.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
 

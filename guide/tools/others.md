@@ -30,6 +30,11 @@
 <div class="grid">
     <div><details><summary>CodeBeauty</summary><p>一个编程相关的网页工具箱<br/><a href="https://codebeautify.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>tinkercad</summary><p>一个可免费用于非商业领域的3D模型网站，提供web版和app版<br/><a href="https://www.onshape.com/en/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>breakmessage</summary><p>一个在电脑屏幕上显示离开信息的网站（不过也可以用Word？）<br/><a href="https://breakmessage.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>ANIMATED DRAWINGS</summary><p>一个可以给自己的画绑定骨骼然后让它动起来的网站<br/><a href="https://sketch.metademolab.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
     <div> </div>
 </div>
 
@@ -50,6 +55,11 @@
 <div class="grid">
     <div><details><summary>NEP.Anime|动画仓库</summary><p>一个Telegram 的动画仓库频道，是机器人自动抓取各大BT站的新番资源，因为这个频道是18年才有的，所以18年之前的动画没有。可以在频道内在线观看也可以下载观看。<br/><a href="https://t.me/AnimeNep" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>IHaveNoTV</summary><p>一个可以看高清无水印纪录片的网站<br/><a href="https://ihavenotv.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>ZzzFun动漫视频网</summary><p><a href="http://www.zzzfun.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>风车动漫</summary><p><a href="https://dm530.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>双辞动漫</summary><p><a href="https://www.scfun.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
 
@@ -85,4 +95,12 @@
     <div><details><summary>BirdsiteLIVE</summary><p>可以让长毛象账号关注推特账号<br/><a href="https://birdsite.slashdev.space/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>建站后的运维及装修手册</summary><p>长毛象建站指南！可以自己建一个玩玩！<br/><a href="https://mantyke.icu/posts/2022/mastodon_mammota/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>【W】TUSKY</summary><p>一个开源的第三方Mastodon安卓客户端，使用体验很不错<br/><a href="https://tusky.app/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+
+## 食谱？
+
+<div class="grid">
+    <div><details><summary>隔离食用手册</summary><p>一个UI很漂亮的开源做菜网站，可以根据你现有的食材和烹饪工具选择合适的菜，并且提供b站的视频教程地址<br/><a href="https://cook.yunyoujun.cn/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/YunYouJun/cook" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
+    <div><details><summary>How To Cook</summary><p>一个开源的菜谱很精准可控的做菜网站<br/><a href="https://cook.aiurs.co/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/Anduin2017/HowToCook" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
+    <div> </div>
 </div>
