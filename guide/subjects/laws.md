@@ -44,7 +44,6 @@
     <div><details><summary>全国中小企业股份转让系统</summary><p><a href="http://www.neeq.com.cn" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>法天使中国合同库</summary><p>合同类型全数量多，有法律专业人士把关，收费<br/><a href="https://www.fatianshi.cn" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
-<div class="grid">
 
 ## 海外
 
