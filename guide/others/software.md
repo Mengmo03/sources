@@ -63,5 +63,5 @@
 <div class="grid">
     <div><details><summary>沙拉查词</summary><p>一个开源的聚合划词插件，支持网页划词查询词义。<br/><a href="https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg" target="_blank" role="button" class="outline">商店地址</a><br/><a href="https://saladict.crimx.com/" target="_blank" role="button" class="outline">官网</a></p></details></div>
     <div><details><summary>Video Speed Controller</summary><p>一个开源的视频倍速播放的小插件，最高支持16倍速。<br/><a href="https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk" target="_blank" role="button" class="outline">商店地址</a><br/><a href="https://github.com/igrigorik/videospeed" target="_blank" role="button" class="outline">官网</a></p></details></div>
-    <div><details><summary>Relingo</summary><p>一个可以在浏览任何网站的时候渐进地背单词的Chrome拓展s<br/><a href="https://relingo.net/zh/index" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Relingo</summary><p>一个可以在浏览任何网站的时候渐进地背单词的Chrome拓展<br/><a href="https://relingo.net/zh/index" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
