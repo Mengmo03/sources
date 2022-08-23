@@ -17,3 +17,8 @@
     <div><details><summary>NBCharts-Map3d</summary><p>一个可以创建很漂亮的3d地图样式的网站<br/><a href="https://nbcharts.com/map/map3d.php" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>规划云地图分析图底图</summary><p>一个可以快速生成城市底图的网站，方便在底图上进行二次设计<br/><a href="http://guihuayun.com/maps/index.php" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>STELE档案</summary><p>中国铁路地图作者的另一个项目，基于OSM数据的中国文化自然遗产数据可视化实验，可以查询中国境内的文化自然遗产。<br/><a href="http://stele.geogv.org/zhcn/about" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
