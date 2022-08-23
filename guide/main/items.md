@@ -95,6 +95,11 @@
     <div><details><summary>notion icons.v5</summary><p>一个图标网站，可以直接复制进Notion里面，风格统一<br/><a href="https://notionv5.vyshnav.xyz/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Meshgradient</summary><p>在线调整渐变壁纸背景的工具<br/><a href="https://meshgradient.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>Simple Icons</summary><p>2000多个知名品牌的SVG图标下载<br/><a href="https://simpleicons.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
 
 ## 词云
 
