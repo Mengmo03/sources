@@ -19,6 +19,6 @@
 </div>
 <div class="grid">
     <div><details><summary>STELE档案</summary><p>中国铁路地图作者的另一个项目，基于OSM数据的中国文化自然遗产数据可视化实验，可以查询中国境内的文化自然遗产。<br/><a href="http://stele.geogv.org/zhcn/about" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
 </div>
