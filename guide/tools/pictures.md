@@ -22,6 +22,11 @@
     <div><details><summary>PhotoPea</summary><p>一个在线版PS，有笔刷有图层，可以开PSD档<br/><a href="https://www.photopea.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div> 
     <div><details><summary>泼辣滤镜</summary><p>一个给照片加滤镜的网站（好像有的滤镜要付费？）<br/><a href="https://photoeditor.polarr.co/" target="_blank" role="button" class="outline">访问网站</a></p></details></div> 
 </div>
+<div class="grid">
+    <div><details><summary>BgSub</summary><p>一个最高 4096×4096 分辨率、无数据上传，免费的去背景、换背景、抠图工具<br/><a href="https://bgsub.cn/" target="_blank" role="button" class="outline">访问网站（国内）</a><br/><a href="https://bgsub.com/" target="_blank" role="button" class="outline">访问网站（国际）</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
 
 ## 排版
 
