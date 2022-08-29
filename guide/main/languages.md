@@ -20,6 +20,24 @@
     <div><details><summary>The Britannica DictionaryB</summary><p>大英词典的官方网站<br/><a href="https://www.britannica.com/dictionary" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
+## 拉丁语
+
+<div class="grid">
+    <div><details><summary>拉丁语汉语简明词典</summary><p>由雷立柏编写的拉-中词典，是PDF格式的，需要下载使用<br/><a href="https://downloads.freemdict.com/uploads/Ludovicus/%E6%8B%89%E4%B8%81%E8%AF%AD-%E6%90%AC%E8%BF%90/%E9%9B%B7%E7%AB%8B%E6%9F%8F%E2%80%94%E7%AE%80%E6%98%8E%E6%8B%89%E4%B8%81%E8%AF%AD%E6%95%99%E7%A8%8B_.pdf" target="_blank" role="button" class="outline">下载文件</a></p></details></div>
+    <div><details><summary>Lewis & Short</summary><p>一个拉-英的词典，有很多的数字化项目，但比较老了<br/><a href="https://alatius.com/ls/" target="_blank" role="button" class="outline">网站1</a><br/><a href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059" target="_blank" role="button" class="outline">网站2</a><br/><a href="http://archimedes.fas.harvard.edu/pollux/" target="_blank" role="button" class="outline">网站3</a><br/><a href="http://latinlexicon.org/index.php" target="_blank" role="button" class="outline">网站4</a><br/><a href="http://logeion.uchicago.edu/index.html" target="_blank" role="button" class="outline">网站5</a><br/><a href="http://athirdway.com/glossa/" target="_blank" role="button" class="outline">网站6</a><br/><a href="http://philolog.us/" target="_blank" role="button" class="outline">网站7</a></p></details></div>
+    <div><details><summary>Gaffiot</summary><p>一个拉-法在线词典<br/><a href="https://micmap.org/dicfro/introduction/gaffiot" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>【W】拉丁语汉语词典</summary><p>由谢大任编写的拉-中词典，质量堪忧，但可以参考使用，是PDF格式，需要下载使用<br/><a href="https://zh.b-ok.cc/book/3572273/87f34f" target="_blank" role="button" class="outline">下载文件</a></p></details></div>
+    <div><details><summary>【W】拉丁汉文辞典</summary><p>由吴金瑞编写的拉-中词典，是PDF格式，需要下载使用<br/><a href="https://zh.b-ok.cc/book/3403668/fe2f03" target="_blank" role="button" class="outline">下载文件</a></p></details></div>
+    <div><details><summary>【W】Oxford Latin Dictionary</summary><p>一个拉-英词典，PDF格式，需要下载使用<br/><a href="https://zh.b-ok.cc/book/3647306/d6b88d" target="_blank" role="button" class="outline">下载文件</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Logeion</summary><p>一个在线的拉丁语、希腊语-英语的词典，由芝加哥大学开发，也有IOS版的软件<br/><a href="https://logeion.uchicago.edu/lexidium" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://apps.apple.com/us/app/logeion/id727860177" target="_blank" role="button" class="outline">APP STORE</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
+
 ## 日语
 
 <div class="grid">
@@ -80,5 +98,5 @@
 <div class="grid">
     <div><details><summary>inspod（安卓）</summary><p>兼容podcasts和YouTube，打关键帧+自动出字幕+做笔记，内置检索你想要的频道<br/><a href="https://www.inspod.io/zh-cn" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Linguee</summary><p>一个词典，可以提供很多例句<br/><a href="https://www.linguee.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>PReVo</summary><p>一个开源的世（世界语）-世（世界语）词典，是安卓软件<br/><a href="https://www.busydoingnothing.co.uk/prevo/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/bpeel/prevo" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
 </div>
