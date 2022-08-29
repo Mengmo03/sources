@@ -34,7 +34,7 @@
 
 ## 致谢
 
-本页部分资源由一个不愿透露姓名的无产主义者提供
+本站部分资源由 一个不愿透露姓名的无产主义者 和 嘉文 提供
 
 [#长毛象安利大会](https://alive.bar/tags/%E9%95%BF%E6%AF%9B%E8%B1%A1%E5%AE%89%E5%88%A9%E5%A4%A7%E4%BC%9A)、[小众软件](https://www.appinn.com/)、[ಠ_ಠ](https://www.plurk.com/p/ofnz6q)、[DecoHack](https://decohack.notion.site/decohack/21ed6d8428d04b928ccd7fbf2ea36dd2?v=8456b58b9e184cbca2979d033d5f83a6)、[法律检索](https://mp.weixin.qq.com/s/NMcmeRiFretEc8l6uvxYuQ)对本站亦有很大贡献
 

@@ -17,7 +17,7 @@
 <div class="grid">
     <div><details><summary>Ginger</summary><p>算是Grammarly高级版的平替？<br/><a href="https://www.gingersoftware.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>【W】ECDICT</summary><p>一份英文->中文字典的双解词典数据库，根据各类考试大纲和语料库词频收录数十万条各类单词的英文和中文释义，并按照各类考试大纲和词频进行标注。<br/><a href="https://github.com/skywind3000/ECDICT" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>The Britannica DictionaryB</summary><p>大英词典的官方网站<br/><a href="https://www.britannica.com/dictionary" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 日语
