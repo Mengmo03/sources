@@ -68,7 +68,7 @@
 
 <div class="grid">
     <div><details><summary>【W】粤台</summary><p>一个不错的学习粤语词汇的账号，每个词都有发音和例句，而且排版很美观。<br/><a href="https://www.instagram.com/jyuttoi_cantonese/" target="_blank" role="button" class="outline">访问网站（IG）</a><br/><a href="https://www.youtube.com/JyutToi" target="_blank" role="button" class="outline">访问网站（YouTube）</a></p></details></div>
-    <div> </div>
+    <div><details><summary>羊羊粤语</summary><p>一个粤语词典网站，有比较详细的粤语读音和组词距离，也有长文注音、粤语翻译等功能，也能在不同的拼音规则下搜索结果（但有些注音和汉典的不一样，可以综合来参考看）<br/><a href="https://shyyp.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
 

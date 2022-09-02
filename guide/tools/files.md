@@ -59,6 +59,6 @@
 </div>
 <div class="grid">
     <div><details><summary>Tinywow</summary><p>一个在线文件处理工具合辑<br/><a href="https://tinywow.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-    <div> </div>
+    <div><details><summary>Reveal.js</summary><p>另一个可以制作很酷的网页幻灯片的网站，但需要懂一点HTML语法（Markdown也行！）<br/><a href="https://revealjs.com/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://revealjs.com/demo/" target="_blank" role="button" class="outline">查看Demo</a></p></details></div>
+    <div><details><summary>Markmap</summary><p>一个可以用Markdown写思维导图的网站！（可以在线使用！）<br/><a href="https://markmap.js.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
