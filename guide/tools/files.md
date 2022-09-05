@@ -18,7 +18,7 @@
 </div>
 <div class="grid">
     <div><details><summary>MuseTransfer</summary><p>一款看起来还挺漂亮的临时网盘，无需注册即可使用，单文件最大 10GB，并未限制总容量，可保存 7 天、30天、1年，支持在线预览部分文件，可使用密码下载，登录后还可以查看文件传输记录。<br/><a href="https://musetransfer.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>SnapDrop</summary><p>一个可以让局域网内设备互传文件的网站。<br/><a href="https://snapdrop.net" target="_blank" role="button" class="outline">官方链接</a><br/><a href="https://drop.ioiox.com" target="_blank" role="button" class="outline">第三方链接</a></p></details></div>
+    <div><details><summary>SnapDrop</summary><p>一个可以让局域网内设备互传文件的网站。<br/><a href="https://snapdrop.net" target="_blank" role="button" class="outline">官方链接</a><br/><a href="https://drop.ioiox.com" target="_blank" role="button" class="outline">第三方链接(1)</a><br/><a href="https://drop.bingchunmoli.com/" target="_blank" role="button" class="outline">第三方链接(2)</a><br/><a href="https://www.wulingate.com/" target="_blank" role="button" class="outline">魔改版链接</a></p></details></div>
     <div><details><summary>Catbox</summary><p>一个很二次元的匿名文件上传网站，最大可以上传200M的文件，好处是永远不会过期。<br/>用之前建议读一下FAQ，有一些行为是被禁止的。<br/><a href="https://catbox.moe/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
