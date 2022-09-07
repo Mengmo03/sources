@@ -40,6 +40,11 @@
 <div class="grid">
     <div><details><summary>KnowSex</summary><p>一个性教育网站，内容适合初中及以上阶段的人群阅读。<br/><a href="https://knowsex.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>【W】编程随想的博客</summary><p>虽然大佬人进去了，博客还是可以看一看的。其实他的博客公民教育和网络安全都有，立场请见仁见智。<br/><a href="https://program-think.blogspot.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>法律白话文运动</summary><p>專注打造台灣法律文化的垂直媒體。從法律認識議題，從議題反思法律。<br/><a href="https://plainlaw.me/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>花惹法理學</summary><p>來吧！英美法理學與政治哲學 | Blog for Legal Philosophy<br/><a href="https://wtfjurisprudence.wordpress.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
     <div> </div>
 </div>
 
