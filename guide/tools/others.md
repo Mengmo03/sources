@@ -34,8 +34,8 @@
 </div>
 <div class="grid">
     <div><details><summary>ANIMATED DRAWINGS</summary><p>一个可以给自己的画绑定骨骼然后让它动起来的网站<br/><a href="https://sketch.metademolab.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-    <div> </div>
+    <div><details><summary>分离人声[AI]</summary><p>一个可以免登录分离音乐中的人声和伴奏的网站<br/><a href="https://vocalremover.org/zh/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>即时工具</summary><p>一个内容挺全的在线工具箱<br/><a href="https://www.67tool.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 观影网站

@@ -8,12 +8,13 @@
     <div><details><summary>justsketch</summary><p>画画作参考的一个软件，可以用3D给人物摆做动，这样画人物结构的时候就很方便，这个产品还是有一定的技术门槛，兼容了多设备，有付费功能<br/><a href="https://justsketch.me/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
-## 图片/图标
+## 图片
 
 <div class="grid">
+    <div><details><summary>PNGIMG</summary><p>一个提供纯色背景的png素材的网站，但版权情况比较复杂<br/><a href="https://pngimg.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Unsplash</summary><p>一个免费的照片共享网站。<br/><a href="https://unsplash.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Pixabay</summary><p>免费无版权的正版高清图片素材库。<br/><a href="https://pixabay.com/zh/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>IconStore</summary><p>免费无版权的正版高清图标素材库。<br/><a href="https://iconstore.co/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    
 </div>
 <div class="grid">
     <div><details><summary>Pexels</summary><p>一个免费可商用的图库。<br/>（这个图库对照片的使用有一些规则，详情请参见：<a href="https://pexels-help.zendesk.com/hc/en-us/articles/360042332714-What-are-the-rules-for-using-Pexels-photos-or-videos-" target="_blank">这里</a>）<br/><a href="https://www.pexels.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
@@ -22,7 +23,7 @@
 </div>
 <div class="grid">
     <div><details><summary>CoolBackgrounds</summary><p>可以生成5种炫酷背景的网站。<br/><a href="https://coolbackgrounds.io/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>Tabler Icons</summary><p>一个基于 MIT 许可证的免费 SVG 图标服务，提供了 558 个不同的图标，可自定义颜色、大小、线条粗细，一键导出 HTML 代码。<br/><a href="https://tablericons.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>CLEANPNG</summary><p>一个免费可商用的图片网站<br/><a href="https://www.cleanpng.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Mega Creator</summary><p>著名的图标库 Icons8 推出的免费矢量插图设计工具，拥有超过 3000+ 可免费使用的设计元素，无需设计团队，拖拽即可创建漂亮的插画，可商业使用。<br/><a href="https://icons8.com/mega-creator/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
@@ -31,19 +32,14 @@
     <div><details><summary>ThisPersonDoesNotExist</summary><p>可以用AI生成一个不存在的人脸的网站。<br/><a href="https://thispersondoesnotexist.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>CLEANPNG</summary><p>一个免费可商用的图片网站<br/><a href="https://www.cleanpng.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>ハンコでアソブ</summary><p>一些日式西洋风、手账风、艺术感之类的很好用的小ICON，都是PNG档，免费可商用，无需署名<br/><a href="http://hankodeasobu.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>かわいいフリー素材集 いらすとや</summary><p>一个画风比较古早的日式卡通贴图素材网站，商用时请参照该网站的<a href="https://www.irasutoya.com/p/terms.html" target="_blank">使用条款</a><br/><a href="https://www.irasutoya.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>StickPNG</summary><p>一个透明背景的PNG素材网站，有很多灵活的素材，有分类型主题，但不可商用，版权问题比较复杂<br/><a href="https://www.stickpng.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>StorySet</summary><p>英文课本插画风的图片，图片可以设定动作、显示项目和主题颜色<br/><a href="https://storyset.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>かわいいフリー素材集 いらすとや</summary><p>一个画风比较古早的日式卡通贴图素材网站，商用时请参照该网站的<a href="https://www.irasutoya.com/p/terms.html" target="_blank">使用条款</a><br/><a href="https://www.irasutoya.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>icooon-mono</summary><p>非常简洁现代的ICON，选色选下载文件（甚至是SVG都可以），使用时请参照其<a href="https://icooon-mono.com/license/" target="_blank">使用条款</a><br/><a href="https://icooon-mono.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>StickPNG</summary><p>一个透明背景的PNG素材网站，有很多灵活的素材，有分类型主题，但不可商用，版权问题比较复杂<br/><a href="https://www.stickpng.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-</div>
-<div class="grid">
     <div><details><summary>フリー素材ぱくたそ</summary><p>免费可商用的图库，但有一些限制条款，具体请<a href="https://www.pakutaso.com/userpolicy.html" target="_blank">见此</a><br/><a href="https://www.pakutaso.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>SILHOUETTE DESIGN</summary><p>一个皮影风格的图标库，使用条款<a href="https://kage-design.com/terms-of-use/" target="_blank">见此</a><br/><a href="https://kage-design.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>flaticon</summary><p>免费的矢量图标网站，使用条款<a href="https://www.freepikcompany.com/legal#nav-flaticon-agreement" target="_blank">见此</a><br/><a href="https://www.flaticon.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>AI・EPS</summary><p>一个免费素材网站<br/><a href="https://www.xn--eckzb3bzhw32znfcp1zduw.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>8sukeの人物イラスト屋</summary><p>一个人物素材网站，卡通向，矢量素材收费<br/><a href="https://www.8suke.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
     <div><details><summary>罫線</summary><p>免费可商用的分割线网站，使用条款<a href="http://free-line-design.com/?page_id=17" target="_blank">见此</a><br/><a href="http://free-line-design.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
@@ -56,11 +52,6 @@
     <div><details><summary>mokcup</summary><p>免费可商用的模型素材网站，使用时需要遵循一些<a href="https://mockups-design.com/license/" target="_blank">许可</a><br/><a href="https://mockups-design.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>ICONFINDER</summary><p>一个付费的图标素材网站<br/><a href="https://www.iconfinder.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>AI・EPS</summary><p>一个免费素材网站<br/><a href="https://www.xn--eckzb3bzhw32znfcp1zduw.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>8sukeの人物イラスト屋</summary><p>一个人物素材网站，卡通向，矢量素材收费<br/><a href="https://www.8suke.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-</div>
-<div class="grid">
     <div><details><summary>ガーリー素材</summary><p>一个画风偏少女的免费可商用素材网站，使用许可<a href="http://girlysozai.com/about/" target="_blank">见此</a><br/><a href="http://girlysozai.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Stock Up</summary><p>一个聚合式图片网站，大部分是免费素材，把鼠标悬停在图片上可查看授权情况<br/><a href="https://stockup.sitebuilderreport.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Free stock photos</summary><p>一个免费可商用的素材网站，需要遵循<a href="https://kaboompics.com/page/license-and-faq" target="_blank">许可协议</a><br/><a href="https://kaboompics.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
@@ -68,7 +59,30 @@
 <div class="grid">
     <div><details><summary>Skitterphoto</summary><p>一个收集CC0授权的图片素材网站，免费可商用，无需署名<br/><a href="https://skitterphoto.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>無料写真素材 東京デート</summary><p>一个以东京为主题的免费可商用素材网站<br/><a href="https://www.tokyo-date.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>Jam Icons</summary><p>940 个 SVG 图标素材，可以免费下载使用<br/><a href="https://jam-icons.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Artvee</summary><p>这个网站收录的是古典艺术作品，完全免费浏览和下载高分辨率的公共领域艺术品。<br/><a href="https://artvee.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>chalk.ist</summary><p>一个开源的代码截图美化工具<br/><a href="https://chalk.ist/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/Idered/chalk.ist" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
+    <div><details><summary>Reshot</summary><p>一个免费的图标，矢量插画，图片下载的网站，可以直接下载矢量源文件，SVG等,无套路无广告无付费，素材都可以商用<br/><a href="https://www.reshot.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>pika</summary><p>一个可以生成浏览器截图的开源工具<br/><a href="https://pika.style/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/rishimohan/pika" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Meshgradient</summary><p>在线调整渐变壁纸背景的工具<br/><a href="https://meshgradient.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
+
+## 图标
+
+<div class="grid">
+    <div><details><summary>Tabler Icons</summary><p>一个基于 MIT 许可证的免费 SVG 图标服务，提供了 558 个不同的图标，可自定义颜色、大小、线条粗细，一键导出 HTML 代码。<br/><a href="https://tablericons.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>ハンコでアソブ</summary><p>一些日式西洋风、手账风、艺术感之类的很好用的小ICON，都是PNG档，免费可商用，无需署名<br/><a href="http://hankodeasobu.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>icooon-mono</summary><p>非常简洁现代的ICON，选色选下载文件（甚至是SVG都可以），使用时请参照其<a href="https://icooon-mono.com/license/" target="_blank">使用条款</a><br/><a href="https://icooon-mono.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>SILHOUETTE DESIGN</summary><p>一个皮影风格的图标库，使用条款<a href="https://kage-design.com/terms-of-use/" target="_blank">见此</a><br/><a href="https://kage-design.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>flaticon</summary><p>免费的矢量图标网站，使用条款<a href="https://www.freepikcompany.com/legal#nav-flaticon-agreement" target="_blank">见此</a><br/><a href="https://www.flaticon.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>ICONFINDER</summary><p>一个付费的图标素材网站<br/><a href="https://www.iconfinder.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
     <div><details><summary>Simple Icons</summary><p>一个开源的图标库，可以下载很多品牌的 SVG 的标志 LOGO 图标。<br/><a href="https://simpleicons.org/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/simple-icons/simple-icons" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
@@ -76,27 +90,22 @@
     <div><details><summary>VectorWiki</summary><p>可以免费搜索和下载任何矢量的品牌标志<br/><a href="https://vectorwiki.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
+    <div><details><summary>Jam Icons</summary><p>940 个 SVG 图标素材，可以免费下载使用<br/><a href="https://jam-icons.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Crypto Logos</summary><p>一个收录加密货币标志的免费图库，可搜索查找，每个加密货币图标都有透明背景的 .PNG 和矢量图 .SVG 格式，点选就能立即下载，有一些加密货币标志还会列出他们历年标志更新历史。<br/><a href="https://cryptologos.cc/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>fffuel</summary><p>一个非常好看的 SVG 背景和图形的生成器，可以自定义很多参数，自由度很高。<br/><a href="https://fffuel.co/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>Artvee</summary><p>这个网站收录的是古典艺术作品，完全免费浏览和下载高分辨率的公共领域艺术品。<br/><a href="https://artvee.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
     <div><details><summary>Free Notion-style Icons</summary><p>50 个免费的 Notion 风格的图标。<br/><a href="https://maryamato88.gumroad.com/l/pbmkt" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>khushmeen</summary><p>涂鸦图标。免费供个人和商业使用，且无需署名<br/><a href="https://khushmeen.com/icons.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>pika</summary><p>一个可以生成浏览器截图的开源工具<br/><a href="https://pika.style/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/rishimohan/pika" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
-</div>
-<div class="grid">
-    <div><details><summary>chalk.ist</summary><p>一个开源的代码截图美化工具<br/><a href="https://chalk.ist/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/Idered/chalk.ist" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
-    <div><details><summary>Reshot</summary><p>一个免费的图标，矢量插画，图片下载的网站，可以直接下载矢量源文件，SVG等,无套路无广告无付费，素材都可以商用<br/><a href="https://www.reshot.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>logotouse</summary><p>一个免费logo素材网站，可以下载源文件修改，，可以免费商用<br/><a href="https://www.logotouse.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
     <div><details><summary>cryptofonts</summary><p>免费的加密货币字体和图标。拥有超过 1500 个 CSS 和 SVG 图标。<br/><a href="https://cryptofonts.com/index.php" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>notion icons.v5</summary><p>一个图标网站，可以直接复制进Notion里面，风格统一<br/><a href="https://notionv5.vyshnav.xyz/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>Meshgradient</summary><p>在线调整渐变壁纸背景的工具<br/><a href="https://meshgradient.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Simple Icons</summary><p>2000多个知名品牌的SVG图标下载<br/><a href="https://simpleicons.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>Simple Icons</summary><p>2000多个知名品牌的SVG图标下载<br/><a href="https://simpleicons.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>IconStore</summary><p>免费无版权的正版高清图标素材库。<br/><a href="https://iconstore.co/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
     <div> </div>
 </div>
@@ -151,6 +160,6 @@
 </div>
 <div class="grid">
     <div><details><summary>Emoji Mart</summary><p>一个开源的用于web 的表情选择器 HTML 组件<br/><a href="https://missiveapp.com/open/emoji-mart" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/missive/emoji-mart" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
-    <div> </div>
+    <div><details><summary>字集</summary><p>一个分享免费可商用的正版中文字体的网站<br/><a href="https://wordshub.github.io/free-font/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>

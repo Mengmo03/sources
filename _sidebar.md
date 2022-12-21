@@ -17,3 +17,4 @@
 	- [其他](/guide/tools/others.md)
 - 其他
 	- [软件/插件](/guide/others/software.md)
+	- [Lite版](/guide/lite.md)

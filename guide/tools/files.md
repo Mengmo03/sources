@@ -62,3 +62,16 @@
     <div><details><summary>Reveal.js</summary><p>另一个可以制作很酷的网页幻灯片的网站，但需要懂一点HTML语法（Markdown也行！）<br/><a href="https://revealjs.com/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://revealjs.com/demo/" target="_blank" role="button" class="outline">查看Demo</a></p></details></div>
     <div><details><summary>Markmap</summary><p>一个可以用Markdown写思维导图的网站！（可以在线使用！）<br/><a href="https://markmap.js.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>Koodo Reader</summary><p>一个跨平台的电子书阅读器，支持多种电子书格式（这个是web版）<br/><a href="https://reader.960960.xyz/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/troyeguo/koodo-reader" target="_blank" role="button" class="outline">访问仓库</a></p></details></div>
+    <div><details><summary>pdf2md</summary><p>一个可以把pdf文件转换成markdown的网站，不过转换效果不是很完美<br/><a href="https://pdf2md.morethan.io/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>图形方格纸</summary><p>一款自定义纸张模板的网页，主要用来制作各种大小的田字格/拼音、作业本、信纸、分镜表等模板，并用来打印。免费，高自定义（纸张大小、方向、边框、留白、标题、横线等等）能设计出你要想的绝大多数纸张模板。<br/><a href="https://www.mygraphpaper.com/index.php?lang=zh-hans" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+
+## 文件下载
+
+<div class="grid">
+    <div><details><summary>思飞网盘中转站</summary><p>下载国外网盘的文件可以快速中转<br/><a href="http://www.dsphere.info/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>木薯牛网盘中转站</summary><p>国内网盘资源中转，不需要再忍受各种广告和限速<br/><a href="https://www.mushuniu.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+</div>

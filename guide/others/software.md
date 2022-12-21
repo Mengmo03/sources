@@ -35,6 +35,11 @@
     <div><details><summary>Snapseed</summary><p>一个手机APP，调照片的光影和颜色很好用，修复可以涂掉污点，扩增很好用，自由度高，操作偏直觉<br/>提供的是Google Play的下载地址，需要【W】，也可自行去搜索引擎搜索其他下载渠道<br/><a href="https://play.google.com/store/apps/details?id=com.niksoftware.snapseed&hl=zh" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Microsoft Lens</summary><p>微软出品的良心扫描软件，可以输出PDF/图片类型的文件，而且无需登录！<br/><a href="https://play.google.com/store/apps/details?id=com.microsoft.office.officelens" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>博看书苑</summary><p>可以免费阅读正版电子图书、期刊、报纸，总存储量 21TB。首次登录会要求机构授权码。<br/><a href="https://download.bookan.com.cn/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://yibook.org/post/bksy/" target="_blank" role="button" class="outline">可用机构授权码</a></p></details></div>
+    <div><details><summary>ScienceDecrypting</summary><p>一个可以解锁CAJ文件为PDF的软件<br/><a href="https://wwpan.lanzoul.com/ikyOB0j4acwd" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Copy++</summary><p>一款可以去除PDF复制文字中的换行和空格的小软件<br/><a href="https://copyplusplus.tk/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/CopyPlusPlus/CopyPlusPlus" target="_blank" role="button" class="outline">查看仓库</a></p></details></div>
+</div>
 
 ## 插件
 
@@ -64,4 +69,9 @@
     <div><details><summary>沙拉查词</summary><p>一个开源的聚合划词插件，支持网页划词查询词义。<br/><a href="https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg" target="_blank" role="button" class="outline">商店地址</a><br/><a href="https://saladict.crimx.com/" target="_blank" role="button" class="outline">官网</a></p></details></div>
     <div><details><summary>Video Speed Controller</summary><p>一个开源的视频倍速播放的小插件，最高支持16倍速。<br/><a href="https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk" target="_blank" role="button" class="outline">商店地址</a><br/><a href="https://github.com/igrigorik/videospeed" target="_blank" role="button" class="outline">官网</a></p></details></div>
     <div><details><summary>Relingo</summary><p>一个可以在浏览任何网站的时候渐进地背单词的Chrome拓展<br/><a href="https://relingo.net/zh/index" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>图书互助</summary><p>一个可以下载超星读秀库的油猴插件，需要先安装油猴才能用<br/><a href="https://greasyfork.org/zh-CN/scripts/420751-%E5%9B%BE%E4%B9%A6%E4%BA%92%E5%8A%A9" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>简阅</summary><p>一个可以让网页变成阅读模式的插件，看起来更舒服，且高度可自定义<br/><a href="http://ksria.com/simpread/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
 </div>

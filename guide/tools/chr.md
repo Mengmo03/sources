@@ -19,8 +19,13 @@
 </div>
 <div class="grid">
     <div><details><summary>守写字</summary><p>一个台湾网友开发的可以根据手写字生成专属字体的网站<br/><a href="https://www.writes.com.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-    <div> </div>
+    <div><details><summary>TXT.FYI</summary><p>一个极简的匿名文字发布网站，支持Markdown，发布后不可删除和修改<br/><a href="https://txt.fyi/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>微信Markdown编辑器</summary><p>一个可以用Markdown写出美观的公众号文章的网站<br/><a href="https://doocs.github.io/md/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>新约佛禅论</summary><p>一个比较好玩儿的文字加密网站<br/><a href="http://hi.pcmoe.net/buddha.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Anti-OCR</summary><p>一个可以把文字变成反OCR图片的网站<br/><a href="https://anti-ocr-web.github.io/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>白描Web版</summary><p>知名OCR软件白描的web版<br/><a href="https://web.baimiaoapp.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 文章生成器
@@ -37,6 +42,6 @@
 </div>
 <div class="grid">
     <div><details><summary>CopyBook</summary><p>一个开源的文案项目，包含产品中常用的文案（英文）<br/><a href="https://copybook.me/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/praveenjuge/copybook/" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
-    <div> </div>
+    <div><details><summary>ChatGPT</summary><p>一个基于GPT-3的聊天型人工智能，目前已经可以写出基本可用的文章，注册方法见教程<br/><a href="https://chat.openai.com/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://51.ruyo.net/18252.html" target="_blank" role="button" class="outline">查看教程</a></p></details></div>
     <div> </div>
 </div>

@@ -6,6 +6,8 @@
 
 <del>B-HU资源可能会倒闭，但绝不会变质（手动狗头）</del>
 
-[开始使用](/README.md)
+<a href="/#/guide/lite.md" target="_blank" role="button" class="outline">Lite版</a>
+
+[开始使用](/index.md)
 
 ![](https://bing.ioliu.cn/v1)

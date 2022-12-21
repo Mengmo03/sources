@@ -1,5 +1,9 @@
 <h1>B-HU 资源<sup>beta 0.3</sup></h1>
 
+**Last updata at: 22/12/21**
+
+<a href="/#/guide/lite.md" target="_blank" role="button" class="outline">Lite版</a>
+
 ## 使用教程
 
 - 点击**页面左下角**的“![](./requirements/1.png)”按钮即可展开/收起侧边导航栏
@@ -12,6 +16,8 @@
 ## 关于本站
 
 这是一个自用的资源收集网站，由[梦貘](https://mo.b-hu.org/)创建。
+
+由于站长的分类学的不是很好，有些网站的分类可能不是很恰当，若因此给您的使用带来不便，在此致歉，为了使用方便，请善用网站的搜索功能（虽然我承认这个功能很垃圾x）。
 
 除了本站之外，通过[这篇文章](http://mo.b-hu.org/getzy/)的方法，您也可以找到一些资源。
 
@@ -38,6 +44,6 @@
 
 部分资源由 一个不愿透露姓名的无产主义者 和 嘉文 提供
 
-[#长毛象安利大会](https://alive.bar/tags/%E9%95%BF%E6%AF%9B%E8%B1%A1%E5%AE%89%E5%88%A9%E5%A4%A7%E4%BC%9A)、[小众软件](https://www.appinn.com/)、[ಠ_ಠ](https://www.plurk.com/p/ofnz6q)、[DecoHack](https://decohack.notion.site/decohack/21ed6d8428d04b928ccd7fbf2ea36dd2?v=8456b58b9e184cbca2979d033d5f83a6)、[法律检索](https://mp.weixin.qq.com/s/NMcmeRiFretEc8l6uvxYuQ)对本站亦有很大贡献
+[#长毛象安利大会](https://alive.bar/tags/%E9%95%BF%E6%AF%9B%E8%B1%A1%E5%AE%89%E5%88%A9%E5%A4%A7%E4%BC%9A)、[小众软件](https://www.appinn.com/)、[ಠ_ಠ](https://www.plurk.com/p/ofnz6q)、[DecoHack](https://decohack.notion.site/decohack/21ed6d8428d04b928ccd7fbf2ea36dd2?v=8456b58b9e184cbca2979d033d5f83a6)、[法律检索](https://mp.weixin.qq.com/s/NMcmeRiFretEc8l6uvxYuQ)、[易书论坛](https://bbs.yibook.org/)、[Shelly](https://www.douban.com/group/topic/13784047/)、[快搜猫](https://www.kuaisoumao.com/)、[古书网导航](http://d.gushu.net.cn/)对本站亦有很大贡献
 
 使用[Pico.css](https://picocss.com/)和[Docsify](https://docsify.js.org/)编写，托管于[GitHub](https://github.com/Mengmo03/sources).
