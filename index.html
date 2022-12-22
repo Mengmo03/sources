@@ -33,25 +33,41 @@
             hideOtherSidebarContent: false,
             namespace: 'website-1'
         },
+        Valine: {
+            appId: '7ePr3vJTR04kJc5oSFzrmR0x-MdYXbMMI',
+                    appKey: 'CkMiGoCvS1JccJO5cpNpFJdT',
+                    placeholder: '我来说两句...',
+                    path: 'source',
+                    avatar: 'wavatar',
+                    serverURLs: 'https://7epr3vjt.api.lncldglobal.com'
+        },
         pagination: {
             previousText: '上一页',
             nextText: '下一页',
             crossChapter: true,
             crossChapterText: true,
-  },
-  plugins: [
-    function(hook, vm) {
-        hook.afterEach(function(html) {
-                return (
-                '<p style="background-color: blanchedalmond;padding: auto;text-align: center;"><b>招募：</b>如果您懂得网站制作技术且愿意帮助完善本站，请向<a href="mailto:i@b-hu.org" target="_blank">i@b-hu.org</a>发送邮件。</p>' +
-                html +
-                '<a href="//s.b-hu.org/#/guide/magicspeedup" target="_blank">MagicSpeedUp</a>'
-                );
-              });
-    },
-  ],
-}
+        },
+        plugins: [
+            function(hook, vm) {
+                hook.afterEach(function(html) {
+                        return (
+                        '<p style="background-color: blanchedalmond;padding: auto;text-align: center;"><b>招募：</b>如果您懂得网站制作技术且愿意帮助完善本站，请向<a href="mailto:i@b-hu.org" target="_blank">i@b-hu.org</a>发送邮件。</p>' +
+                        html +
+                        '<a href="//s.b-hu.org/#/guide/magicspeedup" target="_blank">MagicSpeedUp</a>'
+                        );
+                    });
+            },
+        ],
+    }
     </script>
+    <script src="./requirements/external-script.min.js"></script>
+    <script src="./requirements/docsify-pagination.min.js"></script>
+    <script src="./requirements/search.min.js"></script>
+    <script src="./requirements/emoji.min.js"></script>
+    <script src="./requirements/docsify-valine.min.js"></script>
+    <script src="./requirements/valine.min.js"></script>
+    <script src="./requirements/docsify.js"></script>
+<!--不蒜子-->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <div style="text-align: center;">
         <span id="busuanzi_container_site_pv" style="font-family:Consolas;color:rgba(21,170,191,.6);font-size:12px;">
@@ -61,11 +77,6 @@
             访问人数：<span id="busuanzi_value_site_uv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
         </span>
     </div>
-    <script src="./requirements/external-script.min.js"></script>
-    <script src="./requirements/docsify-pagination.min.js"></script>
-    <script src="./requirements/search.min.js"></script>
-    <script src="./requirements/emoji.min.js"></script>
-    <script src="./requirements/docsify.js"></script>
 <!--模板：
 <div class="grid">
     <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>

@@ -1,8 +1,8 @@
 <h1>B-HU 资源<sup>beta 0.3</sup></h1>
 
-**Last updata at: 22/12/21**
+**Last updata at: 22/12/22**
 
-<a href="/#/guide/lite.md" target="_blank" role="button" class="outline">Lite版</a>
+<a href="./lite/" target="_blank" role="button" class="outline">Lite版</a>
 
 ## 使用教程
 
@@ -33,7 +33,7 @@
 
 如果想提交新链接，或报告链接失效/网站等问题，请联系我。
 
-由于技术原因，取消了评论区功能，你可以选择以下渠道与我联系：
+<del>由于技术原因，取消了评论区功能，</del>评论区又回来了，你可以直接在评论区留言（推荐，最方便），也可以选择以下渠道与我联系：
 
 - 在[Mastodon](https://alive.bar/@meomo)给我留言<br/>*回复较为及时*
 - 给我发送[电子邮件](mailto:i@b-hu.org)<br/>*看到会回复*

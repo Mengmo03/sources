@@ -53,12 +53,6 @@
 ### 地方馆藏
 
 <div class="grid">
-    <div><details><summary>苏州图书馆古籍库</summary><p>收录了一些苏州地方的古籍<br/><a href="http://fzk.szlib.com/book/index" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>古书网导航</summary><p>一个搜集、查看古籍的网站。<br/>这个网站真的很强大，站长也很想把里面的内容全部搬到本站，方便大家进行全文检索，但工作量实在太大，遂放弃...<br/><a href="http://d.gushu.net.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-</div>
-
-<div class="grid">
     <div><details><summary>苏州图书馆古籍库</summary><p><a href="http://fzk.szlib.com" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>北京故宫博物院</summary><p><a href="http://www.dpm.org.cn" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>台湾师大善本古籍</summary><p><a href="http://da.lib.ntnu.edu.tw" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
