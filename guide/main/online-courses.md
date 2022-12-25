@@ -44,7 +44,7 @@
 </div>
 <div class="grid">
     <div><details><summary>花惹法理學</summary><p>來吧！英美法理學與政治哲學 | Blog for Legal Philosophy<br/><a href="https://wtfjurisprudence.wordpress.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>哲学新媒体</summary><p>台湾哲学网站，内含当今美国比较新的自由主义理论，罗尔斯主义（也叫New liberals）的科普<br/><a href="https://philomedium.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
 
