@@ -44,11 +44,6 @@
     <div><details><summary>Anna's Archive</summary><p>基于Pirate Library Mirror资源做的一个搜索引擎<br/><a href="https://annas-archive.org/search" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>ALibrary</summary><p>另一个Zlibrary镜像项目<br/><a href="https://alibrary.top/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
-<div class="grid">
-    <div><details><summary>OOOPN LIB</summary><p>一个Zlibrary镜像项目，需要安装油猴插件才能使用<br/><a href="https://zlib.ooopn.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-    <div> </div>
-</div>
 
 ### 中文官方机构正版电子书下载
 
