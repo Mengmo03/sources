@@ -15,5 +15,5 @@
 <div class="grid">
     <div><details><summary>PrivacyTools</summary><p>提供一些常用网站/软件的保护隐私的替代版<br/><a href="https://www.privacytools.io/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>镜像搜集</summary><p>一个搜集了谷歌搜索、谷歌学术、GitHub、维基百科、Zlibrary、Sci-Hub和libgen镜像资源的网站<br/><a href="https://mirrors.zhelper.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>Mirrors.pw</summary><p>一个免费国外网站反向代理网站，提供Google、Google Scholar、Wikipedia、Telegraph等网站的镜像服务<br/><a href="https://mirrors.pw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
