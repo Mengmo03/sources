@@ -19,6 +19,19 @@
     <div><details><summary>【W】ECDICT</summary><p>一份英文->中文字典的双解词典数据库，根据各类考试大纲和语料库词频收录数十万条各类单词的英文和中文释义，并按照各类考试大纲和词频进行标注。<br/><a href="https://github.com/skywind3000/ECDICT" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>The Britannica DictionaryB</summary><p>大英词典的官方网站<br/><a href="https://www.britannica.com/dictionary" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>Hemingway Editor</summary><p>同样是一个英文写作的辅助工具。好处是免费，缺点是没有Grammarly和QuillBot效果好。<br/><a href="https://hemingwayapp.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Linggle</summary><p>一个查询英文词语搭配的网站。有很多高级的查找功能。妈妈再也不用担心我的语法填空不会了~<br/><a href="https://linggle.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>COCA语料库</summary><p>有关美式英语具有代表性的语料库。<br/><a href="https://www.english-corpora.org/coca/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+
+### 英语写作
+
+<div class="grid">
+    <div><details><summary>普渡大学写作实验室</summary><p>可以查找英语写作方面的资料，包括语法，学术写作格式等。<br/><a href="https://owl.purdue.edu/owl/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Academic Phrasebank</summary><p>曼彻斯特大学的学术写作词句模板库。<br/><a href="https://www.phrasebank.manchester.ac.uk/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Write & Improve</summary><p>剑桥大学开发的帮助提升英语写作水平的工具，你可以在线练习写作，由AI打分并给出写作建议。<br/><a href="https://writeandimprove.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
 
 ## 拉丁语
 

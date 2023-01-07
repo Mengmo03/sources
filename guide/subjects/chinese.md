@@ -29,7 +29,7 @@
 </div>
 <div class="grid">
     <div><details><summary>台大佛学数位图书馆</summary><p>台大的佛学资料库<br/><a href="https://buddhism.lib.ntu.edu.tw/index.jsp" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>BCC语料库</summary><p>包括：报刊、文学、综合、古汉语和对话等多领域语料，是可以全面反映当今社会语言生活的大规模语料库。<br/><a href="http://bcc.blcu.edu.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
 
