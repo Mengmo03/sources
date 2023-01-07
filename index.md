@@ -42,7 +42,7 @@
 
 本站的建立离不开许多个人和组织有意或无意提供的多种形式的无私帮助，故在此致谢，因记忆疏漏和个人水平所限，致谢列表可能会有疏漏，在此致歉。
 
-部分资源由 一个不愿透露姓名的无产主义者 和 嘉文 提供
+部分资源由 一个不愿透露姓名的无产主义者 、 嘉文 和 [Haoxin Lv](https://github.com/haoxinlv) 提供
 
 [#长毛象安利大会](https://alive.bar/tags/%E9%95%BF%E6%AF%9B%E8%B1%A1%E5%AE%89%E5%88%A9%E5%A4%A7%E4%BC%9A)、[小众软件](https://www.appinn.com/)、[ಠ_ಠ](https://www.plurk.com/p/ofnz6q)、[DecoHack](https://decohack.notion.site/decohack/21ed6d8428d04b928ccd7fbf2ea36dd2?v=8456b58b9e184cbca2979d033d5f83a6)、[法律检索](https://mp.weixin.qq.com/s/NMcmeRiFretEc8l6uvxYuQ)、[易书论坛](https://bbs.yibook.org/)、[Shelly](https://www.douban.com/group/topic/13784047/)、[快搜猫](https://www.kuaisoumao.com/)、[古书网导航](http://d.gushu.net.cn/)对本站亦有很大贡献
 
