@@ -1,6 +1,6 @@
 <h1>B-HU 资源<sup>beta 0.3</sup></h1>
 
-**Last updata at: 22/12/22**
+**Last updata at: 23/01/16**
 
 <a href="./lite/" target="_blank" role="button" class="outline">Lite版</a>
 

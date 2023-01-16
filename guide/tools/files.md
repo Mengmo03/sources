@@ -67,6 +67,11 @@
     <div><details><summary>pdf2md</summary><p>一个可以把pdf文件转换成markdown的网站，不过转换效果不是很完美<br/><a href="https://pdf2md.morethan.io/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>图形方格纸</summary><p>一款自定义纸张模板的网页，主要用来制作各种大小的田字格/拼音、作业本、信纸、分镜表等模板，并用来打印。免费，高自定义（纸张大小、方向、边框、留白、标题、横线等等）能设计出你要想的绝大多数纸张模板。<br/><a href="https://www.mygraphpaper.com/index.php?lang=zh-hans" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>USDoc</summary><p>可以在线预览Word、Excel、PPT文件的网站<br/><a href="http://usdoc.cn/use.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>微软在线文档预览</summary><p>微软提供的文档在线预览接口，可以在线预览Word、Excel、PPT文件的网站，把文件url填写到“?src=”后即可。<br/><a href="https://view.officeapps.live.com/op/view.aspx?src=" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
 
 ## 文件下载
 

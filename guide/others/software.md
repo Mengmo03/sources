@@ -73,5 +73,10 @@
 <div class="grid">
     <div><details><summary>图书互助</summary><p>一个可以下载超星读秀库的油猴插件，需要先安装油猴才能用<br/><a href="https://greasyfork.org/zh-CN/scripts/420751-%E5%9B%BE%E4%B9%A6%E4%BA%92%E5%8A%A9" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>简阅</summary><p>一个可以让网页变成阅读模式的插件，看起来更舒服，且高度可自定义<br/><a href="http://ksria.com/simpread/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>【W】Google文档</summary><p>一个浏览器拓展程序，安装后可在线预览word、ppt、excel等文档<br/><a href="https://chrome.google.com/webstore/detail/office-editing-for-docs-s/gbkeegbaiigmenfmjfclcdgdpimamgkj?hl=zh-CN" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>WebToEpub</summary><p>一个可以把网页保存为epub的插件，具体使用方法可以看作者提供的文档<br/><a href="https://chrome.google.com/webstore/detail/webtoepub/akiljllkbielkidmammnifcnibaigelm?hl=zh-CN" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
     <div> </div>
 </div>
