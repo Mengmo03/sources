@@ -36,13 +36,13 @@
 </div>
 <div class="grid">
     <div><details><summary>zlib search</summary><p>一个Zlibrary资源的搜索网站<br/><a href="https://zlibsearch.1kbtool.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>Ylibrary</summary><p>一个汇总了 zlib 和 超星两大电子书库的书籍检索系统<br/><a href="https://ylib.zhelper.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>ZHelper V4</summary><p>一个基于Zlibrary官方API的电子书下载工具<br/><a href="https://v4.zhelper.net/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://zlib.download/#/?id=zlibdownload-project" target="_blank" role="button" class="outline">查看教程</a></p></details></div>
+    <div><details><summary>Anna's Archive</summary><p>基于Pirate Library Mirror资源做的一个搜索引擎<br/><a href="https://annas-archive.org/search" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>【X】ALibrary</summary><p>另一个Zlibrary镜像项目。<br/><i><b>备注：</b>这个网站似乎是个盗链网站，用的是zlib.download的链接，但已经被原网站屏蔽了，因此只能搜索，不能下载，仅在此列出，不鼓励也不支持这种盗链行为。</i><br/><a href="https://alibrary.top/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>ZHelper V5</summary><p>一个基于自建API的电子书下载工具（只能使用秒传和IPFS下载）<br/><a href="https://v5.zhelper.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>Anna's Archive</summary><p>基于Pirate Library Mirror资源做的一个搜索引擎<br/><a href="https://annas-archive.org/search" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>ALibrary</summary><p>另一个Zlibrary镜像项目<br/><a href="https://alibrary.top/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Cydiar Z-Library</summary><p>另一个Zlibrary的镜像项目<br/><a href="https://zlib.cydiar.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Zlib.app</summary><p>一个Zlibrary的在线接口<br/><a href="https://zlib.app/" target="_blank" role="button" class="outline">项目主页</a><br/><a href="https://search.zhelper.net/?[{%22name%22:%22zlib.app%22,%22url%22:%22https://api.zlib.app%22,%22type%22:%22full%22,%22sensitive%22:false,%22detail%22:false,%22download%22:%22https://d.zlib.app/download/%22}]" target="_blank" role="button" class="outline">搜索地址</a></p></details></div>
+    <div><details><summary>Ylibrary</summary><p>另一个去中心化的图书搜索项目，有一部分zlib的数据库<br/><a href="https://ylibrary.org/" target="_blank" role="button" class="outline">项目主页</a><br/><a href="https://search.zhelper.net/?%5B%7B%22name%22:%22Ylibrary%22,%22url%22:%22https://api.ylibrary.org%22,%22type%22:%22full%22,%22sensitive%22:false,%22detail%22:true%7D%5D" target="_blank" role="button" class="outline">搜索地址</a></p></details></div>
 </div>
 
 ### 中文官方机构正版电子书下载
@@ -117,7 +117,7 @@
 </div>
 <div class="grid">
     <div><details><summary>【W】mcbooksbot</summary><p>一个可以下载超星/读秀库内容的Telegram Bot，详情请参见使用教程<br/><a href="https://t.me/mcbooksbot" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://yibook.org/post/mcbook/" target="_blank" role="button" class="outline">使用教程</a></p></details></div>
-    <div> </div>
+    <div><details><summary>布克盘</summary><p>聚合电子书数据库网站，截至目前已经同步了 三秋书屋、Sobooks、书舟资源 等网站数据用于检索<br/><a href="https://bookpan.net/" target="_blank" role="button" class="outline">网站主页</a><br/><a href="https://search.zhelper.net/?[{%22name%22:%22bookpan%22,%22url%22:%22https://api.bookpan.net%22,%22type%22:%22light%22,%22sensitive%22:false,%22detail%22:true}]" target="_blank" role="button" class="outline">搜索地址</a></p></details></div>
     <div> </div>
 </div>
 
