@@ -161,5 +161,10 @@
 <div class="grid">
     <div><details><summary>Emoji Mart</summary><p>一个开源的用于web 的表情选择器 HTML 组件<br/><a href="https://missiveapp.com/open/emoji-mart" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/missive/emoji-mart" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
     <div><details><summary>字集</summary><p>一个分享免费可商用的正版中文字体的网站<br/><a href="https://wordshub.github.io/free-font/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>HTML5UP</summary><p>一个免费的网站模板提供网站，都是现代化的网页设计。<br/><a href="https://html5up.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>OS Templates</summary><p>另一个网站模板提供网站<br/><a href="https://www.os-templates.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
     <div> </div>
 </div>
