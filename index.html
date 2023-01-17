@@ -43,7 +43,7 @@
             function(hook, vm) {
                 hook.afterEach(function(html) {
                         return (
-                        '<p style="background-color: blanchedalmond;padding: auto;text-align: center;"><b>招募：</b>如果您懂得网站制作技术且愿意帮助完善本站，请向<a href="mailto:i@b-hu.org" target="_blank">i@b-hu.org</a>发送邮件。</p>' +
+                        '<p style="background-color: blanchedalmond;padding: auto;text-align: center;"><b>招募：</b>如果您懂得网站制作技术且愿意帮助完善本站，请向<a href="mailto:i@b-hu.org" target="_blank">i@b-hu.org</a>发送邮件。</p><br/><a href="https://forms.office.com/r/AMncKSa0ZD" target="_blank">报告错误</a>&nbsp;|&nbsp;<a onclick="expandAll()">展开本页所有介绍</a>&nbsp;|&nbsp;<a onclick="closeAll()">收起本页所有介绍</a>' +
                         html +
                         '<a href="//s.b-hu.org/#/guide/magicspeedup" target="_blank">MagicSpeedUp</a>'
                         );
@@ -51,6 +51,21 @@
             },
         ],
     }
+    </script>
+    <script>
+        function expandAll() {
+    var details = document.getElementsByTagName("details");
+    for (var i = 0; i < details.length; i++) {
+        details[i].open = true;
+    }
+}
+
+function closeAll() {
+    var details = document.getElementsByTagName("details");
+    for (var i = 0; i < details.length; i++) {
+        details[i].open = false;
+    }
+}
     </script>
     <script src="./requirements/docsify-pagination.min.js"></script>
     <script src="./requirements/search.min.js"></script>
