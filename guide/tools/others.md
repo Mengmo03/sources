@@ -73,7 +73,7 @@
 <div class="grid">
     <div><details><summary>LALAL.AI</summary><p>可以分开人声轨和音轨的网站，总长超过一分半的会被卡掉，建议分小段，人声分的有点沙哑<br/><a href="https://www.lalal.ai/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Audacity</summary><p>一个开源的音频编辑软件，去噪音之类的功能很棒<br/><a href="https://www.audacityteam.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>SubPlayer</summary><p>一个可以在线处理Srt字幕的网站，调整自动生成的字幕时很好用<br/><a href="https://subplayer.js.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 存档网站
