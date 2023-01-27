@@ -15,7 +15,7 @@
     <div><details><summary>洪后防疫科普手册</summary><p>由原子团整理的一些洪水可能诱发的身心健康问题以及简单的诊断和处理措施，包含生理篇与心理篇，所有内容均交由在岗医生审核通过。<br/><a href="https://1.gover.ml/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>FreeCodeCamp</summary><p>一个互动式编程学习网站，课程质量不错，有中文<br/><a href="chinese.freecodecamp.org" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>FreeCodeCamp</summary><p>一个互动式编程学习网站，课程质量不错，有中文<br/><a href="https://www.freecodecamp.org/chinese/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Udemy</summary><p>一个在线课程学习平台<br/><a href="https://www.udemy.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>从零开始了解波斯</summary><p>一个英文的波斯相关播客<br/><a href="https://podcasts.apple.com/us/podcast/history-of-persia/id1452677220" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
