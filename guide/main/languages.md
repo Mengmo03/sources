@@ -24,9 +24,6 @@
     <div><details><summary>Linggle</summary><p>一个查询英文词语搭配的网站。有很多高级的查找功能。妈妈再也不用担心我的语法填空不会了~<br/><a href="https://linggle.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>COCA语料库</summary><p>有关美式英语具有代表性的语料库。<br/><a href="https://www.english-corpora.org/coca/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
-
-### 英语写作
-
 <div class="grid">
     <div><details><summary>普渡大学写作实验室</summary><p>可以查找英语写作方面的资料，包括语法，学术写作格式等。<br/><a href="https://owl.purdue.edu/owl/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Academic Phrasebank</summary><p>曼彻斯特大学的学术写作词句模板库。<br/><a href="https://www.phrasebank.manchester.ac.uk/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>

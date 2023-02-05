@@ -15,7 +15,7 @@
     <div><details><summary>上海研发公共服务平台</summary><p>上海研发公共服务平台的数据中心—上海科技创新资源数据中心，该数据中心功能非常全面，不仅仅有下载中文文献和西方文献的功能，还提供了知识产权、各类电子书籍以及文献求助的功能。进入网站后，进入“上海科技创新资源数据中心”，点击“数据中心”。开始免费注册账号。积分制下载，注册会送积分。查看积分可以去个人中心查看。积分不够做任务就可以了，任务都比较简单。<br/><a href="http://www.sgst.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>【W】LibraryGenesis</summary><p>一个可以媲美Sci-hub的神站，LibraryGenesis号称是帮助全人类知识无版权传播的计划，实际上确实如此。网站上论文很多，下载方便，还有很多外文书籍和中文书籍，基本上所有的外文书籍和论文都可以搜到并下载，最近的学术论文也可以下载，几乎每天都在更新！与Sci-hub一样，Librarygenesis也会遇到被封的问题，遇到这个情况，可以尝试等待一会或者换个浏览器。<br/>由于历史原因，LibGen有两个站点，分别由不同的运营者在运营，库的内容也不完全相同。以下的(1)和(2)同属一个运营者，(3)属于另一个运营者。上传书籍推荐去(1)和(2)上传。<br/><a href="http://gen.lib.rus.ec/" target="_blank" role="button" class="outline">访问网站(1)</a><br/><a href="http://libgen.rs/" target="_blank" role="button" class="outline">访问网站(2)</a><br/><a href="https://libgen.gs/" target="_blank" role="button" class="outline">访问网站(3)</a></p></details></div>
+    <div><details><summary>【W】LibraryGenesis</summary><p>一个可以媲美Sci-hub的神站，LibraryGenesis号称是帮助全人类知识无版权传播的计划，实际上确实如此。网站上论文很多，下载方便，还有很多外文书籍和中文书籍，基本上所有的外文书籍和论文都可以搜到并下载，最近的学术论文也可以下载，几乎每天都在更新！与Sci-hub一样，Librarygenesis也会遇到被封的问题，遇到这个情况，可以尝试等待一会或者换个浏览器。<br/>由于历史原因，LibGen有两个站点，分别由不同的运营者在运营，库的内容也不完全相同。以下的(1)和(2)同属一个运营者，(3)属于另一个运营者。上传书籍推荐去(1)和(2)上传。<br/><a href="http://gen.lib.rus.ec/" target="_blank" role="button" class="outline">访问网站(1)</a><br/><a href="http://libgen.rs/" target="_blank" role="button" class="outline">访问网站(2)</a><br/><a href="https://libgen.gs/" target="_blank" role="button" class="outline">访问网站(3)</a><br/><a href="https://www.ooopn.com/tool/libgen/" target="_blank" role="button" class="outline">镜像站列表（第三方）</a></p></details></div>
     <div><details><summary>泉方教育</summary><p>泉方教育除了可以下载文献，云图书馆也是免费注册，还有人工代查功能，文献下载次数没有限制。注意：泉方教育下载文献是通过英文文献名查找的，无法用Doi直接搜索！<br/><a href="http://www.yuntsg.com/html/1/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>【W】Sci-hub</summary><p>一个几乎可以下载任何论文的网站，但因为涉及到版权问题，网址总是打不开，以下是理论可用的链接。<br/><a href="https://sci-hub.tw" target="_blank" role="button" class="outline">访问网站（1）</a><br/><a href="https://sci-hub.se" target="_blank" role="button" class="outline">访问网站（2）</a><br/><a href="https://sci-hub.si" target="_blank" role="button" class="outline">访问网站（3）</a><br/><a href="https://sci.sssam.com/" target="_blank" role="button" class="outline">非官方镜像站</a></p></details></div>
 </div>
@@ -30,7 +30,7 @@
 ### Zlibrary相关
 
 <div class="grid">
-    <div><details><summary>*【W】Z-Library</summary><p>一个免费的电子书共享社区，非注册用户每天可以下载5本，注册后可以下载十本，直接搜索就能用，下载下来的多是PDF/EPUB/MOBI/AZW/AZW3格式的电子书。<br/><b>Zlibrary现在的情况较为复杂，本站为它提供了一个专题界面，具体情况和访问方法请到专题界面查看。</b><br/><a href="#/guide/pages/zlib.md" target="_blank" role="button" class="outline">查看专题界面</a></p></details></div>
+    <div><details><summary>*【W】Z-Library</summary><p>一个免费的电子书共享社区，非注册用户每天可以下载5本，注册后可以下载十本，直接搜索就能用，下载下来的多是PDF/EPUB/MOBI/AZW/AZW3格式的电子书。<br/><b>Zlibrary现在的情况较为复杂，并不能直接访问，本站为它提供了一个专题界面，具体情况和访问方法请到专题界面查看。</b><br/><a href="https://1lib.to" target="_blank" role="button" class="outline">访问网站</a><br/><a href="#/guide/pages/zlib.md" target="_blank" role="button" class="outline">查看专题界面</a></p></details></div>
     <div><div><details><summary>Z-Library中文书搜索引擎</summary><p>一个可以搜索并下载Zlibrary中标注为“中文”的书的搜索引擎<br/><a href="https://bk.hallowlib.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div></div>
     <div><details><summary>Pirate Library Mirror</summary><p>一个备份了截止到2022-09-25为止的Zlibrary资源的项目，内容只能通过TOR网络访问，需要全部下载后才能搜索。（也有网友提供了一个可以免TOR直接下载的地址）<br/><a href="http://pilimi.org/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://pangniao.net/Pirate-Library-Mirror.html" target="_blank" role="button" class="outline">第三方免TOR地址</a></p></details></div>
 </div>
@@ -46,8 +46,8 @@
 </div>
 <div class="grid">
     <div><details><summary>CLibrary</summary><p>2022年9月建立的中文数字图书馆,图书来自Z-Library.<br/><a href="https://clibrary.top/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-    <div> </div>
+    <div><details><summary>Zlibrary 镜像列表</summary><p>收集Z-Library镜像的新替代域名，长期有效，每1小时刷新一次<br/><a href="https://www.ooopn.com/tool/zlibrary/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Zlib镜像网址检测工具</summary><p>另一个收集第三方Zlibrary镜像站的网站<br/><a href="https://mirror.yibook.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ### 中文官方机构正版电子书下载
@@ -59,11 +59,11 @@
 </div>
 <div class="grid">
     <div><details><summary>台湾华文电子书库</summary><p>台湾华文电子书库（Taiwan eBook）启用上线，电子书 12178 册、政府出版品 595 册、百人千书 1005 册，免费开放读者在线阅览。<br/><a href="https://taiwanebook.ncl.edu.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>早稻田大学图书馆古籍数据库</summary><p>早稻田大学图书馆对外提供其馆藏的约 30 万册的部分古籍影像资料，日本古籍居多，也有大量中国古籍的扫描版本可供下载，是不可多得的珍贵资料。<br/><a href="https://www.wul.waseda.ac.jp/kotenseki/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>识典古籍</summary><p>由北京大学-字节跳动数字人文开放实验室运营的网站，可以在线查看古籍，但似乎无法下载<br/><a href="https://shidianguji.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
 </div>
 
-### 第三方电子书下载渠道
+### 中文第三方电子书下载渠道
 
 <div class="grid">
     <div><details><summary>三秋书屋</summary><p>一个电子书下载网站<br/><a href="https://www.sanqiu.mobi/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
@@ -71,13 +71,8 @@
     <div><details><summary>本卡风读秀库下载</summary><p>一个可以下载读秀库图书的方法，需要关注公众号，仅支持ss号下载，详细请查看网址<br/><a href="https://bkfeng.top/book" target="_blank" role="button" class="outline">查看教程</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>Mobileread</summary><p>一个电子书论坛，无需注册即可下载。<br/><a href="https://www.mobileread.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>MagazineLib</summary><p>一个可以免费下载PDF格式英文杂志的网站。<br/><a href="https://magazinelib.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>eMagazinePDF</summary><p>一个可以免费下载PDF格式英文杂志的网站，但好像会乱弹广告，小心不要误触。<br/><a href="https://freemagazinepdf.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-</div>
-<div class="grid">
     <div><details><summary>【W】无产阶级图书馆</summary><p>一个可以下载电子书的网站，非注册用户也不限速。但<b>这个网站打开自带国际歌音效，公共场合记得关一下声音再进！</b><br/><a href="https://library.proletarian.me/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>FreeMagazinePDF</summary><p>一个可以下载外刊PDF的网站<br/><a href="https://freemagazinepdf.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>互助联盟</summary><p>本质上来讲，用这个玩意儿和直接在某宝上花钱买文件并没有什么区别，可能就是它提供了一个油猴脚本，方便一些吧。<br/><a href="https://www.xueshu86.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>SoBooks</summary><p>一个电子书下载网站<br/><a href="https://sobooks.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
@@ -86,14 +81,9 @@
     <div><details><summary>台湾电子书搜寻</summary><p>一个综合搜索各大电子书出版商的网站（需要付费购买）<br/><a href="https://taiwan-ebook-lover.github.io/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-     <div><details><summary>PDFDrive</summary><p>一个免费的搜索引擎，允许您搜索，预览和下载数百万个PDF文件到您的设备。<br/><a href="https://www.pdfdrive.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>鸠摩搜索</summary><p>国内的电子书搜索引擎，可以找到一些常见的资源。<br/><a href="https://www.jiumodiary.com" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>淘链客</summary><p>一个主要收集文档类资源下载链接的聚合型搜索引擎网站，现在还增加了古籍的搜索接口。下载资源主要是 PDF 格式的电子书，也有一些视频、资料啥的。国内资源大全，无广告直接下载，但有些内容搜索出来已经失效或者文不对题，请自行甄别。<br/><a href="https://www.toplinks.cc/s/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Lore Free</summary><p>另一个电子书共享社区，资源更新速度很慢，但好像可以找到一些比较难找的资源。<br/><a href="https://lorefree.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-</div>
-<div class="grid">
-    <div><details><summary>互助联盟</summary><p>本质上来讲，用这个玩意儿和直接在某宝上花钱买文件并没有什么区别，可能就是它提供了一个油猴脚本，方便一些吧。<br/><a href="https://www.xueshu86.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>DigiLibraries</summary><p>免费电子书库，超过 20,000 本免费电子书，提供 MOBI、EPUB、PDF 等格式电子书。<br/><a href="https://digilibraries.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>EpubBooks</summary><p>提供高质量 EPUB 格式和适用于 Kindle 的 MOBI 格式公版电子书，其中有许多办好插图和脚注。下载电子书前必须使用邮箱注册并激活账号。<br/><a href="https://www.epubbooks.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
     <div><details><summary>TheFuture</summary><p>免费电子书搜索，非常全，蓝奏云<br/><a href="https://bks.thefuture.top/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
@@ -103,16 +93,6 @@
 <div class="grid">
     <div><details><summary>xx资源网</summary><p>一个干净无广告的电子书分享网站，但用的是城通网盘<br/><a href="https://xxurls.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>SaltTiger</summary><p>编程相关的电子书网站<br/><a href="https://salttiger.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>CoderProg</summary><p>一个编程相关的电子书下载网站，英文<br/><a href="https://coderprog.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-</div>
-<div class="grid">
-    <div><details><summary>AvaxHome Ebooks</summary><p>一个英文电子书下载网站<br/><a href="https://avxhm.se/ebooks" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>FoxGreat</summary><p>一个英文电子书下载网站<br/><a href="https://foxgreat.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>LetMeRead</summary><p>一个英文电子书下载网站<br/><a href="https://www.letmeread.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-</div>
-<div class="grid">
-    <div><details><summary>ITBookDownload</summary><p>一个英文IT电子书下载网站<br/><a href="https://itbook.download/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>鸠摩搜索</summary><p>国内的电子书搜索引擎，可以找到一些常见的资源。<br/><a href="https://www.jiumodiary.com" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>一元图书</summary><p>全国图书馆参考咨询联盟的资源下载网站，1r/本<br/><a href="https://1yuanbook.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
@@ -123,11 +103,28 @@
 <div class="grid">
     <div><details><summary>【W】mcbooksbot</summary><p>一个可以下载超星/读秀库内容的Telegram Bot，详情请参见使用教程<br/><a href="https://t.me/mcbooksbot" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://yibook.org/post/mcbook/" target="_blank" role="button" class="outline">使用教程</a></p></details></div>
     <div><details><summary>布克盘</summary><p>聚合电子书数据库网站，截至目前已经同步了 三秋书屋、Sobooks、书舟资源 等网站数据用于检索<br/><a href="https://bookpan.net/" target="_blank" role="button" class="outline">网站主页</a><br/><a href="https://search.zhelper.net/?[{%22name%22:%22bookpan%22,%22url%22:%22https://api.bookpan.net%22,%22type%22:%22light%22,%22sensitive%22:false,%22detail%22:true}]" target="_blank" role="button" class="outline">搜索地址</a></p></details></div>
-    <div> </div>
+    <div><details><summary>电子书导航</summary><p>易书论坛提供的电子书导航网站，收集了一些可以下载电子书的渠道<br/><a href="https://nav.yibook.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
-### 外文大学/机构电子书下载
+### 外语电子书下载
 
+#### 英语
+
+<div class="grid">
+    <div><details><summary>Mobileread</summary><p>一个电子书论坛，无需注册即可下载。<br/><a href="https://www.mobileread.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>MagazineLib</summary><p>一个可以免费下载PDF格式英文杂志的网站。<br/><a href="https://magazinelib.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>eMagazinePDF</summary><p>一个可以免费下载PDF格式英文杂志的网站，但好像会乱弹广告，小心不要误触。<br/><a href="https://freemagazinepdf.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>FreeMagazinePDF</summary><p>一个可以下载外刊PDF的网站<br/><a href="https://freemagazinepdf.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>DigiLibraries</summary><p>免费电子书库，超过 20,000 本免费电子书，提供 MOBI、EPUB、PDF 等格式电子书。<br/><a href="https://digilibraries.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>EpubBooks</summary><p>提供高质量 EPUB 格式和适用于 Kindle 的 MOBI 格式公版电子书，其中有许多办好插图和脚注。下载电子书前必须使用邮箱注册并激活账号。<br/><a href="https://www.epubbooks.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>AvaxHome Ebooks</summary><p>一个英文电子书下载网站<br/><a href="https://avxhm.se/ebooks" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>FoxGreat</summary><p>一个英文电子书下载网站<br/><a href="https://foxgreat.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>LetMeRead</summary><p>一个英文电子书下载网站<br/><a href="https://www.letmeread.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
 <div class="grid">
     <div><details><summary>OAPEN</summary><p>一个位于荷兰的学术类电子书库，开放获取，无需注册，无需翻墙。可在右上角输入搜索内容或按学科/出版社/语言/合集筛选，现有英语电子书1.5万本，可以整本下载或通过在线阅读器阅读。<br/><a href="https://oapen.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>DOAB</summary><p>一个位于法国的学术类电子书库，开放获取，无需注册，无需翻墙。可在右上角输入搜索内容或按学科/出版社/语言/合集筛选，现有英语电子书3万本，会跳转到books.openedition.org在线阅读。<br/><a href="https://doabooks.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
@@ -154,29 +151,64 @@
     <div><details><summary>IPL互联网公共图书馆</summary><p>密歇根大学信息学院的学习和教学环境<br/><a href="https://www.ipl.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>库尔特·斯塔博的在线图书馆</summary><p>收藏了古代和现代的大量生物学著作，其中很多珍本, 可在线阅读<br/><a href="http://www.zum.de/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>CoderProg</summary><p>一个编程相关的电子书下载网站，英文<br/><a href="https://coderprog.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>ITBookDownload</summary><p>一个英文IT电子书下载网站<br/><a href="https://itbook.download/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>PDFDrive</summary><p>一个免费的搜索引擎，允许您搜索，预览和下载数百万个PDF文件到您的设备。<br/><a href="https://www.pdfdrive.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>宾夕法尼亚大学网站</summary><p>有超过 16000 部在线电子书 ,值得一读<br/><a href="http://digital.library.upenn.edu/books/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>美国国家科学院在线数据据库</summary><p>超过3000部科学,工程和健康卫生方面的著作,可以在线阅读,这些文献代表了美国在这些领域的研究精华<br/><a href="http://www.nap.edu/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Ndltd.org</summary><p>搜集了来自澳大利亚，加拿大，许多欧洲国家，香港，台湾和美国的论文<br/><a href="https://ndltd.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>宾夕法尼亚大学网站</summary><p>有超过 16000 部在线电子书 ,值得一读<br/><a href="http://digital.library.upenn.edu/books/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>法兰西国家图书馆资助的网站</summary><p>内容是法语<br/><a href="http://gallica.bnf.fr/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>世界图书馆</summary><p>内容是法语<br/><a href="http://abu.cnam.fr/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-</div>
-<div class="grid">
-    <div><details><summary>青空文库</summary><p>日本文学著作( 格式包括 HTML , ZIP(下载)和日文电子书格式)<br/><a href="https://www.aozora.gr.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>在线医学百科全书</summary><p>超过1500主题的在线医学百科全书，包括康复，疾病，伤害，营养，手术，症状，试验<br/><a href="https://www.healthopedia.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>英语文学网站</summary><p>超过一千位学生为这个巨大的网站捐助成果，焦点是英语文学<br/><a href="https://www.litencyc.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>数学世界</summary><p>为学生，教育家，数学爱好者和研究者准备的全面地数学百科全书<br/><a href="https://mathworld.wolfram.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>在线医学百科全书</summary><p>超过1500主题的在线医学百科全书，包括康复，疾病，伤害，营养，手术，症状，试验<br/><a href="https://www.healthopedia.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>医生的免费电子书</summary><p><a href="http://freebooks4doctors.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>奥地利文献</summary><p>超过12000 部奥地利文献,甚至包括明信片<br/><a href="https://www.literature.at/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
 </div>
+
+#### 日语
+
 <div class="grid">
+    <div><details><summary>早稻田大学图书馆古籍数据库</summary><p>早稻田大学图书馆对外提供其馆藏的约 30 万册的部分古籍影像资料，日本古籍居多，也有大量中国古籍的扫描版本可供下载，是不可多得的珍贵资料。<br/><a href="https://www.wul.waseda.ac.jp/kotenseki/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>青空文库</summary><p>日本文学著作( 格式包括 HTML , ZIP(下载)和日文电子书格式)<br/><a href="https://www.aozora.gr.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+</div>
+
+#### 德语
+
+<div class="grid">
+    <div><details><summary>库尔特·斯塔博的在线图书馆</summary><p>收藏了古代和现代的大量生物学著作，其中很多珍本, 可在线阅读<br/><a href="http://www.zum.de/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>ICPSR</summary><p>世界最大的社会科学文献网站<br/><a href="https://www.icpsr.umich.edu/web/pages/ICPSR/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>National Academy Press</summary><p>美国国家科学院、国家工程院、医学协会等机构的论文/报告/PPT,内容几乎涵盖所有学科<br/><a href="http://www.nationalacademies.org/publications/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+
+#### 法语
+
+<div class="grid">
+    <div><details><summary>法兰西国家图书馆资助的网站</summary><p>内容是法语<br/><a href="http://gallica.bnf.fr/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>世界图书馆</summary><p>内容是法语<br/><i>经网友提醒，此网站已于2002年停止更新，本站收录仅作存档之用</i><br/><a href="http://abu.cnam.fr/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Ebooks Libers & Gratuits</summary><p>一个法语网站，提供免费的公版书下载链接<br/><a href="https://www.ebooksgratuits.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+
+#### 奥地利语
+
+<div class="grid">
+    <div><details><summary>奥地利文献</summary><p>超过12000 部奥地利文献,甚至包括明信片<br/><a href="https://www.literature.at/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
+
+#### 多语言
+
+<div class="grid">
     <div><details><summary>UNESCO</summary><p>联合国教科文组织提供的文档,包含自然科学与社会科学,有多种语言,包括中文<br/><a href="https://www.unesco.org/en" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
 </div>
 
 ## 其他

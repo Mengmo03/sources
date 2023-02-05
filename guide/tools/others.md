@@ -20,7 +20,7 @@
 <div class="grid">
     <div><details><summary>Moise App</summary><p>一个可以把伴奏人声很好的分离，单独提取的网站，在线网页就可以保存上传。直接注册每个月有五次免费机会。<br/><a href="https://moises.ai/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Grabify IP Logger</summary><p>一个追踪链接服务商，同时也提供短链接服务<br/><a href="https://grabify.link/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>Wikiless</summary><p>好像是个Wikipedia的镜像站，大陆可直接访问，不清楚是不是官方的<br/><a href="https://wikiless.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>CNWiki 中文维基百科镜像站</summary><p>一个维基百科全量同步中文镜像站，在中国大陆可以直接访问，由原Mirrors.pw团队运营<br/><a href="https://www.cnwiki.me/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
     <div><details><summary>Wis在线工具合集</summary><p>包含词云、PDF编辑、区位分析工具、旅游资源数据库、绘图等工具的在线工具网站。<br/><a href="https://mywis.cn/tools" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
@@ -36,6 +36,14 @@
     <div><details><summary>ANIMATED DRAWINGS</summary><p>一个可以给自己的画绑定骨骼然后让它动起来的网站<br/><a href="https://sketch.metademolab.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>分离人声[AI]</summary><p>一个可以免登录分离音乐中的人声和伴奏的网站<br/><a href="https://vocalremover.org/zh/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>即时工具</summary><p>一个内容挺全的在线工具箱<br/><a href="https://www.67tool.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+
+## 镜像列表
+
+<div class="grid">
+     <div><details><summary>Mirror List</summary><p>这是一个由私人维护的镜像站列表，其中包含了中国大陆可直接访问的Google Search、Google Scholar、Wayback Machine（网页时光机）、DuckDuckGo（另一个搜索引擎）、Github、OpenSources镜像。如果网站不能访问，也可以直接访问它的GitHub仓库【W】。<br/><a href="https://www.library.ac.cn/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/librarycloud/list" target="_blank" role="button" class="outline">GitHub仓库</a></p></details></div>
+    <div><details><summary>Mirrors.pw</summary><p>一个免费国外网站反向代理网站，提供Google、Google Scholar、Wikipedia、Telegraph等网站的镜像服务<br/><a href="https://mirrors.pw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>小白工具箱</summary><p>一个搜集了SCIHub、ZLibrary、LibGen、Google和Google学术等网站镜像站的网站。<br/><a href="https://www.ooopn.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 观影网站

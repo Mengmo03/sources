@@ -70,6 +70,11 @@
 <div class="grid">
     <div><details><summary>USDoc</summary><p>可以在线预览Word、Excel、PPT文件的网站<br/><a href="http://usdoc.cn/use.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>微软在线文档预览</summary><p>微软提供的文档在线预览接口，可以在线预览Word、Excel、PPT文件的网站，把文件url填写到“?src=”后即可。<br/><a href="https://view.officeapps.live.com/op/view.aspx?src=" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>百度网盘秒传链接转存</summary><p>可以在线把百度网盘的秒传链接转存到自己网盘的网站，不需要安装插件<br/><a href="https://mengzonefire.github.io/baidupan-rapidupload/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/mengzonefire/baidupan-rapidupload" target="_blank" role="button" class="outline">GitHub仓库</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Udown在线解析</summary><p>一个可以免登录不限速下载百度网盘文件的网站，免费版限制每日20次，总流量20G，临时下载文件很方便<br/><a href="https://udown.vip/#/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
     <div> </div>
 </div>
 

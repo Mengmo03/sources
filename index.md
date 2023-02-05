@@ -1,6 +1,6 @@
 <h1>B-HU 资源<sup>beta 0.3</sup></h1>
 
-**Last updata at: 23/01/17**
+**Last updata at: 23/02/05**
 
 <a href="./lite/" target="_blank" role="button" class="outline">Lite版</a>
 
@@ -31,10 +31,6 @@
 
 **本站仅为信息收集网站，站长不为站内任何信息背书，请自行甄别！**
 
-**本站仅为信息收集网站，站长不为站内任何信息背书，请自行甄别！**
-
-**本站仅为信息收集网站，站长不为站内任何信息背书，请自行甄别！**
-
 [B-HU 资源背后的故事（建站一周年谈）](https://mo.b-hu.org/b-husource/)
 
 ## 联系站长
@@ -49,10 +45,12 @@
 
 ## 致谢
 
-本站的建立离不开许多个人和组织有意或无意提供的多种形式的无私帮助，故在此致谢，因记忆疏漏和个人水平所限，致谢列表可能会有疏漏，在此致歉。
+本站的建立离不开许多个人和组织有意或无意提供的多种形式的无私帮助，故在此致谢，若因记忆疏漏和个人水平所限导致的致谢列表疏漏问题，先行致歉。
 
 部分资源由 一个不愿透露姓名的无产主义者 、 嘉文 和 [Haoxin Lv](https://github.com/haoxinlv) 提供
 
-[#长毛象安利大会](https://alive.bar/tags/%E9%95%BF%E6%AF%9B%E8%B1%A1%E5%AE%89%E5%88%A9%E5%A4%A7%E4%BC%9A)、[小众软件](https://www.appinn.com/)、[ಠ_ಠ](https://www.plurk.com/p/ofnz6q)、[DecoHack](https://decohack.notion.site/decohack/21ed6d8428d04b928ccd7fbf2ea36dd2?v=8456b58b9e184cbca2979d033d5f83a6)、[法律检索](https://mp.weixin.qq.com/s/NMcmeRiFretEc8l6uvxYuQ)、[易书论坛](https://bbs.yibook.org/)、[Shelly](https://www.douban.com/group/topic/13784047/)、[快搜猫](https://www.kuaisoumao.com/)、[古书网导航](http://d.gushu.net.cn/)对本站亦有很大贡献
+感谢各位网友和用户向本站报告错误问题或提供新的链接
+
+另外，[#长毛象安利大会](https://alive.bar/tags/%E9%95%BF%E6%AF%9B%E8%B1%A1%E5%AE%89%E5%88%A9%E5%A4%A7%E4%BC%9A)、[小众软件](https://www.appinn.com/)、[ಠ_ಠ](https://www.plurk.com/p/ofnz6q)、[DecoHack](https://decohack.notion.site/decohack/21ed6d8428d04b928ccd7fbf2ea36dd2?v=8456b58b9e184cbca2979d033d5f83a6)、[法律检索](https://mp.weixin.qq.com/s/NMcmeRiFretEc8l6uvxYuQ)、[易书论坛](https://bbs.yibook.org/)、[Shelly](https://www.douban.com/group/topic/13784047/)、[快搜猫](https://www.kuaisoumao.com/)、[古书网导航](http://d.gushu.net.cn/)对本站亦有很大贡献
 
 使用[Pico.css](https://picocss.com/)和[Docsify](https://docsify.js.org/)编写，托管于[GitHub](https://github.com/Mengmo03/sources).

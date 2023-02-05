@@ -24,7 +24,7 @@
 </div>
 <div class="grid">
     <div><details><summary>BgSub</summary><p>一个最高 4096×4096 分辨率、无数据上传，免费的去背景、换背景、抠图工具<br/><a href="https://bgsub.cn/" target="_blank" role="button" class="outline">访问网站（国内）</a><br/><a href="https://bgsub.com/" target="_blank" role="button" class="outline">访问网站（国际）</a></p></details></div>
-    <div> </div>
+    <div><details><summary>DEVICE SHOTS</summary><p>一个可以给带壳截图的网站（给手机截图加上类似实体边框的效果）<br/><a href="https://deviceshots.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
 
