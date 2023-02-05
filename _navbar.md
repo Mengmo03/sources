@@ -1,3 +1,3 @@
 - [博客](https://mo.b-hu.org/)
 - [公告](https://s.b-hu.org/#/guide/announcement)
-- <a href="javascript:translate.execute();">English</a>
+- <div><details><summary><b>English</b></summary><ul><li><a href="javascript:translate.changeLanguage('english');">English</a></li><li><a href="javascript:translate.changeLanguage('chinese_simplified');">简体中文</a></li></ul></details></div>

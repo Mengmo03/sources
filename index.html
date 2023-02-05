@@ -50,7 +50,7 @@
                     });
             },
         ],
-    }
+    };
     </script>
     <script>
         function expandAll() {
@@ -88,11 +88,14 @@ function closeAll() {
     <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 -->
-</body>
 <script src="https://res.zvo.cn/translate/translate.js"></script>
-<script>
-translate.setUseVersion2(); //设置使用v2.x 版本
-translate.selectLanguageTag.show = false; // 不显示切换语言的下拉框
-translate.execute();//进行翻译 
-</script>
+    <script>
+    translate.setUseVersion2(); //设置使用v2.x 版本
+    translate.selectLanguageTag.show = false; // 不显示切换语言的下拉框
+    translate.language.setLocal('chinese_simplified');
+    translate.listener.start();
+    window.onload = function() {setTimeout(function() {translate.execute();}, 1000);};
+    //translate.execute();//进行翻译
+    </script>
+</body>
 </html>
