@@ -2,6 +2,8 @@
 
 **2023/02/05：** Zlibrary的登陆域名[singlelogin.me](https://singlelogin.me/)现在已经可以继续访问（仍需魔法上网），登陆后官方会为曾经捐助过的用户提供一个私人地址（自动跳转），目前可以直接免翻访问。未捐赠的用户尚无法直接访问，但现在也可以自己设立私人Zlib Telegram Bot，具体教程可参考下方。
 
+**2023/02/13：**现在未捐赠的用户也可以访问私人域名了。
+
 ## 官方渠道
 
 <a href="https://singlelogin.me/" target="_blank" role="button" class="outline">Zlibrary 登陆域名</a><br/><br/>
