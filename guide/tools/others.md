@@ -83,6 +83,11 @@
     <div><details><summary>Audacity</summary><p>一个开源的音频编辑软件，去噪音之类的功能很棒<br/><a href="https://www.audacityteam.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>SubPlayer</summary><p>一个可以在线处理Srt字幕的网站，调整自动生成的字幕时很好用<br/><a href="https://subplayer.js.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>Srt字幕编辑器</summary><p>另一个可以在线编辑字幕的网站<br/><a href="https://huiyingzimu.com/srt-editor/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
 
 ## 存档网站
 

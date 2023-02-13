@@ -40,14 +40,14 @@
     <div><details><summary>【X】ALibrary</summary><p>另一个Zlibrary镜像项目。<br/><i><b>备注：</b>这个网站似乎是个盗链网站，用的是zlib.download的链接，但已经被原网站屏蔽了，因此只能搜索，不能下载，仅在此列出，不鼓励也不支持这种盗链行为。</i><br/><a href="https://alibrary.top/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>Cydiar Z-Library</summary><p>另一个Zlibrary的镜像项目<br/><a href="https://zlib.cydiar.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Zlib镜像网址检测工具</summary><p>另一个收集第三方Zlibrary镜像站的网站<br/><a href="https://mirror.yibook.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Zlib.app</summary><p>一个Zlibrary的在线接口<br/><a href="https://zlib.app/" target="_blank" role="button" class="outline">项目主页</a><br/><a href="https://search.zhelper.net/?[{%22name%22:%22zlib.app%22,%22url%22:%22https://api.zlib.app%22,%22type%22:%22full%22,%22sensitive%22:false,%22detail%22:false,%22download%22:%22https://d.zlib.app/download/%22}]" target="_blank" role="button" class="outline">搜索地址</a></p></details></div>
     <div><details><summary>Ylibrary</summary><p>另一个去中心化的图书搜索项目，有一部分zlib的数据库<br/><a href="https://ylibrary.org/" target="_blank" role="button" class="outline">项目主页</a><br/><a href="https://search.zhelper.net/?%5B%7B%22name%22:%22Ylibrary%22,%22url%22:%22https://api.ylibrary.org%22,%22type%22:%22full%22,%22sensitive%22:false,%22detail%22:true%7D%5D" target="_blank" role="button" class="outline">搜索地址</a></p></details></div>
 </div>
 <div class="grid">
     <div><details><summary>CLibrary</summary><p>2022年9月建立的中文数字图书馆,图书来自Z-Library.<br/><a href="https://clibrary.top/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Zlibrary 镜像列表</summary><p>收集Z-Library镜像的新替代域名，长期有效，每1小时刷新一次<br/><a href="https://www.ooopn.com/tool/zlibrary/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>Zlib镜像网址检测工具</summary><p>另一个收集第三方Zlibrary镜像站的网站<br/><a href="https://mirror.yibook.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
 </div>
 
 ### 中文官方机构正版电子书下载
