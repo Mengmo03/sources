@@ -30,7 +30,12 @@
 <div class="grid">
     <div><details><summary>台大佛学数位图书馆</summary><p>台大的佛学资料库<br/><a href="https://buddhism.lib.ntu.edu.tw/index.jsp" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>BCC语料库</summary><p>包括：报刊、文学、综合、古汉语和对话等多领域语料，是可以全面反映当今社会语言生活的大规模语料库。<br/><a href="http://bcc.blcu.edu.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>文学网成语词典</summary><p>一个内容挺完整、全面的免费在线成语词典<br/><a href="https://cy.hwxnet.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>读书网</summary><p>一个可以在线阅读一些书籍的网站<br/><a href="https://www.dushu.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 古籍下载
@@ -44,6 +49,11 @@
     <div><details><summary>中国哲学书电子化计划</summary><p>一个线上开放电子图书馆，为中外学者提供中国历代传世文献，力图超越印刷媒体限制，通过电子科技探索新方式与古代文献进行沟通。收藏的文本已超过三万部著作，并有五十亿字之多，故为历代中文文献资料库最大者。<br/><a href="https://ctext.org/zh" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>唐河图书馆</summary><p>一个收录古籍的网站<br/><a href="http://39.106.82.98:8066/guji/92.html#" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>太极书馆</summary><p>古籍<br/><a href="https://www.8bei8.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>劝学网</summary><p>一个可以在线阅读古籍的网站<br/><a href="http://www.quanxue.cn/index.htm" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>古诗文网</summary><p>一个查古诗文很方便的网站<br/><a href="https://shiwens.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
 </div>
 
 *由于以下内容过多，影响版面，故做折叠处理，点开即可查看*

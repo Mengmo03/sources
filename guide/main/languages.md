@@ -29,6 +29,11 @@
     <div><details><summary>Academic Phrasebank</summary><p>曼彻斯特大学的学术写作词句模板库。<br/><a href="https://www.phrasebank.manchester.ac.uk/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Write & Improve</summary><p>剑桥大学开发的帮助提升英语写作水平的工具，你可以在线练习写作，由AI打分并给出写作建议。<br/><a href="https://writeandimprove.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>Etytree</summary><p>一个可视化的词源树网站<br/><a href="https://etytree.toolforge.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
 
 ## 拉丁语
 

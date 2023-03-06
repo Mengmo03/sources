@@ -105,6 +105,11 @@
     <div><details><summary>布克盘</summary><p>聚合电子书数据库网站，截至目前已经同步了 三秋书屋、Sobooks、书舟资源 等网站数据用于检索<br/><a href="https://bookpan.net/" target="_blank" role="button" class="outline">网站主页</a><br/><a href="https://search.zhelper.net/?[{%22name%22:%22bookpan%22,%22url%22:%22https://api.bookpan.net%22,%22type%22:%22light%22,%22sensitive%22:false,%22detail%22:true}]" target="_blank" role="button" class="outline">搜索地址</a></p></details></div>
     <div><details><summary>电子书导航</summary><p>易书论坛提供的电子书导航网站，收集了一些可以下载电子书的渠道<br/><a href="https://nav.yibook.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>时光图书馆</summary><p>一个电子书合集下载软件，有一些挺珍贵的书的电子版的<br/><a href="https://atimebook.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
 
 ### 外语电子书下载
 

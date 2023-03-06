@@ -24,6 +24,11 @@
     <div><details><summary>古埃及练习曲</summary><p>一个中文埃及学博客，翻译介绍一些关于埃及的资料。<br/><a href="https://practiceegyptian.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>【W】Google工程师带你学编程</summary><p>一个Google工程师出品的面向零基础人群的编程课。<br/><a href="https://docs.google.com/forms/d/e/1FAIpQLSdwWnCvD31tVp0IGgEGV5ILqTvUp5huoxyrgzS_-ficO2Z2sQ/viewform?fbzx=-3697804490486520350" target="_blank" role="button" class="outline">报名表单</a><br/><a href="https://docs.google.com/document/d/1CyWQMCepViYVvVz-ESAKXiWGOhj-SXk_SybrvC0Mogw/" target="_blank" role="button" class="outline">学习指南</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>GeeksForGeeks</summary><p>一个可以自学编程的网站<br/><a href="https://www.geeksforgeeks.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
 
 ### 公民教育/性教育
 

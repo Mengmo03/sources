@@ -46,6 +46,14 @@
     <div><details><summary>小白工具箱</summary><p>一个搜集了SCIHub、ZLibrary、LibGen、Google和Google学术等网站镜像站的网站。<br/><a href="https://www.ooopn.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
+## AI相关
+
+<div class="grid">
+    <div><details><summary>SCISPACE</summary><p>一个可以用AI帮你读论文的网站，可以直接在线查找，也可以上传PDF<br/><a href="https://typeset.io/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>HUMETA</summary><p>一个可以自己上传PDF，让AI帮你读论文的网站<br/><a href="https://www.humata.ai/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>ChatPDF</summary><p>一个可以上传PDF并让AI理解PDF内容的网站<br/><a href="https://www.chatpdf.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+
 ## 观影网站
 
 <i>*以下是一些观影网站，站长并未体验过，仅列出</i>

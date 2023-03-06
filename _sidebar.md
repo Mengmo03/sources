@@ -10,6 +10,7 @@
 	- [中文相关](/guide/subjects/chinese.md)
 	- [地理相关](/guide/subjects/geography.md)
 	- [法律相关](/guide/subjects/laws.md)
+	- [理科相关](/guide/subjects/science.md)
 - 在线工具
 	- [图片处理](/guide/tools/pictures.md)
 	- [文字相关](/guide/tools/chr.md)
