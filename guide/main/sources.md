@@ -14,6 +14,6 @@
 </div>
 <div class="grid">
     <div><details><summary>数据网站汇总</summary><p>网友制作的数据网站汇总，收录了110个左右的网站，可以方便的查找各类数据<br/><a href="https://tyi45di4ct.jiandaoyun.com/f/5e7d7262d70fb900060607c1" target="_blank" role="button" class="outline">【W】查看备份</a><br/><a href="https://archive.ph/a2AqU" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>晨曦科技团队数字图书馆</summary><p>一个文献接口聚合网站，它不仅包括中国知网、万方、读秀、维普、超星等中文资源库，还有，谷歌学术、医学、法律这些常用的数据库<br/><a href="https://31sanyi.neocities.org/cxkj/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
