@@ -27,7 +27,7 @@
 <div class="grid">
     <div><details><summary>GeeksForGeeks</summary><p>一个可以自学编程的网站<br/><a href="https://www.geeksforgeeks.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Exercism</summary><p>一个可以自学编程的网站<br/><a href="https://exercism.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>CodePen</summary><p>面向前端设计人员和开发人员的社交开发环境。构建和部署网站、展示您的作品、构建测试用例以学习和调试并寻找灵感。<br/><a href="https://codepen.io/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ### 公民教育/性教育

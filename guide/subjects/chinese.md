@@ -34,8 +34,8 @@
 </div>
 <div class="grid">
     <div><details><summary>读书网</summary><p>一个可以在线阅读一些书籍的网站<br/><a href="https://www.dushu.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
 </div>
 
 ## 古籍下载

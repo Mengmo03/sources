@@ -53,6 +53,11 @@
     <div><details><summary>HUMETA</summary><p>一个可以自己上传PDF，让AI帮你读论文的网站<br/><a href="https://www.humata.ai/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>ChatPDF</summary><p>一个可以上传PDF并让AI理解PDF内容的网站<br/><a href="https://www.chatpdf.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>ChatExcel</summary><p>一个可以用ChatGPT做表的网站<br/><a href="https://chatexcel.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Cursor</summary><p>一个AI辅助编程的网站<br/><a href="https://www.cursor.so/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+</div>
 
 ## 观影网站
 
