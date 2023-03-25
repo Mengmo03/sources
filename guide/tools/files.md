@@ -72,6 +72,11 @@
     <div><details><summary>微软在线文档预览</summary><p>微软提供的文档在线预览接口，可以在线预览Word、Excel、PPT文件的网站，把文件url填写到“?src=”后即可。<br/><a href="https://view.officeapps.live.com/op/view.aspx?src=" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>百度网盘秒传链接转存</summary><p>可以在线把百度网盘的秒传链接转存到自己网盘的网站，不需要安装插件<br/><a href="https://mengzonefire.github.io/baidupan-rapidupload/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/mengzonefire/baidupan-rapidupload" target="_blank" role="button" class="outline">GitHub仓库</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>PDG2PDF</summary><p>一个可以把超星库下载的pdg文件压缩包在线转换为pdf的网站，真的很方便<br/><a href="https://pdg2pdf.online/convert" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
 
 ## 文件下载
 

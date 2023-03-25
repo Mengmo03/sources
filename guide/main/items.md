@@ -106,8 +106,8 @@
 </div>
 <div class="grid">
     <div><details><summary>IconStore</summary><p>免费无版权的正版高清图标素材库。<br/><a href="https://iconstore.co/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-    <div> </div>
+    <div><details><summary>IconHunt</summary><p>一款图标搜索引擎，有用超过 150000 个免费的、开放源码的图标。并且可以快速在 Notion、Figma 中使用它们。还支持自定义颜色，可下载为svg 格式<br/><a href="https://www.iconhunt.site/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Icones</summary><p>另一个基于Iconify的图标搜索引擎<br/><a href="https://icones.js.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 词云

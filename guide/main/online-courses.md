@@ -29,6 +29,11 @@
     <div><details><summary>Exercism</summary><p>一个可以自学编程的网站<br/><a href="https://exercism.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>CodePen</summary><p>面向前端设计人员和开发人员的社交开发环境。构建和部署网站、展示您的作品、构建测试用例以学习和调试并寻找灵感。<br/><a href="https://codepen.io/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>Exercism</summary><p>一个可以自学编程的网站<br/><a href="https://exercism.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
 
 ### 公民教育/性教育
 
@@ -50,7 +55,7 @@
 <div class="grid">
     <div><details><summary>花惹法理學</summary><p>來吧！英美法理學與政治哲學 | Blog for Legal Philosophy<br/><a href="https://wtfjurisprudence.wordpress.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>哲学新媒体</summary><p>台湾哲学网站，内含当今美国比较新的自由主义理论，罗尔斯主义（也叫New liberals）的科普<br/><a href="https://philomedium.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>上海交通大学学生生存手册</summary><p>号称本科自救指南的一本小册子，挺有意思的，值得一读<br/><a href="http://www.houxiaodi.com/assets/misc/manual.pdf" target="_blank" role="button" class="outline">PDF下载</a><br/><a href="https://survivesjtu.gitbook.io/survivesjtumanual/" target="_blank" role="button" class="outline">在线阅读</a><br/><a href="https://survivesjtu.github.io/SJTU-Application/#/" target="_blank" role="button" class="outline">飞跃手册</a></p></details></div>
 </div>
 
 ### 网络安全

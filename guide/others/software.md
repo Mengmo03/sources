@@ -76,7 +76,7 @@
     <div><details><summary>【W】Google文档</summary><p>一个浏览器拓展程序，安装后可在线预览word、ppt、excel等文档<br/><a href="https://chrome.google.com/webstore/detail/office-editing-for-docs-s/gbkeegbaiigmenfmjfclcdgdpimamgkj?hl=zh-CN" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>WebToEpub</summary><p>一个可以把网页保存为epub的插件，具体使用方法可以看作者提供的文档<br/><a href="https://chrome.google.com/webstore/detail/webtoepub/akiljllkbielkidmammnifcnibaigelm?hl=zh-CN" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>WebToEpub</summary><p>一个可以把网页保存为epub的插件，具体使用方法可以看作者提供的文档<br/><a href="https://chrome.google.com/webstore/detail/webtoepub/akiljllkbielkidmammnifcnibaigelm?hl=zh-CN" target="_blank" role="button" class="outline">商店地址</a></p></details></div>
+    <div><details><summary>沉浸式翻译</summary><p>一个可以进行对照逐行翻译的插件，支持多种翻译API和多种显示模式，很方便<br/><a href="https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?hl=zh-CN" target="_blank" role="button" class="outline">商店地址</a><br/><a href="https://immersive-translate.owenyoung.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
