@@ -74,8 +74,8 @@
 </div>
 <div class="grid">
     <div><details><summary>PDG2PDF</summary><p>一个可以把超星库下载的pdg文件压缩包在线转换为pdf的网站，真的很方便<br/><a href="https://pdg2pdf.online/convert" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Split PDF pages down the middle</summary><p>可以把双页扫描的PDF从中间切开的网站<br/><a href="https://www.sejda.com/split-pdf-down-the-middle" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
 </div>
 
 ## 文件下载

@@ -13,3 +13,9 @@
     <div><details><summary>Wolfram Alpha免费版</summary><p>WolframAlpha的免费版，可以解锁一些收费功能<br/><a href="https://wolfreealpha.on.fleek.co/input/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>中文数学Wiki</summary><p>中文数学学科的百科<br/><a href="https://math.fandom.com/zh/wiki/%E4%B8%AD%E6%96%87%E6%95%B0%E5%AD%A6_Wiki:%E4%B8%BB%E9%A1%B5" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+
+<div class="grid">
+    <div><details><summary>ProofWiki</summary><p>一个在线的关于数学证明的Wiki<br/><a href="https://proofwiki.org/wiki/Main_Page" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>

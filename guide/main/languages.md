@@ -115,3 +115,9 @@
     <div><details><summary>Linguee</summary><p>一个词典，可以提供很多例句<br/><a href="https://www.linguee.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>PReVo</summary><p>一个开源的世（世界语）-世（世界语）词典，是安卓软件<br/><a href="https://www.busydoingnothing.co.uk/prevo/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/bpeel/prevo" target="_blank" role="button" class="outline">查看源码</a></p></details></div>
 </div>
+
+<div class="grid">
+    <div><details><summary>言語資料検索システム</summary><p>一个可以在线查询满、蒙、汉语词汇及语料的词典<br/><a href="http://hkuri.cneas.tohoku.ac.jp/guide/guide.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>

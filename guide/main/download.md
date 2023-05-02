@@ -230,6 +230,6 @@
 </div>
 <div class="grid">
     <div><details><summary>盘多多</summary><p>网盘搜索网站<br/><a href="http://www.panduoduo.top/t/2" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>【度盘】PPT模板</summary><p>某多多购买的PPT模板，有400多个，各种风格都有，可以自由取用，提取码1111<br/><a href="https://pan.baidu.com/s/1CEzdyza1zts--372B9hvfQ?pwd=1111" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>

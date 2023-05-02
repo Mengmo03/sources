@@ -34,8 +34,8 @@
 </div>
 <div class="grid">
     <div><details><summary>读书网</summary><p>一个可以在线阅读一些书籍的网站<br/><a href="https://www.dushu.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-    <div> </div>
+    <div><details><summary>汉辞网</summary><p>一个可以在线查询的汉语大辞典网站<br/><a href="http://www.hydcd.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>国学大师</summary><p>一个提供古籍全文检索、部件查字等功能的很全的国学网站<br/><a href="http://www.guoxuedashi.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 古籍下载

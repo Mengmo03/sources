@@ -2,7 +2,7 @@
 
 <i>推荐使用<a href="https://google.cn/chrome/" target="_blank">Google Chrome</a>或<a href="https://www.mozilla.org/zh-CN/firefox/new/" target="_blank">Mozilla FireFox</a>浏览器访问本站！</i>
 
-**Last updata at: 23/03/25**
+**Last updata at: 23/05/02**
 
 <a href="./lite/" target="_blank" role="button" class="outline">Lite版</a>
 

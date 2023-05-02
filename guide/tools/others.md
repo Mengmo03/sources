@@ -38,11 +38,17 @@
     <div><details><summary>即时工具</summary><p>一个内容挺全的在线工具箱<br/><a href="https://www.67tool.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
+<div class="grid">
+    <div><details><summary>Subscription Converter</summary><p>一个可以在各种科学上网软件之间转换订阅格式的网站<br/><a href="https://sub-web.netlify.app/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
+
 ## 镜像列表
 
 <div class="grid">
-     <div><details><summary>Mirror List</summary><p>这是一个由私人维护的镜像站列表，其中包含了中国大陆可直接访问的Google Search、Google Scholar、Wayback Machine（网页时光机）、DuckDuckGo（另一个搜索引擎）、Github、OpenSources镜像。如果网站不能访问，也可以直接访问它的GitHub仓库【W】。<br/><a href="https://www.library.ac.cn/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/librarycloud/list" target="_blank" role="button" class="outline">GitHub仓库</a></p></details></div>
-    <div><details><summary>Mirrors.pw</summary><p>一个免费国外网站反向代理网站，提供Google、Google Scholar、Wikipedia、Telegraph等网站的镜像服务<br/><a href="https://mirrors.pw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+     <div><details><summary>Mirror List</summary><p>这是一个由私人维护的镜像站列表，其中包含了中国大陆可直接访问的Google Search、Google Scholar、Wayback Machine（网页时光机）、DuckDuckGo（另一个搜索引擎）、Github、OpenSources镜像。现在域名已被DNS污染，无法打开，请直接访问仓库GitHub【W】。<br/><a href="https://www.library.ac.cn/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/librarycloud/list" target="_blank" role="button" class="outline">GitHub仓库</a></p></details></div>
+    <div><details><summary>PublicMirrorsNetwork</summary><p>一个免费国外网站反向代理网站，提供Google、Google Scholar、Wikipedia、Telegraph等网站的镜像服务。原mirrors.pw，因域名被污染所以换了域名<br/><a href="https://sb250.gq/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>小白工具箱</summary><p>一个搜集了SCIHub、ZLibrary、LibGen、Google和Google学术等网站镜像站的网站。<br/><a href="https://www.ooopn.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
