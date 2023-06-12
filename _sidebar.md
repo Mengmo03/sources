@@ -8,6 +8,7 @@
 	- [历史相关](/guide/subjects/history.md)
 	- [共产主义](/guide/subjects/communism.md)
 	- [中文相关](/guide/subjects/chinese.md)
+	- [韩国学相关](/guide/subjects/jpkr.md)
 	- [地理相关](/guide/subjects/geography.md)
 	- [法律相关](/guide/subjects/laws.md)
 	- [理科相关](/guide/subjects/science.md)

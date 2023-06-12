@@ -31,7 +31,14 @@
 </div>
 <div class="grid">
     <div><details><summary>Exercism</summary><p>一个可以自学编程的网站<br/><a href="https://exercism.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>英语学习资源</summary><p>互联网上搜集的一些英语学习资源，大部分是阿里云盘的形式<br/>【英语学习系列合集】<br/>《Kristin英语课堂》核心VIP会员课程(185节课)
+<a href="https://www.aliyundrive.com/s/JL9FgvDgcff" target="_blank">https://www.aliyundrive.com/s/JL9FgvDgcff</a><br/>《Little Fox一起快乐学英语》<a href="https://www.aliyundrive.com/s/3kDCbPVe3uw" target="_blank">https://www.aliyundrive.com/s/3kDCbPVe3uw</a><br/>《Reading Exporer》第2版 F-5级【外教课】全144集
+<a href="https://www.aliyundrive.com/s/jUGxHgLzXAC" target="_blank">https://www.aliyundrive.com/s/jUGxHgLzXAC</a><br/>【学而思】乐学英语口语1-6级全
+<a href="https://www.aliyundrive.com/s/ZMBngD6fHbX" target="_blank">https://www.aliyundrive.com/s/ZMBngD6fHbX</a><br/>牛津树、RAZ、KIDS等全包括
+<a href="https://www.aliyundrive.com/s/HijxaWCCNKL" target="_blank">https://www.aliyundrive.com/s/HijxaWCCNKL</a><br/>【DK-Help Your Kids Series】
+<a href="https://www.aliyundrive.com/s/pgXEko7G3QX" target="_blank">https://www.aliyundrive.com/s/pgXEko7G3QX</a><br/>经典英文原著(黑猫系列1-6级)-MP3+中英文本+纯英文本格式
+适合：小学、中学、大学，分为1-6个级别，不论你是小学、中学、大学均可选读。<br/>1级：适合四、五、六年级学生阅读<br/>2级：适合七年级学生阅读<br/>3级：适合八年级学生阅读<br/>4级：适合九年级学生阅读<br/>5-6级：适合高中及大学生阅读
+<a href="https://www.aliyundrive.com/s/eyNiGfVqG8L" target="_blank">https://www.aliyundrive.com/s/eyNiGfVqG8L</a><br/><a href="https://www.aliyundrive.com/s/3Gb9dhh2kFJ" target="_blank">https://www.aliyundrive.com/s/3Gb9dhh2kFJ</a></p></details></div>
     <div> </div>
 </div>
 

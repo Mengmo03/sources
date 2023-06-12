@@ -75,7 +75,7 @@
 <div class="grid">
     <div><details><summary>PDG2PDF</summary><p>一个可以把超星库下载的pdg文件压缩包在线转换为pdf的网站，真的很方便<br/><a href="https://pdg2pdf.online/convert" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Split PDF pages down the middle</summary><p>可以把双页扫描的PDF从中间切开的网站<br/><a href="https://www.sejda.com/split-pdf-down-the-middle" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>音子AI</summary><p>一个可以用AI分离人声和伴奏的网站，对中文支持较好，需要注册，可以免费使用<br/><a href="https://app.yinziai.com/#/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 文件下载

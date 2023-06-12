@@ -43,7 +43,7 @@
 <div class="grid">
     <div><details><summary>中国历史地图集</summary><p>谭其骧先生主编的《中国历史地图集》的扫描版本（是一个压缩包，下载解压后使用），如果此链接失效，这套图书也可以在Zlibrary上找到。<br/><a href="https://drive.b-hu.org/Index/%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E5%9C%B0%E5%9B%BE%E9%9B%86.rar" target="_blank" role="button" class="outline">点击下载</a></p></details></div>
     <div><details><summary>全历史</summary><p>一个可以很方便的查询时空地图和人物关系图谱的网站，也有app<br/><a href="https://www.allhistory.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>日本古地图</summary><p>日本地理空间信息局收集和保存旧地图等，作为历史、文化和学术研究的资料。<br/><a href="https://kochizu.gsi.go.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 文博

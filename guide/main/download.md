@@ -25,6 +25,8 @@
     <div>  </div>
 </div>
 
+
+
 ## 电子书下载
 
 ### Zlibrary相关
@@ -36,7 +38,7 @@
 </div>
 <div class="grid">
     <div><details><summary>zlib search</summary><p>一个Zlibrary资源的搜索网站<br/><a href="https://zlibsearch.1kbtool.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>Anna's Archive</summary><p>基于Pirate Library Mirror资源做的一个搜索引擎<br/><a href="https://annas-archive.org/search" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>【W】Anna's Archive</summary><p>基于Pirate Library Mirror资源做的一个搜索引擎<br/>目前该站主站已被墙，故在此提供镜像站。<br/><a href="https://annas-archive.org/search" target="_blank" role="button" class="outline">访问主站</a><br/><a href="https://zh.annas-archive.gs/" target="_blank" role="button" class="outline">官方镜像站</a><br/><a href="https://anna.zlib.ml/" target="_blank" role="button" class="outline">第三方镜像站</a></p></details></div>
     <div><details><summary>【X】ALibrary</summary><p>另一个Zlibrary镜像项目。<br/><i><b>备注：</b>这个网站似乎是个盗链网站，用的是zlib.download的链接，但已经被原网站屏蔽了，因此只能搜索，不能下载，仅在此列出，不鼓励也不支持这种盗链行为。</i><br/><a href="https://alibrary.top/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
@@ -172,8 +174,8 @@
 </div>
 <div class="grid">
     <div><details><summary>医生的免费电子书</summary><p><a href="http://freebooks4doctors.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-    <div> </div>
+    <div><details><summary>HathiTrust Digital Library | Millions of booksonline</summary><p><a href="https://www.hathitrust.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Europeana Search</summary><p><a href="http://www.europeana.eu/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 #### 日语
@@ -181,7 +183,17 @@
 <div class="grid">
     <div><details><summary>早稻田大学图书馆古籍数据库</summary><p>早稻田大学图书馆对外提供其馆藏的约 30 万册的部分古籍影像资料，日本古籍居多，也有大量中国古籍的扫描版本可供下载，是不可多得的珍贵资料。<br/><a href="https://www.wul.waseda.ac.jp/kotenseki/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>青空文库</summary><p>日本文学著作( 格式包括 HTML , ZIP(下载)和日文电子书格式)<br/><a href="https://www.aozora.gr.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>CiNii Articles – 日本の論文をさがす</summary><p><a href="http://ci.nii.ac.jp/" target="_blank" role="button" class="outline">访问网站（论文）</a><br/><a href="http://ci.nii.ac.jp/books/?l=ja" target="_blank" role="button" class="outline">访问网站（大学图书馆）</a><br/><a href="http://ci.nii.ac.jp/d/?l=ja" target="_blank" role="button" class="outline">访问网站（博士论文）</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>JAIRO – 學術機關リポジトリポータル</summary><p><a href="http://jairo.nii.ac.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>KAKEN – 科學研究費助成事業データベース</summary><p><a href="https://kaken.nii.ac.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>近代デジタルライブラリー 國立國會図書館</summary><p><a href="http://kindai.ndl.go.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>全國漢籍データベース</summary><p><a href="http://www.kanji.zinbun.kyoto-u.ac.jp/kanseki" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>東京大東亞古典學 East Asian Classical Studies</summary><p><a href="http://eacs.c.u-tokyo.ac.jp/ko/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Reference | EACS: 東アジア古典學の実踐的深化</summary><p><a href="http://eacs.c.u-tokyo.ac.jp/ko/reference/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 #### 德语

@@ -31,7 +31,7 @@
 </div>
 <div class="grid">
     <div><details><summary>Etytree</summary><p>一个可视化的词源树网站<br/><a href="https://etytree.toolforge.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>词根词缀字典</summary><p>由高伟东开发的英语字典，编辑了2300余条词根，给10万多条单词建立了词根索引，整理了50多万条的单词记忆方法。<br/>网站使用需要先登录，安卓下载app后可免登录使用<br/><a href="http://www.dicts.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
 

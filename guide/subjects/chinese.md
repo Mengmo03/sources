@@ -37,6 +37,16 @@
     <div><details><summary>汉辞网</summary><p>一个可以在线查询的汉语大辞典网站<br/><a href="http://www.hydcd.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>国学大师</summary><p>一个提供古籍全文检索、部件查字等功能的很全的国学网站<br/><a href="http://www.guoxuedashi.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>古今文字集成</summary><p>一个可以通过多种方式（如拼音、四角号码、五笔、郑码、部首等）查询汉字、西夏文、契丹文、女书和八思巴文的网站<br/><a href="http://www.ccamc.org/" target="_blank" role="button" class="outline">访问网站（1）</a><br/><a href="http://www.ccamc.co/index.php" target="_blank" role="button"  lass="outline">访问网站（2）</a></p></details></div>
+    <div><details><summary>字统网</summary><p>一个可以通过多种方式检字的网站，收录字库较全，可以通过组合偏旁部首的方式查字<br/><a href="https://zi.tools/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>教育部重編國語辭典修訂本</summary><p>民国国家教育研究院编撰的国语辞典，查字和词比较方便<br/><a href="https://dict.revised.moe.edu.tw/index.jsp" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>國字標準字體筆順學習網</summary><p>由民国教育部设计的网站，可以查询字体的笔顺，方便学习<br/><a href="https://stroke-order.learningweb.moe.edu.tw/home.do" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>中文標準交換碼全字庫</summary><p>民国数位发展部设计的全字库，可以查询到生僻字等<br/><a href="https://www.cns11643.gov.tw/index.jsp" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>白云深处有人家在线检索</summary><p>一个关于中华传统文化、道教和词典的在线检索网站，主站访问速度较快，海外站对移动设备更友好。可在线检索的内容由： 有：道教大辞典、英汉词典、汉语大词典四库全书等<br/><a href="http://www.homeinmists.com/About.htm#S" target="_blank" role="button" class="outline">主站检索</a><br/><a href="https://homeinmists.ilotus.org/%e7%b6%b2%e7%ab%99%e5%85%ac%e5%91%8a/%e5%9c%a8%e7%b7%9a%e6%aa%a2%e7%b4%a2/" target="_blank" role="button" class="outline">海外站检索</a></p></details></div>
+</div>
 
 ## 古籍下载
 
@@ -277,7 +287,7 @@
 </div>
 <div class="grid">
     <div><details><summary>一行佛学辞典搜寻</summary><p><a href="http://buddhaspace.org/dict" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>香光資訊網-圖書館服務</summary><p><a href="http://www.gaya.org.tw/library/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
 
