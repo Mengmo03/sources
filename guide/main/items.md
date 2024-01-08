@@ -109,6 +109,11 @@
     <div><details><summary>IconHunt</summary><p>一款图标搜索引擎，有用超过 150000 个免费的、开放源码的图标。并且可以快速在 Notion、Figma 中使用它们。还支持自定义颜色，可下载为svg 格式<br/><a href="https://www.iconhunt.site/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Icones</summary><p>另一个基于Iconify的图标搜索引擎<br/><a href="https://icones.js.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>全国高校校徽字体图标库</summary><p>收集了全国280所高校的校徽,制作成字体图标库提供大家使用<br/><a href="https://github.com/lovefc/china_school_badge" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
 
 ## 词云
 

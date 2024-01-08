@@ -18,7 +18,7 @@
 </div>
 <div class="grid">
     <div><details><summary>MuseTransfer</summary><p>一款看起来还挺漂亮的临时网盘，无需注册即可使用，单文件最大 10GB，并未限制总容量，可保存 7 天、30天、1年，支持在线预览部分文件，可使用密码下载，登录后还可以查看文件传输记录。<br/><a href="https://musetransfer.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>SnapDrop</summary><p>一个可以让局域网内设备互传文件的网站。<br/><a href="https://snapdrop.net" target="_blank" role="button" class="outline">官方链接</a><br/><a href="https://drop.ioiox.com" target="_blank" role="button" class="outline">第三方链接(1)</a><br/><a href="https://drop.bingchunmoli.com/" target="_blank" role="button" class="outline">第三方链接(2)</a><br/><a href="https://www.wulingate.com/" target="_blank" role="button" class="outline">魔改版链接</a></p></details></div>
+    <div><details><summary>SnapDrop</summary><p>一个可以让局域网内设备互传文件的网站。<br/><a href="https://snapdrop.net" target="_blank" role="button" class="outline">官方链接</a><br/><a href="https://drop.ioiox.com" target="_blank" role="button" class="outline">第三方链接(1)</a><br/><a href="https://drop.bingchunmoli.com/" target="_blank" role="button" class="outline">第三方链接(2)</a><br/><a href="http://snapdrop.fairysoft.net/" target="_blank" role="button" class="outline">第三方链接(3)</a><br/><a href="https://www.wulingate.com/" target="_blank" role="button" class="outline">魔改版链接</a></p></details></div>
     <div><details><summary>Catbox</summary><p>一个很二次元的匿名文件上传网站，最大可以上传200M的文件，好处是永远不会过期。<br/>用之前建议读一下FAQ，有一些行为是被禁止的。<br/><a href="https://catbox.moe/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
@@ -26,6 +26,12 @@
     <div><details><summary>GigaFile</summary><p>一个匿名文件上传网盘，无需注册，单个文件最大300g，电脑网页更可以直接拖动文件夹，最多可以保存100天。缺点是界面比较丑，并且是日文的。<br/><a href="https://gigafile.nu/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Firefox Send社区版</summary><p>Firefox Send由于被滥用已经被关闭了，这是社区托管的一个版本。同时你也可以自己下载源代码并构建自己的版本<br/><a href="https://send.zcyph.cc/" target="_blank" role="button" class="outline">访问网站</a><a href="https://gitlab.com/timvisee/send" target="_blank" role="button" class="outline">查看代码</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>Transfer.zip</summary><p>一个可以点对点传输文件的网站，无需注册，没有文件大小限制<br/><a href="https://transfer.zip/about/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
+
 
 ### 没有被墙且支持WebDav的云盘
 
@@ -77,11 +83,16 @@
     <div><details><summary>Split PDF pages down the middle</summary><p>可以把双页扫描的PDF从中间切开的网站<br/><a href="https://www.sejda.com/split-pdf-down-the-middle" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>音子AI</summary><p>一个可以用AI分离人声和伴奏的网站，对中文支持较好，需要注册，可以免费使用<br/><a href="https://app.yinziai.com/#/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>萤火虫文件转换</summary><p>一个可以把知网下载的CAJ格式论文在线转换成PDF格式的网站，需要微信扫码登陆<br/><a href="https://firefly.libertynlp.com/#/docConvert" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>批量文件重命名</summary><p>一个可以在线给文件批量重命名的网站。偶尔有这种需求的话，倒也不用特意下载一个软件<br/><a href="https://rename.jgrass.xyz/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>WebRename</summary><p>另一个在线文件批量重命名工具，无需下载&安装，支持大文件与多种重命名模式，一键批量完成文件重命名，高效便捷<br/><a href="https://webrename.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
 
 ## 文件下载
 
 <div class="grid">
     <div><details><summary>思飞网盘中转站</summary><p>下载国外网盘的文件可以快速中转<br/><a href="http://www.dsphere.info/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>木薯牛网盘中转站</summary><p>国内网盘资源中转，不需要再忍受各种广告和限速<br/><a href="https://www.mushuniu.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>Udown在线解析</summary><p>一个可以免登录不限速下载百度网盘文件的网站，免费版限制每日20次，总流量20G，临时下载文件很方便<br/><a href="https://udown.vip/#/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
 </div>

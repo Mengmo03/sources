@@ -37,9 +37,13 @@
     <div><details><summary>分离人声[AI]</summary><p>一个可以免登录分离音乐中的人声和伴奏的网站<br/><a href="https://vocalremover.org/zh/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>即时工具</summary><p>一个内容挺全的在线工具箱<br/><a href="https://www.67tool.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
-
 <div class="grid">
     <div><details><summary>Subscription Converter</summary><p>一个可以在各种科学上网软件之间转换订阅格式的网站<br/><a href="https://sub-web.netlify.app/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>微信文件传输助手网页版</summary><p>如果临时需要在陌生电脑上传输文件，可以使用这个网页版文件传输助手，微信扫码登录即可，可以双向互传文本、图片和文件，退出浏览器即退出登录，无需下载微信，比较方便。<br/><a href="https://filehelper.weixin.qq.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>ScreenGo</summary><p>一个可以通过浏览器共享屏幕的网站<br/><a href="https://app.screego.net/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/screego/server/" target="_blank" role="button" class="outline">源码地址</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>背个X啊</summary><p>一个通过挖孔的方法辅助背书的网站，也有自己的APP和小程序。APP和小程序用起来会更顺手一些<br/><a href="https://beigexa.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
     <div> </div>
 </div>
@@ -50,6 +54,11 @@
      <div><details><summary>Mirror List</summary><p>这是一个由私人维护的镜像站列表，其中包含了中国大陆可直接访问的Google Search、Google Scholar、Wayback Machine（网页时光机）、DuckDuckGo（另一个搜索引擎）、Github、OpenSources镜像。现在域名已被DNS污染，无法打开，请直接访问仓库GitHub【W】。<br/><a href="https://www.library.ac.cn/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/librarycloud/list" target="_blank" role="button" class="outline">GitHub仓库</a></p></details></div>
     <div><details><summary>PublicMirrorsNetwork</summary><p>一个免费国外网站反向代理网站，提供Google、Google Scholar、Wikipedia、Telegraph等网站的镜像服务。原mirrors.pw，因域名被污染所以换了域名<br/><a href="https://sb250.gq/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>小白工具箱</summary><p>一个搜集了SCIHub、ZLibrary、LibGen、Google和Google学术等网站镜像站的网站。<br/><a href="https://www.ooopn.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>MirrorSite</summary><p>GitHub上网友整理的镜像网站列表，包括ChatGPT、Google系列产品、SCI-Hub、GitHub等网站<br/><a href="https://github.com/runningcheese/MirrorSite" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://githubfast.com/runningcheese/Awesome-AI" target="_blank" role="button" class="outline">镜像链接（1）</a><br/><a href="https://521github.com/runningcheese/MirrorSite" target="_blank" role="button" class="outline">镜像链接（2）</a></p></details></div>
+    <div><details><summary>LiveGap</summary><p>一个在线表格制作网站，可以制作精美的图表，基本功能可免登录使用<br/><a href="https://charts.livegap.com/?lan=zh" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
 </div>
 
 ## AI相关

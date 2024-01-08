@@ -11,7 +11,7 @@
 </div>
 <div class="grid">
     <div><details><summary>国家哲学社会科学学术期刊数据库</summary><p>国內最大的公益性社科精品期刊数据库，收录精品学术期刊600多种，论文近300万篇，比第3个网站稍微少一点注册只需要邮箱，检索也很方便，下载也是免费。<br/><a href="http://www.ncpssd.org/index.aspx" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>IDAta</summary><p>iData真的很好用，知网有权限下载的、没有权限下载的它都能下载，毕竟号称是全球最大的知网镜像网站。缺点就是每天下载次数有限。<br/><a href="https://www.cn-ki.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>PubScholar公益学术平台</summary><p>整合集成了中国科学院的科技成果资源、科技出版资源和学术交流资源，内容包含期刊论文、学位论文、预发布论文、专利文献、领域快报、动态快讯、科学数据、图书专著等，目前通过平台可检索的科技文献资源量约1.7亿篇<br/><a href="https://pubscholar.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>上海研发公共服务平台</summary><p>上海研发公共服务平台的数据中心—上海科技创新资源数据中心，该数据中心功能非常全面，不仅仅有下载中文文献和西方文献的功能，还提供了知识产权、各类电子书籍以及文献求助的功能。进入网站后，进入“上海科技创新资源数据中心”，点击“数据中心”。开始免费注册账号。积分制下载，注册会送积分。查看积分可以去个人中心查看。积分不够做任务就可以了，任务都比较简单。<br/><a href="http://www.sgst.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
@@ -22,7 +22,12 @@
 <div class="grid">
     <div><details><summary>SSRN</summary><p>社会科学研究网，基本免费，未在期刊正式发表的论文也能下载<br/><a href="https://www.ssrn.com" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>莫若书单</summary><p>一个文档搜索网站<br/><a href="https://www.mrsd.top/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div>  </div>
+    <div><details><summary>IDAta</summary><p>iData真的很好用，知网有权限下载的、没有权限下载的它都能下载，毕竟号称是全球最大的知网镜像网站。缺点就是每天下载次数有限。<br/><a href="https://www.cn-ki.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Dimensions</summary><p>Digital Science旗下的科研文献检索平台，整合了多种学术服务功能，汇聚包括期刊、图书、专利、临床试验等多种学术成果1.4亿余份。<br/><a href="https://www.dimensions.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
 </div>
 
 
@@ -32,7 +37,7 @@
 ### Zlibrary相关
 
 <div class="grid">
-    <div><details><summary>*【W】Z-Library</summary><p>一个免费的电子书共享社区，非注册用户每天可以下载5本，注册后可以下载十本，直接搜索就能用，下载下来的多是PDF/EPUB/MOBI/AZW/AZW3格式的电子书。<br/><b>Zlibrary现在的情况较为复杂，并不能直接访问，本站为它提供了一个专题界面，具体情况和访问方法请到专题界面查看。</b><br/><a href="https://1lib.to" target="_blank" role="button" class="outline">访问网站</a><br/><a href="#/guide/pages/zlib.md" target="_blank" role="button" class="outline">查看专题界面</a></p></details></div>
+    <div><details><summary>【W】Z-Library</summary><p>一个免费的电子书共享社区，需要注册登录。注册后可以下载十本，直接搜索就能用，下载下来的多是PDF/EPUB/MOBI/AZW/AZW3格式的电子书。<br/><a href="https://singlelogin.re/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><div><details><summary>Z-Library中文书搜索引擎</summary><p>一个可以搜索并下载Zlibrary中标注为“中文”的书的搜索引擎<br/><a href="https://bk.hallowlib.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div></div>
     <div><details><summary>Pirate Library Mirror</summary><p>一个备份了截止到2022-09-25为止的Zlibrary资源的项目，内容只能通过TOR网络访问，需要全部下载后才能搜索。（也有网友提供了一个可以免TOR直接下载的地址）<br/><a href="http://pilimi.org/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://pangniao.net/Pirate-Library-Mirror.html" target="_blank" role="button" class="outline">第三方免TOR地址</a></p></details></div>
 </div>
@@ -109,8 +114,8 @@
 </div>
 <div class="grid">
     <div><details><summary>时光图书馆</summary><p>一个电子书合集下载软件，有一些挺珍贵的书的电子版的<br/><a href="https://atimebook.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-    <div> </div>
+    <div><details><summary>有书</summary><p>读秀库的电子书下载网站，2r/本，和某宝上价格一致，唯一比较方便的地方可能就是可以自助下载。价格较贵，仅供备用<br/><a href="https://www.ubooks.vip/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>电子书下载</summary><p>也是一个读秀库的下载网站，没用过，不清楚收费情况，仅供备用<br/><a href="https://book.mac169.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ### 外语电子书下载
@@ -232,16 +237,11 @@
 
 <div class="grid">
     <div><details><summary>Canon Creative Park</summary><p>可以下载纸制品图纸的网站，进首页右上角选择其他语言也可以，不要选中文，中文页会删减很多内容。<br/>所有图纸都是免费下载，但需要【W】（如果访问的是除中文外其他语种的页面），是否要对应地域的IP才能下载还没测试过，需要注册账号后才能下载。<br/><i>浏览页面不用挂梯，只有下载才要</i><br/><i>带CANON ID标志的才需要挂梯下载，没有标志的下载无需挂梯及登陆</i><br/>下载页面附带很详细的图文教程下载<br/><a href="https://creativepark.canon/en/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>ScriptSlug</summary><p>一个可以查剧本的网站，上面的内容都是免费公开的，开放存档，可用于教育与研究用途，支持使用标题、编剧名或genres搜索。<br/><a href="https://www.scriptslug.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Slides Carnival</summary><p>一个PPT模板网站，很商业，可以选主题，也可以在Google云端硬盘上用<br/>Google的PPT在投影那栏下面有主题编辑器，可以找一找，那边可以改变一切配色版面素材<br/><a href="https://www.slidescarnival.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>盘多多</summary><p>网盘搜索网站<br/><a href="http://www.panduoduo.top/t/2" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
     <div><details><summary>PPT BIZCAM</summary><p>一个很漂亮的免费PPT模板网站<br/><a href="http://pptbizcam.co.kr/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>SlidesGo</summary><p>一个免费的PPT模板网站，免费帐户一个月可以下载10个<br/><a href="https://slidesgo.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>大圣盘</summary><p>一个网盘聚合搜索网站，需要登陆<br/><a href="https://www.dashengpan.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-</div>
-<div class="grid">
-    <div><details><summary>盘多多</summary><p>网盘搜索网站<br/><a href="http://www.panduoduo.top/t/2" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>【度盘】PPT模板</summary><p>某多多购买的PPT模板，有400多个，各种风格都有，可以自由取用，提取码1111<br/><a href="https://pan.baidu.com/s/1CEzdyza1zts--372B9hvfQ?pwd=1111" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
 </div>

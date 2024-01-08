@@ -17,6 +17,11 @@
     <div> <details><summary>历史车轮系列工具</summary><p>提供中西历转换器、时光日历、历史长河图、历史卷轴动画、人物生平时间轴、简易历史地图等工具。<br/><a href="https://www.lishichelun.com/wheel" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>数位方舆</summary><p>一个可以找到一些中国历史相关的图片的网站<br/><a href="https://digitalatlas.ascdc.sinica.edu.tw/index.jsp" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>清代檔案檢索系統</summary><p>中华民国国立故宫博物院提供的清代档案检索系统，可以在线检索清代档案<br/><a href="https://qingarchives.npm.edu.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>國史館檔案史料文物查詢系統</summary><p>中华民国国史馆开发的档案史料文物查询系统，提供了部分民国档案查询调阅<br/><a href="https://ahonline.drnh.gov.tw/index.php" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>明實錄·淸實錄</summary><p>韩国人出品的可以全文检索明实录和清实录的网站，需要用繁体检索<br/><a href="https://sillok.history.go.kr/mc/searchResultList.do" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
 
 ## 历史地图
 

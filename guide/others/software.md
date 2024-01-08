@@ -40,6 +40,11 @@
     <div><details><summary>ScienceDecrypting</summary><p>一个可以解锁CAJ文件为PDF的软件<br/><a href="https://wwpan.lanzoul.com/ikyOB0j4acwd" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Copy++</summary><p>一款可以去除PDF复制文字中的换行和空格的小软件<br/><a href="https://copyplusplus.tk/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/CopyPlusPlus/CopyPlusPlus" target="_blank" role="button" class="outline">查看仓库</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>ZoomIt</summary><p>微软出品的一个可以放大屏幕以及在屏幕上写字的小工具，绿色免安装，上课之类的很方便<br/><a href="https://learn.microsoft.com/zh-cn/sysinternals/downloads/zoomit" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
 
 ## 插件
 

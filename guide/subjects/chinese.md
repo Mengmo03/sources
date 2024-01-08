@@ -47,6 +47,16 @@
     <div><details><summary>中文標準交換碼全字庫</summary><p>民国数位发展部设计的全字库，可以查询到生僻字等<br/><a href="https://www.cns11643.gov.tw/index.jsp" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>白云深处有人家在线检索</summary><p>一个关于中华传统文化、道教和词典的在线检索网站，主站访问速度较快，海外站对移动设备更友好。可在线检索的内容由： 有：道教大辞典、英汉词典、汉语大词典四库全书等<br/><a href="http://www.homeinmists.com/About.htm#S" target="_blank" role="button" class="outline">主站检索</a><br/><a href="https://homeinmists.ilotus.org/%e7%b6%b2%e7%ab%99%e5%85%ac%e5%91%8a/%e5%9c%a8%e7%b7%9a%e6%aa%a2%e7%b4%a2/" target="_blank" role="button" class="outline">海外站检索</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>教育部异体字字典</summary><p>中华民国国家教育研究院开发的异体字字典，可以通过部首、笔画、单字、拼音、注音、仓颉、四角号码或复合查询等方式查询汉字信息，包括字形、读音字意等。<br/><a href="https://dict.variants.moe.edu.tw/variants/rbt/home.do" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>深言达意</summary><p>深言达意可根据模糊描述找词找句。产品基于强大的语言理解和算法能力，在深邃词海中快速找到更贴切的表达，由清华大学开发。<br/><a href="https://www.shenyandayi.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>古诗词网</summary><p>可以查询到常见古诗古文的译文、词语、创作背景等，重点是免登录<br/><a href="https://www.gushici.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>叶典网</summary><p>一个比较强大的在线查字网站<br/><a href="http://yedict.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
 
 ## 古籍下载
 
@@ -63,6 +73,11 @@
 <div class="grid">
     <div><details><summary>劝学网</summary><p>一个可以在线阅读古籍的网站<br/><a href="http://www.quanxue.cn/index.htm" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>古诗文网</summary><p>一个查古诗文很方便的网站<br/><a href="https://shiwens.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>全球漢籍影像開放集成系統</summary><p>一个可以检索古籍影像的集成系统，仅支持用繁体中文搜索<br/><a href="https://guji.wenxianxue.cn/index" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>中國古典文獻資源導航系統</summary><p>一个资源聚合网站，不但可以检索各大平台收录的古籍，还提供了一些有用的在线工具：有古籍OCR工具、古文断句标注、知识图谱、各种数据的GIS应用展示等<br/><a href="https://www.wenxianxue.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
     <div> </div>
 </div>
 

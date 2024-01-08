@@ -32,8 +32,14 @@
 <div class="grid">
     <div><details><summary>Etytree</summary><p>一个可视化的词源树网站<br/><a href="https://etytree.toolforge.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>词根词缀字典</summary><p>由高伟东开发的英语字典，编辑了2300余条词根，给10万多条单词建立了词根索引，整理了50多万条的单词记忆方法。<br/>网站使用需要先登录，安卓下载app后可免登录使用<br/><a href="http://www.dicts.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>ScriptSlug</summary><p>一个可以查剧本的网站，上面的内容都是免费公开的，开放存档，可用于教育与研究用途，支持使用标题、编剧名或genres搜索。<br/><a href="https://www.scriptslug.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>萤火虫词典</summary><p>一个可以查询学科专业词汇的英语表述的词典网站<br/><a href="https://dict.libertynlp.com/#/search" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
     <div> </div>
 </div>
+
 
 ## 拉丁语
 
@@ -84,7 +90,7 @@
 <div class="grid">
     <div><details><summary>【W】粤台</summary><p>一个不错的学习粤语词汇的账号，每个词都有发音和例句，而且排版很美观。<br/><a href="https://www.instagram.com/jyuttoi_cantonese/" target="_blank" role="button" class="outline">访问网站（IG）</a><br/><a href="https://www.youtube.com/JyutToi" target="_blank" role="button" class="outline">访问网站（YouTube）</a></p></details></div>
     <div><details><summary>羊羊粤语</summary><p>一个粤语词典网站，有比较详细的粤语读音和组词距离，也有长文注音、粤语翻译等功能，也能在不同的拼音规则下搜索结果（但有些注音和汉典的不一样，可以综合来参考看）<br/><a href="https://shyyp.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>粤典</summary><p>一个可以在线查询粤语词汇的字典<br/><a href="https://words.hk/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 德语
