@@ -19,6 +19,11 @@
 </div>
 <div class="grid">
     <div><details><summary>STELE档案</summary><p>中国铁路地图作者的另一个项目，基于OSM数据的中国文化自然遗产数据可视化实验，可以查询中国境内的文化自然遗产。<br/><a href="http://stele.geogv.org/zhcn/about" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>标准地图服务系统</summary><p>由自然资源部提供的标准地图服务，可以下载到标准的中国地图、各省区地图和世界地图，可以自主选择某一年的版本。<br/><a href="http://bzdt.ch.mnr.gov.cn/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>学术地图发布平台</summary><p>学术地图发布平台由浙江大学社会科学研究院与哈佛大学地理分析中心(The Center for Geographic Analysis, Harvard University)共同建设。该平台将海量的中国文史数据与地理信息相结合展开数据库的建设和空间分布的可视化分析，力求打造中国最大的文史地理信息和学术地图发布平台，从空间维度展示中国的人文与历史。<br/><a href="http://amap.zju.edu.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>中国国家地名信息库</summary><p>可以查询各种地名的标准译名<br/><a href="https://dmfw.mca.gov.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
     <div> </div>
 </div>

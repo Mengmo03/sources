@@ -85,6 +85,24 @@
     <div> </div>
 </div>
 
+## 俄语
+
+<div class="grid">
+    <div><details><summary>Словарь Грамота. Ру</summary><p>俄罗斯最权威的俄语网站?Грамота?的“词典”分栏目，收录有许多俄语教学词典。在网页上有检索窗口，可直接输入要查的单词，点击查询，页面上就会出现各个词典的相应解释。<br/><a href="http://www.gramota.ru/slovari/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Большой словарь русского языка</summary><p>一个比较权威的俄文详解词典。该网站收录词典也非常之多，在该网站上查询窗口在右上方，用户可直接输入单词查询。<br/><a href="http://www.dict.t-mm.ru/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Словарь иностранных слов</summary><p>该网站可以查询到俄语外来词，是一个比较专业的在线词典网站。网站收录有数本俄罗斯较有影响的外来语词典，并可免费下载简编版本词典。<br/><a href="http://www.inslov.ru/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Словарь сокращений русского языка</summary><p>目前俄网中最好、最全、最具权威性的缩略语网络信息资源。该网站的主要特点为：收词多、更新快、领域广、检索易。<br/><a href="http://www.sokr.ru/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Афоризмы</summary><p>该网站主要以查询名言、格言、警句为主，并且提供了不同的检索途径：按主题、作者、电影、动画、杂项等。此外，该网站还收录谚语和俗话、祝酒词、贺词、民谣等。<br/><a href="http://www.aphorism.ru/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Большой китайско-русский словарь</summary><p>可以同时进行俄汉、汉俄查词。网站上每个词条都有详细释义，并有相关联词组与例句。同时该网站也可查询词组，如果所查询词组不在网站收录词条内，网站则自动将单词拆分解释。<br/><a href="http://bkrs.info/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>千亿词霸</summary><p>可以查词的同时，也可以进行在线翻译。它将每一个词条按照不同专业进行分类，这针对俄语中的一词多义现象，词义显示更清晰。<br/><a href="http://www.igimu.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>译酷俄语</summary><p>一个俄语学习翻译网站，它可以查到一些词组的专业释义，并带有发音、词组、例句解释等。<br/><a href="http://ru.yicool.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>灵格斯</summary><p>一款简明易用的词典与文本翻译软件，可支持多种语言翻译，不需要网络也可以查询单词，在网络情况下可以进行多语言的全文翻译转换。只要去官网下载软件与字典包便可安装使用<br/><a href="http://www.lingoes.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+
 ## 粤语
 
 <div class="grid">

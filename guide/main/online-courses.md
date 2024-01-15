@@ -31,7 +31,14 @@
 </div>
 <div class="grid">
     <div><details><summary>Exercism</summary><p>一个可以自学编程的网站<br/><a href="https://exercism.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>英语学习资源</summary><p>互联网上搜集的一些英语学习资源，大部分是阿里云盘的形式<br/>【英语学习系列合集】<br/>《Kristin英语课堂》核心VIP会员课程(185节课)
+    <div><details><summary>Programming Historian</summary><p>发布初学者友好、经过同行评审的教程，帮助人文学者学习各种数字工具、技术和工作流，以促进研究和教学。<br/><a href="https://programminghistorian.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>可汗学院</summary><p>一个免费的非盈利在线教育网站，可以学习数学、科学、编程等课程，需要注册账号<br/><a href="https://zh.khanacademy.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+
+### 英语
+
+<div class="grid">
+    <div><details><summary>阿里云英语学习资源</summary><p>互联网上搜集的一些英语学习资源，大部分是阿里云盘的形式<br/>【英语学习系列合集】<br/>《Kristin英语课堂》核心VIP会员课程(185节课)
 <a href="https://www.aliyundrive.com/s/JL9FgvDgcff" target="_blank">https://www.aliyundrive.com/s/JL9FgvDgcff</a><br/>《Little Fox一起快乐学英语》<a href="https://www.aliyundrive.com/s/3kDCbPVe3uw" target="_blank">https://www.aliyundrive.com/s/3kDCbPVe3uw</a><br/>《Reading Exporer》第2版 F-5级【外教课】全144集
 <a href="https://www.aliyundrive.com/s/jUGxHgLzXAC" target="_blank">https://www.aliyundrive.com/s/jUGxHgLzXAC</a><br/>【学而思】乐学英语口语1-6级全
 <a href="https://www.aliyundrive.com/s/ZMBngD6fHbX" target="_blank">https://www.aliyundrive.com/s/ZMBngD6fHbX</a><br/>牛津树、RAZ、KIDS等全包括
@@ -39,6 +46,13 @@
 <a href="https://www.aliyundrive.com/s/pgXEko7G3QX" target="_blank">https://www.aliyundrive.com/s/pgXEko7G3QX</a><br/>经典英文原著(黑猫系列1-6级)-MP3+中英文本+纯英文本格式
 适合：小学、中学、大学，分为1-6个级别，不论你是小学、中学、大学均可选读。<br/>1级：适合四、五、六年级学生阅读<br/>2级：适合七年级学生阅读<br/>3级：适合八年级学生阅读<br/>4级：适合九年级学生阅读<br/>5-6级：适合高中及大学生阅读
 <a href="https://www.aliyundrive.com/s/eyNiGfVqG8L" target="_blank">https://www.aliyundrive.com/s/eyNiGfVqG8L</a><br/><a href="https://www.aliyundrive.com/s/3Gb9dhh2kFJ" target="_blank">https://www.aliyundrive.com/s/3Gb9dhh2kFJ</a></p></details></div>
+    <div> </div>
+    <div><details><summary>英语语法笔记</summary><p>一个从零开始学习英语语法的项目，写的比较清晰<br/><a href="https://hzpt-inet-club.github.io/english-note/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/hzpt-inet-club/english-note" target="_blank" role="button" class="outline">项目地址</a></p></details></div>
+    <div><details><summary>离谱的英语学习指南</summary><p>一个稍微进阶一点的英语学习指南<br/><a href="https://byoungd.github.io/English-level-up-tips/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/byoungd/English-level-up-tips/" target="_blank" role="button" class="outline">项目地址</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>A Programmer's Guide to English</summary><p>专为程序员编写的英语学习指南。<br/><a href="https://a-programmers-guide-to-english.harryyu.me/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/yujiangshui/A-Programmers-Guide-to-English" target="_blank" role="button" class="outline">项目地址</a></p></details></div>
+    <div> </div>
     <div> </div>
 </div>
 

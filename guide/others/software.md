@@ -42,7 +42,12 @@
 </div>
 <div class="grid">
     <div><details><summary>ZoomIt</summary><p>微软出品的一个可以放大屏幕以及在屏幕上写字的小工具，绿色免安装，上课之类的很方便<br/><a href="https://learn.microsoft.com/zh-cn/sysinternals/downloads/zoomit" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>QrCodeScanner</summary><p>一个开源的电脑扫描二维码的小软件<br/><a href="https://github.com/1357310795/QrCodeScanner" target="_blank" role="button" class="outline">查看仓库</a></p></details></div>
+    <div><details><summary>FastGestures</summary><p>鼠标手势、手势快捷键、 激活/启动应用、发送快捷键、三指拖拽、快速搜索、执行命令行脚本、资源管理器导航、微信多开、图片OCR、Lua脚本、自定义扩展等！<br/><a href="https://fg.zhaokeli.com/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/zhaokeli/FastGestures" target="_blank" role="button" class="outline">项目地址</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>词根单词</summary><p>一个个人开发的背单词软件，也可以当词典用，从词根的角度出发进行单词背诵和查询，目前好像只在腾讯应用宝上架了<br/><a href="https://sj.qq.com/appdetail/com.xfs.rootwords" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>ScreenToGif</summary><p>一个可以录屏GIF并支持编辑的软件，在GitHub开源<br/><a href="https://www.screentogif.com/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/NickeManarin/ScreenToGif" target="_blank" role="button" class="outline">仓库地址</a></p></details></div>
     <div> </div>
 </div>
 
@@ -83,5 +88,10 @@
 <div class="grid">
     <div><details><summary>WebToEpub</summary><p>一个可以把网页保存为epub的插件，具体使用方法可以看作者提供的文档<br/><a href="https://chrome.google.com/webstore/detail/webtoepub/akiljllkbielkidmammnifcnibaigelm?hl=zh-CN" target="_blank" role="button" class="outline">商店地址</a></p></details></div>
     <div><details><summary>沉浸式翻译</summary><p>一个可以进行对照逐行翻译的插件，支持多种翻译API和多种显示模式，很方便<br/><a href="https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?hl=zh-CN" target="_blank" role="button" class="outline">商店地址</a><br/><a href="https://immersive-translate.owenyoung.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>MarkDownload</summary><p>一个开源浏览器插件，可以将网页以MarkDown格式保存，支持所有的现代浏览器<br/><a href="https://chromewebstore.google.com/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB&pli=1" target="_blank" role="button" class="outline">商店地址</a><br/><a href="https://github.com/deathau/markdownload" target="_blank" role="button" class="outline">项目地址</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Scholarscope</summary><p>一个可以免费查看文献的影响因子（IF）、分区和被引次数等信息的浏览器插件，支持所有的现代浏览器<br/><a href="https://chromewebstore.google.com/detail/scholarscope/mokcaeplgcdllmhdmfhcbjcgmaibpdgk" target="_blank" role="button" class="outline">商店地址</a><br/><a href="https://www.scholarscope.online/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Ruffle</summary><p>一个可以让现代浏览器兼容以前的Flash程序的小插件，但只兼容Flash2.0，有应用程序和浏览器拓展，支持所有的现代浏览器<br/><a href="https://ruffle.rs/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>

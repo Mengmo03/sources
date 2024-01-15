@@ -44,7 +44,12 @@
 </div>
 <div class="grid">
     <div><details><summary>背个X啊</summary><p>一个通过挖孔的方法辅助背书的网站，也有自己的APP和小程序。APP和小程序用起来会更顺手一些<br/><a href="https://beigexa.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>Qwerty Learner</summary><p>为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件 <br/><a href="https://qwerty.kaiyi.cool/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/RealKai42/qwerty-learner" target="_blank" role="button" class="outline">项目地址</a></p></details></div>
+    <div><details><summary>资源网站</summary><p>由小众软件论坛网友提供的一些免费、免登录、免回复的资源网站合集，包括软件、音乐、影视下载等<br/><a href="https://meta.appinn.net/t/topic/48365" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://web.archive.org/web/20240111085216/https://meta.appinn.net/t/topic/48365" target="_blank" role="button" class="outline">【W】访问备份</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>最佳平替</summary><p>旨在帮助你找到最便宜的搜索词: 输入你想搜索的商品名，AI会给出低价的替代品，结果可能不准，开心就好 : )<br/><a href="https://www.pingti.xyz/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Excalidraw</summary><p>一个开源的用于绘制手绘图的虚拟白板，数据完全保存在本地，可导出<br/><a href="https://excalidraw.com/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/excalidraw/excalidraw" target="_blank" role="button" class="outline">项目地址</a></p></details></div>
     <div> </div>
 </div>
 
@@ -58,6 +63,11 @@
 <div class="grid">
     <div><details><summary>MirrorSite</summary><p>GitHub上网友整理的镜像网站列表，包括ChatGPT、Google系列产品、SCI-Hub、GitHub等网站<br/><a href="https://github.com/runningcheese/MirrorSite" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://githubfast.com/runningcheese/Awesome-AI" target="_blank" role="button" class="outline">镜像链接（1）</a><br/><a href="https://521github.com/runningcheese/MirrorSite" target="_blank" role="button" class="outline">镜像链接（2）</a></p></details></div>
     <div><details><summary>LiveGap</summary><p>一个在线表格制作网站，可以制作精美的图表，基本功能可免登录使用<br/><a href="https://charts.livegap.com/?lan=zh" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>兩千年中西曆轉換</summary><p>由中华民国中央研究院提供的中西方历法互转程序<br/><a href="https://sinocal.sinica.edu.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>紀年轉換工具</summary><p>本工具可作东亚各王朝纪年与公历间之转换，包括中西历转换。现已完成246 BCE–2100 CE 之中历、太平天历、日本元号、Âm lịch (越南阴历)等之转换工作；并已针对某些纪年，如秦汉历、唐肃宗、武后、太平天国等时期作特殊处理。<br/><a href="https://kanasimi.github.io/CeJS/_test%20suite/era.htm" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/kanasimi/CeJS" target="_blank" role="button" class="outline">项目地址</a></p></details></div>
+    <div> </div>
     <div> </div>
 </div>
 

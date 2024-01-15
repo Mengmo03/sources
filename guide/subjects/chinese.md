@@ -54,7 +54,7 @@
 </div>
 <div class="grid">
     <div><details><summary>叶典网</summary><p>一个比较强大的在线查字网站<br/><a href="http://yedict.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>中國文字藝術（書法）網站</summary><p>一个书法相关的网站，从先秦的甲骨文、石鼓文、金文，到国父孙中山的墨宝，历朝历代的名帖碑刻可以说是无所不包<br/><a href="http://art.2222.idv.tw/index.htm" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
 
@@ -77,6 +77,11 @@
 </div>
 <div class="grid">
     <div><details><summary>中國古典文獻資源導航系統</summary><p>一个资源聚合网站，不但可以检索各大平台收录的古籍，还提供了一些有用的在线工具：有古籍OCR工具、古文断句标注、知识图谱、各种数据的GIS应用展示等<br/><a href="https://www.wenxianxue.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>【W】殆知阁古代文献txt大全集</summary><p>由网友殆知阁整理的古代文献数据，txt格式，总大小5G多<br/><a href="https://github.com/garychowcmu/daizhigev20" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>漢籍リポジトリ</summary><p>日本友人整理的中国古籍，全是txt格式，可以在线阅读，目前有9000多本。<br/><a href="https://www.kanripo.org/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/kanripo/KR-Catalog" target="_blank" role="button" class="outline">项目地址</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>善本古籍資料庫</summary><p>资料库收录本所傅斯年图书馆珍藏善本古籍的历年数字化成果，涵盖经部、史部、子部、集部、丛书、俗文学等类，提供书目检索及全文影像浏览。 傅图所藏善本书主要为宋、元、明及清初刊本、稿本，以及名人之批校本、手钞本、绘写本等，其中颇多世间罕见秘籍或海内外孤本; 古籍线装书主要为清代及民初刊本，以史部与集部居多，为国内外研究者所重视的典籍。 本资料库特色在于提供详尽的书目后设资料描述、内容分析及全文影像连结，含丛书、单行本、册次、卷次、篇目等，并与印记资料库、人名权威资料库等相关资源建立串连，强化各项后设资料的搜寻与关联性。<br/><a href="https://ihparchive.ihp.sinica.edu.tw/ihpkmc/ihpkm_op?!!FUNC330" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
     <div> </div>
 </div>
@@ -145,7 +150,7 @@
 <div class="grid">
     <div><details><summary>吉林省图书馆-馆藏资源</summary><p><a href="https://www.jllib.com/gczy/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>中央美术院馆藏数字图书</summary><p><a href="http://dlib.cafa.edu.cn/ebook?page=2" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>苏州数字方志集</summary><p><a href="http://58.210.114.78:8081/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ### 世界馆藏
@@ -157,7 +162,7 @@
     <div><details><summary>日本文化数据库</summary><p><a href="http://db.nichibun.ac.jp" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>CADAL大学数字国际图书馆</summary><p><a href="http://cadal.edu.cnCADAL" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>CADAL大学数字国际图书馆</summary><p>2000年12月,中美两国计算机科学家倡导建设百万册数字图书馆项目，进而发展成为全球数字图书馆项目，得到了中国教育部、美国国家科学基金会和印度科学院的重视与支持。2002年9月，项目中方被中国教育部列为“十五”期间“211工程”公共服务体系建设的组成部分，定名为“高等学校中英文图书数字化国际合作计划”,2009年8月更名为“大学数字图书馆国际合作计划”。CADAL项目一期（2001-2006）完成100万册图书数字化，提供便捷的全球可访问的图书浏览服务。CADAL项目二期（2007-2012）新增150万册图书数字化，构建了较完善的项目标准规范体系，初步建设分布全国的服务网络，CADAL项目从单纯的数据收集向技术与服务升级发展转变。2013年以后，CADAL项目进入运维保障期，继续在资源，服务，技术，对外交流合作等方面推进工作。目前CADAL共计收录古籍24万种、民国图书17万种、民国期刊15万种、满铁文献1.8万种、地方志1.7万种、外文图书69万种、当代图书80万种。<br/><a href="http://cadal.edu.cnCADAL" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>日本京都大学汉籍库</summary><p><a href="http://www.kanripo.org" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>大都会博物馆</summary><p><a href="http://www.metmuseum.org" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>

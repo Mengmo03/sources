@@ -5,7 +5,7 @@
 ## 论文下载
 
 <div class="grid">
-    <div><details><summary>浙江图书馆</summary><p>使用浙江图书馆可以下载知网/万方/维普等数据库文献，用支付宝就能注册账号。进入网站后右上角点击登录，可以直接用支付宝扫码注册后成为注册用户。注册账号成功登陆后，在网站首页进入【数字资源】进去即可选择数据库下载文献，有几百个数据库，知网、万方、维普这些我们常用的都有。<br/>除此之外，还有广西图书馆、贵阳图书馆等各大图书馆可免费注册，可以下载绝大部分读秀上的书籍。<br/><a href="https://www.zjlib.cn" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>浙江图书馆</summary><p>使用浙江图书馆可以下载知网/万方/维普等数据库文献，用支付宝就能注册账号。进入网站后右上角点击登录，可以直接用支付宝扫码注册后成为注册用户。注册账号成功登陆后，在网站首页进入【数字资源】进去即可选择数据库下载文献，有几百个数据库，知网、万方、维普这些我们常用的都有。<br/>除此之外，还有广西图书馆、贵阳图书馆等各大图书馆可免费注册，可以下载绝大部分读秀上的书籍。除此之外，也有一些有意思的特色数据库，比如中华连环画数字图书馆、中国历代人物图像数据库、中国历代人物印鉴数据库、中国寺庙祠观造像数据库等<br/><a href="https://www.zjlib.cn" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>中国科技论文</summary><p>国内唯一免费全文期刊库，由中华人民共和国教育部主管，中国科技论文在线发起。目前已收录近千家科技期刊、逾130万篇各领域科技论文全文，全部提供给广大科研工作者及爱好者进行免费下载。下载十分简单，直接在首页检索关键词即可。点击获取全文即可【在线打开】或者【下载PDF】需要注意，有些浏览器可能会阻止这个网站的操作，需要在网址后面设置一下不拦截窗口。<br/><a href="http://www.paper.edu.cn/journal/index.shtml" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>国家哲学社会科学文献中心</summary><p>2048种期刊，上线文献数据超过1000万条。最主要的是文献很多，而且也比较新，很多19年、20年的都可以免费下载。注册稍微繁琐了点，其它都非常好，如果要下载或者阅读全文是必须登录。成功登录以后，直接在首页检索文献下载就行了。<br/><a href="http://www.ncpssd.org/index.aspx" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
@@ -15,7 +15,7 @@
     <div><details><summary>上海研发公共服务平台</summary><p>上海研发公共服务平台的数据中心—上海科技创新资源数据中心，该数据中心功能非常全面，不仅仅有下载中文文献和西方文献的功能，还提供了知识产权、各类电子书籍以及文献求助的功能。进入网站后，进入“上海科技创新资源数据中心”，点击“数据中心”。开始免费注册账号。积分制下载，注册会送积分。查看积分可以去个人中心查看。积分不够做任务就可以了，任务都比较简单。<br/><a href="http://www.sgst.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>【W】LibraryGenesis</summary><p>一个可以媲美Sci-hub的神站，LibraryGenesis号称是帮助全人类知识无版权传播的计划，实际上确实如此。网站上论文很多，下载方便，还有很多外文书籍和中文书籍，基本上所有的外文书籍和论文都可以搜到并下载，最近的学术论文也可以下载，几乎每天都在更新！与Sci-hub一样，Librarygenesis也会遇到被封的问题，遇到这个情况，可以尝试等待一会或者换个浏览器。<br/>由于历史原因，LibGen有两个站点，分别由不同的运营者在运营，库的内容也不完全相同。以下的(1)和(2)同属一个运营者，(3)属于另一个运营者。上传书籍推荐去(1)和(2)上传。<br/><a href="http://gen.lib.rus.ec/" target="_blank" role="button" class="outline">访问网站(1)</a><br/><a href="http://libgen.rs/" target="_blank" role="button" class="outline">访问网站(2)</a><br/><a href="https://libgen.gs/" target="_blank" role="button" class="outline">访问网站(3)</a><br/><a href="https://www.ooopn.com/tool/libgen/" target="_blank" role="button" class="outline">镜像站列表（第三方）</a></p></details></div>
+    <div><details><summary>socolar学术服务平台</summary><p>SOCOLAR学术服务平台是由中国教育图书进出口有限公司打造的基于期刊文章的全文型数据库，为用户提供学术期刊和文章的检索、浏览、全文获取等一站式服务。数据库目前收录5442万篇以上外文付费期刊文章，1534万以上外文开放获取文章。开放获取部分读者可以注册登录后阅读下载。<br/><a href="http://www.socolar.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>泉方教育</summary><p>泉方教育除了可以下载文献，云图书馆也是免费注册，还有人工代查功能，文献下载次数没有限制。注意：泉方教育下载文献是通过英文文献名查找的，无法用Doi直接搜索！<br/><a href="http://www.yuntsg.com/html/1/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>【W】Sci-hub</summary><p>一个几乎可以下载任何论文的网站，但因为涉及到版权问题，网址总是打不开，以下是理论可用的链接。<br/><a href="https://sci-hub.tw" target="_blank" role="button" class="outline">访问网站（1）</a><br/><a href="https://sci-hub.se" target="_blank" role="button" class="outline">访问网站（2）</a><br/><a href="https://sci-hub.si" target="_blank" role="button" class="outline">访问网站（3）</a><br/><a href="https://sci.sssam.com/" target="_blank" role="button" class="outline">非官方镜像站</a></p></details></div>
 </div>
@@ -26,7 +26,7 @@
 </div>
 <div class="grid">
     <div><details><summary>Dimensions</summary><p>Digital Science旗下的科研文献检索平台，整合了多种学术服务功能，汇聚包括期刊、图书、专利、临床试验等多种学术成果1.4亿余份。<br/><a href="https://www.dimensions.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>【W】LibraryGenesis</summary><p>一个可以媲美Sci-hub的神站，LibraryGenesis号称是帮助全人类知识无版权传播的计划，实际上确实如此。网站上论文很多，下载方便，还有很多外文书籍和中文书籍，基本上所有的外文书籍和论文都可以搜到并下载，最近的学术论文也可以下载，几乎每天都在更新！与Sci-hub一样，Librarygenesis也会遇到被封的问题，遇到这个情况，可以尝试等待一会或者换个浏览器。<br/>由于历史原因，LibGen有两个站点，分别由不同的运营者在运营，库的内容也不完全相同。以下的(1)和(2)同属一个运营者，(3)属于另一个运营者。上传书籍推荐去(1)和(2)上传。<br/><a href="http://gen.lib.rus.ec/" target="_blank" role="button" class="outline">访问网站(1)</a><br/><a href="http://libgen.rs/" target="_blank" role="button" class="outline">访问网站(2)</a><br/><a href="https://libgen.gs/" target="_blank" role="button" class="outline">访问网站(3)</a><br/><a href="https://www.ooopn.com/tool/libgen/" target="_blank" role="button" class="outline">镜像站列表（第三方）</a></p></details></div>
     <div> </div>
 </div>
 
@@ -67,7 +67,7 @@
 <div class="grid">
     <div><details><summary>台湾华文电子书库</summary><p>台湾华文电子书库（Taiwan eBook）启用上线，电子书 12178 册、政府出版品 595 册、百人千书 1005 册，免费开放读者在线阅览。<br/><a href="https://taiwanebook.ncl.edu.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>识典古籍</summary><p>由北京大学-字节跳动数字人文开放实验室运营的网站，可以在线查看古籍，但似乎无法下载<br/><a href="https://shidianguji.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>公共数字文化工程移动阅读</summary><p>由国家图书馆出品，直接打开就能看，里面有很多读书平台所没有的史学期刊杂志，免费注册账号后平台也支持加入书架、保留阅读记录等常见功能<br/><a href="http://m.ndlib.cn" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ### 中文第三方电子书下载渠道
@@ -182,6 +182,11 @@
     <div><details><summary>HathiTrust Digital Library | Millions of booksonline</summary><p><a href="https://www.hathitrust.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Europeana Search</summary><p><a href="http://www.europeana.eu/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>awesome-english-ebooks</summary><p>经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新<br/><a href="https://github.com/hehonghui/awesome-english-ebooks" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
 
 #### 日语
 
@@ -199,6 +204,11 @@
     <div><details><summary>全國漢籍データベース</summary><p><a href="http://www.kanji.zinbun.kyoto-u.ac.jp/kanseki" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>東京大東亞古典學 East Asian Classical Studies</summary><p><a href="http://eacs.c.u-tokyo.ac.jp/ko/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Reference | EACS: 東アジア古典學の実踐的深化</summary><p><a href="http://eacs.c.u-tokyo.ac.jp/ko/reference/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>WEB怀德堂</summary><p>怀德堂是1724年在大阪创立的学问所，也是大阪大学的起源之一。怀德堂资料主要以中井履轩的经学研究书籍为主，也收藏有大量汉籍研究成果。现通过“WEB怀德堂”，可以云游怀德堂，查阅怀德堂所藏汉籍资源。至今， 已有123种423册文献电子化并公开查阅。 ​​​<br/><a href="http://kaitokudo.jp/Kaitokudo/navi/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
 </div>
 
 #### 德语
