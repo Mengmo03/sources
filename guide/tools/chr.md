@@ -31,7 +31,7 @@
 <div class="grid">
     <div><details><summary>日语字符信息搜索系统</summary><p>日本文字技术情报促进协会开发的字符检索系统，可以检索中日韩字符的基本信息<br/><a href="https://moji.or.jp/mojikibansearch/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Unicode汉字异体信息字典</summary><p>韩国人开发的字符检索系统，可以检索到中日韩字符及拓展字符，并提供其在字典上位置信息。<br/>参考字典：《康熙字典》（中华书局，1958）；《汉语大字》(湖北辞书出版社, 1988)；《大汉和辞典》（大修馆书店，1960）；《中国与韩国研究》（檀国大学东方学研究院，2008）<br/><a href="http://waks.aks.ac.kr/unicode/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>拼音IPA</summary><p>通过此页面，您可以轻松输入国​​际音标 (IPA) 的音标。您可以在框中编辑文本，然后将其复制到文档、电子邮件等中。<br/><a href="https://ipa.typeit.org/full/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 文本识别

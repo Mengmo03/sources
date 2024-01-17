@@ -50,10 +50,17 @@
 <div class="grid">
     <div><details><summary>最佳平替</summary><p>旨在帮助你找到最便宜的搜索词: 输入你想搜索的商品名，AI会给出低价的替代品，结果可能不准，开心就好 : )<br/><a href="https://www.pingti.xyz/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Excalidraw</summary><p>一个开源的用于绘制手绘图的虚拟白板，数据完全保存在本地，可导出<br/><a href="https://excalidraw.com/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/excalidraw/excalidraw" target="_blank" role="button" class="outline">项目地址</a></p></details></div>
+    <div><details><summary>LiveGap</summary><p>一个在线表格制作网站，可以制作精美的图表，基本功能可免登录使用<br/><a href="https://charts.livegap.com/?lan=zh" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>紀年轉換工具</summary><p>本工具可作东亚各王朝纪年与公历间之转换，包括中西历转换。现已完成246 BCE–2100 CE 之中历、太平天历、日本元号、Âm lịch (越南阴历)等之转换工作；并已针对某些纪年，如秦汉历、唐肃宗、武后、太平天国等时期作特殊处理。<br/><a href="https://kanasimi.github.io/CeJS/_test%20suite/era.htm" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/kanasimi/CeJS" target="_blank" role="button" class="outline">项目地址</a></p></details></div>
+    <div><details><summary>兩千年中西曆轉換</summary><p>由中华民国中央研究院提供的中西方历法互转程序<br/><a href="https://sinocal.sinica.edu.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>
 
 ## 镜像列表
+
+*请谨慎相信网页上的任何广告*
 
 <div class="grid">
      <div><details><summary>Mirror List</summary><p>这是一个由私人维护的镜像站列表，其中包含了中国大陆可直接访问的Google Search、Google Scholar、Wayback Machine（网页时光机）、DuckDuckGo（另一个搜索引擎）、Github、OpenSources镜像。现在域名已被DNS污染，无法打开，请直接访问仓库GitHub【W】。<br/><a href="https://www.library.ac.cn/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/librarycloud/list" target="_blank" role="button" class="outline">GitHub仓库</a></p></details></div>
@@ -62,14 +69,15 @@
 </div>
 <div class="grid">
     <div><details><summary>MirrorSite</summary><p>GitHub上网友整理的镜像网站列表，包括ChatGPT、Google系列产品、SCI-Hub、GitHub等网站<br/><a href="https://github.com/runningcheese/MirrorSite" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://githubfast.com/runningcheese/Awesome-AI" target="_blank" role="button" class="outline">镜像链接（1）</a><br/><a href="https://521github.com/runningcheese/MirrorSite" target="_blank" role="button" class="outline">镜像链接（2）</a></p></details></div>
-    <div><details><summary>LiveGap</summary><p>一个在线表格制作网站，可以制作精美的图表，基本功能可免登录使用<br/><a href="https://charts.livegap.com/?lan=zh" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>兩千年中西曆轉換</summary><p>由中华民国中央研究院提供的中西方历法互转程序<br/><a href="https://sinocal.sinica.edu.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>浙江大学Google镜像</summary><p>验证你是否来自浙江大学，三个问题的答案分别是：心灵之约、水朝夕、csxy@123<br/><a href="https://g.luciaz.me/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Google学术镜像</summary><p><a href="https://scholar.lanfanshu.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>紀年轉換工具</summary><p>本工具可作东亚各王朝纪年与公历间之转换，包括中西历转换。现已完成246 BCE–2100 CE 之中历、太平天历、日本元号、Âm lịch (越南阴历)等之转换工作；并已针对某些纪年，如秦汉历、唐肃宗、武后、太平天国等时期作特殊处理。<br/><a href="https://kanasimi.github.io/CeJS/_test%20suite/era.htm" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/kanasimi/CeJS" target="_blank" role="button" class="outline">项目地址</a></p></details></div>
-    <div> </div>
-    <div> </div>
+    <div><details><summary>谷粉学术</summary><p>由学术文献研究者联合建立的文献检索服务,方便大家稳定快速地利用谷歌学术搜索查找文献进行学术研究.您所在区域google学术无法访问时用谷粉学术进行文献查找就对了。<br/><a href="https://gfsoso.99lb.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Google镜像</summary><p><a href="https://scholar.niostack.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>SCI-HUB 第三方镜像合辑</summary><p><a href="https://sci-hub.org.cn/" target="_blank" role="button" class="outline">访问网站1</a><br/><a href="https://sci-hub.et-fine.com/" target="_blank" role="button" class="outline">访问网站2</a><br/><a href="https://sci-hub.wf/" target="_blank" role="button" class="outline">访问网站3</a><br/><a href="https://sci-hub.yt/" target="_blank" role="button" class="outline">访问网站4</a><br/><a href="https://sci-hub.shop/" target="_blank" role="button" class="outline">访问网站5</a><br/><a href="https://sci-hub.st/" target="_blank" role="button" class="outline">访问网站6</a><br/><a href="https://sci-hub.se/" target="_blank" role="button" class="outline">访问网站7</a><br/><a href="https://sci-hub.wf/" target="_blank" role="button" class="outline">访问网站8</a><br/><a href="https://sci-hub.ren/" target="_blank" role="button" class="outline">访问网站9</a></p></details></div>
 </div>
+
 
 ## AI相关
 

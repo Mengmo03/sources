@@ -48,7 +48,12 @@
 <div class="grid">
     <div><details><summary>词根单词</summary><p>一个个人开发的背单词软件，也可以当词典用，从词根的角度出发进行单词背诵和查询，目前好像只在腾讯应用宝上架了<br/><a href="https://sj.qq.com/appdetail/com.xfs.rootwords" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>ScreenToGif</summary><p>一个可以录屏GIF并支持编辑的软件，在GitHub开源<br/><a href="https://www.screentogif.com/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/NickeManarin/ScreenToGif" target="_blank" role="button" class="outline">仓库地址</a></p></details></div>
-    <div> </div>
+    <div><details><summary>USBWebserver</summary><p>最轻量级的本地便携式 Web 服务器，带有适用于 Windows 的 Apache、PHP、MySQL 和 PHPMyAdmin。只需解压任意位置（包括 USB 闪存驱动器），运行并开始使用。<br/><a href="https://usbwebserver.yura.mk.ua/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Html2EXE</summary><p>一个可以把HTML打包成exe的小软件，没找到官方的下载地址，所以就贴了一个pc6的<br/><a href="http://www.pc6.com/softview/SoftView_28828.html" target="_blank" role="button" class="outline">下载地址（非官方）</a></p></details></div>
+    <div><details><summary>showumd</summary><p>一键批量转换md为html并部署于本地或服务器<br/><a href="https://kz16.top/showumd/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div></div>
 </div>
 
 ## 插件

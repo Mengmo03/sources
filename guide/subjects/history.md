@@ -65,8 +65,18 @@ https://new.shuge.org/meet/topic/57003/" target="_blank" role="button" class="ou
 </div>
 <div class="grid">
     <div><details><summary>中国国家图书馆</summary><p>中国国家图书馆将自建资源和大部分外购商业资源放到网站上。实名注册后可远程访问全部自建资源和部分外购资源。自建资源是其资源特色，其中古籍、民国文献等可以免登录访问。<br/><a href="http://read.nlc.cn/user/index" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-    <div> </div>
+     <div><details><summary>康奈尔大学胡适数据库</summary><p>康奈尔大学图书馆的珍本和手稿收藏部保存着与胡适及其生活和工作有关的原始档案材料。<br/><a href="https://rmc.library.cornell.edu/hushih/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>KK10</summary><p>前工业时代人为土地覆盖变化情况，以年为单位进行提供了1850年（也就是所谓的“前工业时代”）前共计7901年的数据<br/><a href="https://doi.pangaea.de/10.1594/PANGAEA.871369" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Hyde</summary><p>全球历史环境数据集，自1995年发布1.0版本以来持续在迭代更新，最新的是今年（2023年）发布的3.3版本，时间范围覆盖了公元前1万年至今<br/><a href="https://landuse.sites.uu.nl/hyde-project/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>LandCover 6k</summary><p>向气候建模界提供有关过去土地利用的信息，包括：基于花粉的土地覆盖变化定量估计，即植物功能类型和三种土地覆盖类型（即夏绿树、常绿树和开阔地）的 m2/m2；关于主要土地利用类型和与全球进程相关的相关可量化变量的考古/历史信息。在其主页上可以找到更多关于此类研究的信息<br/><a href="https://pastglobalchanges.org/science/wg/former/landcover6k/intro" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Slave Voyages</summary><p>奴隶贸易航线数据集<br/><a href="https://www.slavevoyages.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>外務省外交史料館</summary><p>外交档案馆是外务省的官方档案馆，保存着江户时代末期以来的日本外交历史资料，并向所有人开放。整理出版外交史料，展示《日美友好通商条约》等珍贵条约及史料，出版并数字化发行主要外交史料汇编印刷版《日本外交文献》从明治时代开始，我们就在做请放心使用。<br/><a href="https://www.mofa.go.jp/mofaj/annai/honsho/shiryo/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>亚洲历史资料中心</summary><p>本中心由国立公文书馆、外务省外交史料馆、防卫省防卫研究所提供的亚洲历史资料（近现代日本与亚洲近邻各国相关的资料）的数字化版本建立数据库，通过互联网公开。<br/><a href="https://www.jacar.go.jp/chinese/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>抗日战争与近代中日关系数据平台</summary><p>社科院建，中文<br/><a href="https://www.modernhistory.org.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 历史地图
@@ -99,17 +109,7 @@ https://new.shuge.org/meet/topic/57003/" target="_blank" role="button" class="ou
 <div class="grid">
     <div><details><summary>Histo Atlas</summary><p>一个开源的提供历史地图的在线编辑、分享的网站。站点同时提供了geojson格式的数据下载，可以下载后在类似QGIS这类软件上再做二次加工<br/><a href="http://histoatlas.org/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://github.com/shevekk/Historical-Atlas" target="_blank" role="button" class="outline">项目地址</a></p></details></div>
     <div><details><summary>CHGIS中国历史地理信息系统</summary><p>一个免费的中国历代地名和历史行政单位数据库，为研究人员提供了一个基础 GIS 平台，用于空间分析或将中国的历史划分可视化为数字地图。<br/><a href="https://chgis.fas.harvard.edu/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>KK10</summary><p>前工业时代人为土地覆盖变化情况，以年为单位进行提供了1850年（也就是所谓的“前工业时代”）前共计7901年的数据<br/><a href="https://doi.pangaea.de/10.1594/PANGAEA.871369" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-</div>
-<div class="grid">
-    <div><details><summary>Hyde</summary><p>全球历史环境数据集，自1995年发布1.0版本以来持续在迭代更新，最新的是今年（2023年）发布的3.3版本，时间范围覆盖了公元前1万年至今<br/><a href="https://landuse.sites.uu.nl/hyde-project/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>LandCover 6k</summary><p>向气候建模界提供有关过去土地利用的信息，包括：基于花粉的土地覆盖变化定量估计，即植物功能类型和三种土地覆盖类型（即夏绿树、常绿树和开阔地）的 m2/m2；关于主要土地利用类型和与全球进程相关的相关可量化变量的考古/历史信息。在其主页上可以找到更多关于此类研究的信息<br/><a href="https://pastglobalchanges.org/science/wg/former/landcover6k/intro" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>Slave Voyages</summary><p>奴隶贸易航线数据集<br/><a href="https://www.slavevoyages.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-</div>
-<div class="grid">
-    <div><details><summary>康奈尔大学胡适数据库</summary><p>康奈尔大学图书馆的珍本和手稿收藏部保存着与胡适及其生活和工作有关的原始档案材料。<br/><a href="https://rmc.library.cornell.edu/hushih/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-    <div> </div>
+    <div><details><summary>观沧海</summary><p>观沧海是一个2015年上线，由志愿者开放运营，提供地图制作分享服务的公益网站，也有开源项目。其运营有网站“地图书”<br/><a href="https://www.ageeye.cn/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://gitee.com/ageeye/ageeye.cn" target="_blank" role="button" class="outline">仓库地址</a></p></details></div>
 </div>
 
 ## 文博

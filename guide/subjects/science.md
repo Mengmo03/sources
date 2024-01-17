@@ -16,6 +16,6 @@
 
 <div class="grid">
     <div><details><summary>ProofWiki</summary><p>一个在线的关于数学证明的Wiki<br/><a href="https://proofwiki.org/wiki/Main_Page" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>国家微生物科学数据中心</summary><p><a href="https://nmdc.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
 </div>

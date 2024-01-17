@@ -111,6 +111,14 @@
     <div><details><summary>粤典</summary><p>一个可以在线查询粤语词汇的字典<br/><a href="https://words.hk/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
+## 吴语
+
+<div class="grid">
+    <div><details><summary>吳語學堂</summary><p>吴语学堂是一个面向广泛受众、含有丰富及有益内容个吴语学习教育网站。 包括吴语区各地方言字音、词汇个免费在线吴语词典<br/><a href="https://www.wugniu.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div></div>
+    <div></div>
+</div>
+
 ## 德语
 
 <div class="grid">

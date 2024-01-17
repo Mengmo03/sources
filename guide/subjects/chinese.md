@@ -55,7 +55,12 @@
 <div class="grid">
     <div><details><summary>叶典网</summary><p>一个比较强大的在线查字网站<br/><a href="http://yedict.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>中國文字藝術（書法）網站</summary><p>一个书法相关的网站，从先秦的甲骨文、石鼓文、金文，到国父孙中山的墨宝，历朝历代的名帖碑刻可以说是无所不包<br/><a href="http://art.2222.idv.tw/index.htm" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>漢語多功能字庫</summary><p>一个关于成分树、词源、说文解字全文检索，读史方舆纪要，《成语集》，英汉词典查找，&构词等的字库<br/><a href="https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>儒學詞典</summary><p>一个可以查询儒学专有名词的词典<br/><a href="https://humanum.arts.cuhk.edu.hk/ConfLex/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>粵語審音配詞字庫</summary><p>本字库的主要目标在于为汉字教学提供一件实用的网上工具。 从汉字结构及其教学而言，要学懂某个汉字，必须全面地从「形」、「音」、「义」三方面掌握其内容。 在汉语中，「形」、「音」、「义」三者构成一种「三角关系」而非「直线关系」，而且上述「三角关系」往往非常复杂。 因此，要全面掌握某汉字的「形」、「音」、「义」，便成为学习汉语的一大挑战。 本字库为了协助用户面对有关挑战，采取了下列对策：字库中每个汉字都有属于自己的专页。 专页中除清楚显示该汉字的字形外，同时又按韵书体例胪列该汉字的一切可能读音，继而在每一种读法下配以若干词例。 配词中如有特别费解者，则附简单解释; 如遇冷僻字无法配词者，则作简单备注或解释，以便理解。 有了这两项设施，用户便可以在学习字形字音之余，同时兼顾有关的字义信息。<br/><a href="https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>辞海</summary><p>可在线查询辞海，需要注册账号。《辞海》是以字带词，集字典、语文词典和百科词典主要功能于一体的大型综合性辞书。<br/><a href="https://www.cihai.com.cn/home" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 古籍下载
@@ -152,6 +157,16 @@
     <div><details><summary>中央美术院馆藏数字图书</summary><p><a href="http://dlib.cafa.edu.cn/ebook?page=2" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>苏州数字方志集</summary><p><a href="http://58.210.114.78:8081/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>浙江省方志网</summary><p>可以在线查询、阅读浙江省方志的网站<br/><a href="https://dfz.zj.gov.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>江西省方志馆</summary><p>可以在线查看江西省地方志<br/><a href="http://www.jxsfzg.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>江苏省方志馆</summary><p><a href="http://www.jssfzg.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>南京地方志</summary><p><a href="http://dfz.nanjing.gov.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>江苏文库</summary><p><a href="https://www.jiangsuwenku.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>浙江档案</summary><p><a href="http://zjdy.zjdafw.gov.cn/col/col11/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
 
 ### 世界馆藏
 
@@ -184,7 +199,7 @@
 <div class="grid">
     <div><details><summary>德国柏林国立图书馆</summary><p><a href="http://digital.staatsbibliothek-berlin.de/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>世界数字图书馆</summary><p><a href="https://www.wdl.org/zh/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>日本国立国会图书馆</summary><p><a href="http://dl.ndl.go.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>日本国立国会图书馆</summary><p>是日本国内最权威馆藏文献最多的图书馆，隶属于日本国会的国家机关，是以协助国会的立法活动为首要目的的议会图书馆。<br/><a href="http://dl.ndl.go.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
     <div><details><summary>法国国家图书馆</summary><p><a href="https://gallica.bnf.fr/accueil/fr/content/accueil-fr?mode=desktop" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
@@ -218,8 +233,13 @@
 </div>
 <div class="grid">
     <div><details><summary>莱顿大学图书馆</summary><p><a href="https://www.universiteitleiden.nl/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-    <div> </div>
+    <div><details><summary>国立国会图书馆</summary><p>日本的国立国会图书馆，可以检索国立国会图书馆所藏的资料和数字资料、请求查看或复制以及使用各种其他服务。您还可以检索与国立国会图书馆有数据链接的全国图书馆所藏的资料。<br/><a href="https://ndlsearch.ndl.go.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>神戸大学附属図書館</summary><p>日本神户大学的图书馆，涉及世界和中国的报纸，在日本叫新闻记事<br/><a href="https://lib.kobe-u.ac.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>IRDB＞机构知识库列表</summary><p>这是日本 IRDB（学术机构存储库数据库）收集的机构存储库列表。。<br/><a href="https://irdb.nii.ac.jp/repositorylist" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>JPCOAR＞会员机关</summary><p>日本JPCOAR（开放获取知识库促进协会）成员机构名单。包含有关使用 JAIRO Cloud 的机构存储库的信息。<br/><a href="https://jpcoar.repo.nii.ac.jp/page/40" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div></div>
 </div>
 
 ### 古籍酷站
@@ -615,7 +635,7 @@
     <div><details><summary>台湾学术机构典藏</summary><p><a href="http://tair.org.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>日本期刊</summary><p><a href="https://www.jstage.jst.go.jp/browse/-char/ja/J-STAGE" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>日本期刊</summary>是日本最大的科学情报电子期刊的综合平台，里面的论文基本上都可以免费阅读。<p><a href="https://www.jstage.jst.go.jp/browse/-char/ja/J-STAGE" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>台湾报纸数据库</summary><p><a href="http://newspaper.ncl.edu.tw/mysite/notification/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>广东省立中山图书馆</summary><p><a href="https://www.zslib.com.cn/Page/Page_tc.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>

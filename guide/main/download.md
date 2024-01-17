@@ -27,7 +27,12 @@
 <div class="grid">
     <div><details><summary>Dimensions</summary><p>Digital Science旗下的科研文献检索平台，整合了多种学术服务功能，汇聚包括期刊、图书、专利、临床试验等多种学术成果1.4亿余份。<br/><a href="https://www.dimensions.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>【W】LibraryGenesis</summary><p>一个可以媲美Sci-hub的神站，LibraryGenesis号称是帮助全人类知识无版权传播的计划，实际上确实如此。网站上论文很多，下载方便，还有很多外文书籍和中文书籍，基本上所有的外文书籍和论文都可以搜到并下载，最近的学术论文也可以下载，几乎每天都在更新！与Sci-hub一样，Librarygenesis也会遇到被封的问题，遇到这个情况，可以尝试等待一会或者换个浏览器。<br/>由于历史原因，LibGen有两个站点，分别由不同的运营者在运营，库的内容也不完全相同。以下的(1)和(2)同属一个运营者，(3)属于另一个运营者。上传书籍推荐去(1)和(2)上传。<br/><a href="http://gen.lib.rus.ec/" target="_blank" role="button" class="outline">访问网站(1)</a><br/><a href="http://libgen.rs/" target="_blank" role="button" class="outline">访问网站(2)</a><br/><a href="https://libgen.gs/" target="_blank" role="button" class="outline">访问网站(3)</a><br/><a href="https://www.ooopn.com/tool/libgen/" target="_blank" role="button" class="outline">镜像站列表（第三方）</a></p></details></div>
-    <div> </div>
+    <div><details><summary>臺灣博碩士論文知識加值系統</summary><p>一个可以查询中华民国硕博论文的数据库<br/><a href="https://ndltd.ncl.edu.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>臺灣人文及社會科學引文索引資料庫</summary><p>收录台湾及海外华人出版之人文及社会科学期刊、台湾博士论文及专书。 以此为基础建立学术论著之来源文献及引用文献分析信息，同时持续致力于资料扩充及维运，以尽力完善收录内容，产出相对客观计量指标，并对所有用户无偿开放取用。<br/><a href="https://tci.ncl.edu.tw" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div></div>
+    <div></div>
 </div>
 
 
@@ -184,8 +189,13 @@
 </div>
 <div class="grid">
     <div><details><summary>awesome-english-ebooks</summary><p>经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新<br/><a href="https://github.com/hehonghui/awesome-english-ebooks" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
-    <div> </div>
+    <div><details><summary>Forgotten Books</summary><p>Forgotten Books是一家总部位于伦敦的图书出版商，专门从事旧书的翻新，既有小说也有非小说类作品。拥有787,733本书可供在线阅读，或以电子书的形式下载，或以书面形式购买。<br/><a href="https://www.forgottenbooks.com/en" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Bookyards</summary><p>Bookyards网站有24000+本电子书资源，同时包括电子书外链和数百个网上图书馆资源。<br/><a href="https://www.bookyards.com/en/welcome" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Manybooks</summary><p>Manybooks是一个专门提供免费和打折电子书下载的网站，提供近3万本免费电子书。<br/><a href="https://manybooks.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Free Online Books</summary><p>Free Online Books网站免费下载技术类图书，其中包括计算机科学，编程,移动技术，物理学，医学等类别的电子图书。<br/><a href="https://www.freebookcentre.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div></div>
 </div>
 
 #### 日语
@@ -193,7 +203,7 @@
 <div class="grid">
     <div><details><summary>早稻田大学图书馆古籍数据库</summary><p>早稻田大学图书馆对外提供其馆藏的约 30 万册的部分古籍影像资料，日本古籍居多，也有大量中国古籍的扫描版本可供下载，是不可多得的珍贵资料。<br/><a href="https://www.wul.waseda.ac.jp/kotenseki/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>青空文库</summary><p>日本文学著作( 格式包括 HTML , ZIP(下载)和日文电子书格式)<br/><a href="https://www.aozora.gr.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>CiNii Articles – 日本の論文をさがす</summary><p><a href="http://ci.nii.ac.jp/" target="_blank" role="button" class="outline">访问网站（论文）</a><br/><a href="http://ci.nii.ac.jp/books/?l=ja" target="_blank" role="button" class="outline">访问网站（大学图书馆）</a><br/><a href="http://ci.nii.ac.jp/d/?l=ja" target="_blank" role="button" class="outline">访问网站（博士论文）</a></p></details></div>
+    <div><details><summary>CiNii Articles – 日本の論文をさがす</summary><p>CiNii是日本国立情报研究所（National Institute of Informatics，简称NII）运营的日本最大的综合学术信息数据库，平台由3个数据库组成：<br/>CiNii Article收录了日本各学术机构及团体的期刊论文和大学学报论文，并可通过检索获取日本国会图书馆“日文期刊索引数据库”所收录的论文，索引文献较多，并含有相当数量的全文文献，可显示论文之间引用与被引用的情况。其中也有部分论文用英文或其他文字发表。<br/>CiNii Books可检索日本各大学图书馆的馆藏书刊的书目信息。<br/>CiNii Dissertations可检索日本大学及学位授予机构授予博士学位的学位论文，其中也包括部分公开的论文全文链接。<br/><a href="http://ci.nii.ac.jp/" target="_blank" role="button" class="outline">访问网站（论文）</a><br/><a href="http://ci.nii.ac.jp/books/?l=ja" target="_blank" role="button" class="outline">访问网站（大学图书馆）</a><br/><a href="http://ci.nii.ac.jp/d/?l=ja" target="_blank" role="button" class="outline">访问网站（博士论文）</a></p></details></div>
 </div>
 <div class="grid">
     <div><details><summary>JAIRO – 學術機關リポジトリポータル</summary><p><a href="http://jairo.nii.ac.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
@@ -210,6 +220,61 @@
     <div> </div>
     <div> </div>
 </div>
+
+*由于以下内容过多，影响版面，故做折叠处理，点开即可查看*
+
+<div><details><summary>更多</summary><p>
+<div class="grid">
+    <div><details><summary>东京都立图书馆</summary><p><a href="https://www.library.metro.tokyo.jp/chinese/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>川崎市立図書館</summary><p><a href="http://www.library.city.kawasaki.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>千葉市図書館</summary><p><a href="https://www.library.city.chiba.jp/chinese.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>大阪市立図書館</summary><p><a href="https://www.oml.city.osaka.lg.jp/index.php?page_id=131" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>富士市立図書館</summary><p><a href="https://library.fujishi.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>图书馆自由宣言</summary><p><a href="https://www.jla.or.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>埼玉县立图书馆</summary><p><a href="https://www.lib.pref.saitama.jp/stplib_doc/kaigai/index_chi.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>小松市立空和儿童书图书馆</summary><p><a href="https://www.city.komatsu.lg.jp/s" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>山口大学图书馆</summary><p><a href="http://www.lib.yamaguchi-u.ac.jp/cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>东京国际漫画图书馆</summary><p><a href="https://www.meiji.ac.jp/manga/chinese/yonezawa_lib/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>福冈大学图书馆</summary><p><a href="http://www.lib.fukuoka-u.ac.jp/chinese/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>京都府立図書館</summary><p><a href="https://www.library.pref.kyoto.jp/?page_id=1676" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>豊川市中央図書館</summary><p><a href="https://libweb.lib.city.toyokawa.aichi.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>国际儿童图书馆</summary><p><a href="http://www.kodomo.go.jp/chinese/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>山口市立中央图书馆</summary><p><a href="https://www.ycam.jp/cn/guide/floor/library.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>天理圖書館</summary><p><a href="https://www.tenri-u.ac.jp/chinesebig5/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>吹田市立図書館</summary><p><a href="http://www.lib.suita.osaka.jp/?page_id=184" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>广岛大学</summary><p><a href="https://www.hiroshima-u.ac.jp/cn/about/about/library" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>關西大學</summary><p><a href="http://www.kansai-u.ac.jp/b5/global/education/library.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>琉球大学</summary><p><a href="http://www.u-ryukyu.ac.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>沖繩國際大學</summary><p><a href="http://www.okiu.ac.jp/chinese_t/library/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>三重縣立圖書館</summary><p><a href="http://www.library.pref.mie.lg.jp/?page_id=125" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>国立公文書館</summary><p><a href="http://www.archives.go.jp/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>江户川区立图书馆</summary><p><a href="https://www.library.city.edogawa.tokyo.jp/toshow/index.php" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>横滨市立图书馆</summary><p><a href="http://translate-zhs.city.yokohama.lg.jp/kyoiku/library/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>美瑛圖書館</summary><p><a href="https://www.biei-hokkaido.jp/zh_TW/living/biei-library/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>八幡市立図書館</summary><p><a href="https://www3.city.yawata.kyoto.jp/TOSHOW/index.asp" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>下呂市図書館</summary><p><a href="http://lib.city.gero.lg.jp/index.asp" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>箱根动画图书馆</summary><p><a href="https://www.hakonenavi.jp/cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+</div>
+</p></details></div>
 
 #### 德语
 
@@ -233,6 +298,14 @@
     <div><details><summary>奥地利文献</summary><p>超过12000 部奥地利文献,甚至包括明信片<br/><a href="https://www.literature.at/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div> </div>
     <div> </div>
+</div>
+
+## 俄语
+
+<div class="grid">
+    <div><details><summary>Booksee</summary><p>Booksee是最流行多语言在线图书馆之一，超过220万本书下载（截止到2018年10月）。它是在线免费图书垂直搜索引擎，提供英文、俄文和乌克兰文三种版本，目前提供了适配手机浏览的网页Beta版。提供书籍推荐排名Top，由俄文网站推荐的内容。<br/><a href="https://libcats.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div></div>
+    <div></div>
 </div>
 
 #### 多语言
