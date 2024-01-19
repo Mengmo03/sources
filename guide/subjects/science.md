@@ -17,5 +17,5 @@
 <div class="grid">
     <div><details><summary>ProofWiki</summary><p>一个在线的关于数学证明的Wiki<br/><a href="https://proofwiki.org/wiki/Main_Page" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>国家微生物科学数据中心</summary><p><a href="https://nmdc.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>默沙东诊疗手册</summary><p>一个涵盖了医学所有领域成千上万主题的广泛医学信息来源。它们作为免费的公众服务提供给医疗专业人士和普罗大众。分为专家版、大众版和兽医版<br/><a href="https://www.msdmanuals.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>

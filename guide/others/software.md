@@ -53,7 +53,7 @@
 <div class="grid">
     <div><details><summary>Html2EXE</summary><p>一个可以把HTML打包成exe的小软件，没找到官方的下载地址，所以就贴了一个pc6的<br/><a href="http://www.pc6.com/softview/SoftView_28828.html" target="_blank" role="button" class="outline">下载地址（非官方）</a></p></details></div>
     <div><details><summary>showumd</summary><p>一键批量转换md为html并部署于本地或服务器<br/><a href="https://kz16.top/showumd/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div></div>
+    <div><details><summary>OpenSearcher</summary><p>一个开源的基于PyQT5开源的、本地的、安全的、支持全文检索的搜索器。<br/><a href="https://github.com/Gaoyongxian666/OpenSearcher" target="_blank" role="button" class="outline">项目地址</a></p></details></div>
 </div>
 
 ## 插件

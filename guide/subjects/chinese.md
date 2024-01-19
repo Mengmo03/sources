@@ -62,6 +62,11 @@
     <div><details><summary>粵語審音配詞字庫</summary><p>本字库的主要目标在于为汉字教学提供一件实用的网上工具。 从汉字结构及其教学而言，要学懂某个汉字，必须全面地从「形」、「音」、「义」三方面掌握其内容。 在汉语中，「形」、「音」、「义」三者构成一种「三角关系」而非「直线关系」，而且上述「三角关系」往往非常复杂。 因此，要全面掌握某汉字的「形」、「音」、「义」，便成为学习汉语的一大挑战。 本字库为了协助用户面对有关挑战，采取了下列对策：字库中每个汉字都有属于自己的专页。 专页中除清楚显示该汉字的字形外，同时又按韵书体例胪列该汉字的一切可能读音，继而在每一种读法下配以若干词例。 配词中如有特别费解者，则附简单解释; 如遇冷僻字无法配词者，则作简单备注或解释，以便理解。 有了这两项设施，用户便可以在学习字形字音之余，同时兼顾有关的字义信息。<br/><a href="https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>辞海</summary><p>可在线查询辞海，需要注册账号。《辞海》是以字带词，集字典、语文词典和百科词典主要功能于一体的大型综合性辞书。<br/><a href="https://www.cihai.com.cn/home" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>DocuSky 數位人文學術研究平台</summary><p>DocuSky 数字人文学术研究平台是一个符合人文学者研究需要，进行个性化材料整理、使用与分析的网络平台。<br/>目前主要包括标记与编辑、转换文本格式、建库与重整、探勘与分析、GIS 与视觉化、外部资源、外部工具等系列工具。<br/><a href="https://docusky.org.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
 
 ## 古籍下载
 
@@ -428,7 +433,7 @@
     <div><details><summary>古书网字帖工具</summary><p><a href="http://zitie.gushu.net.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
-    <div><details><summary>古诗文断句</summary><p><a href="https://seg.shenshen.wiki/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>古诗文断句</summary><p>多元古籍信息标注，支持自动标记句读标点、书名、专名等。即使处理大规模文本，仍能立等可取。<br/>可靠的性能让人力成本降低50%以上。<br/>基于先进的深度学习（Deep Learning）算法，通过在数十亿字古汉语文本上进行长时间训练，标记准确率超过90%，相当于中文专业硕士水平。<br/>网站采用HTTPS加密，处理过程中不做任何存储，保证数据安全。<br/><a href="https://seg.shenshen.wiki/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>字源</summary><p><a href="https://hanziyuan.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>龙泉寺中文古籍OCR</summary><p><a href="https://ocr.gj.cool/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>

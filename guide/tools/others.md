@@ -77,6 +77,11 @@
     <div><details><summary>Google镜像</summary><p><a href="https://scholar.niostack.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>SCI-HUB 第三方镜像合辑</summary><p><a href="https://sci-hub.org.cn/" target="_blank" role="button" class="outline">访问网站1</a><br/><a href="https://sci-hub.et-fine.com/" target="_blank" role="button" class="outline">访问网站2</a><br/><a href="https://sci-hub.wf/" target="_blank" role="button" class="outline">访问网站3</a><br/><a href="https://sci-hub.yt/" target="_blank" role="button" class="outline">访问网站4</a><br/><a href="https://sci-hub.shop/" target="_blank" role="button" class="outline">访问网站5</a><br/><a href="https://sci-hub.st/" target="_blank" role="button" class="outline">访问网站6</a><br/><a href="https://sci-hub.se/" target="_blank" role="button" class="outline">访问网站7</a><br/><a href="https://sci-hub.wf/" target="_blank" role="button" class="outline">访问网站8</a><br/><a href="https://sci-hub.ren/" target="_blank" role="button" class="outline">访问网站9</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>Glgoo</summary><p>一个比较稳定的Google学术镜像<br/><a href="https://gg.xueshu5.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
 
 
 ## AI相关
@@ -89,7 +94,7 @@
 <div class="grid">
     <div><details><summary>ChatExcel</summary><p>一个可以用ChatGPT做表的网站<br/><a href="https://chatexcel.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>Cursor</summary><p>一个AI辅助编程的网站<br/><a href="https://www.cursor.so/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div> </div>
+    <div><details><summary>SmartAI</summary><p>一个收集AI相关工具的网站<br/><a href="https://tools.smartai.wtf/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 
 ## 观影网站

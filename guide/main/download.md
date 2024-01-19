@@ -122,8 +122,158 @@
     <div><details><summary>有书</summary><p>读秀库的电子书下载网站，2r/本，和某宝上价格一致，唯一比较方便的地方可能就是可以自助下载。价格较贵，仅供备用<br/><a href="https://www.ubooks.vip/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>电子书下载</summary><p>也是一个读秀库的下载网站，没用过，不清楚收费情况，仅供备用<br/><a href="https://book.mac169.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
+<div class="grid">
+    <div><details><summary>98tsg</summary><p>一个卖图书馆账号的，可以买到清华北大等高校图书馆的账号访问权限。站长没买过，仅作记录，自行斟酌。<br/><a href="http://www.98tsg.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
 
 ### 外语电子书下载
+
+*由于以下内容过多，影响版面，故做折叠处理，点开即可查看*
+
+<details><summary>更多</summary><p>
+<div class="grid"></div>
+    <div><details><summary>中文学术集刊网</summary><p>专门介绍中文人文社会科学学术集刊的专业网站，由南京大学中国社会科学研究评价中心研发完成。目前网站已收录近200种正式出版的中文人文社会科学学术集刊，为学界提供集刊简介、出版信息、集刊动态、征稿启事、目录浏览和全文PDF预览等。<br/><a href="https://3c.nju.edu.cn/xsjk/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>NSTL文献检索</summary><p>国家科技图书文献中心提供。面向全国开展科技信息服务，可联合检索中外文的期刊、学位论文、会议论文、中外文图书、国外科技报告、专利、标准、计量检测规程等。还提供国外免费的学术资源、中外预印本门户、网络资源导航等。登陆网站主页后，建议按照如下方式访问：按照主页上方横向菜单分别选择进入，如：文献检索、全文文献、目次浏览、目录查询、热点门户、网络导航。登录各栏目后即可见各栏目详情介绍，因此使用中更加明白。重点推荐：全文文献栏。<br/><a href="http://www.nstl.gov.cn/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>清华大学图书馆网站</summary><p>该网站具有很强的学术性。网站界面内容精炼，将各类文献信息的检索和咨询服务融为一体，并将各类别的网上资源和本馆的文献资源加以整合，为本校及其它高校读者提供了极大的方便。<br/><a href="http://www.lib.tsinghua.edu.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>文献检索</summary><p>国家科技图书文献中心提供。面向全国开展科技信息服务，可联合检索中外文的期刊、学位论文、会议论文、中外文图书、国外科技报告、专利、标准、计量检测规程等。还提供国外免费的学术资源、中外预印本门户、网络资源导航等。登陆网站主页后，建议按照如下方式访问：按照主页上方横向菜单分别选择进入，如：文献检索、全文文献、目次浏览、目录查询、热点门户、网络导航。登录各栏目后即可见各栏目详情介绍，因此使用中更加明白。重点推荐：全文文献栏。<br/><a href="http://www.nstl.gov.cn/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>清华大学图书馆网站</summary><p>该网站具有很强的学术性。网站界面内容精炼，将各类文献信息的检索和咨询服务融为一体，并将各类别的网上资源和本馆的文献资源加以整合，为本校及其它高校读者提供了极大的方便。<br/>中国科技信息研究所提供。可检索该所馆藏的中外文期刊、国内学位论文、中文会议论文、外文科技报告和声像等数据库的内容。<br/><a href="http://www.lib.tsinghua.edu.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>广西大学图书馆提供</summary><p><br/><a href="http://www.lib.gxu.edu.cn" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>虫部落</summary><p>虫部落一个致力于搜索的社区，它集合了谷歌搜索、百度一下、必应搜索、精准搜索、维基百科等众多的搜索于一身，它集合了大量的国内外资源。<br/>虫部落是一个纯粹的搜索经验、技术交流和分享平台，同时为虫友提供众多方便好用的搜索引擎。为您聚合Google,百度,必应等国内外综合搜索和学术，资源，专业领域知识等垂直搜索。精准搜索，便捷交互！与其说是一个搜索网站，不如说是一个大型收藏夹更为贴切一点。里面的搜索引擎琳琅满目到无从下手，不管你要中文，外文，硕博论文。在这里你都可以得到答案。<br/><a href="http://www.chongbuluo.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>台大學術期刊資料庫</summary><p>「台大学术期刊数据库」收录台大各学术研究单位出版之中外学术期刊论文篇目与全文，审查过程严谨、内容丰富详实、撰写格式一致，具相当程度之学术水平，为查询台湾一流学府之学术研究发展、辅助教学研究之最佳数据库。数据库内容采实时更新方式，收录自民国91年(公元2002年) 1月起出刊之台大各中外学术期刊、论文书目资料，以及自民国92年(公元2003年)1月起出刊之期刊电子全文档案，并且现正逐批回溯建档中。<br/><a href="http://ejournal.press.ntu.edu.tw/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>论文下载中心（免费）</summary><p>海量的论文资料，和学术文献，对于论文写作迷茫的同学很有帮助，平台还有论文格式，学术发展趋势的最新研究等。<br/><a href="http://www.hi138.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>80图书馆（收费）</summary><p>80图书馆集成了各类中文、Web of Science、SpringerLink、IEEE、Pubmed、Embase、Reaxys、OVID、Scopus、ProQuest、Wiley等数百个国内外顶级科研文献数据库，涵盖生物、医学、法律、电气、计算机、历史、建筑、文学、艺术、哲学等专业文献，一个80图书馆账号即可在任何时间下载世界上99%的文献。<br/><a href="http://www.80lib.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>CiteSeerX</summary><p>CiteSeerX是免费论文搜索网，是CiteSeer的换代产品，而CiteSeer引文搜索引擎是利用自动引文标引系统(ACI)建立的第一个学术论文数字图书馆。CiteSeerX的检索界面简洁清晰，默认为文献（Documents）检索，还支持Authours、tables检索。<br/>若选择“IncludeCitations”进行搜索，期刊文献等检索范围会扩大，不仅包括学术文献全文的数据库，还会列出数据库中每篇论文的参考文献。点击“AdvancedSearch”，还可以进入高级检索界面。<br/>高级检索会增加检索的精确度，除了支持作者、作者单位、篇名等基本检索之外，还支持文本内容以及用户为论文定义的标签等更为详细的检索。<br/><a href="http://citeseerx.ist.psu.edu/index" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>SciELO 科技在线电子图书馆</summary><p>1998年，巴西开通了第一个“科技在线电子图书馆（SciELO）”，随后扩展到阿根廷、智利、西班牙、古巴、哥伦比亚、葡萄牙、委内瑞拉七国。目前已提供613种专业期刊、20万篇论文全文供读者免费阅览。<br/><a href="http://www.scielo.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Hindawi 出版公司</summary><p>Hindawi成立于1997年，是一个高速成长的OA学术出版机构，出版200余种OA期刊，学科涵盖STM(科学、技术和医学)大部分领域。<br/><a href="http://www.hindawi.com/journals/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>DOAJ</summary><p>DOAJ(Directory of Open Access Journal)，由瑞典的隆德大学图书馆Lund University Libraries设立于2003年5月，DOAJ的优势在于收录的期刊的有着严格的质量控制，包括很多SCI收录的期刊。DOAJ收录的OA期刊数量非常多，属于目前最好的的OA期刊目录网站。目前DOAJ除了查询OA期刊外，还可以查询部分期刊的文章内容。日前DOAJ收录了5691份学术期刊，其中2436份期刊可以搜索到文章内容，大概有478311篇论文。<br/><a href="https://doaj.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>OA图书馆</summary><p>OA图书馆是Open Access图书馆的简称。OA图书馆致力于让中国人可以免费获得高质量的文献，最早提供了很多的Open Access数据库和资源，但是由于OA的数据库资源比较分散并且数据库存储格式不统一，利用起来的非常不方便。在此基础上，他们利用google的搜索技术建立了OA内容的搜索，可以很方便搜索近6000多种期刊资料和5000多个Open Access的数据库资源。现在有420万篇了，后续发展很快。<br/><a href="http://www.oalib.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>香港科技大学图书馆 Dspace</summary><p>包括香港科技大学的学术论文、学位论文、研究报告等内容，均可免费获取全文。<br/><a href="http://repository.ust.hk/dspace" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>加利福尼亚大学国际和区域数字馆藏</summary><p>加利福尼亚大学国际和区域数字馆藏研究项目。eScholarshipRepository主要提供已出版的期刊论文、未出版的研究手稿、会议文献以及其他连接出版物上的文章1万多篇，均可免费阅读。<br/><a href="http://repositories.cdlib.org/escholarship/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>剑桥大学机构知识库</summary><p>由Cambridge University Library和University Computing Service维护，提供剑桥大学相关的期刊、学术论文、学位论文等电子资源。<br/><a href="http://www.dspace.cam.ac.uk/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>发展中国家联合期刊库</summary><p>非营利的电子出版物服务机构，提供来自发展中国家（如巴西、古巴、印度、印尼、肯尼亚、南非、乌干达、 津巴布韦等）的开放获取的多种期刊的全文。<br/><a href="http://www.bioline.org.br/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>美国密西根大学论文库</summary><p>美国密西根大学论文库2万多篇期刊论文、技术报告、评论等文献全文。包含艺术学、生物学、社会科学、资源环境学等学科的相关论文，另还有博硕士论文。标识为OPEN的可以打开全文。<br/><a href="https://deepblue.lib.umich.edu/documents" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>jfg CERN Document Server</summary><p>主要覆盖物理学（particle physics）及相关学科，提供360,000多篇全文文献，包括预印文献、期刊论文、图书、图片、学位论文等等。<br/><a href="http://cdsweb.cern.ch/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>NASA Technical Reports Server</summary><p>主要是关于航空航天领域研究的科技报告和会议论文。<br/><a href="http://ntrs.nasa.gov/?method=browse" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Energy Citations Database</summary><p>提供美国能源部的科技信息摘要。学科范围：材料科学、环境科学、计算机、能源和物理。文献类型包括期刊论文、学位论文、研究报告和专利。<br/><a href="http://www.osti.gov/energycitations/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Open J-Gate 开放获取期刊门户</summary><p>提供基于开放获取的近 4000 种期刊的免费检索和全文链接，包含学校、研究机构和行业期刊，其中超过 1500 种学术期刊经过同行评议。<br/><a href="http://www.openj-gate.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>专门OA期刊文献检索系统</summary><p>免费的全文科技学术期刊。现有2752种期刊，其中830种可以全文搜索。目前有140307篇文章。<br/><a href="http://www.doaj.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>UMI</summary><p>当需要查阅国外学位论文，可使用PQDD-B(UMI博硕士论文数据库)，它可以获取部分全文，是很好的国外资源共享平台。<br/><a href="http://wwwlib.umi.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Thèses</summary><p>这是一个强大的论文库，无论是什么方向的论文都可以搜到一些有用的资料，还可以选择读不同学校的论文成果。<br/><a href="https://www.theses.fr/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>ECONLIT</summary><p>ECONLIT由美国经济学协会创办，收录了包括图书，报刊，杂志，学术论文等各种类型的文学经济学方面100多万篇文章。主要为英文资料。<br/><a href="https://www.aeaweb.org/econlit" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Nature</summary><p>在2014年12月时，《自然》（Nature）也宣布了开放所有研究论文，包括旗下48个杂志，可惜不能免费复制、打印或下载。<br/><a href="http://www.nature.com/nature/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Scientific Research Publishing</summary><p>ScientificResearch Publishing（科研出版社，简称SRP)是一家国际综合性开源学术期刊出版机构。目前已有国际开源英文期刊近三百本，所有期刊都是开源的（OpenAccess，或称开放存取, 简称OA），可免费下载所有期刊全文，所有期刊均回溯至创刊。多数期刊已被CAS，EBSCO，CAB Abstracts，ProQuest，IndexCopernicus，Library of Congress，Gale，CSP等数据库全文或摘要收录。<br/><a href="http://www.scirp.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>ERIC教育资源信息中心</summary><p>美国教育部资助的网站系列和世界上最大的教育资源数据库，其中包括各种文档以及教育研究与实践方面的论文摘要，这些摘要超过了一百万篇，收录980多种教育及和教育相关的期刊文献的题录和文摘。部分资源可查找到全文。<br/><a href="http://www.eric.ed.gov/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>PDF搜索引擎</summary><p>比较知名的pdf资源下载网站，包括了435,000,000篇免费PDF文档，支持中文检索。<br/><a href="http://www.sopdf.com/zh-hans/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>化工引擎（免费）</summary><p>成立于2005年，是一家专业的化工搜索引擎。<br/><a href="http://www.chemyq.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>soopat专利搜索引擎</summary><p>SooPAT 立足专利领域，致力于专利信息数据的深度挖掘，致力于专利信息获得的便捷化，努力创造最强大、最专业的专利搜索引擎，为用户实现前所未有的专利搜索体验。SooPAT 不仅提供搜索，还提供分析工具及在线提问等功能。<br/><a href="http://www.soopat.com/Home/Index" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Research Index（免费）</summary><p>一个关于计算机和信息科学的搜索引擎。<br/>ResearchIndex检索互联网上Postscript和PDF文件格式的学术论文。涉及的主题包括互联网分析与检索、数字图书馆与引文索引、机器学习、神经网络、语音识别、人脸识别、元搜索引擎、音频/音乐等。ResearchIndex在网上提供完全免费的服务（包括下载PS或PDF格式的全文），系统已实现全天24小时实时更新。<br/><a href="http://citeseer.ist.psu.edu/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Information Bridge（免费）</summary><p>Information Bridge是由美国能源部（DOE）下属的科学与技术信息办公室（OSTI）开发维护的搜索工具，提供美国能源部1994年以来研究成果的全文文献和目录索引，涉及的学科领域包括物理、化学、材料、生物、环境科学、能源技术、工程、计算机与情报科学和可再生能源等。检索功能有基本检索和高级检索两种。<br/><a href="http://www.osti.gov/bridge/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>SciSeek（免费）</summary><p>SciSeek是一个专注于科学与自然领域的搜索工具，采取人工收集处理的方式，提供农林、工程、化学、物理和环境方面的科技期刊及其他信息。<br/><a href="http://www.sciseek.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Facultyof 1000（免费）</summary><p>Faculty of 1000是由BioMed Central出版的新型在线研究辅助工具，世界范围内，超过80％的顶尖的研究机构已经订购并使用该产品。Faculty of 1000和一般检索系统不同之处在于，它所收录的是1000多位世界最好的生物学家所推荐的文章，并附有推荐人的评述。它把Faculty们按研究领域分为17类，分别是：生物化学、生物信息学、生物技术、细胞生物学、化学生物学、基因组学与遗传学、进化生物学、发育生物学、生态学、免疫学、微生物学、分子生物学、分子医学、神经生物学、生理学、植物学和结构生物学。<br/><a href="http://www.facultyof1000.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>printfu</summary><p>PrintFu是可打印的原始文档、文章和PDF搜索引擎。网站容易使用，输入关键字就可以检索资源，包括电子书、手册、手册、说明、指南等，都可以免费下载。在检索页的右上角，就有“下载PDF”链接。<br/><a href="http://printfu.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>docjax</summary><p>是一个专门的文档搜索引擎，方便我们搜索和下载.DOC .PPT .XLS .PDF 等格式的文档和电子书。Docjax 是一个基于 Google 和 Yahoo 的文档搜索引擎，外观设计佳，增加了一些社会化元素在内，Docjax 加入了Google Friend Connect，然后根据用户的搜索和下载行为加入了热门标签、最近文档、浏览最多的文档、最受喜爱的文档、下载最多的文档等模块。Docjax 也支持中文搜索，搜索结果可按ALL | DOC | XLS | PPT | PDF 分类浏览，有文档预览功能，并能直接进行下载。<br/><a href="http://docjax.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>德国BASE多学科学术搜索引擎</summary><p>BASE是德国比勒费尔德(Bielefeld)大学图书馆开发的一个多学科的学术搜索引擎，提供对全球异构学术资源的集成检索服务。它整合了德国比勒费尔德大学图书馆的图书馆目录和大约160 个开放资源（超过200 万个文档）的数据。<br/><a href="http://www.base-search.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Find Articles @ BNET</summary><p>Find Articles是BNET网站下属的信息检索平台，包括3000余种出版物（期刊、网站等），在列表中对免费出版物进行了标识，检索方便。<br/><a href="http://findarticles.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>cnpLINKer</summary><p>cnpLINKer中图链接服务是由中国图书进出口（集团）总公司开发并提供的国外期刊网络检索系统。目前共收录了国外五十多家出版社的12000余种期刊商业期刊，14000多种Open Access期刊，900万篇目次文摘数据和全文链接服务，400家国内馆藏OPAC信息，并保持时时更新。除为用户提供快捷灵活的查询检索功能外，电子全文链接及期刊国内馆藏查询功能也为用户迅速获取国外期刊的全文内容提供了便利。具有两种模式，还是很方便的。<br/><a href="http://cnplinker.cnpeak.com" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Genamics JournalSeek（期刊信息检索系统）</summary><p>Genamics JournalSeek是互联网上最大的完全分类的免费期刊信息数据库。该数据库目前包含95831个标题。期刊信息包括描述（目的和范围）、期刊缩写、期刊主页链接、学科类别和ISSN。通过搜索这些信息，可以快速识别发表研究成果的潜在期刊，并找到与你的领域相关的新期刊。<br/><a href="http://journalseek.net/index.htm" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Find-pdf-doc</summary><p>支持PDF、DOC、PPT、TXT、SWF文件下载，资源丰富，免费下载。<br/><a href="http://www.findpdfdoc.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Exlibris 开放获取电子期刊查询系统</summary><p>Exlibris开放获取电子期刊查询系统是由艾利贝斯公司为中国用户联合会用户提供的免费期刊查询服务。除一般检索外，用户可按学科进行快速分类浏览，也可以依据OA期刊、核心期刊、NSTL订购期刊进行查找。该系统还对投稿及全文获取进行了很有效的指引。<br/><a href="http://coreej.cceu.org.cn/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Chemblink（免费）</summary><p>ChemBlink 是面向公众的化学品信息网站，用户可以通过输入产品名称、CAS号、分子式、供应商、网站来搜索产品。搜索出来的产品信息比较详细，包括基本信息（中英文名，分子式，结构式，分子式，分子量，CAS登录号，EINECS登录号等）、物性（密度、沸点、溶点等）、安全数据（危险品标志、危险类别码、安全说明、危险品运输编号等）及供应商链接。同时，它也为全球化学品供应商提供了一个推广产品的信息平台。<br/><a href="http://www.chemblink.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>JSTOR</summary><p>这是一个英文网站，上面有很多对于法国作品、文化或者英美文化的分析（有英文有法语），如果是研究英法双语的论文，也许可以找到相关资料。<br/><a href="http://www.jstor.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>XERFI</summary><p>XERFI以学术研究为主，在这个网站可以找到各领域的研究报告。<br/><a href="http://www.xerfi.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>NSTL开放学术资源系统网</summary><p>开放获取期刊集成检索系统是集期刊浏览、期刊检索两种功能为一体的开放式的期刊集成揭示与检索系统。系统提供刊名字顺浏览、学科分类浏览两种浏览方式，且浏览过程中可通过期刊的一般信息与详细信息切换提示，进一步了解某个期刊的全部信息，其中包括刊名、ISSN、主题、学科分类、期刊内容揭示层次等15种相关信息。同时用户可对刊名、ISSN、主题、出版者及全部字段进行期刊检索。<br/><a href="http://oar.nstl.gov.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Chemistry Central</summary><p>Chemistry Central 是由 BioMed Central 运营的独立出版平台，致力于提供对同行评审化学研究的即时开放访问<br/><a href="http://www.chemistrycentral.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>开放阅读期刊联盟</summary><p>提供国内若干免费学术期刊的开放存取。<br/><a href="http://www.cujs.com/oajs/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>NSC for Environmental Publications</summary><p>提供美国环境保护总署(EPA)出版物。可以通过EPA出版号或题名检索EPA National Publications Catalog。<br/><a href="http://www.epa.gov/ncepihom/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Science.gov</summary><p>美国“科学”网站收录内容以研究与开发报告为主，所有的信息均免费使用，也不必注册，但是通过这些站点链接的有些信息是限制使用或有条件使用的。<br/><a href="http://www.science.gov/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>万方数据库</summary><p>万方数据库是由万方数据公司开发的，涵盖期刊、会议纪要、论文、学术成果、学术会议论文的大型网络数据库；也是和中国知网齐名的中国专业的学术数据库。整合数亿条全球优质学术资源，集成期刊、学位、会议、科技报告、专利、视频等十余种资源类型，覆盖各研究层次，感知用户学术背景，智慧搜索。致力于帮助用户精准发现、获取与沉淀学术精华。<br/><a href="http://www.wanfangdata.com.cn/index.html" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>中文社会科学引文索引（Chinese Social Sciences Citation Index）</summary><p>由南京大学中国社会科学研究评价中心开发研制的引文数据库，用来检索中文人文社会科学领域的论文收录和被引用情况。目前收录包括法学、管理学、经济学、历史学、政治学等在内的25大类的500多种学术期刊。<br/><a href="http://cssci.nju.edu.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>中国科学引文数据库</summary><p>Chinese Science Citation Database，简称CSCD，创建于1989年，收录我国数学、物理、化学、天文学、地学、生物学、农林科学、医药卫生、工程技术、环境科学和管理科学等领域出版的中英文科技核心期刊和优秀期刊千余种。<br/><a href="http://apps.webofknowledge.com/CSCD\_GeneralSearch\_input.do?product=CSCD&SID=8ChHhEqbhaoJPdGR6rg&search\_mode=GeneralSearch" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>新华文摘数据库</summary><p>《新华文摘》创刊于1979年，由国家新闻出版署主管、人民出版社主办、新华文摘杂志社编辑出版。作为大型理论性、综合性、资料性文摘类权威期刊，广涉千家报刊，精取天下文章，为广大读者提供了大量哲学社会科学新观点、新资料、新方法和文艺佳作。<br/><a href="http://www.xinhuawz.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>人大复印报刊资料全文数据库</summary><p>中国人民大学复印报刊资料库，以人民大学书报资料中心的复印报刊资料系列数据库为内容基础，辅以先进的检索方式、优质的期刊、论文推荐而成的人文科学、社会科学资料库，汇集了自改革开放以来国内报刊公开发表近6000余种人文社科学术研究成果的精萃。<br/><a href="http://www.rdfybk.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>人民日报图文数据全文检索系统</summary><p>《人民日报》图文数据库是中国最大的党政、时政类信息数据库。涵盖了自1946年至今的内容。该数据库可提供版次、作者、日期、标题、正文等字段的组合检索和全文检索，可方便快捷进行阅读与下载，且提供“原版样式”。<br/><a href="http://data.people.com.cn/rmrb/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>历年光明日报数据库</summary><p>《光明日报》是中共中央主管主办、中央宣传部代管的中央党报。历年光明日报数据库提供《光明日报》自创刊年至今历史数据。可全文检索，提供原版PDF和文本版两种格式。可通过正文、作者、标题、栏目、版名、来源、广告主等检索。<br/><a href="http://epaper.gmw.cn/gmrbdb/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>大公报（1902-1949）数据库</summary><p>《大公报》于1902年在天津创办，是迄今中国发行时间最长的中文报纸。大公报（1902-1949）数据库完整收录1902-1949年间《大公报》天津、上海、重庆、汉口、桂林、香港及大公晚报等不同版本的全文资料，是目前《大公报》版本收集整理最为完整全面的数据库。大公报（1902-1949）全文数据库由中国国家图书馆提供原始图档。<br/><a href="http://tk.cepiec.com.cn/tknewsc/tknewskm?" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>中国近代报刊数据库</summary><p>中国近代报刊数据库平台收录了《申报》、《中央日报》、《台湾民报》、《台湾时报》、《台湾日日新报》，囊括了海峡两岸同期近代报纸史料。<br/><a href="http://tk.cepiec.com.cn/SP/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>ABC Chemistry(化学免费全文期刊)</summary><p>ABC Chemistry是化学方面的免费全文网上期刊数据库，由白俄罗斯国立大学化学系的一位教授建立的，分为永久期刊和临时期刊两大类。<br/><a href="http://www.abc.chemistry.bsu.by/current/fulltext.htm" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>EBSCO</summary><p>EBSCO以商务数据为主，经济，金融，管理，市场营销，物流学的论文可在该网站找到一些大型企业的SWOT分析，公司简介，公司营业状况数据等，该网站还收录了不少营销学杂志，文献等。<br/><a href="https://www.ebscohost.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>HighWire Press 数据库</summary><p>HighWire Press是全球最大的提供免费全文的学术文献出版商;于1995年由美国斯坦福大学图书馆创立。最初仅出版著名的周刊“Journal of Biological Chemistry”，现提供1300余种期刊，涵盖生物科学、人文、医学、物理科学、社会科学等大类。标为free的可免费访问全文。<br/><a href="http://highwire.stanford.edu/lists/allsites.dtl" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>eBookLobby</summary><p>eBookLobby主要提供商业，计算机，艺术和教学类的免费电子书下载。<br/><a href="http://www.ebooklobby.com" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>PlanetPDF</summary><p>一个很小的收集，主要收集PDF格式的新奇小说电子书免费下载。<br/><a href="http://www.planetpdf.com/free\_pdf\_ebooks.asp?CurrentPage=1" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>SCHOLARVOX International</summary><p>SCHOLARVOX International 网站包括管理学，社会学，工程学，信息学等学科的20000多本电子书，有英文有法文，可在线阅读。<br/><a href="http://www.scholarvox.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>DailyLit</summary><p>在线的免费电子书阅读网站，可以通过邮件或RSS阅读器接受FEED。<br/><a href="http://www.dailylit.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>FreeBookSpot</summary><p>FreeBookSpot是一个免费英文电子书大全网站，它提供有4485本免费电子书，分为96个分类，高达71.97GB。你可以通过分类搜索这些免费电子书，比如科学，工业，编辑，小说或其它电子书。并且没有注册要求，就可以免费下载电子书。<br/><a href="http://www.freebookspot.es" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>4eBooks</summary><p>4eBooks是一个专业提供免费计算机电子书下载的网站，拥有庞大的计算机编程技术类电子书。每本电子书有一个简短的介绍和评论，你可以寻找到上千本免费计算机电子书，各种类别的编程知识，比如.Net，Actionscript，Ajax，Apache等等。<br/><a href="http://4ebooks.org" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Free-eBooks</summary><p>Free-eBooks是一个提供免费电子书下载，电子书资源，电子书作者介绍的网站，你可以免费下载你喜欢的电子书，也可以上传你自己的电子书分享。你需要注册成为该网站的用户才可以下载它们的电子收资源，不过注册是免费的。<br/><a href="http://www.free-ebooks.net" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>GetFreeEBooks</summary><p>GetFreeEBooks是一个提供免费电子书下载的网站，站内的所有电子书都可以免费下载。更重要的一点是，该网站提供的电子书都是符合法律要求或是版权协议的。<br/><a href="http://www.getfreeebooks.com" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>FreeComputerBooks</summary><p>FreeComputerBooks是一个专门收集计算机，编辑，数学，演讲报告和教程等专业知识电子书的网站。它的网站分类结构非常细致，达到12层的分类系统，超过150个子分类。方便你的电子书搜索查找。<br/><a href="http://freecomputerbooks.com" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>FreeTechBooks</summary><p>FreeTechBooks也是一个提供科技类免费电子书下载的网站，该网站提供的电子书都是符合法律要求或是版权协议，许可免费的。<br/><a href="http://www.freetechbooks.com" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>ResearchGATE 科学社交网站</summary><p>ResearchGATE是全球最大的科学社交网络服务网站。于2008 年5月上线，至今已经有300,000多来自196不同国家的科学家加入此共同体。ResearchGATE针对著科学家以及研究人员提供对科研做有利的线上服务。全球的研究人员可免费注册该网站而和各种领域的同事分享研究结果或讨论专业问题。除了个人中心、科学博客等功能以外。<br/>ResearchGATE提供的应用程序随时随地毫无时空的可以分享文件，资料等。在2009年ResearchGATE踏出了开放存取的第一步。藉由本站的开放存取自存档功能科研人员可以上载自己写作的论文以便分享研究结果。由此本网站将免费提供论文参考。搜索文件可以直接使用该站的搜寻引擎而不侵犯出版社的版权。该站点提供的索引包括各种刊物总共有三千五百万多个登记。资料库又含有六万多篇直接可以使用的论文。特别设计的浏览特点成员抓取所有重要的对外资讯库内容，包括Pubmed, Citeseer, Arxiv, Nasa Library 等。<br/><a href="http://www.researchgate.net" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>mathoverflow</summary><p>MathOverflow是StackExchangeNetwork技术问答网站一员，MathOverflow是一个互动数学网站是一种论坛式的交流互动模式是专业数学家的网络社区。<br/>该网站的最大特点就是用户可以在网站免费提交问题、浏览问题、索引相关学术内容。对问题或答案投票和评论，通过这些活动用户可以获取徽章和声望值。<br/><a href="http://mathoverflow.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>中国社会科学网（免费）</summary><p>网站设50个栏目，将准确、及时报道国内外重大新闻，深度解析社会热点、难点问题，全面反映国内外学术动态。<br/><a href="http://www.cssn.cn/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>文献检索</summary><p><a href="http://netl.istic.ac.cn/netl/index.jspNSTL" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>NIMS日本国立材料研究</summary><p>旗下有NIMS NOW International，NIMS所属的每月通讯，2003年7月成立。每月覆盖范围包括国立材料研究所的最新研究活动，管理政策，在国际合作方面取得的进展，世界著名学者的访问、优秀的研究人员和工作人员，以及其他信息，报告当前的科研进展以及材料科学的重要趋势。不仅如此，NIMS还具有在线材料数据库，绝对是查询材料参数的好去处。<br/><a href="http://www.nims.go.jp/eng/" target="_blank" role="button" class="outline">访问网站</a><br/><a href="http://mits.nims.go.jp/index\_en.html" target="_blank" role="button" class="outline">在线材料数据库地址</a></p></details></div>
+</div>
+<div class="grid">
+    <div><details><summary>Book系列</summary><p>Book系列网站书籍种类丰富，基本专业书籍都可找到免费下载。包括Bookie、Bookzz、Bookfi等，（Bookzz、Bookfi在Library Genesis的导航栏有，但是现在貌似打不开了）。均可免费下载文献和书籍，文献下载适合前几年的，书籍就不用说了，超级多！<br/>其中BookSC网站文献资料多。BookSC网站截止到今天，已有278多万书籍以及5242多万文献可以免费下载，大多数是pdf,djvu,eupb格式。下载也很方便，直接搜论文或者文章题目即可，还可将选择地区并设置成中国。BookSC网站体验很好，搜索后直接点下载就可以了，超级方便！<br/><a href="http://bookzz.org/" target="_blank" role="button" class="outline">BookZZ</a><br/><a href="http://booksc.org/" target="_blank" role="button" class="outline">BookSC</a><br/><a href="http://en.booksee.org/" target="_blank" role="button" class="outline">BookEE</a></p></details></div>
+    <div> </div>
+    <div> </div>
+</div>
+</p></details>
 
 #### 英语
 
@@ -185,7 +335,7 @@
 <div class="grid">
     <div><details><summary>医生的免费电子书</summary><p><a href="http://freebooks4doctors.com/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
     <div><details><summary>HathiTrust Digital Library | Millions of booksonline</summary><p><a href="https://www.hathitrust.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>Europeana Search</summary><p><a href="http://www.europeana.eu/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>Free Online Books</summary><p>Free Online Books网站免费下载技术类图书，其中包括计算机科学，编程,移动技术，物理学，医学等类别的电子图书。<br/><a href="https://www.freebookcentre.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
     <div><details><summary>awesome-english-ebooks</summary><p>经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新<br/><a href="https://github.com/hehonghui/awesome-english-ebooks" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
@@ -194,8 +344,8 @@
 </div>
 <div class="grid">
     <div><details><summary>Manybooks</summary><p>Manybooks是一个专门提供免费和打折电子书下载的网站，提供近3万本免费电子书。<br/><a href="https://manybooks.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div><details><summary>Free Online Books</summary><p>Free Online Books网站免费下载技术类图书，其中包括计算机科学，编程,移动技术，物理学，医学等类别的电子图书。<br/><a href="https://www.freebookcentre.net/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
-    <div></div>
+    <div> </div>
+    <div> </div>
 </div>
 
 #### 日语

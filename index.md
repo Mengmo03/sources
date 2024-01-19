@@ -2,9 +2,7 @@
 
 <i>推荐使用<a href="https://google.cn/chrome/" target="_blank">Google Chrome</a>或<a href="https://www.mozilla.org/zh-CN/firefox/new/" target="_blank">Mozilla FireFox</a>浏览器访问本站！</i>
 
-**Last updata at: 24/01/08**
-
-*临时备注：这次更新了很多资源，目前收录的网站数量已经超过1000个了，这些天都在整理，将分批推送更新。同时网站的功能方面可能也会做一些更新。最近大家等待推送即可 -梦貘于24/01/16夜*
+**Last updata at: 24/01/19**
 
 <div><details><summary><b>About the English Version (If you want to use the English version of this website, you'd better read this first.)</b></summary><p>We are unable to provide English version (or any other multiple language versions) of this site at this time due to staffing and effort constraints.</p><p>If you are not a Simplified Chinese language speaker, please use the web translation function included with modern browsers such as Firefox, Google Chrome, or Microsoft Edge to access this website, or you can translate it using third-party web translation browser extensions.</p><p>We are providing an English language interface based on machine translation for your convenience. Because this is a beta version, it may be inaccurate, unstable, ineffective, or have other issues that we are unable to resolve. If any problems arise, refer to the solution in the preceding paragraph. </p><p>To get to the English page, click the "English" button in the top right corner of the page.(Refresh if the page is not translated completely) </p><p>If you are interested in assisting with the multilingualization of this site, please contact the webmaster using the information provided below!</p></details></div>
 
@@ -57,6 +55,6 @@
 
 感谢各位网友和用户向本站报告错误问题或提供新的链接
 
-另外，[#长毛象安利大会](https://alive.bar/tags/%E9%95%BF%E6%AF%9B%E8%B1%A1%E5%AE%89%E5%88%A9%E5%A4%A7%E4%BC%9A)、[小众软件](https://www.appinn.com/)、[ಠ_ಠ](https://www.plurk.com/p/ofnz6q)、[DecoHack](https://decohack.notion.site/decohack/21ed6d8428d04b928ccd7fbf2ea36dd2?v=8456b58b9e184cbca2979d033d5f83a6)、[法律检索](https://mp.weixin.qq.com/s/NMcmeRiFretEc8l6uvxYuQ)、[易书论坛](https://bbs.yibook.org/)、[Shelly](https://www.douban.com/group/topic/13784047/)、[快搜猫](https://www.kuaisoumao.com/)、[古书网导航](http://d.gushu.net.cn/)、[韓國學研究](https://mp.weixin.qq.com/s/KitSAHbhjiktfTGXpmCoJw)、[陈勇](https://mp.weixin.qq.com/s/tE-lfjDco2y4EIU5i5t8jw)、[上海考研人](https://zhuanlan.zhihu.com/p/36544238)、[中国民间档案馆](https://minjian-danganguan.org/zh)、[校书苦工](https://mp.weixin.qq.com/s/-Jy7fe6hdTeIHPkgjuzvVA)、[中国历史研究院](http://hrczh.cass.cn/)、[日留前辈阿拓学长](https://zhuanlan.zhihu.com/p/436082476)、[文献信息检索与论文写作](https://wjk.usst.edu.cn/2022/1016/c10030a281229/page.htm)等公开信息所提供的资源对本站亦有很大贡献。
+另外，[#长毛象安利大会](https://alive.bar/tags/%E9%95%BF%E6%AF%9B%E8%B1%A1%E5%AE%89%E5%88%A9%E5%A4%A7%E4%BC%9A)、[小众软件](https://www.appinn.com/)、[ಠ_ಠ](https://www.plurk.com/p/ofnz6q)、[DecoHack](https://decohack.notion.site/decohack/21ed6d8428d04b928ccd7fbf2ea36dd2?v=8456b58b9e184cbca2979d033d5f83a6)、[法律检索](https://mp.weixin.qq.com/s/NMcmeRiFretEc8l6uvxYuQ)、[易书论坛](https://bbs.yibook.org/)、[Shelly](https://www.douban.com/group/topic/13784047/)、[快搜猫](https://www.kuaisoumao.com/)、[古书网导航](http://d.gushu.net.cn/)、[韓國學研究](https://mp.weixin.qq.com/s/KitSAHbhjiktfTGXpmCoJw)、[陈勇](https://mp.weixin.qq.com/s/tE-lfjDco2y4EIU5i5t8jw)、[上海考研人](https://zhuanlan.zhihu.com/p/36544238)、[中国民间档案馆](https://minjian-danganguan.org/zh)、[校书苦工](https://mp.weixin.qq.com/s/-Jy7fe6hdTeIHPkgjuzvVA)、[中国历史研究院](http://hrczh.cass.cn/)、[日留前辈阿拓学长](https://zhuanlan.zhihu.com/p/436082476)、[文献信息检索与论文写作](https://wjk.usst.edu.cn/2022/1016/c10030a281229/page.htm)、[民国老报纸](https://mp.weixin.qq.com/s/Gq7kY3j9EcqJ8ouSJktP2A)等公开信息所提供的资源对本站亦有很大贡献。
 
 使用[Pico.css](https://picocss.com/)和[Docsify](https://docsify.js.org/)编写，托管于[GitHub](https://github.com/Mengmo03/sources).
