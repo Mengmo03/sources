@@ -113,7 +113,6 @@
 </div>
 <div class="grid">
     <div><details><summary>【W】mcbooksbot</summary><p>一个可以下载超星/读秀库内容的Telegram Bot，详情请参见使用教程<br/><a href="https://t.me/mcbooksbot" target="_blank" role="button" class="outline">访问网站</a><br/><a href="https://yibook.org/post/mcbook/" target="_blank" role="button" class="outline">使用教程</a></p></details></div>
-    <div><details><summary>布克盘</summary><p>聚合电子书数据库网站，截至目前已经同步了 三秋书屋、Sobooks、书舟资源 等网站数据用于检索<br/><a href="https://bookpan.net/" target="_blank" role="button" class="outline">网站主页</a><br/><a href="https://search.zhelper.net/?[{%22name%22:%22bookpan%22,%22url%22:%22https://api.bookpan.net%22,%22type%22:%22light%22,%22sensitive%22:false,%22detail%22:true}]" target="_blank" role="button" class="outline">搜索地址</a></p></details></div>
     <div><details><summary>电子书导航</summary><p>易书论坛提供的电子书导航网站，收集了一些可以下载电子书的渠道<br/><a href="https://nav.yibook.org/" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
 </div>
 <div class="grid">
