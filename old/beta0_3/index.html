@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <title>B-HU 资源</title>
+  <link rel="icon" href="./requirements/icon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="./requirements/icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./requirements/pico.min.css">
+  <link rel="stylesheet" href="./requirements/vue.css" />
+</head>
+<body>
+    <div id="app">加载中···<br/><i>* 如果长时间卡在此界面，请允许网站运行JavaScript脚本</i></div>
+    <script>
+    window.$docsify = {
+        loadNavbar: true,
+        loadSidebar: true,
+        subMaxLevel: 6,
+        coverpage: true,
+        auto2top: true,
+        relativePath: true,
+        name: 'B-HU 资源<sup>beta 0.3</sup>',
+        nameLink: '/',
+        notFoundPage: true,
+        homepage: 'index.md',
+        search: {
+            maxAge: 86400000,
+            paths: 'auto', // or 'auto'
+            placeholder: '在此处搜索',
+            noData: '没有结果！',
+            depth: 6,
+            hideOtherSidebarContent: false,
+            namespace: 'website-1'
+        },
+        pagination: {
+            previousText: '上一页',
+            nextText: '下一页',
+            crossChapter: true,
+            crossChapterText: true,
+        },
+        plugins: [
+            function(hook, vm) {
+                hook.afterEach(function(html) {
+                        return (
+                        '<p style="background-color: blanchedalmond;padding: auto;text-align: center;"><b>招募：</b>如果您懂得网站制作技术且愿意帮助完善本站，请向<a href="mailto:i@b-hu.org" target="_blank">i@b-hu.org</a>发送邮件。</p><br/><a href="https://forms.office.com/r/AMncKSa0ZD" target="_blank">报告错误</a>&nbsp;|&nbsp;<a onclick="expandAll()">展开本页所有介绍</a>&nbsp;|&nbsp;<a onclick="closeAll()">收起本页所有介绍</a>' +
+                        html +
+                        '<a href="//s.b-hu.org/#/guide/magicspeedup" target="_blank">MagicSpeedUp</a>'
+                        );
+                    });
+            },
+        ],
+    };
+    </script>
+    <script>
+        function expandAll() {
+    var details = document.getElementsByTagName("details");
+    for (var i = 0; i < details.length; i++) {
+        details[i].open = true;
+    }
+}
+
+function closeAll() {
+    var details = document.getElementsByTagName("details");
+    for (var i = 0; i < details.length; i++) {
+        details[i].open = false;
+    }
+}
+    </script>
+    <script src="./requirements/docsify-pagination.min.js"></script>
+    <script src="./requirements/search.min.js"></script>
+    <script src="./requirements/emoji.min.js"></script>
+    <script src="./requirements/docsify.js"></script>
+<!--不蒜子-->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <div style="text-align: center;">
+        <span id="busuanzi_container_site_pv" style="font-family:Consolas;color:rgba(21,170,191,.6);font-size:12px;">
+            访问量：<span id="busuanzi_value_site_pv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
+        </span>
+        <span id="busuanzi_container_site_uv" style="font-family:Consolas;color:rgba(21,170,191,.6);font-size:12px;">
+            访问人数：<span id="busuanzi_value_site_uv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
+        </span>
+    </div>
+<!--模板：
+<div class="grid">
+    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+    <div><details><summary>标题</summary><p>描述<br/><a href="链接" target="_blank" role="button" class="outline">访问网站</a></p></details></div>
+</div>
+-->
+<script src="https://res.zvo.cn/translate/translate.js"></script>
+    <script>
+    translate.setUseVersion2(); //设置使用v2.x 版本
+    translate.selectLanguageTag.show = false; // 不显示切换语言的下拉框
+    translate.language.setLocal('chinese_simplified');
+    translate.listener.start();
+    window.onload = function() {setTimeout(function() {translate.execute();}, 1000);};
+    //translate.execute();//进行翻译
+    </script>
+</body>
+</html>

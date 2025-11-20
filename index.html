@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./assets/icon.png" type="image/x-icon" />
+    <title>Markdown 查看器</title>
+    <link rel="stylesheet" href="assets/pie-web.css" />
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: #f8fafc;
+      }
+      .markdown-shell {
+        width: min(960px, 100%);
+        margin: 0 auto;
+        padding: 2rem clamp(1rem, 4vw, 3rem) 4rem;
+        flex: 1;
+      }
+    </style>
+    <script src="assets/marked.min.js"></script>
+  </head>
+  <body>
+    <script>
+      (function setupTranslate() {
+        const script = document.createElement("script");
+        script.src = "https://res.zvo.cn/translate/translate.js";
+        script.defer = true;
+        script.onload = () => {
+          if (!window.translate) {
+            console.error("Translate library loaded without exposing global.");
+            return;
+          }
+          translate.setUseVersion2();
+          translate.selectLanguageTag.show = false;
+          translate.language.setLocal("chinese_simplified");
+          translate.listener.start();
+          window.setTimeout(() => translate.execute(), 1000);
+          window._translateReady = true;
+        };
+        script.onerror = () => {
+          console.error("Failed to load translate.js");
+        };
+        document.head.appendChild(script);
+      })();
+
+      window.handleLanguageChange = (lang) => {
+        if (window.translate && typeof translate.changeLanguage === "function") {
+          translate.changeLanguage(lang);
+        } else {
+          console.warn("Translation library not ready yet.");
+          alert("页面翻译功能还在加载，请稍后再试。");
+        }
+      };
+    </script>
+    <main class="markdown-shell">
+      <article id="content" class="markdown-body"></article>
+      <!--不蒜子-->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <div style="text-align: center;">
+        <span id="busuanzi_container_site_pv" style="font-family:Consolas;color:rgba(21,170,191,.6);font-size:12px;">
+            访问量：<span id="busuanzi_value_site_pv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
+        </span>
+        <span id="busuanzi_container_site_uv" style="font-family:Consolas;color:rgba(21,170,191,.6);font-size:12px;">
+            访问人数：<span id="busuanzi_value_site_uv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
+        </span>
+    </div>
+    <script src="https://res.zvo.cn/translate/translate.js"></script>
+    <script>
+    translate.setUseVersion2(); //设置使用v2.x 版本
+    translate.selectLanguageTag.show = false; // 不显示切换语言的下拉框
+    translate.language.setLocal('chinese_simplified');
+    translate.listener.start();
+    window.onload = function() {setTimeout(function() {translate.execute();}, 1000);};
+    //translate.execute();//进行翻译
+    </script>
+    </main>
+    <script>
+      (function () {
+        const contentEl = document.getElementById("content");
+
+        function resolveTargetPath(rawPage) {
+          const safeName = (rawPage || "index").trim().replace(/[^a-zA-Z0-9-_]/g, "");
+          if (!safeName || safeName === "index") {
+            return "index.md";
+          }
+          return `pages/${safeName}.md`;
+        }
+
+        function updateTitle(fallback, override) {
+          const heading = contentEl.querySelector("h1");
+          if (heading && heading.textContent.trim()) {
+            document.title = heading.textContent.trim();
+          } else {
+            document.title = override || fallback;
+          }
+        }
+
+        async function loadMarkdown() {
+          const params = new URLSearchParams(window.location.search);
+          const page = params.get("page");
+          const targetPath = resolveTargetPath(page);
+
+          try {
+            const response = await fetch(`${targetPath}?t=${Date.now()}`);
+            if (!response.ok) {
+              throw new Error(`${response.status} ${response.statusText}`);
+            }
+            const source = await response.text();
+            contentEl.innerHTML = marked.parse(source, {
+              mangle: false,
+              headerIds: true,
+            });
+            updateTitle("Markdown 查看器");
+          } catch (error) {
+            console.error(error);
+            contentEl.innerHTML = "";
+            updateTitle("Markdown 查看器", "加载失败");
+          }
+        }
+
+        loadMarkdown();
+      })();
+    </script>
+  </body>
+</html>
