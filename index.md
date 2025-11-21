@@ -51,7 +51,9 @@
 
 - 您也可以使用<kbd>Ctrl</kbd>+<kbd>F</kbd>，执行页面搜索功能
 
-- 点击网页大标题上方的“报告错误”按钮可向本站匿名报告错误或联系站长。
+- 点击[“报告错误”](https://forms.office.com/r/AMncKSa0ZD)可向本站匿名报告错误或联系站长。
+
+- 同时，本站也提供一个基于Google Gem的Gemini智能体，可以通过自然语言交互的方式查找资源。但该智能体的数据源可能比网站要滞后一些。你可以[【点此体验】](https://gemini.google.com/gem/1aMP3FETV0OroPzCubO-5hLdnUUCL-ux6?usp=sharing)
 
 ## 关于本站
 
