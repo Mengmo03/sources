@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./assets/icon.png" type="image/x-icon" />
+    <title>404 - 页面未找到</title>
+    <link rel="stylesheet" href="assets/pie-web.css" />
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #f8fafc;
+      }
+      .error-container {
+        text-align: center;
+        padding: 2rem;
+        max-width: 600px;
+      }
+      .error-code {
+        font-size: 6rem;
+        font-weight: bold;
+        color: var(--main-6);
+        margin: 0;
+        line-height: 1;
+      }
+      .error-message {
+        font-size: 1.5rem;
+        color: var(--mid-9);
+        margin: 1.5rem 0;
+      }
+      .countdown {
+        font-size: 1rem;
+        color: var(--mid-7);
+        margin-top: 2rem;
+      }
+      .countdown-number {
+        color: var(--main-6);
+        font-weight: bold;
+      }
+      @media (max-width: 768px) {
+        .error-code {
+          font-size: 4rem;
+        }
+        .error-message {
+          font-size: 1.2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="error-container">
+      <h1 class="error-code">404</h1>
+      <p class="error-message">页面找不到了，正在跳转回首页</p>
+      <p class="countdown">
+        <span class="countdown-number" id="countdown">3</span> 秒后自动跳转
+      </p>
+    </div>
+    <script>
+      let countdown = 3;
+      const countdownEl = document.getElementById("countdown");
+      
+      const timer = setInterval(() => {
+        countdown--;
+        if (countdown > 0) {
+          countdownEl.textContent = countdown;
+        } else {
+          clearInterval(timer);
+          window.location.href = "index.html";
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>
+
