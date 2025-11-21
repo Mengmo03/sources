@@ -6,6 +6,7 @@
     <title>B-HU 资源V0.4搜索界面</title>
     <link rel="stylesheet" href="./assets/pie-web.css" />
     <link rel="icon" href="./assets/icon.png" type="image/x-icon" />
+    <script src="./assets/full.js"></script>
     <style>
       * {
         box-sizing: border-box;
@@ -523,6 +524,37 @@
       const searchInput = document.getElementById("searchInput");
       const searchResults = document.getElementById("searchResults");
 
+      const createOpenCCConverters = () => {
+        if (typeof OpenCC === "undefined") {
+          console.warn("OpenCC.js 未加载，搜索将仅使用原始关键词。");
+          return null;
+        }
+        try {
+          return {
+            toTraditional: OpenCC.Converter({ from: "cn", to: "tw" }),
+            toSimplified: OpenCC.Converter({ from: "tw", to: "cn" }),
+          };
+        } catch (error) {
+          console.warn("OpenCC 初始化失败，搜索将仅使用原始关键词。", error);
+          return null;
+        }
+      };
+
+      const buildQueryVariants = (rawQuery, converters) => {
+        const base = rawQuery.trim();
+        if (!base) return [];
+        const variants = new Set([base]);
+        if (converters?.toTraditional) {
+          variants.add(converters.toTraditional(base));
+        }
+        if (converters?.toSimplified) {
+          variants.add(converters.toSimplified(base));
+        }
+        return Array.from(variants)
+          .map((variant) => variant.toLowerCase())
+          .filter(Boolean);
+      };
+
       const slugify = (text) =>
         text
           .toLowerCase()
@@ -794,6 +826,7 @@
       };
 
       const setupSearch = (entries) => {
+        const converters = createOpenCCConverters();
         const renderResults = (list) => {
           searchResults.innerHTML = "";
           if (!list.length) {
@@ -817,14 +850,15 @@
         };
 
         const handleSearch = () => {
-          const query = searchInput.value.trim().toLowerCase();
-          if (!query) {
+          const queries = buildQueryVariants(searchInput.value, converters);
+          if (!queries.length) {
             searchResults.classList.remove("active");
             return;
           }
-          const results = entries.filter((entry) =>
-            entry.content.toLowerCase().includes(query)
-          );
+          const results = entries.filter((entry) => {
+            const haystack = entry.content.toLowerCase();
+            return queries.some((keyword) => haystack.includes(keyword));
+          });
           renderResults(results);
         };
 
