@@ -10,6 +10,7 @@ const STATIC_CACHE_URLS = [
   './assets/papaparse.min.js',
   './assets/icon.svg',
   './data/fenlei.md',
+  './data/data.csv',  // 添加 data.csv 到预缓存列表
   './manifest.json'
 ];
 
@@ -66,11 +67,12 @@ self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(request)
       .then((cachedResponse) => {
-        // 如果有缓存，先返回缓存
-        if (cachedResponse) {
-          // 对于数据文件，同时检查网络更新
-          if (url.pathname.includes('/data/')) {
-            return fetch(request)
+        // 对于数据文件，使用 Cache First 策略（离线优先）
+        if (url.pathname.includes('/data/')) {
+          // 如果有缓存，立即返回缓存（离线优先）
+          if (cachedResponse) {
+            // 在后台尝试更新缓存（不阻塞响应）
+            fetch(request)
               .then((networkResponse) => {
                 // 如果网络请求成功，更新缓存
                 if (networkResponse.ok) {
@@ -79,13 +81,38 @@ self.addEventListener('fetch', (event) => {
                     cache.put(request, responseClone);
                   });
                 }
-                return networkResponse.ok ? networkResponse : cachedResponse;
               })
               .catch(() => {
-                // 网络失败，返回缓存
-                return cachedResponse;
+                // 网络失败，忽略（已返回缓存）
               });
+            return cachedResponse;
           }
+          
+          // 没有缓存，从网络获取
+          return fetch(request)
+            .then((response) => {
+              // 只缓存成功的响应
+              if (!response || response.status !== 200 || response.type === 'error') {
+                return response;
+              }
+
+              // 克隆响应以缓存
+              const responseToCache = response.clone();
+              caches.open(RUNTIME_CACHE).then((cache) => {
+                cache.put(request, responseToCache);
+              });
+
+              return response;
+            })
+            .catch((error) => {
+              console.error('[Service Worker] Fetch failed for data file:', error);
+              // 数据文件获取失败，返回 null（让应用层处理）
+              return null;
+            });
+        }
+
+        // 对于其他文件，如果有缓存直接返回
+        if (cachedResponse) {
           return cachedResponse;
         }
 
@@ -108,7 +135,7 @@ self.addEventListener('fetch', (event) => {
           .catch((error) => {
             console.error('[Service Worker] Fetch failed:', error);
             // 如果是 HTML 页面，可以返回离线页面
-            if (request.headers.get('accept').includes('text/html')) {
+            if (request.headers.get('accept') && request.headers.get('accept').includes('text/html')) {
               return caches.match('./tree.html');
             }
             throw error;

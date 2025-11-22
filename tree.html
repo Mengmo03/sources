@@ -874,12 +874,34 @@ async function getCachedETag() {
  */
 async function loadTreeData() {
     // Load fenlei.md first (synchronous-like, but async)
-    const mdRes = await fetch("./data/fenlei.md");
-    if (!mdRes.ok) throw new Error("Failed to fetch fenlei.md");
-    
-    const mdText = await mdRes.text();
-    state.treeData = parseMarkdownTree(mdText);
-    state.tagDescendants = buildDescendantMap(state.treeData);
+    try {
+        const mdRes = await fetch("./data/fenlei.md");
+        if (!mdRes.ok) {
+            throw new Error(`Failed to fetch fenlei.md: ${mdRes.status}`);
+        }
+        
+        const mdText = await mdRes.text();
+        state.treeData = parseMarkdownTree(mdText);
+        state.tagDescendants = buildDescendantMap(state.treeData);
+    } catch (e) {
+        // 离线回退：尝试从 Service Worker 缓存读取
+        console.warn('Failed to load fenlei.md from network, trying cache:', e);
+        try {
+            const cache = await caches.open('bhu-resource-v1');
+            const cachedResponse = await cache.match('./data/fenlei.md');
+            if (cachedResponse) {
+                const mdText = await cachedResponse.text();
+                state.treeData = parseMarkdownTree(mdText);
+                state.tagDescendants = buildDescendantMap(state.treeData);
+                console.log('Loaded fenlei.md from cache');
+                return;
+            }
+        } catch (cacheError) {
+            console.error('Failed to load from cache:', cacheError);
+        }
+        // 如果缓存也失败，抛出错误
+        throw new Error("Failed to fetch fenlei.md and no cache available");
+    }
 }
 
 async function loadResourceData() {
@@ -890,7 +912,7 @@ async function loadResourceData() {
     }
     
     try {
-        // Try to load from cache first
+        // Try to load from IndexedDB cache first
         const cachedData = await getCachedData();
         const cachedETag = await getCachedETag();
         
@@ -902,8 +924,44 @@ async function loadResourceData() {
             };
         }
         
-        // Fetch CSV from server
-        const csvRes = await fetch("./data/data.csv", fetchOptions);
+        // Fetch CSV from server (Service Worker will handle caching)
+        let csvRes;
+        try {
+            csvRes = await fetch("./data/data.csv", fetchOptions);
+        } catch (fetchError) {
+            // 网络错误，尝试从 Service Worker 缓存读取
+            console.warn('Network fetch failed, trying Service Worker cache:', fetchError);
+            if (cachedData) {
+                // 如果有 IndexedDB 缓存，直接使用
+                console.log('Using IndexedDB cached data (offline mode)');
+                state.jsonData = cachedData;
+                processResourceData();
+                if (loadingNotice) loadingNotice.classList.add('hidden');
+                return;
+            }
+            
+            // 尝试从 Service Worker 缓存读取原始 CSV
+            try {
+                const cache = await caches.open('bhu-resource-v1');
+                const cachedCsvResponse = await cache.match('./data/data.csv');
+                if (cachedCsvResponse) {
+                    const csvText = await cachedCsvResponse.text();
+                    const parsedData = parseCSV(csvText);
+                    state.jsonData = parsedData;
+                    processResourceData();
+                    // 保存到 IndexedDB 以便下次使用
+                    await saveDataToCache(state.jsonData, null);
+                    if (loadingNotice) loadingNotice.classList.add('hidden');
+                    console.log('Loaded data.csv from Service Worker cache (offline mode)');
+                    return;
+                }
+            } catch (cacheError) {
+                console.error('Failed to load from Service Worker cache:', cacheError);
+            }
+            
+            // 如果所有缓存都失败，抛出错误
+            throw new Error("Failed to fetch data.csv and no cache available");
+        }
         
         if (csvRes.status === 304 && cachedData) {
             // Not modified, use cached data
@@ -952,6 +1010,24 @@ async function loadResourceData() {
             processResourceData();
             if (loadingNotice) loadingNotice.classList.add('hidden');
             return;
+        }
+        
+        // 最后尝试从 Service Worker 缓存读取
+        try {
+            const cache = await caches.open('bhu-resource-v1');
+            const cachedCsvResponse = await cache.match('./data/data.csv');
+            if (cachedCsvResponse) {
+                const csvText = await cachedCsvResponse.text();
+                const parsedData = parseCSV(csvText);
+                state.jsonData = parsedData;
+                processResourceData();
+                await saveDataToCache(state.jsonData, null);
+                if (loadingNotice) loadingNotice.classList.add('hidden');
+                console.log('Loaded data.csv from Service Worker cache as last resort');
+                return;
+            }
+        } catch (cacheError) {
+            console.error('Failed to load from Service Worker cache:', cacheError);
         }
         
         // If no cache and fetch failed, show error

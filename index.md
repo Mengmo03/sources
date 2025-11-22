@@ -3,7 +3,7 @@
 <h1>B-HU 资源<sup>beta 0.5</sup></h1>
 
 <a href="./tree.html" target="_blank"><div style="display:flex;justify-content:center;margin:1.5rem 0;">
-  <img src="assets/icon.png" alt="icon" style="width:30%;height:auto;">
+  <img src="assets/icon.svg" alt="icon" style="width:30%;height:auto;">
 </div></a>
 
 <i>推荐使用<a href="https://google.cn/chrome/" target="_blank">Google Chrome</a>或<a href="https://www.mozilla.org/zh-CN/firefox/new/" target="_blank">Mozilla FireFox</a>浏览器访问本站！</i><br/><br/>
@@ -54,6 +54,8 @@
 - 资源页面最上方有一个按钮，可以全文搜索。<br/> **注意：** 这个搜索功能是在你标签的筛选下搜索的，如果想要搜索整个资源库，需要勾选“全部”标签
 
 - 您也可以使用<kbd>Ctrl</kbd>+<kbd>F</kbd>，执行页面搜索功能
+
+- 进入资源界面，点击“安装为应用”按钮，也可以像装应用一样把本站安装到本地使用。
 
 - 点击[“报告错误”](https://forms.office.com/r/AMncKSa0ZD)可向本站匿名报告错误或联系站长。
 
