@@ -129,9 +129,7 @@
             <!-- Header -->
             <div class="h-16 flex items-center justify-between px-6 border-b border-slate-100 shrink-0 bg-white">
                 <div class="flex items-center gap-2 text-indigo-700 font-bold text-xl tracking-tight">
-                    <div class="p-1.5 bg-indigo-100 rounded-lg">
-                        <i data-lucide="database" class="w-5 h-5"></i>
-                    </div>
+                    <img src="./assets/icon.png" alt="Icon" class="w-5 h-5" />
                     <span>B-HU资源beta 0.5</span>
                 </div>
                 <button onclick="toggleMobileMenu(false)" class="md:hidden text-slate-400 hover:text-slate-600 p-1 hover:bg-slate-100 rounded-md">
@@ -184,7 +182,7 @@
                     </div>
                     
                     <!-- Extra Links -->
-                    <div class="flex items-center justify-center sm:justify-start gap-1 text-xs text-slate-400 select-none">
+                    <div class="flex items-center justify-center gap-1 text-xs text-slate-400 select-none">
                         <a href="./index.html" target="_self" class="header-link">返回首页</a>
                         <span class="text-slate-300">|</span>
                         <a href="https://forms.office.com/r/AMncKSa0ZD" target="_blank" class="header-link">报告错误</a>
@@ -296,6 +294,46 @@ function debounce(func, wait) {
 }
 
 /**
+ * LocalStorage Management
+ */
+function saveStateToLocalStorage() {
+    try {
+        const savedState = {
+            selectedTags: Array.from(state.selectedTags),
+            searchQuery: state.searchQuery
+        };
+        localStorage.setItem('bhu-tree-state', JSON.stringify(savedState));
+    } catch (e) {
+        console.warn('Failed to save state to localStorage:', e);
+    }
+}
+
+function loadStateFromLocalStorage() {
+    try {
+        const saved = localStorage.getItem('bhu-tree-state');
+        if (saved) {
+            const savedState = JSON.parse(saved);
+            // Restore selected tags
+            if (savedState.selectedTags && Array.isArray(savedState.selectedTags)) {
+                state.selectedTags = new Set(savedState.selectedTags);
+            }
+            // Restore search query
+            if (savedState.searchQuery) {
+                state.searchQuery = savedState.searchQuery;
+                const searchInput = document.getElementById('search-input');
+                if (searchInput) {
+                    searchInput.value = savedState.searchQuery;
+                }
+            }
+            return true;
+        }
+    } catch (e) {
+        console.warn('Failed to load state from localStorage:', e);
+    }
+    return false;
+}
+
+/**
  * Initialization
  */
 document.addEventListener('DOMContentLoaded', async () => {
@@ -305,9 +343,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     try {
         await loadData();
+        // Load state from localStorage before initializing UI
+        loadStateFromLocalStorage();
         initEventListeners();
         renderTree(); // Initial render (collapsed)
         updateCounts();
+        // Restore UI state after rendering
+        updateSelectionUI();
+        // Execute search to restore results if there's saved state
+        if (state.selectedTags.size > 0 || state.searchQuery) {
+            executeSearch();
+        }
         document.getElementById('loading-screen').classList.add('hidden');
         document.getElementById('app').classList.remove('hidden');
         
@@ -737,12 +783,14 @@ function toggleTag(tag) {
     } else {
         state.selectedTags.add(tag);
     }
+    saveStateToLocalStorage(); // Save to localStorage
     updateSelectionUI();
     executeSearch(); // Trigger search immediately
 }
 
 function clearTags() {
     state.selectedTags.clear();
+    saveStateToLocalStorage(); // Save to localStorage
     updateSelectionUI();
     executeSearch(); // Trigger search immediately
 }
@@ -789,6 +837,7 @@ async function executeSearch() {
     const input = document.getElementById('search-input');
     const rawQuery = input.value.trim();
     state.searchQuery = rawQuery;
+    saveStateToLocalStorage(); // Save to localStorage
 
     // If no tags and no query, show welcome screen
     if (state.selectedTags.size === 0 && !rawQuery) {
