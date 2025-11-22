@@ -34,9 +34,9 @@ def csv_to_json(csv_file_path, json_file_path):
                 row['tags'] = []
             data.append(row)
     
-    # 写入 JSON 文件
+    # 写入 JSON 文件（压缩格式，无缩进和换行）
     with open(json_file_path, 'w', encoding='utf-8') as json_file:
-        json.dump(data, json_file, ensure_ascii=False, indent=2)
+        json.dump(data, json_file, ensure_ascii=False)
     
     print(f"成功转换 {len(data)} 条记录")
     print(f"CSV 文件: {csv_file_path}")

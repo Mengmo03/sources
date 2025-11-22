@@ -122,7 +122,7 @@
     <!-- Loading Screen -->
     <div id="loading-screen" class="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-slate-50 gap-4">
         <div class="w-12 h-12 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin"></div>
-        <p class="text-slate-500 font-medium animate-pulse">正在读取资源库...</p>
+        <p class="text-slate-500 font-medium animate-pulse">正在读取分类树...</p>
     </div>
 
     <!-- Error Screen -->
@@ -188,6 +188,12 @@
                 <button onclick="toggleMobileMenu(true)" class="md:hidden p-2 mt-1 -ml-2 text-slate-500 hover:bg-slate-100 rounded-lg transition-colors">
                     <i data-lucide="menu" class="w-6 h-6"></i>
                 </button>
+                
+                <!-- Data Loading Notice -->
+                <div id="data-loading-notice" class="absolute top-full left-0 right-0 bg-indigo-50 border-b border-indigo-200 px-4 py-2 text-sm text-indigo-700 flex items-center justify-center gap-2 hidden z-30">
+                    <div class="w-4 h-4 border-2 border-indigo-400 border-t-indigo-700 rounded-full animate-spin"></div>
+                    <span>正在加载资源数据，可能需要约 10 秒...</span>
+                </div>
                 
                 <div class="relative flex-1 max-w-2xl flex flex-col gap-2 search-header-container">
                     <div class="relative w-full flex flex-col sm:flex-row items-stretch sm:items-center gap-2">
@@ -296,15 +302,23 @@
  */
 const state = {
     treeData: [],
-    jsonData: [],
+    jsonData: [], // Renamed from csvData
     selectedTags: new Set(),
     tagDescendants: new Map(),
     nodeCounts: new Map(), // Map<TagName, count>
     searchQuery: "",
     converter: null,
     expandedNodes: new Set(), // Track expanded tree nodes by ID
-    strictMatch: true // Strict match mode (default: true)
+    strictMatch: true, // Strict match mode (default: true)
+    dataLoaded: false // Track if data is loaded
 };
+
+// IndexedDB configuration
+const DB_NAME = 'bhu-resource-cache';
+const DB_VERSION = 1;
+const STORE_NAME = 'resourceData';
+const CACHE_KEY = 'data.json';
+const ETAG_KEY = 'data-etag';
 
 /**
  * Utilities
@@ -375,18 +389,23 @@ document.addEventListener('DOMContentLoaded', async () => {
     lucide.createIcons();
     
     try {
-        await loadData();
+        // Step 1: Load tree data (fenlei.md) first
+        await loadTreeData();
+        
         // Load state from localStorage before initializing UI
         loadStateFromLocalStorage();
         initEventListeners();
         renderTree(); // Initial render (collapsed)
-        updateCounts();
+        
+        // Update counts for tree (resource count will be 0 until data is loaded)
+        const totalTags = countTreeNodes(state.treeData);
+        document.getElementById('total-tags-count').textContent = totalTags;
+        document.getElementById('hero-tag-count').textContent = totalTags;
+        
         // Restore UI state after rendering
         updateSelectionUI();
-        // Execute search to restore results if there's saved state
-        if (state.selectedTags.size > 0 || state.searchQuery) {
-            executeSearch();
-        }
+        
+        // Hide loading screen and show app
         document.getElementById('loading-screen').classList.add('hidden');
         document.getElementById('app').classList.remove('hidden');
         
@@ -395,6 +414,23 @@ document.addEventListener('DOMContentLoaded', async () => {
             lucide.createIcons();
             updateBackToTopButton();
         }, 100);
+        
+        // Step 2: Load resource data asynchronously (lazy loading)
+        loadResourceData().then(() => {
+            // Start periodic update check after initial load
+            startPeriodicUpdateCheck();
+        }).catch(e => {
+            console.error('Failed to load resource data:', e);
+            const loadingNotice = document.getElementById('data-loading-notice');
+            if (loadingNotice) loadingNotice.classList.add('hidden');
+            
+            // Show error but don't block the UI
+            const errorMsg = document.createElement('div');
+            errorMsg.className = 'fixed top-4 right-4 bg-rose-100 border border-rose-300 text-rose-800 px-4 py-2 rounded-lg shadow-lg z-50 text-sm';
+            errorMsg.textContent = '资源数据加载失败，请刷新页面重试';
+            document.body.appendChild(errorMsg);
+            setTimeout(() => errorMsg.remove(), 5000);
+        });
         
         // Lazy load non-critical features after page is shown
         setTimeout(() => {
@@ -406,7 +442,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error(e);
         document.getElementById('loading-screen').classList.add('hidden');
         document.getElementById('error-screen').classList.remove('hidden');
-        document.getElementById('error-message').textContent = "数据加载失败，请确保目录下存在 fenlei.md 和 data.json";
+        document.getElementById('error-message').textContent = "分类树加载失败，请确保目录下存在 fenlei.md";
     }
 });
 
@@ -514,25 +550,278 @@ function countTreeNodes(nodes) {
 }
 
 /**
+ * IndexedDB Management
+ */
+function openDB() {
+    return new Promise((resolve, reject) => {
+        const request = indexedDB.open(DB_NAME, DB_VERSION);
+        request.onerror = () => reject(request.error);
+        request.onsuccess = () => resolve(request.result);
+        request.onupgradeneeded = (event) => {
+            const db = event.target.result;
+            if (!db.objectStoreNames.contains(STORE_NAME)) {
+                db.createObjectStore(STORE_NAME);
+            }
+        };
+    });
+}
+
+async function getCachedData() {
+    try {
+        const db = await openDB();
+        return new Promise((resolve, reject) => {
+            const transaction = db.transaction([STORE_NAME], 'readonly');
+            const store = transaction.objectStore(STORE_NAME);
+            const request = store.get(CACHE_KEY);
+            request.onerror = () => reject(request.error);
+            request.onsuccess = () => resolve(request.result);
+        });
+    } catch (e) {
+        console.warn('Failed to read from IndexedDB:', e);
+        return null;
+    }
+}
+
+async function saveDataToCache(data, etag) {
+    try {
+        const db = await openDB();
+        const transaction = db.transaction([STORE_NAME], 'readwrite');
+        const store = transaction.objectStore(STORE_NAME);
+        
+        // Save data
+        await new Promise((resolve, reject) => {
+            const request = store.put(data, CACHE_KEY);
+            request.onerror = () => reject(request.error);
+            request.onsuccess = () => resolve();
+        });
+        
+        // Save ETag if provided
+        if (etag) {
+            await new Promise((resolve, reject) => {
+                const request = store.put(etag, ETAG_KEY);
+                request.onerror = () => reject(request.error);
+                request.onsuccess = () => resolve();
+            });
+        }
+        
+        console.log('Data saved to IndexedDB cache');
+    } catch (e) {
+        console.warn('Failed to save to IndexedDB:', e);
+    }
+}
+
+async function getCachedETag() {
+    try {
+        const db = await openDB();
+        return new Promise((resolve, reject) => {
+            const transaction = db.transaction([STORE_NAME], 'readonly');
+            const store = transaction.objectStore(STORE_NAME);
+            const request = store.get(ETAG_KEY);
+            request.onerror = () => reject(request.error);
+            request.onsuccess = () => resolve(request.result);
+        });
+    } catch (e) {
+        console.warn('Failed to read ETag from IndexedDB:', e);
+        return null;
+    }
+}
+
+/**
  * Data Parsing & Loading
  */
-async function loadData() {
-    const [mdRes, jsonRes] = await Promise.all([
-        fetch("./data/fenlei.md"),
-        fetch("./data/data.json")
-    ]);
-
-    if (!mdRes.ok || !jsonRes.ok) throw new Error("Failed to fetch data files");
-
-    const mdText = await mdRes.text();
-    const jsonData = await jsonRes.json();
-
-    state.treeData = parseMarkdownTree(mdText);
-    state.jsonData = parseJSON(jsonData);
-    state.tagDescendants = buildDescendantMap(state.treeData);
+async function loadTreeData() {
+    // Load fenlei.md first (synchronous-like, but async)
+    const mdRes = await fetch("./data/fenlei.md");
+    if (!mdRes.ok) throw new Error("Failed to fetch fenlei.md");
     
+    const mdText = await mdRes.text();
+    state.treeData = parseMarkdownTree(mdText);
+    state.tagDescendants = buildDescendantMap(state.treeData);
+}
+
+async function loadResourceData() {
+    // Show loading notice
+    const loadingNotice = document.getElementById('data-loading-notice');
+    if (loadingNotice) {
+        loadingNotice.classList.remove('hidden');
+    }
+    
+    try {
+        // Try to load from cache first
+        const cachedData = await getCachedData();
+        const cachedETag = await getCachedETag();
+        
+        // Prepare fetch options with conditional request
+        const fetchOptions = {};
+        if (cachedETag) {
+            fetchOptions.headers = {
+                'If-None-Match': cachedETag
+            };
+        }
+        
+        // Fetch from server
+        const jsonRes = await fetch("./data/data.json", fetchOptions);
+        
+        if (jsonRes.status === 304 && cachedData) {
+            // Not modified, use cached data
+            console.log('Using cached data (304 Not Modified)');
+            state.jsonData = cachedData;
+            processResourceData();
+            if (loadingNotice) loadingNotice.classList.add('hidden');
+            return;
+        }
+        
+        if (!jsonRes.ok) {
+            if (cachedData) {
+                // Use cached data as fallback
+                console.log('Fetch failed, using cached data');
+                state.jsonData = cachedData;
+                processResourceData();
+                if (loadingNotice) loadingNotice.classList.add('hidden');
+                return;
+            }
+            throw new Error("Failed to fetch data.json");
+        }
+        
+        const jsonData = await jsonRes.json();
+        const etag = jsonRes.headers.get('ETag') || jsonRes.headers.get('etag');
+        
+        // Parse and process data
+        state.jsonData = parseJSON(jsonData);
+        processResourceData();
+        
+        // Save to cache
+        await saveDataToCache(state.jsonData, etag);
+        
+        // Hide loading notice
+        if (loadingNotice) loadingNotice.classList.add('hidden');
+        
+        console.log('Resource data loaded successfully');
+    } catch (e) {
+        console.error('Failed to load resource data:', e);
+        
+        // Try to use cached data as fallback
+        const cachedData = await getCachedData();
+        if (cachedData) {
+            console.log('Using cached data as fallback');
+            state.jsonData = cachedData;
+            processResourceData();
+            if (loadingNotice) loadingNotice.classList.add('hidden');
+            return;
+        }
+        
+        // If no cache and fetch failed, show error
+        if (loadingNotice) loadingNotice.classList.add('hidden');
+        throw e;
+    }
+}
+
+function processResourceData() {
     // Calculate recursive counts for tree visualization
     state.nodeCounts = calculateRecursiveCounts(state.treeData, state.jsonData);
+    state.dataLoaded = true;
+    
+    // Update counts UI
+    updateCounts();
+    
+    // Re-render tree to update counts
+    renderTree();
+    
+    // If there were saved searches, execute them
+    if (state.selectedTags.size > 0 || state.searchQuery) {
+        executeSearch();
+    }
+}
+
+// Periodic update check (every 5 minutes)
+let updateCheckInterval = null;
+
+function startPeriodicUpdateCheck() {
+    // Clear existing interval if any
+    if (updateCheckInterval) {
+        clearInterval(updateCheckInterval);
+    }
+    
+    // Check for updates every 5 minutes
+    updateCheckInterval = setInterval(async () => {
+        await checkForDataUpdates();
+    }, 5 * 60 * 1000); // 5 minutes
+}
+
+async function checkForDataUpdates() {
+    try {
+        const cachedETag = await getCachedETag();
+        if (!cachedETag) return;
+        
+        // Check if server has newer data
+        const fetchOptions = {
+            method: 'HEAD', // Only fetch headers to save bandwidth
+            headers: {
+                'If-None-Match': cachedETag
+            }
+        };
+        
+        const response = await fetch("./data/data.json", fetchOptions);
+        
+        // If 304, no update needed
+        if (response.status === 304) {
+            console.log('Data is up to date');
+            return;
+        }
+        
+        // If not 304, update available - reload data silently
+        if (response.ok || response.status !== 404) {
+            console.log('Update detected, reloading data...');
+            await loadResourceDataSilently();
+        }
+    } catch (e) {
+        // Silently fail - don't interrupt user experience
+        console.debug('Update check failed:', e);
+    }
+}
+
+async function loadResourceDataSilently() {
+    try {
+        const cachedETag = await getCachedETag();
+        
+        const fetchOptions = {};
+        if (cachedETag) {
+            fetchOptions.headers = {
+                'If-None-Match': cachedETag
+            };
+        }
+        
+        const jsonRes = await fetch("./data/data.json", fetchOptions);
+        
+        if (jsonRes.status === 304) {
+            return; // No update
+        }
+        
+        if (!jsonRes.ok) {
+            return; // Failed, keep using cached data
+        }
+        
+        const jsonData = await jsonRes.json();
+        const etag = jsonRes.headers.get('ETag') || jsonRes.headers.get('etag');
+        
+        // Parse and process data
+        const parsedData = parseJSON(jsonData);
+        const oldDataLength = state.jsonData.length;
+        
+        // Update data
+        state.jsonData = parsedData;
+        processResourceData();
+        await saveDataToCache(state.jsonData, etag);
+        console.log('Data updated silently', { oldLength: oldDataLength, newLength: state.jsonData.length });
+    } catch (e) {
+        console.debug('Silent update failed:', e);
+    }
+}
+
+// Legacy function name for backward compatibility
+async function loadData() {
+    await loadTreeData();
+    // Resource data will be loaded lazily after page is shown
 }
 
 function calculateRecursiveCounts(treeData, jsonData) {
@@ -633,10 +922,10 @@ function parseMarkdownTree(md) {
     return root;
 }
 
-function parseJSON(jsonData) {
-    if (!Array.isArray(jsonData)) return [];
+function parseJSON(jsonArray) {
+    if (!Array.isArray(jsonArray)) return [];
     
-    return jsonData.map(item => {
+    return jsonArray.map(item => {
         // Ensure tags is an array
         if (!Array.isArray(item.tags)) {
             item.tags = [];
@@ -644,8 +933,8 @@ function parseJSON(jsonData) {
         
         // PRE-PROCESS SEARCH STRING for performance
         // Concatenate title, desc, tags and lowercase them once.
-        const title = item.title || item.name || "";
-        const desc = item.description || item.desc || "";
+        const title = (item.title || item.name || "");
+        const desc = (item.description || item.desc || "");
         const tagStr = item.tags.join(" ");
         item._searchStr = `${title} ${desc} ${tagStr}`.toLowerCase();
         
@@ -920,6 +1209,14 @@ async function executeSearch() {
     const hasTags = state.selectedTags.size > 0;
     const hasQuery = searchTerms.length > 0;
 
+    // Wait for data to be loaded
+    if (!state.dataLoaded) {
+        // Show welcome view if data is not loaded yet
+        document.getElementById('welcome-view').classList.remove('hidden');
+        document.getElementById('results-view').classList.add('hidden');
+        return;
+    }
+    
     const results = state.jsonData.filter(item => {
         // 1. Tag Match (Fastest check first)
         if (hasTags) {
