@@ -1,962 +1,1020 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>B-HU 资源V0.4搜索界面</title>
-    <link rel="stylesheet" href="./assets/pie-web.css" />
-    <link rel="icon" href="./assets/icon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>B-HU资源beta 0.5</title>
+    <script src="./assets/tailwind.css"></script>
+    <!-- OpenCC -->
     <script src="./assets/full.js"></script>
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-
-      :root {
-        --announcement-offset: 0px;
-      }
-
-      body {
-        margin: 0;
-        padding: 0 0 3rem;
-        background: var(--mid-2);
-        min-height: 100vh;
-        color: var(--text-color);
-      }
-
-      .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-      }
-
-      header {
-        position: sticky;
-        top: var(--announcement-offset, 0px);
-        z-index: 5;
-        background: rgba(255, 255, 255, 0.9);
-        border-bottom: 1px solid var(--mid-4);
-        backdrop-filter: blur(8px);
-        padding: 1.5rem clamp(1rem, 3vw, 2.5rem) 1rem;
-      }
-
-      header h1 {
-        margin: 0;
-        text-align: center;
-        font-size: clamp(1.4rem, 2.2vw, 2rem);
-        color: var(--mid-10);
-      }
-
-      main {
-        padding: 0 clamp(1rem, 3vw, 2.5rem) 3rem;
-      }
-
-      .tree-card {
-        margin-top: 1.5rem;
-        background: var(--mid-1);
-        border: 1px solid var(--mid-4);
-        border-radius: 16px;
-        padding: clamp(1rem, 3vw, 2.5rem);
-        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.05);
-      }
-
-      .legend {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.75rem;
-        font-size: 0.92rem;
-        color: var(--mid-7);
-        margin-bottom: 1.25rem;
-        padding-left: 0.75rem;
-        border-left: 3px solid var(--main-5);
-      }
-
-      .search-wrapper {
-        margin: 1rem auto 0;
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-        max-width: 640px;
-      }
-
-      #searchInput {
-        width: 100%;
-        padding: 0.85rem 1rem;
-        border: 1px solid var(--mid-5);
-        border-radius: 999px;
-        font-size: 1rem;
-        background: var(--mid-1);
-        transition: border-color 0.2s, box-shadow 0.2s;
-      }
-
-      #searchInput:focus {
-        outline: none;
-        border-color: var(--main-6);
-        box-shadow: 0 0 0 3px rgba(242, 47, 39, 0.15);
-      }
-
-      #searchResults {
-        display: none;
-        flex-direction: column;
-        gap: 0.35rem;
-        max-height: 320px;
-        overflow-y: auto;
-        border: 1px solid var(--mid-4);
-        border-radius: 16px;
-        background: var(--mid-1);
-        padding: 0.5rem;
-      }
-
-      #searchResults.active {
-        display: flex;
-      }
-
-      .search-result {
-        padding: 0.65rem 0.75rem;
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        gap: 0.2rem;
-        background: transparent;
-        border: none;
-        text-align: left;
-        cursor: pointer;
-        transition: background 0.15s;
-      }
-
-      .search-result strong {
-        font-size: 0.95rem;
-        color: var(--mid-10);
-      }
-
-      .search-result small {
-        font-size: 0.8rem;
-        color: var(--mid-7);
-      }
-
-      .search-result:hover,
-      .search-result:focus-visible {
-        background: var(--main-1);
-      }
-
-      ul.tree {
-        list-style: none;
-        margin: 0;
-        padding-left: 0;
-      }
-
-      ul.tree ul {
-        list-style: none;
-        margin: 0.5rem 0 0 0.75rem;
-        border-left: 1px dashed var(--mid-4);
-        padding-left: 1rem;
-      }
-
-      details {
-        margin: 0.4rem 0;
-        padding-left: 0.25rem;
-      }
-
-      details > summary {
-        list-style: none;
-        padding: 0.5rem 0.75rem;
-        border-radius: 12px;
-        cursor: pointer;
-        position: relative;
-        display: grid;
-        grid-template-columns: 1fr auto;
-        row-gap: 0.35rem;
-      }
-
-      details > summary::-webkit-details-marker {
-        display: none;
-      }
-
-      .summary-line {
-        display: flex;
-        align-items: center;
-        gap: 0.4rem;
-        font-weight: 600;
-        color: var(--mid-10);
-      }
-
-      details > summary .summary-line::before {
-        content: "▶";
-        width: 0.9rem;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 0.8rem;
-        color: var(--mid-7);
-        transition: transform 0.2s ease;
-      }
-
-      details[open] > summary .summary-line::before {
-        content: "▼";
-      }
-
-      details > summary:hover {
-        background: var(--main-1);
-      }
-
-      .note-line {
-        grid-column: 1 / -1;
-        display: block;
-        margin-left: 1.3rem;
-        font-size: 0.85rem;
-        color: var(--mid-7);
-        line-height: 1.35;
-      }
-
-      .count-badge {
-        justify-self: flex-end;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        min-width: 1.8rem;
-        height: 1.8rem;
-        padding: 0 0.45rem;
-        border-radius: 999px;
-        font-size: 0.85rem;
-        font-weight: 600;
-        color: var(--main-6);
-        background: var(--main-2);
-        border: 1px solid var(--main-4);
-      }
-
-      .resource-list {
-        margin: 0.25rem 0 0.75rem 1.5rem;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 0.75rem;
-      }
-
-      .resource-card {
-        border: 1px solid var(--mid-4);
-        border-radius: 12px;
-        padding: 0.75rem 0.9rem;
-        background: var(--mid-2);
-      }
-
-      details.resource summary {
-        font-weight: 600;
-        color: var(--main-6);
-      }
-
-      details.resource .resource-body {
-        margin-top: 0.5rem;
-        color: var(--mid-9);
-        line-height: 1.55;
-      }
-
-      details.resource a {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.35rem;
-        margin-top: 0.65rem;
-        word-break: break-all;
-        color: var(--main-6);
-        border-bottom: 1px solid var(--main-6);
-        padding: 0;
-      }
-
-      .resource-body p {
-        margin: 0;
-      }
-
-      .highlight {
-        animation: pulse 1.2s ease-in-out 2;
-      }
-
-      @keyframes pulse {
-        0% {
-          box-shadow: 0 0 0 0 rgba(242, 47, 39, 0.15);
-        }
-        100% {
-          box-shadow: 0 0 0 16px transparent;
-        }
-      }
-
-      .annotation {
-        font-size: 0.85rem;
-      }
-
-      .back-to-top {
-        position: fixed;
-        bottom: 2rem;
-        right: 2rem;
-        width: 3rem;
-        height: 3rem;
-        border-radius: 50%;
-        background: var(--main-6);
-        color: white;
-        border: 1px solid var(--main-7);
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.5rem;
-        z-index: 10;
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.3s, visibility 0.3s, transform 0.2s, background 0.2s;
-        transform: translateY(10px);
-      }
-
-      .back-to-top.visible {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
-      }
-
-      .back-to-top:hover {
-        background: var(--main-7);
-        transform: translateY(-2px);
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-      }
-
-      .back-to-top:active {
-        transform: translateY(0);
-      }
-
-      @media (max-width: 640px) {
-        header {
-          padding: 1rem;
-        }
-
-        main {
-          padding: 0 1rem 2.5rem;
-        }
-
-        details > summary {
-          grid-template-columns: 1fr auto;
-        }
-
-        .note-line {
-          margin-left: 1rem;
-        }
-
-        .resource-list {
-          grid-template-columns: 1fr;
-          gap: 0.35rem;
-        }
-
-        .back-to-top {
-          width: 2.5rem;
-          height: 2.5rem;
-          bottom: 1.5rem;
-          right: 1.5rem;
-          font-size: 1.2rem;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <script>
-      (function setupTranslate() {
-        const script = document.createElement("script");
-        script.src = "https://res.zvo.cn/translate/translate.js";
-        script.defer = true;
-        script.onload = () => {
-          if (!window.translate) {
-            console.error("Translate library loaded without exposing global.");
-            return;
-          }
-          translate.setUseVersion2();
-          translate.selectLanguageTag.show = false;
-          translate.language.setLocal("chinese_simplified");
-          translate.listener.start();
-          window.setTimeout(() => translate.execute(), 1000);
-          window._translateReady = true;
-        };
-        script.onerror = () => {
-          console.error("Failed to load translate.js");
-        };
-        document.head.appendChild(script);
-      })();
-
-      window.handleLanguageChange = (lang) => {
-        if (window.translate && typeof translate.changeLanguage === "function") {
-          translate.changeLanguage(lang);
-        } else {
-          console.warn("Translation library not ready yet.");
-          alert("页面翻译功能还在加载，请稍后再试。");
-        }
-      };
-    </script>
-    <div
-      id="announcementBar"
-      style="position: fixed; top: 0; left: 0; width: 100%; z-index: 15; background-color: rgba(255, 255, 255, 0.95); padding: 0.6rem 1rem 0.4rem; text-align: center; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);"
-    >
-      <p
-        style="background-color: blanchedalmond; padding: 0.5rem 1rem; margin: 0 auto; border-radius: 6px; text-align: center; display: inline-block;"
-      >
-        <b>招募：</b>如果您懂得网站制作技术且愿意帮助完善本站，请向
-        <a
-          href="mailto:i@b-hu.org"
-          target="_blank"
-          style="color: inherit; text-decoration: underline;"
-          >i@b-hu.org</a
-        >发送邮件。
-      </p>
-    </div>
-    <header>
-      <h1>B-HU 资源V0.4搜索界面</h1>
-      <div class="search-wrapper">
-        <label for="searchInput" class="visually-hidden">搜索</label>
-        <input
-          id="searchInput"
-          type="search"
-          placeholder="搜索标题或描述（按回车收起结果）"
-          autocomplete="off"
-        />
-        <div id="searchResults"></div>
-      </div>
-      <div style="text-align: center;">
-        <a
-          href="./index.html"
-          target="_blank"
-          style="display: inline-block; margin: 0 0.4rem; text-align: center; color: inherit; text-decoration: underline;"
-          >返回首页</a
-        >
-        &nbsp;|&nbsp;
-        <a
-          href="https://forms.office.com/r/AMncKSa0ZD"
-          target="_blank"
-          style="display: inline-block; margin: 0 0.4rem; text-align: center; color: inherit; text-decoration: underline;"
-          >报告错误</a
-        ><br/><a id="toggleAllBtn" onclick="toggleAll()">展开/收起所有</a>&nbsp;|&nbsp;<a id="toggleDetailsBtn" onclick="toggleDetails()">展开/收起详情</a>
-        <br/>
-        <a href="#" onclick="handleLanguageChange('english'); return false;">English</a>&nbsp;|&nbsp;<a href="#" onclick="handleLanguageChange('chinese_simplified'); return false;">简体中文</a>
-      </div>
-    </header>
-    <main>
-      <section class="tree-card">
-        <div class="legend">
-          <span>默认仅展开标题，点击继续展开查看说明与链接。</span>
-          <span>支持全文搜索，点击结果自动定位并展开。</span>
-        </div>
-        <ul class="tree" id="treeRoot"></ul>
-        <p id="statusMessage" class="annotation"></p>
-      </section>
-      <!--不蒜子-->
+    <!-- Lucide Icons -->
+    <script src="./assets/lucide.min.js"></script>
+    <!-- Busuanzi Stats -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <div style="text-align: center;">
-        <span id="busuanzi_container_site_pv" style="font-family:Consolas;color:rgba(21,170,191,.6);font-size:12px;">
-            访问量：<span id="busuanzi_value_site_pv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
-        </span>
-        <span id="busuanzi_container_site_uv" style="font-family:Consolas;color:rgba(21,170,191,.6);font-size:12px;">
-            访问人数：<span id="busuanzi_value_site_uv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
-        </span>
-    </div>
-    </main>
+    <link rel="icon" href="./assets/icon.png" type="image/x-icon" />
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+      
+      body {
+        font-family: 'Inter', 'Noto Sans SC', sans-serif;
+        background-color: #f8fafc;
+        color: #1e293b;
+        overscroll-behavior: none; 
+      }
 
-    <button class="back-to-top" id="backToTop" aria-label="返回顶部" title="返回顶部">
-      ↑
+      /* Custom Scrollbar */
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background-color: #cbd5e1;
+        border-radius: 3px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background-color: #94a3b8;
+      }
+
+      /* Resource Description Links Styling (Boxed style) */
+      .resource-desc a {
+        display: inline-block;
+        color: #4f46e5; /* indigo-600 */
+        background-color: #f5f3ff; /* indigo-50 */
+        border: 1px solid #c7d2fe; /* indigo-200 */
+        padding: 2px 8px;
+        margin: 0 2px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 0.9em;
+        font-weight: 600;
+        transition: all 0.2s ease;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+      }
+
+      .resource-desc a:hover {
+        background-color: #4f46e5;
+        color: #ffffff;
+        border-color: #4f46e5;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 6px rgba(79, 70, 229, 0.2);
+      }
+
+      /* Tag Count Badge */
+      .tag-count-badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 1.5rem;
+        height: 1.5rem;
+        padding: 0 0.4rem;
+        border-radius: 9999px;
+        background-color: #f1f5f9;
+        color: #64748b;
+        font-size: 0.75rem;
+        font-weight: 600;
+        margin-left: auto; /* Push to right */
+        border: 1px solid #e2e8f0;
+      }
+      
+      /* Header Links Styling */
+      .header-link {
+        font-size: 0.8rem;
+        color: #64748b;
+        text-decoration: none;
+        transition: color 0.2s;
+        cursor: pointer;
+      }
+      .header-link:hover {
+        color: #4f46e5;
+        text-decoration: underline;
+      }
+
+      /* Utility for hiding elements */
+      .hidden { display: none !important; }
+      .rotate-90 { transform: rotate(90deg); }
+    </style>
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-slate-50 gap-4">
+        <div class="w-12 h-12 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin"></div>
+        <p class="text-slate-500 font-medium animate-pulse">正在读取资源库...</p>
+    </div>
+
+    <!-- Error Screen -->
+    <div id="error-screen" class="fixed inset-0 z-[100] flex items-center justify-center bg-slate-50 p-4 hidden">
+        <div class="bg-white p-8 rounded-xl shadow-xl max-w-md text-center border-l-4 border-rose-500">
+            <i data-lucide="alert-circle" class="w-16 h-16 text-rose-500 mx-auto mb-4"></i>
+            <h2 class="text-xl font-bold text-slate-800 mb-2">出错了</h2>
+            <p id="error-message" class="text-slate-600 mb-6 leading-relaxed"></p>
+            <button onclick="window.location.reload()" class="px-6 py-2 bg-slate-800 text-white rounded-lg hover:bg-slate-900 transition-colors">
+                重新加载页面
+            </button>
+        </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="app" class="flex h-screen w-screen overflow-hidden bg-slate-50 text-slate-800 font-sans hidden">
+        
+        <!-- Mobile Overlay -->
+        <div id="mobile-overlay" class="fixed inset-0 z-40 bg-slate-900/50 backdrop-blur-sm md:hidden transition-opacity hidden" onclick="toggleMobileMenu(false)"></div>
+
+        <!-- SIDEBAR -->
+        <aside id="sidebar" class="fixed inset-y-0 left-0 z-50 w-80 bg-white border-r border-slate-200 shadow-2xl md:shadow-none transform transition-transform duration-300 ease-out flex flex-col -translate-x-full md:relative md:translate-x-0">
+            <!-- Header -->
+            <div class="h-16 flex items-center justify-between px-6 border-b border-slate-100 shrink-0 bg-white">
+                <div class="flex items-center gap-2 text-indigo-700 font-bold text-xl tracking-tight">
+                    <div class="p-1.5 bg-indigo-100 rounded-lg">
+                        <i data-lucide="database" class="w-5 h-5"></i>
+                    </div>
+                    <span>B-HU资源beta 0.5</span>
+                </div>
+                <button onclick="toggleMobileMenu(false)" class="md:hidden text-slate-400 hover:text-slate-600 p-1 hover:bg-slate-100 rounded-md">
+                    <i data-lucide="x" size="20"></i>
+                </button>
+            </div>
+
+            <!-- Tree Area -->
+            <div id="tree-container" class="flex-1 overflow-y-auto custom-scrollbar p-3 space-y-0.5">
+                <!-- Tree content injected by JS -->
+            </div>
+
+            <!-- Footer / Tag Supermarket -->
+            <div class="border-t border-slate-200 bg-slate-50 p-4 shrink-0 shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.1)] z-10">
+                <div class="flex justify-between items-center mb-3">
+                    <span class="text-xs font-bold text-slate-500 uppercase tracking-wider flex items-center gap-1">
+                        <i data-lucide="tag" class="w-3 h-3"></i> <span id="selected-count">已选标签 (0)</span>
+                    </span>
+                    <button id="clear-btn" onclick="clearTags()" class="hidden text-xs text-rose-500 hover:text-rose-700 hover:bg-rose-50 px-2 py-1 rounded transition-colors flex items-center gap-1">
+                        <i data-lucide="trash-2" class="w-3 h-3"></i> 清空
+                    </button>
+                </div>
+                
+                <div id="selected-tags-container" class="flex flex-wrap gap-y-1 gap-x-1 content-start overflow-y-auto custom-scrollbar min-h-[3rem] max-h-[8rem] mb-3 p-2 bg-white border border-slate-200 rounded-lg shadow-sm">
+                    <div class="w-full h-full flex items-center justify-center text-slate-300 text-xs italic select-none">
+                        查看所有资源...
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="flex-1 flex flex-col min-w-0 h-full bg-slate-50/50 relative">
+            
+            <!-- Search Header -->
+            <header class="h-auto py-3 bg-white/80 backdrop-blur-md border-b border-slate-200 px-4 md:px-8 flex items-start gap-4 sticky top-0 z-20">
+                <button onclick="toggleMobileMenu(true)" class="md:hidden p-2 mt-1 -ml-2 text-slate-500 hover:bg-slate-100 rounded-lg transition-colors">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+                
+                <div class="relative flex-1 max-w-2xl flex flex-col gap-2">
+                    <div class="relative w-full">
+                        <i data-lucide="search" class="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5"></i>
+                        <input 
+                            id="search-input"
+                            type="text"
+                            placeholder="在结果中搜索关键词... (支持繁简自动转换)"
+                            class="w-full pl-11 pr-4 py-2.5 bg-slate-100 border-transparent focus:bg-white focus:border-indigo-300 focus:ring-4 focus:ring-indigo-50 rounded-xl text-sm transition-all outline-none"
+                        />
+                    </div>
+                    
+                    <!-- Extra Links -->
+                    <div class="flex items-center justify-center sm:justify-start gap-1 text-xs text-slate-400 select-none">
+                        <a href="./index.html" target="_self" class="header-link">返回首页</a>
+                        <span class="text-slate-300">|</span>
+                        <a href="https://forms.office.com/r/AMncKSa0ZD" target="_blank" class="header-link">报告错误</a>
+                        <span class="text-slate-300">|</span>
+                        <a href="#" id="lang-toggle-btn" onclick="toggleLanguage(); return false;" class="header-link text-indigo-500 font-medium">English</a>
+                    </div>
+                </div>
+                
+                <div class="hidden lg:block text-xs text-slate-400 mt-3 text-right">
+                    共收录 <span id="total-resource-count">0</span> 条资源<br>
+                    <span id="total-tags-count">0</span> 个标签
+                </div>
+            </header>
+
+            <!-- Content Area -->
+            <div id="content-area" class="flex-1 overflow-y-auto p-4 md:p-6 lg:p-8 custom-scrollbar flex flex-col">
+                
+                <!-- Welcome State -->
+                <div id="welcome-view" class="flex-1 flex flex-col items-center justify-center text-center pb-10 select-none">
+                    <div class="w-24 h-24 bg-white rounded-3xl shadow-xl flex items-center justify-center mb-8 transform -rotate-6 border border-slate-100">
+                        <i data-lucide="layers" class="w-10 h-10 text-indigo-500"></i>
+                    </div>
+                    <h1 class="text-3xl font-bold text-slate-800 mb-3">B-HU资源beta 0.5</h1>
+                    <p class="text-slate-500 max-w-md mx-auto mb-6 leading-relaxed">
+                        目前共收录 <span id="hero-resource-count" class="font-bold text-indigo-600">0</span> 条资源<br/>
+                        涵盖 <span id="hero-tag-count" class="font-bold text-indigo-600">0</span> 个分类标签
+                    </p>
+                    <p class="text-slate-400 text-sm max-w-md mx-auto mb-8">
+                        请在左侧勾选感兴趣的分类，或者输入关键词开始。
+                    </p>
+                    <button onclick="toggleMobileMenu(true)" class="md:hidden bg-white text-indigo-600 px-6 py-2.5 rounded-full font-medium shadow-md border border-indigo-100 hover:bg-indigo-50 flex items-center gap-2">
+                        <i data-lucide="menu" class="w-4 h-4"></i>
+                        打开分类菜单
+                    </button>
+                </div>
+
+                <!-- Results View -->
+                <div id="results-view" class="max-w-7xl mx-auto w-full flex-1 hidden">
+                    <div class="flex items-end justify-between mb-6 border-b border-slate-200 pb-4">
+                        <div>
+                            <h2 class="text-2xl font-bold text-slate-800 flex items-center gap-2">搜索结果</h2>
+                            <p id="search-status" class="text-sm text-slate-400 mt-1">全部资源</p>
+                        </div>
+                        <span id="result-count-badge" class="bg-indigo-50 px-3 py-1 rounded-full text-xs font-bold text-indigo-600">0 条</span>
+                    </div>
+
+                    <div id="results-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 pb-10">
+                        <!-- Cards injected here -->
+                    </div>
+
+                    <!-- No Results -->
+                    <div id="no-results" class="py-20 flex flex-col items-center justify-center text-center hidden">
+                        <div class="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mb-4">
+                            <i data-lucide="search" class="text-slate-300 w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-lg font-medium text-slate-700 mb-1">未找到结果</h3>
+                        <p class="text-slate-400 text-sm">尝试选择其他分类或清除关键词</p>
+                    </div>
+                </div>
+
+                <!-- Footer Stats -->
+                <div class="mt-auto pt-8 pb-4 text-center border-t border-slate-200/60 w-full">
+                    <span id="busuanzi_container_site_pv" style="font-family:Consolas;color:#94a3b8;font-size:12px;margin-right:1rem;">
+                        访问量：<span id="busuanzi_value_site_pv" style="font-family:Consolas;color:#64748b;font-weight:600;"></span>
+                    </span>
+                    <span id="busuanzi_container_site_uv" style="font-family:Consolas;color:#94a3b8;font-size:12px;">
+                        访问人数：<span id="busuanzi_value_site_uv" style="font-family:Consolas;color:#64748b;font-weight:600;"></span>
+                    </span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button 
+        id="back-to-top-btn" 
+        onclick="scrollToTop()" 
+        class="fixed bottom-6 right-6 z-50 p-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center opacity-0 pointer-events-none"
+        style="width: 48px; height: 48px; transform: translateY(10px);"
+        aria-label="返回顶部"
+    >
+        <i data-lucide="arrow-up" class="w-5 h-5"></i>
     </button>
 
-    <script>
-      const adjustBodyPadding = () => {
-        const announcementBar = document.getElementById("announcementBar");
-        if (!announcementBar) return;
-        document.body.style.paddingTop = `${announcementBar.offsetHeight}px`;
-        document.documentElement.style.setProperty(
-          "--announcement-offset",
-          `${announcementBar.offsetHeight}px`
-        );
-      };
+<script>
+/**
+ * State Management
+ */
+const state = {
+    treeData: [],
+    csvData: [],
+    selectedTags: new Set(),
+    tagDescendants: new Map(),
+    nodeCounts: new Map(), // Map<TagName, count>
+    searchQuery: "",
+    converter: null,
+    expandedNodes: new Set() // Track expanded tree nodes by ID
+};
 
-      adjustBodyPadding();
-      window.addEventListener("load", adjustBodyPadding);
-      window.addEventListener("resize", adjustBodyPadding);
+/**
+ * Utilities
+ */
+// Debounce function to limit search execution frequency
+function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+        const context = this;
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(context, args), wait);
+    };
+}
 
-      window.toggleAll = () => {
-        const allDetails = document.querySelectorAll("main details");
-        if (allDetails.length === 0) return;
+/**
+ * Initialization
+ */
+document.addEventListener('DOMContentLoaded', async () => {
+    lucide.createIcons();
+    initOpenCC();
+    initTranslate();
+    
+    try {
+        await loadData();
+        initEventListeners();
+        renderTree(); // Initial render (collapsed)
+        updateCounts();
+        document.getElementById('loading-screen').classList.add('hidden');
+        document.getElementById('app').classList.remove('hidden');
         
-        // 检查是否大部分已展开
-        const openCount = Array.from(allDetails).filter(d => d.open).length;
-        const shouldExpand = openCount < allDetails.length / 2;
-        
-        allDetails.forEach((detail) => {
-          detail.open = shouldExpand;
-        });
-        
-        // 更新按钮状态
-        updateButtonStates();
-      };
+        // Initialize back to top button icon after app is shown
+        setTimeout(() => {
+            lucide.createIcons();
+            updateBackToTopButton();
+        }, 100);
+    } catch (e) {
+        console.error(e);
+        document.getElementById('loading-screen').classList.add('hidden');
+        document.getElementById('error-screen').classList.remove('hidden');
+        document.getElementById('error-message').textContent = "数据加载失败，请确保目录下存在 fenlei.md 和 data.csv";
+    }
+});
 
-      window.toggleDetails = () => {
-        // 找到所有已经打开的目录（非resource类的details）
-        const openCategories = document.querySelectorAll("main details[open]:not(.resource)");
-        if (openCategories.length === 0) return;
-        
-        // 收集所有已打开目录下的资源卡片
-        let allResources = [];
-        openCategories.forEach((category) => {
-          const resources = category.querySelectorAll("details.resource");
-          allResources.push(...Array.from(resources));
-        });
-        
-        if (allResources.length === 0) return;
-        
-        // 检查是否大部分已展开
-        const openCount = allResources.filter(r => r.open).length;
-        const shouldExpand = openCount < allResources.length / 2;
-        
-        allResources.forEach((resource) => {
-          resource.open = shouldExpand;
-        });
-        
-        // 更新按钮状态
-        updateButtonStates();
-      };
-
-      const treeRoot = document.getElementById("treeRoot");
-      const statusMessage = document.getElementById("statusMessage");
-      const searchInput = document.getElementById("searchInput");
-      const searchResults = document.getElementById("searchResults");
-
-      const createOpenCCConverters = () => {
-        if (typeof OpenCC === "undefined") {
-          console.warn("OpenCC.js 未加载，搜索将仅使用原始关键词。");
-          return null;
+// Language Translation Logic
+function initTranslate() {
+    const script = document.createElement("script");
+    script.src = "https://res.zvo.cn/translate/translate.js";
+    script.defer = true;
+    script.onload = () => {
+        if (!window.translate) {
+            console.error("Translate library loaded without exposing global.");
+            return;
         }
+        translate.setUseVersion2();
+        translate.selectLanguageTag.show = false;
+        // Set initial language to simplified chinese (local)
+        translate.language.setLocal("chinese_simplified"); 
+        translate.listener.start();
+        window._translateReady = true;
+    };
+    script.onerror = () => {
+        console.error("Failed to load translate.js");
+    };
+    document.head.appendChild(script);
+}
+
+function toggleLanguage() {
+    if (!window.translate || !window._translateReady) {
+        alert("页面翻译功能还在加载，请稍后再试。");
+        return;
+    }
+
+    const btn = document.getElementById('lang-toggle-btn');
+    const currentLang = translate.language.getLocal();
+
+    if (currentLang === 'chinese_simplified') {
+        translate.changeLanguage('english');
+        btn.textContent = '简体中文';
+    } else {
+        translate.changeLanguage('chinese_simplified');
+        btn.textContent = 'English';
+    }
+}
+
+async function initOpenCC() {
+    if (window.OpenCC) {
         try {
-          return {
-            toTraditional: OpenCC.Converter({ from: "cn", to: "tw" }),
-            toSimplified: OpenCC.Converter({ from: "tw", to: "cn" }),
-          };
-        } catch (error) {
-          console.warn("OpenCC 初始化失败，搜索将仅使用原始关键词。", error);
-          return null;
+            const cvtS2T = await window.OpenCC.Converter({ from: 'cn', to: 'hk' });
+            const cvtT2S = await window.OpenCC.Converter({ from: 'hk', to: 'cn' });
+            state.converter = { s2t: cvtS2T, t2s: cvtT2S };
+        } catch (e) {
+            console.warn("OpenCC init failed", e);
         }
-      };
+    }
+}
 
-      const buildQueryVariants = (rawQuery, converters) => {
-        const base = rawQuery.trim();
-        if (!base) return [];
-        const variants = new Set([base]);
-        if (converters?.toTraditional) {
-          variants.add(converters.toTraditional(base));
+function updateCounts() {
+    const totalRes = state.csvData.length;
+    const totalTags = countTreeNodes(state.treeData);
+    document.getElementById('total-resource-count').textContent = totalRes;
+    document.getElementById('total-tags-count').textContent = totalTags;
+    document.getElementById('hero-resource-count').textContent = totalRes;
+    document.getElementById('hero-tag-count').textContent = totalTags;
+}
+
+function countTreeNodes(nodes) {
+    let count = 0;
+    nodes.forEach(node => {
+        count++; // Count self
+        if (node.children && node.children.length > 0) {
+            count += countTreeNodes(node.children);
         }
-        if (converters?.toSimplified) {
-          variants.add(converters.toSimplified(base));
+    });
+    return count;
+}
+
+/**
+ * Data Parsing & Loading
+ */
+async function loadData() {
+    const [mdRes, csvRes] = await Promise.all([
+        fetch("./data/fenlei.md"),
+        fetch("./data/data.csv")
+    ]);
+
+    if (!mdRes.ok || !csvRes.ok) throw new Error("Failed to fetch data files");
+
+    const mdText = await mdRes.text();
+    const csvText = await csvRes.text();
+
+    state.treeData = parseMarkdownTree(mdText);
+    state.csvData = parseCSV(csvText);
+    state.tagDescendants = buildDescendantMap(state.treeData);
+    
+    // Calculate recursive counts for tree visualization
+    state.nodeCounts = calculateRecursiveCounts(state.treeData, state.csvData);
+}
+
+function calculateRecursiveCounts(treeData, csvData) {
+    // 1. Map direct counts: TagName -> Set of indices
+    const tagDirectItems = new Map();
+    
+    csvData.forEach((item, index) => {
+        if (item.tags) {
+            item.tags.forEach(tag => {
+                if (!tagDirectItems.has(tag)) {
+                    tagDirectItems.set(tag, new Set());
+                }
+                tagDirectItems.get(tag).add(index);
+            });
         }
-        return Array.from(variants)
-          .map((variant) => variant.toLowerCase())
-          .filter(Boolean);
-      };
+    });
 
-      const slugify = (text) =>
-        text
-          .toLowerCase()
-          .normalize("NFD")
-          .replace(/[\u0300-\u036f]/g, "")
-          .replace(/[^a-z0-9\u4e00-\u9fa5]+/g, "-")
-          .replace(/^-+|-+$/g, "")
-          .replace(/-{2,}/g, "-");
+    // 2. Recursive aggregation
+    const counts = new Map();
 
-      const annotationPattern = new RegExp("<!--注释:\\{([\\s\\S]*?)\\}-->");
-      const annotationPatternGlobal = new RegExp(
-        annotationPattern.source,
-        "g"
-      );
+    function processNode(nodes) {
+        const branchItems = new Set(); // Items in this branch (self + children)
 
-      const extractLabel = (raw) => {
-        const commentMatch = raw.match(annotationPattern);
-        const note = commentMatch ? commentMatch[1].trim() : "";
-        const label = raw
-          .replace(annotationPatternGlobal, "")
-          .trim();
-        return { label, note };
-      };
+        nodes.forEach(node => {
+            const nodeItems = new Set(tagDirectItems.get(node.name) || []);
+            
+            if (node.children && node.children.length > 0) {
+                const childItems = processNode(node.children);
+                childItems.forEach(i => nodeItems.add(i));
+            }
 
-      const buildCategoryTree = (text) => {
-        const root = {
-          name: "root",
-          path: [],
-          level: -1,
-          children: [],
-          items: [],
-          note: "",
-          id: "root",
-        };
-        const stack = [root];
-        const lines = text.split(/\r?\n/);
+            // Store the unique count for this node (including its children)
+            counts.set(node.name, nodeItems.size);
 
-        for (const line of lines) {
-          if (!line.trim()) continue;
-          const match = line.match(/^(\s*)-\s*(.+)$/);
-          if (!match) continue;
-          const indent = match[1].replace(/\t/g, "    ").length;
-          const level = Math.floor(indent / 4);
-          const { label, note } = extractLabel(match[2]);
-          const node = {
-            name: label,
-            note,
+            // Add to parent branch
+            nodeItems.forEach(i => branchItems.add(i));
+        });
+
+        return branchItems;
+    }
+
+    processNode(treeData);
+    return counts;
+}
+
+function parseMarkdownTree(md) {
+    const normalizedMd = md.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+    const lines = normalizedMd.split("\n");
+    const root = [];
+    const stack = [];
+
+    lines.forEach((line, index) => {
+        if (!line.trim()) return;
+        const match = line.match(/^([\t ]*)([-*+])\s+(.+)$/);
+        if (!match) return;
+
+        const rawIndent = match[1];
+        const indent = rawIndent.replace(/\t/g, "    ").length;
+        let rawContent = match[3].trim();
+        let name = rawContent;
+        let comment = "";
+
+        const commentMatch = rawContent.match(/<!--([\s\S]*?)-->/);
+        if (commentMatch) {
+            let cText = commentMatch[1].trim();
+            if (cText.startsWith("注释:{") && cText.endsWith("}")) {
+                cText = cText.substring(4, cText.length - 1);
+            }
+            comment = cText;
+            name = rawContent.replace(/<!--[\s\S]*?-->/, "").trim();
+        }
+
+        if (!name) return;
+
+        const node = {
+            id: `node-${index}`,
+            name,
+            comment,
             children: [],
-            items: [],
-            level,
-          };
+            level: 0
+        };
 
-          while (stack.length && stack[stack.length - 1].level >= level) {
+        while (stack.length > 0 && stack[stack.length - 1].indent >= indent) {
             stack.pop();
-          }
-
-          const parent = stack[stack.length - 1];
-          node.path = [...parent.path, label];
-          node.id = slugify(node.path.join("-")) || `node-${Date.now()}`;
-          parent.children.push(node);
-          stack.push(node);
         }
 
-        return root;
-      };
-
-      const addResourceToTree = (root, resource) => {
-        const segments = resource.category
-          .split("-")
-          .map((seg) => seg.trim())
-          .filter(Boolean);
-        let current = root;
-        for (const segment of segments) {
-          let child = current.children.find((c) => c.name === segment);
-          if (!child) {
-            child = {
-              name: segment,
-              note: "",
-              children: [],
-              items: [],
-              level: current.level + 1,
-            };
-            child.path = [...(current.path || []), segment];
-            child.id = slugify(child.path.join("-"));
-            current.children.push(child);
-          }
-          current = child;
-        }
-        current.items.push({
-          ...resource,
-          id: slugify(`${resource.title}-${resource.link}`),
-          path: segments,
-        });
-      };
-
-      const parseCSV = (text) => {
-        const rows = [];
-        let current = [];
-        let value = "";
-        let inQuotes = false;
-
-        const pushValue = () => {
-          current.push(value);
-          value = "";
-        };
-
-        for (let i = 0; i < text.length; i++) {
-          const char = text[i];
-          const next = text[i + 1];
-          if (char === '"') {
-            if (inQuotes && next === '"') {
-              value += '"';
-              i++;
-            } else {
-              inQuotes = !inQuotes;
-            }
-          } else if (char === "," && !inQuotes) {
-            pushValue();
-          } else if ((char === "\n" || char === "\r") && !inQuotes) {
-            if (char === "\r" && next === "\n") i++;
-            pushValue();
-            if (current.some((cell) => cell !== "")) {
-              rows.push(current);
-            }
-            current = [];
-          } else {
-            value += char;
-          }
-        }
-
-        if (value || current.length) {
-          pushValue();
-          rows.push(current);
-        }
-
-        if (!rows.length) return [];
-        const headers = rows.shift().map((h) => h.trim());
-        return rows
-          .filter((row) => row.length)
-          .map((row) => {
-            const entry = {};
-            headers.forEach((header, idx) => {
-              entry[header] = (row[idx] ?? "").trim();
-            });
-            return entry;
-          });
-      };
-
-      const createNodeElement = (node) => {
-        const li = document.createElement("li");
-        const details = document.createElement("details");
-        details.id = node.id;
-        details.dataset.level = node.level;
-        const summary = document.createElement("summary");
-        const showCount = node.totalCount !== undefined && node.name !== "root";
-        summary.innerHTML = `
-          <span class="summary-line">${node.name}</span>
-          ${
-            showCount
-              ? `<span class="count-badge" aria-label="资源数量">${node.totalCount}</span>`
-              : ""
-          }
-          ${
-            node.note
-              ? `<span class="note-line" aria-label="备注">${node.note}</span>`
-              : ""
-          }
-        `;
-        details.appendChild(summary);
-
-        if (node.items.length) {
-          const resourceList = document.createElement("div");
-          resourceList.className = "resource-list";
-          node.items.forEach((item) => {
-            const resourceDetails = document.createElement("details");
-            resourceDetails.className = "resource resource-card";
-            resourceDetails.id = item.id;
-            const resourceSummary = document.createElement("summary");
-            resourceSummary.textContent = item.title || "未命名条目";
-            resourceDetails.appendChild(resourceSummary);
-
-            const body = document.createElement("div");
-            body.className = "resource-body";
-            if (item.description) {
-              const desc = document.createElement("p");
-              desc.innerHTML = item.description;
-              body.appendChild(desc);
-            }
-            if (item.link) {
-              const link = document.createElement("a");
-              link.href = item.link;
-              link.target = "_blank";
-              link.rel = "noopener noreferrer";
-              link.innerHTML = "访问链接 ↗";
-              body.appendChild(link);
-            }
-            resourceDetails.appendChild(body);
-            resourceList.appendChild(resourceDetails);
-          });
-          details.appendChild(resourceList);
-        }
-
-        if (node.children.length) {
-          const childList = document.createElement("ul");
-          node.children.forEach((child) => {
-            childList.appendChild(createNodeElement(child));
-          });
-          details.appendChild(childList);
-        }
-
-        li.appendChild(details);
-        return li;
-      };
-
-      const collectSearchEntries = (node, entries = []) => {
-        if (node.name !== "root") {
-          entries.push({
-            id: node.id,
-            title: node.path.join(" / "),
-            content: `${node.name} ${node.note || ""}`,
-            type: "category",
-          });
-        }
-
-        node.items.forEach((item) => {
-          entries.push({
-            id: item.id,
-            title: item.title,
-            content: `${item.title} ${item.description} ${item.link} ${(
-              item.path || []
-            ).join(" ")}`,
-            type: "resource",
-            path: item.path.join(" / "),
-          });
-        });
-
-        node.children.forEach((child) => collectSearchEntries(child, entries));
-        return entries;
-      };
-
-      const scrollTargetToCenter = (target) => {
-        const header = document.querySelector("header");
-        const headerHeight = header ? header.getBoundingClientRect().height : 0;
-        const rect = target.getBoundingClientRect();
-        const targetHeight = rect.height || target.offsetHeight || 0;
-        const viewportHeight = window.innerHeight;
-        const offset =
-          rect.top + window.scrollY - (viewportHeight - targetHeight) / 2;
-        window.scrollTo({
-          top: Math.max(offset - headerHeight / 2, 0),
-          behavior: "smooth",
-        });
-      };
-
-      const revealTarget = (id) => {
-        const target = document.getElementById(id);
-        if (!target) return;
-        target.open = true;
-        let parent = target.parentElement;
-        while (parent) {
-          if (parent.tagName === "DETAILS") {
-            parent.open = true;
-          }
-          parent = parent.parentElement;
-        }
-        scrollTargetToCenter(target);
-        target.classList.add("highlight");
-        setTimeout(() => target.classList.remove("highlight"), 1600);
-      };
-
-      const setupSearch = (entries) => {
-        const converters = createOpenCCConverters();
-        const renderResults = (list) => {
-          searchResults.innerHTML = "";
-          if (!list.length) {
-            searchResults.classList.remove("active");
-            return;
-          }
-          list.slice(0, 30).forEach((entry) => {
-            const div = document.createElement("button");
-            div.type = "button";
-            div.className = "search-result";
-            div.innerHTML = `<strong>${entry.title}</strong>${
-              entry.path ? `<small>${entry.path}</small>` : ""
-            }`;
-            div.addEventListener("click", () => {
-              revealTarget(entry.id);
-              searchResults.classList.remove("active");
-            });
-            searchResults.appendChild(div);
-          });
-          searchResults.classList.add("active");
-        };
-
-        const handleSearch = () => {
-          const queries = buildQueryVariants(searchInput.value, converters);
-          if (!queries.length) {
-            searchResults.classList.remove("active");
-            return;
-          }
-          const results = entries.filter((entry) => {
-            const haystack = entry.content.toLowerCase();
-            return queries.some((keyword) => haystack.includes(keyword));
-          });
-          renderResults(results);
-        };
-
-        searchInput.addEventListener("input", () => {
-          window.clearTimeout(searchInput._timer);
-          searchInput._timer = window.setTimeout(handleSearch, 200);
-        });
-
-        searchInput.addEventListener("keydown", (event) => {
-          if (event.key === "Enter") {
-            searchResults.classList.remove("active");
-            searchInput.blur();
-          }
-        });
-      };
-
-      const init = async () => {
-        statusMessage.textContent = "加载数据中…";
-        try {
-          const [categoryText, csvText] = await Promise.all([
-            fetch("./data/fenlei.md").then((res) => res.text()),
-            fetch("./data/data.csv").then((res) => res.text()),
-          ]);
-          const treeData = buildCategoryTree(categoryText);
-          const resources = parseCSV(csvText);
-          resources.forEach((item) => addResourceToTree(treeData, item));
-          const computeCounts = (node) => {
-            const childTotal = node.children.reduce(
-              (sum, child) => sum + computeCounts(child),
-              0
-            );
-            node.totalCount = childTotal + node.items.length;
-            return node.totalCount;
-          };
-          computeCounts(treeData);
-          treeRoot.innerHTML = "";
-          treeData.children.forEach((node) =>
-            treeRoot.appendChild(createNodeElement(node))
-          );
-          const entries = collectSearchEntries(treeData);
-          setupSearch(entries);
-          statusMessage.textContent = `共收录 ${resources.length} 条资源。`;
-          updateButtonStates();
-        } catch (error) {
-          console.error(error);
-          statusMessage.textContent =
-            "加载数据失败，请确认通过本地服务器打开此页面。";
-        }
-      };
-
-      const updateButtonStates = () => {
-        // 更新"展开所有/收起所有"按钮
-        const allDetails = document.querySelectorAll("main details");
-        const allBtn = document.getElementById("toggleAllBtn");
-        if (allBtn && allDetails.length > 0) {
-          const openCount = Array.from(allDetails).filter(d => d.open).length;
-          allBtn.textContent = openCount >= allDetails.length / 2 ? "收起所有" : "展开所有";
-        }
-        
-        // 更新"展开详情/收起详情"按钮
-        const openCategories = document.querySelectorAll("main details[open]:not(.resource)");
-        const detailsBtn = document.getElementById("toggleDetailsBtn");
-        if (detailsBtn && openCategories.length > 0) {
-          let allResources = [];
-          openCategories.forEach((category) => {
-            const resources = category.querySelectorAll("details.resource");
-            allResources.push(...Array.from(resources));
-          });
-          if (allResources.length > 0) {
-            const openCount = allResources.filter(r => r.open).length;
-            detailsBtn.textContent = openCount >= allResources.length / 2 ? "收起详情" : "展开详情";
-          }
-        }
-      };
-
-      document.addEventListener("DOMContentLoaded", init);
-
-      // 返回顶部按钮功能
-      const backToTopButton = document.getElementById("backToTop");
-      
-      const toggleBackToTop = () => {
-        if (window.scrollY > 300) {
-          backToTopButton.classList.add("visible");
+        if (stack.length === 0) {
+            root.push(node);
+            node.level = 0;
         } else {
-          backToTopButton.classList.remove("visible");
+            const parent = stack[stack.length - 1].node;
+            parent.children.push(node);
+            node.level = parent.level + 1;
         }
-      };
 
-      backToTopButton.addEventListener("click", () => {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
+        stack.push({ node, indent });
+    });
+    return root;
+}
+
+function parseCSV(csv) {
+    const lines = csv.split(/\r?\n/).filter(line => line.trim() !== "");
+    if (lines.length === 0) return [];
+
+    const parseLine = (line) => {
+        const result = [];
+        let current = "";
+        let inQuote = false;
+        for (let i = 0; i < line.length; i++) {
+            const char = line[i];
+            if (char === '"') {
+                inQuote = !inQuote;
+            } else if (char === ',' && !inQuote) {
+                result.push(current.trim());
+                current = "";
+            } else {
+                current += char;
+            }
+        }
+        result.push(current.trim());
+        return result;
+    };
+
+    const headers = parseLine(lines[0]).map(h => h.toLowerCase().replace(/^[\uFEFF]/, '').trim());
+    const tagsIndex = headers.findIndex(h => h.includes("tag") || h.includes("fenlei") || h.includes("分类"));
+
+    return lines.slice(1).map(line => {
+        const values = parseLine(line);
+        const item = {};
+        headers.forEach((header, index) => {
+            let value = values[index] || "";
+            if (value.startsWith('"') && value.endsWith('"')) value = value.slice(1, -1);
+            item[header] = value;
         });
-      });
 
-      window.addEventListener("scroll", toggleBackToTop);
-      toggleBackToTop(); // 初始检查
-    </script>
-  </body>
+        let rawTags = tagsIndex !== -1 ? values[tagsIndex] : "";
+        if (!rawTags) rawTags = "";
+        item.tags = rawTags.replace(/[\[\]"]/g, "").split(/[,，、]/).map(t => t.trim()).filter(t => t.length > 0);
+        
+        // PRE-PROCESS SEARCH STRING for performance
+        // Concatenate title, desc, tags and lowercase them once.
+        const title = (item.title || item.name || Object.values(item)[0] || "");
+        const desc = (item.description || item.desc || "");
+        const tagStr = item.tags.join(" ");
+        item._searchStr = `${title} ${desc} ${tagStr}`.toLowerCase();
+        
+        return item;
+    });
+}
+
+function buildDescendantMap(nodes) {
+    const map = new Map();
+    const traverse = (node) => {
+        const descendants = new Set();
+        node.children.forEach(child => {
+            descendants.add(child.name);
+            const childDescendants = traverse(child);
+            childDescendants.forEach(d => descendants.add(d));
+        });
+        map.set(node.name, descendants);
+        return descendants;
+    };
+    nodes.forEach(node => traverse(node));
+    return map;
+}
+
+/**
+ * UI Rendering: Sidebar Tree
+ */
+function renderTree() {
+    const container = document.getElementById('tree-container');
+    
+    // Use DocumentFragment for performance
+    const fragment = document.createDocumentFragment();
+
+    // 'All' Node
+    const allSelected = state.selectedTags.size === 0;
+    const allNode = document.createElement('div');
+    allNode.innerHTML = `
+        <div class="flex items-center py-2 px-2 rounded-md transition-all duration-200 hover:bg-slate-100 cursor-pointer mb-2 ${allSelected ? 'bg-indigo-50/50' : ''}">
+            <div class="w-4 mr-1"></div>
+            <div class="mr-2 ${allSelected ? 'text-indigo-600' : 'text-slate-400'}">
+                <i data-lucide="${allSelected ? 'check-square' : 'square'}" class="w-4 h-4"></i>
+            </div>
+            <div class="font-bold ${allSelected ? 'text-indigo-700' : 'text-slate-800'}">全部</div>
+        </div>
+        <div class="border-b border-slate-100 my-2"></div>
+    `;
+    // Bind click directly
+    allNode.firstElementChild.onclick = () => clearTags();
+    fragment.appendChild(allNode);
+
+    // Recursive Tree
+    state.treeData.forEach(node => {
+        fragment.appendChild(createTreeNode(node));
+    });
+
+    container.innerHTML = '';
+    container.appendChild(fragment);
+
+    lucide.createIcons();
+}
+
+function createTreeNode(node) {
+    const isSelected = state.selectedTags.has(node.name);
+    const isExpanded = state.expandedNodes.has(node.id);
+    const hasChildren = node.children && node.children.length > 0;
+    const count = state.nodeCounts.get(node.name) || 0;
+    
+    const wrapper = document.createElement('div');
+    wrapper.className = "select-none text-sm mb-1";
+
+    // Node Row
+    const row = document.createElement('div');
+    row.className = "relative group";
+    row.style.marginLeft = `${node.level * 16}px`;
+
+    const inner = document.createElement('div');
+    inner.className = `flex items-start py-1.5 px-2 rounded-md transition-all duration-200 hover:bg-slate-100 ${isSelected ? 'bg-indigo-50/50' : ''}`;
+
+    // Toggle Expand Handler
+    const toggleExpand = (e) => {
+        if (e && e.target && e.target.closest('.tree-checkbox-container')) {
+            // Don't expand if clicking on checkbox
+            return;
+        }
+        if (hasChildren) {
+            if (state.expandedNodes.has(node.id)) {
+                state.expandedNodes.delete(node.id);
+            } else {
+                state.expandedNodes.add(node.id);
+            }
+            renderTree(); 
+        }
+    };
+
+    // Toggle Select Handler
+    const toggleSelect = (e) => {
+        if (e) {
+            e.stopPropagation();
+            e.preventDefault();
+        }
+        toggleTag(node.name);
+    };
+
+    // Make the entire inner div clickable for expand/collapse (except checkbox)
+    // If no children, clicking will toggle selection instead
+    inner.onclick = hasChildren ? toggleExpand : toggleSelect;
+    inner.style.cursor = hasChildren ? 'pointer' : 'pointer';
+
+    // Chevron
+    const chevronContainer = document.createElement('div');
+    chevronContainer.className = `mr-1 text-slate-400 transition-transform duration-200 hover:text-slate-600 flex-shrink-0 flex items-start pt-0.5 ${isExpanded ? 'rotate-90' : ''} ${hasChildren ? '' : 'opacity-0 pointer-events-none'}`;
+    chevronContainer.innerHTML = `<i data-lucide="chevron-right" class="w-4 h-4"></i>`;
+    // Remove individual onclick since inner div handles it
+
+    // Checkbox
+    const checkboxContainer = document.createElement('div');
+    checkboxContainer.className = `tree-checkbox-container mr-2 cursor-pointer flex-shrink-0 transition-colors flex items-start pt-0.5 ${isSelected ? 'text-indigo-600' : 'text-slate-300 hover:text-indigo-400'}`;
+    checkboxContainer.innerHTML = `<i data-lucide="${isSelected ? 'check-square' : 'square'}" class="w-4 h-4"></i>`;
+    checkboxContainer.onclick = toggleSelect;
+
+    // Content
+    const content = document.createElement('div');
+    content.className = "flex flex-1 items-start min-w-0 mr-2";
+    
+    const title = document.createElement('span');
+    title.className = `font-medium leading-5 break-words ${isSelected ? 'text-indigo-700' : 'text-slate-700'}`;
+    title.textContent = node.name;
+    // Remove individual onclick since inner div handles it
+
+    content.appendChild(title);
+
+    // Count Badge
+    const countBadge = document.createElement('span');
+    countBadge.className = "tag-count-badge flex-shrink-0 mt-0.5";
+    countBadge.textContent = count;
+    
+    inner.appendChild(chevronContainer);
+    inner.appendChild(checkboxContainer);
+    inner.appendChild(content);
+    inner.appendChild(countBadge);
+
+    row.appendChild(inner);
+    wrapper.appendChild(row);
+
+    // Comments (Render below row if exists)
+    if (node.comment) {
+        const comment = document.createElement('div');
+        comment.className = "text-xs text-slate-500 mt-1 mb-1 pl-2";
+        comment.style.marginLeft = `${(node.level * 16) + 24}px`;
+        comment.style.lineHeight = '1.5';
+        // Parse HTML tags in comment and preserve line breaks
+        const commentHtml = node.comment.replace(/\n/g, '<br/>');
+        comment.innerHTML = commentHtml;
+        wrapper.appendChild(comment);
+    }
+
+    // Children
+    if (isExpanded && hasChildren) {
+        const childrenContainer = document.createElement('div');
+        childrenContainer.className = "mt-0.5";
+        node.children.forEach(child => {
+            childrenContainer.appendChild(createTreeNode(child));
+        });
+        wrapper.appendChild(childrenContainer);
+    }
+
+    return wrapper;
+}
+
+/**
+ * Logic: Selection & Search
+ */
+function toggleTag(tag) {
+    if (state.selectedTags.has(tag)) {
+        state.selectedTags.delete(tag);
+    } else {
+        state.selectedTags.add(tag);
+    }
+    updateSelectionUI();
+    executeSearch(); // Trigger search immediately
+}
+
+function clearTags() {
+    state.selectedTags.clear();
+    updateSelectionUI();
+    executeSearch(); // Trigger search immediately
+}
+
+function updateSelectionUI() {
+    renderTree();
+    
+    const container = document.getElementById('selected-tags-container');
+    const countSpan = document.getElementById('selected-count');
+    const clearBtn = document.getElementById('clear-btn');
+
+    countSpan.textContent = `已选标签 (${state.selectedTags.size})`;
+    
+    if (state.selectedTags.size === 0) {
+        container.innerHTML = `<div class="w-full h-full flex items-center justify-center text-slate-300 text-xs italic select-none">查看所有资源...</div>`;
+        clearBtn.classList.add('hidden');
+    } else {
+        clearBtn.classList.remove('hidden');
+        container.innerHTML = '';
+        state.selectedTags.forEach(tag => {
+            const chip = document.createElement('span');
+            chip.className = "inline-flex items-center bg-indigo-50 text-indigo-700 text-xs font-medium px-2.5 py-1 rounded-md mr-2 mb-2 border border-indigo-100 group hover:bg-indigo-100 transition-colors";
+            chip.innerHTML = `
+                ${tag}
+                <button class="ml-1.5 text-indigo-400 hover:text-indigo-800 focus:outline-none" onclick="toggleTag('${tag}')">
+                    <i data-lucide="x" class="w-3 h-3"></i>
+                </button>
+            `;
+            container.appendChild(chip);
+        });
+        lucide.createIcons();
+    }
+}
+
+// Debounced search execution
+const debouncedSearch = debounce(() => {
+    executeSearch();
+}, 300);
+
+async function executeSearch() {
+    // Mobile close if needed (optional logic check could be added here to only close if query is distinct)
+    // if (window.innerWidth < 768) toggleMobileMenu(false);
+
+    const input = document.getElementById('search-input');
+    const rawQuery = input.value.trim();
+    state.searchQuery = rawQuery;
+
+    // If no tags and no query, show welcome screen
+    if (state.selectedTags.size === 0 && !rawQuery) {
+        document.getElementById('welcome-view').classList.remove('hidden');
+        document.getElementById('results-view').classList.add('hidden');
+        return;
+    }
+
+    // Effective Tags (Parent includes children)
+    const effectiveTags = new Set();
+    state.selectedTags.forEach(t => {
+        effectiveTags.add(t);
+        const children = state.tagDescendants.get(t);
+        if (children) children.forEach(child => effectiveTags.add(child));
+    });
+
+    // Keyword handling (OpenCC)
+    let searchTerms = [];
+    if (rawQuery) {
+        // Use basic lowercase first
+        searchTerms.push(rawQuery.toLowerCase());
+        // Attempt OpenCC if available
+        if (state.converter) {
+            try {
+                const s2t = await state.converter.s2t(rawQuery);
+                const t2s = await state.converter.t2s(rawQuery);
+                if (s2t !== rawQuery) searchTerms.push(s2t.toLowerCase());
+                if (t2s !== rawQuery) searchTerms.push(t2s.toLowerCase());
+            } catch(e) { console.error(e); }
+        }
+    }
+    // Remove duplicates
+    searchTerms = [...new Set(searchTerms)];
+
+    // Filter (Optimized Loop)
+    const hasTags = state.selectedTags.size > 0;
+    const hasQuery = searchTerms.length > 0;
+
+    const results = state.csvData.filter(item => {
+        // 1. Tag Match (Fastest check first)
+        if (hasTags) {
+            if (!item.tags || item.tags.length === 0) return false;
+            // Using effectiveTags Set for O(1) lookup per tag
+            const matchesTag = item.tags.some(t => effectiveTags.has(t));
+            if (!matchesTag) return false;
+        }
+
+        // 2. Keyword Match
+        if (hasQuery) {
+            // item._searchStr is pre-computed lowercase string
+            const matchesKeyword = searchTerms.some(term => item._searchStr.includes(term));
+            if (!matchesKeyword) return false;
+        }
+
+        return true;
+    });
+
+    renderResults(results);
+}
+
+/**
+ * UI Rendering: Results
+ */
+function renderResults(results) {
+    document.getElementById('welcome-view').classList.add('hidden');
+    document.getElementById('results-view').classList.remove('hidden');
+
+    const grid = document.getElementById('results-grid');
+    const noResults = document.getElementById('no-results');
+    const badge = document.getElementById('result-count-badge');
+    const status = document.getElementById('search-status');
+
+    badge.textContent = `${results.length} 条`;
+    
+    let statusText = state.selectedTags.size > 0 ? `包含标签: ${Array.from(state.selectedTags).join(", ")}` : "全部资源";
+    if (state.searchQuery) statusText += ` + 关键词: "${state.searchQuery}"`;
+    status.textContent = statusText;
+
+    if (results.length === 0) {
+        grid.innerHTML = '';
+        noResults.classList.remove('hidden');
+    } else {
+        noResults.classList.add('hidden');
+        
+        // CRITICAL PERFORMANCE FIX: Map to strings then join, set innerHTML once
+        // This avoids N reflows/repaints
+        const htmlBuffer = results.map(item => generateCardHtml(item));
+        grid.innerHTML = htmlBuffer.join('');
+        
+        // Only create icons after bulk insertion
+        lucide.createIcons();
+    }
+}
+
+function generateCardHtml(item) {
+    const title = item.title || item.name || Object.values(item)[0] || "无标题";
+    const desc = item.description || item.desc || item.summary || "";
+    const link = item.link || item.url || "#";
+    const safeLink = link.startsWith("http") ? link : `http://${link}`;
+    const tags = item.tags || [];
+    
+    // Heuristic for long text (approx 100 chars)
+    const isLongText = desc.length > 100;
+    // Random ID only generated when needed, or use a deterministic one if preferred
+    const cardId = 'card-' + Math.random().toString(36).substr(2, 9);
+
+    let tagsHtml = tags.length > 0 
+        ? tags.slice(0,3).map(t => `<span class="text-[10px] font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded whitespace-nowrap border border-slate-200">${t}</span>`).join('')
+        : `<span class="text-[10px] text-slate-300">无标签</span>`;
+    
+    if (tags.length > 3) tagsHtml += `<span class="text-[10px] text-slate-400 py-1">+ ${tags.length - 3}</span>`;
+
+    return `
+    <div class="bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md hover:border-indigo-300 transition-all duration-300 flex flex-col h-full overflow-hidden group">
+      <div class="p-5 flex-1 flex flex-col">
+        <div class="flex justify-between items-start gap-3 mb-2">
+          <h3 class="font-bold text-slate-800 text-lg leading-snug select-text">${title}</h3>
+        </div>
+        
+        <div class="flex-1 mb-4">
+            ${desc ? `
+                <div>
+                    <div id="${cardId}-text" class="resource-desc text-slate-500 text-sm leading-relaxed text-justify select-text break-words line-clamp-4">
+                        ${desc}
+                    </div>
+                    ${isLongText ? `
+                        <button onclick="toggleCardDesc('${cardId}')" id="${cardId}-btn" class="text-xs text-indigo-600 hover:text-indigo-800 font-medium mt-2 flex items-center gap-0.5 focus:outline-none transition-colors p-1 hover:bg-indigo-50 rounded">
+                            展开更多 <i data-lucide="chevron-down" class="w-3 h-3"></i>
+                        </button>
+                    ` : ''}
+                </div>
+            ` : `<p class="text-slate-300 text-sm italic">暂无描述</p>`}
+        </div>
+
+        <div class="mt-auto pt-4 border-t border-slate-100 flex items-end justify-between gap-3">
+             <div class="flex flex-wrap gap-1.5 flex-1 min-w-0">
+                ${tagsHtml}
+             </div>
+             <a href="${safeLink}" target="_blank" rel="noreferrer" class="shrink-0 flex items-center gap-1.5 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all shadow-sm hover:shadow hover:-translate-y-0.5 active:translate-y-0">
+                访问链接 <i data-lucide="external-link" class="w-3 h-3"></i>
+             </a>
+        </div>
+      </div>
+    </div>
+    `;
+}
+
+function toggleCardDesc(id) {
+    const textEl = document.getElementById(`${id}-text`);
+    const btnEl = document.getElementById(`${id}-btn`);
+    const isCollapsed = textEl.classList.contains('line-clamp-4');
+
+    if (isCollapsed) {
+        textEl.classList.remove('line-clamp-4');
+        btnEl.innerHTML = `收起 <i data-lucide="chevron-up" class="w-3 h-3"></i>`;
+    } else {
+        textEl.classList.add('line-clamp-4');
+        btnEl.innerHTML = `展开更多 <i data-lucide="chevron-down" class="w-3 h-3"></i>`;
+    }
+    lucide.createIcons();
+}
+
+/**
+ * Back to Top Button
+ */
+function scrollToTop() {
+    const contentArea = document.getElementById('content-area');
+    if (contentArea) {
+        contentArea.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+}
+
+function updateBackToTopButton() {
+    const btn = document.getElementById('back-to-top-btn');
+    if (!btn) return;
+    
+    const contentArea = document.getElementById('content-area');
+    const scrollTop = contentArea ? contentArea.scrollTop : window.pageYOffset || document.documentElement.scrollTop;
+    
+    if (scrollTop > 300) {
+        btn.style.opacity = '1';
+        btn.style.pointerEvents = 'auto';
+        btn.style.transform = 'translateY(0)';
+    } else {
+        btn.style.opacity = '0';
+        btn.style.pointerEvents = 'none';
+        btn.style.transform = 'translateY(10px)';
+    }
+}
+
+/**
+ * Event Listeners
+ */
+function initEventListeners() {
+    const searchInput = document.getElementById('search-input');
+    // Apply debounce to keyup/input events for search text
+    searchInput.addEventListener('input', debouncedSearch);
+    
+    // Back to top button scroll listener
+    const contentArea = document.getElementById('content-area');
+    if (contentArea) {
+        contentArea.addEventListener('scroll', updateBackToTopButton);
+    } else {
+        window.addEventListener('scroll', updateBackToTopButton);
+    }
+    
+    // Initial check for back to top button visibility
+    updateBackToTopButton();
+}
+
+function toggleMobileMenu(show) {
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('mobile-overlay');
+    
+    if (show) {
+        sidebar.classList.remove('-translate-x-full');
+        overlay.classList.remove('hidden');
+    } else {
+        sidebar.classList.add('-translate-x-full');
+        overlay.classList.add('hidden');
+    }
+}
+</script>
+</body>
 </html>
-

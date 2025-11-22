@@ -1,6 +1,6 @@
 <p style="background-color: yellow;padding: auto;text-align: left;"><b>注意：</b>由于最近GitHub Pages在国内网络环境下打开日益不稳定，因此推荐使用健全的互联网环境访问本站。<br/>您亦可<a href="./data/data.csv" target="_blank">下载CSV文件</a>后，在本地通过打开，便于离线访问</p>
 
-<h1>B-HU 资源<sup>beta 0.5</sup></h1>
+<h1>B-HU 资源<sup>beta 0.4</sup></h1>
 
 <a href="./tree.html" target="_blank"><div style="display:flex;justify-content:center;margin:1.5rem 0;">
   <img src="assets/icon.png" alt="icon" style="width:30%;height:auto;">
@@ -12,7 +12,7 @@
 <hr/>
 
 
-**Last updata at: 25/11/22**
+**Last updata at: 25/11/21**
 
 
 <div><details><summary><b>About the English Version (If you want to use the English version of this website, you'd better read this first.)</b></summary><p>We are unable to provide English version (or any other multiple language versions) of this site at this time due to staffing and effort constraints.</p><p>If you are not a Simplified Chinese language speaker, please use the web translation function included with modern browsers such as Firefox, Google Chrome, or Microsoft Edge to access this website, or you can translate it using third-party web translation browser extensions.</p><p>We are providing an English language interface based on machine translation for your convenience. Because this is a beta version, it may be inaccurate, unstable, ineffective, or have other issues that we are unable to resolve. If any problems arise, refer to the solution in the preceding paragraph. </p><p>To get to the English page, click the "English" button below.(Refresh if the page is not translated completely) </p><p>If you are interested in assisting with the multilingualization of this site, please contact the webmaster using the information provided below!</p><p><a href="#" onclick="handleLanguageChange('english'); return false;">English</a>&nbsp;|&nbsp;<a href="#" onclick="handleLanguageChange('chinese_simplified'); return false;">简体中文</a></p></details></div>
@@ -20,8 +20,6 @@
 ## 公告
 
 <div><details><summary>点我展开公告</summary>
-
-- 是的，我也没想到仅仅过了一天我就实现了由树状分类变为标签分类的功能，并且更新了一个小版本...beta 0.4或将成为史上最短命的b-hu资源版本（笑），但我觉得标签比树状分类要符合直觉一些...感谢伟大的Gemini！ *-2025/11/22*
 
 - 自去年12月以来，站长忙于自己的事，网站几乎没怎么更新过了。但感谢这个伟大的AI时代，我用AI重写了网站框架，现在用起来更舒服了！*-2025/11/21*
 
@@ -47,11 +45,9 @@
 
 - 点击上方按钮，进入资源界面
 
-- 资源页面点击左侧可以展开标签树
+- 为了保证页面简洁，网站默认对网址和介绍做了折叠处理，需要您手动点击展开。
 
-- 选择标签后，右侧将自动筛选该标签下的分类
-
-- 资源页面最上方有一个按钮，可以全文搜索。注意，这个搜索功能是在你标签的筛选下搜索的，如果想要搜索整个资源库，需要勾选“全部”标签
+- 资源页面最上方有一个按钮，可以全文搜索，搜索后点击跳转。
 
 - 您也可以使用<kbd>Ctrl</kbd>+<kbd>F</kbd>，执行页面搜索功能
 

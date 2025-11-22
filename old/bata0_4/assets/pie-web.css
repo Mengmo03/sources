@@ -1,0 +1,658 @@
+/* Pie Web Theme
+ * Converted from Typora Pie theme for general web use
+ * Original theme: https://github.com/typora
+ */
+
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Source+Sans+Pro&display=swap');
+
+:root {
+  --primary-color: #f22f27;
+  --text-color: #262626;
+  --bg-color: #ffffff;
+  --border-color: #dfe2e5;
+  
+  /* 中性色 */
+  --mid-1: #ffffff;
+  --mid-2: #fafafa;
+  --mid-3: #f5f5f5;
+  --mid-4: #f0f0f0;
+  --mid-5: #d9d9d9;
+  --mid-6: #bfbfbf;
+  --mid-7: #8c8c8c;
+  --mid-8: #595959;
+  --mid-9: #434343;
+  --mid-10: #262626;
+  
+  /* 主题色 */
+  --main-1: #fff2f0;
+  --main-2: #ffd6d1;
+  --main-3: #ffb0a8;
+  --main-4: #f27f79;
+  --main-5: #e6514e;
+  --main-6: #da282a;
+  --main-7: #b3171f;
+  
+  /* Docute变量覆盖 */
+  --page-background: #ffffff;
+  --main-background: #ffffff;
+  --header-background: #ffffff;
+  --sidebar-background: #ffffff;
+  --link-color: #f22f27;
+  --accent-color: #f22f27;
+  
+  /* 字体 */
+  --font-normal: 'Source Sans Pro', 'MiSans', '等距更纱黑体 SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+  --font-code: 'Fira Code', Monaco, Consolas, 'MiSans', '等距更纱黑体 SC', 'Microsoft YaHei', sans-serif;
+}
+
+/* 统一容器宽度与默认主题一致 */
+.Wrap {
+  max-width: 1180px !important;
+}
+
+.layout-wide .Content {
+  max-width: 770px !important;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0 auto;
+  padding: 20px 30px 160px;
+  overflow-x: hidden;
+  font-family: var(--font-normal);
+  line-height: 1.8rem;
+  color: var(--mid-10);
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  word-spacing: 0.05rem;
+  text-align: justify;
+  margin: 0.8em 0;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  line-height: 1.4;
+  cursor: text;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  line-height: 1.2;
+  margin: 2.4em auto 1.2em;
+}
+
+h2 {
+  margin: 2em auto 1.4em;
+  padding-left: 6px;
+  line-height: 1.4;
+  font-size: 1.6em;
+  border-left: 6px solid var(--main-6);
+}
+
+h3 {
+  margin: 1.6em auto 1.2em;
+  font-size: 1.35em;
+  line-height: 1.43;
+}
+
+h3::before {
+  content: '';
+  border-radius: 50%;
+  background-color: var(--main-5);
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  vertical-align: middle;
+  line-height: 1.43;
+  margin-bottom: 0.18em;
+  margin-right: 6px;
+}
+
+h4 {
+  margin-top: 1.4em;
+  font-size: 1.2em;
+}
+
+h4::before {
+  background-color: var(--main-4);
+  content: '';
+  width: 6px;
+  display: inline-block;
+  height: 2px;
+  vertical-align: middle;
+  margin-bottom: 0.18em;
+  margin-right: 8px;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 1em;
+  color: var(--mid-7);
+}
+
+/* Links */
+a {
+  color: var(--mid-10);
+  font-weight: 500;
+  padding: 0 2px;
+  text-decoration: none;
+  border-bottom: 1px solid var(--main-6);
+  transition: border-bottom 0.2s;
+}
+
+a:hover {
+  border-bottom: 2px solid var(--main-6);
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 30px;
+  margin: 0.8em 0;
+  line-height: 2rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+li > ul, li > ol {
+  margin: 0;
+}
+
+/* Blockquote */
+blockquote {
+  position: relative;
+  border: none;
+  border-left: 2px solid var(--main-6);
+  color: var(--mid-7);
+  font-size: 1em;
+  font-style: normal;
+  padding: 24px 16px 12px;
+  margin: 24px 0 36px;
+  line-height: 1.6;
+  text-indent: 0;
+}
+
+blockquote::before {
+  content: '"';
+  position: absolute;
+  left: 12px;
+  top: 0;
+  color: var(--main-6);
+  font-size: 2em;
+  font-family: Arial, serif;
+  line-height: 1em;
+  font-weight: 700;
+}
+
+blockquote a {
+  color: var(--mid-7);
+}
+
+/* Horizontal Rule */
+hr {
+  width: 100%;
+  height: 1px;
+  padding: 0;
+  margin: 46px auto 64px;
+  background-color: var(--main-4);
+  border: 0;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+
+/* Tables */
+table {
+  margin: 36px auto;
+  padding: 0;
+  word-break: initial;
+  border-collapse: collapse;
+}
+
+table tr {
+  border-top: 1px solid var(--border-color);
+  margin: 0;
+  padding: 0;
+}
+
+table tr:nth-child(2n),
+thead {
+  background-color: var(--mid-3);
+}
+
+table tr th {
+  font-weight: bold;
+  border: 1px solid var(--border-color);
+  border-bottom: 0;
+  text-align: center;
+  margin: 0;
+  padding: 6px 13px;
+  background-color: #f2f2f2;
+}
+
+table tr td {
+  border: 1px solid var(--border-color);
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+/* Code */
+code, tt {
+  margin: 0 2px;
+  padding: 2px 4px 1px;
+  border-radius: 3px;
+  font-family: var(--font-code);
+  font-size: 0.92rem;
+  color: var(--main-5);
+  background-color: var(--main-1);
+}
+
+pre {
+  margin: 1.8rem 0 2rem;
+  padding: 0.8rem 1rem 1rem;
+  font-family: var(--font-code);
+  font-size: 0.9rem;
+  line-height: 1.55rem;
+  color: var(--mid-10);
+  background-color: var(--mid-3);
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+pre code {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  color: inherit;
+}
+
+/* Strong and Emphasis */
+strong {
+  padding: 0 1px;
+  font-weight: bold;
+}
+
+em {
+  padding: 0 5px 0 2px;
+  font-style: italic;
+}
+
+/* Mark */
+mark {
+  background-color: var(--main-4);
+  border-radius: 4px;
+  padding: 2px 4px;
+  margin: 0 2px;
+  color: #222222;
+  font-weight: 500;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 24px auto;
+  border-radius: 4px;
+  display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 20px 15px;
+  }
+  
+  h1 {
+    font-size: 1.75em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  h3 {
+    font-size: 1.25em;
+  }
+}
+
+@media print {
+  html {
+    font-size: 13px;
+  }
+  
+  body {
+    max-width: 100%;
+  }
+  
+  table, pre {
+    page-break-inside: avoid;
+  }
+  
+  pre {
+    word-wrap: break-word;
+  }
+}
+
+/* Ink Story Player Styles */
+.story-container {
+  max-width: 770px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.game-header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.game-header h1::after {
+  border-bottom: 2px solid var(--main-6);
+}
+
+.start-screen {
+  text-align: center;
+  padding: 3em 2em;
+}
+
+.button-group {
+  margin: 2em 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 28px;
+  font-family: var(--font-normal);
+  font-size: 1em;
+  font-weight: 500;
+  color: var(--mid-10);
+  background-color: transparent;
+  border: 2px solid var(--main-6);
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+  min-width: 200px;
+}
+
+.btn:hover {
+  background-color: var(--main-6);
+  color: #fff;
+  transform: none;
+  box-shadow: none;
+  border-bottom: 2px solid var(--main-6);
+}
+
+.btn-secondary {
+  border-color: var(--mid-6);
+  color: var(--mid-8);
+}
+
+.btn-secondary:hover {
+  background-color: var(--mid-6);
+  color: #fff;
+  border-color: var(--mid-6);
+  box-shadow: none;
+}
+
+.input-group {
+  margin: 2em 0;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  color: var(--mid-9);
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px 12px;
+  font-family: var(--font-normal);
+  font-size: 1em;
+  border: 1px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+  border-radius: 0;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+  background-color: var(--mid-1);
+}
+
+.input-group input:focus {
+  outline: none;
+  border-bottom-color: var(--main-6);
+  background-color: #fff;
+}
+
+.story-text p {
+  margin: 1em 0;
+  line-height: 1.8;
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.choice {
+  margin: 1em 0;
+}
+
+.choice a {
+  display: block;
+  padding: 10px 16px;
+  background-color: transparent;
+  color: var(--mid-10);
+  text-decoration: none;
+  border: 1px solid var(--border-color);
+  border-left: 3px solid var(--main-6);
+  border-radius: 0;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.choice a:hover {
+  background-color: var(--main-1);
+  border-left-color: var(--main-6);
+  border-left-width: 6px;
+  padding-left: 13px;
+  border-bottom: 1px solid var(--border-color);
+  transform: none;
+}
+
+.story-tags {
+  margin: 0.5em 0;
+  font-size: 0.9em;
+  color: var(--mid-7);
+  font-style: italic;
+}
+
+.error-box {
+  padding: 1em 1.5em;
+  margin: 2em 0;
+  background-color: var(--main-1);
+  border-left: 4px solid var(--main-6);
+  border-radius: 0;
+  border-top: 1px solid var(--main-2);
+  border-bottom: 1px solid var(--main-2);
+}
+
+.error-box strong {
+  color: var(--main-6);
+  font-weight: bold;
+}
+
+.loading {
+  text-align: center;
+  padding: 2em;
+  color: var(--mid-7);
+  font-style: italic;
+}
+
+.story-end {
+  text-align: center;
+  padding: 2em;
+  margin: 2em 0;
+  border-top: 2px dashed var(--main-4);
+  color: var(--mid-7);
+}
+
+.hidden {
+  display: none;
+}
+
+/* 游戏控制面板 */
+.game-controls {
+  position: sticky;
+  top: 0;
+  background-color: var(--mid-2);
+  border-bottom: 2px solid var(--border-color);
+  padding: 10px 20px;
+  margin: -20px -20px 20px -20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 100;
+}
+
+.game-controls .btn-small {
+  padding: 6px 14px;
+  font-size: 0.9em;
+  min-width: auto;
+  background-color: transparent;
+  color: var(--mid-10);
+  border: 1px solid var(--border-color);
+  border-radius: 0;
+  font-weight: 500;
+  transition: all 0.2s;
+  box-shadow: none;
+}
+
+.game-controls .btn-small:hover {
+  background-color: var(--mid-3);
+  border-color: var(--mid-5);
+  transform: none;
+  box-shadow: none;
+}
+
+.game-controls .btn-danger {
+  border-color: var(--main-6);
+  color: var(--main-6);
+}
+
+.game-controls .btn-danger:hover {
+  background-color: var(--main-1);
+  border-color: var(--main-6);
+}
+
+.game-controls .btn-success {
+  border-color: var(--mid-6);
+  color: var(--mid-8);
+}
+
+.game-controls .btn-success:hover {
+  background-color: var(--mid-3);
+  border-color: var(--mid-7);
+}
+
+.game-controls .btn-info {
+  border-color: var(--mid-6);
+  color: var(--mid-8);
+}
+
+.game-controls .btn-info:hover {
+  background-color: var(--mid-3);
+  border-color: var(--mid-7);
+}
+
+/* 存档提示 */
+.save-notification {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  padding: 10px 18px;
+  background-color: var(--main-6);
+  color: white;
+  border-radius: 0;
+  border-left: 4px solid var(--main-7);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  animation: slideIn 0.3s ease-out;
+  font-size: 0.95em;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(400px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .story-container {
+    padding: 15px;
+  }
+  
+  .btn {
+    min-width: 160px;
+    font-size: 1em;
+  }
+  
+  .choice a {
+    padding: 10px 15px;
+  }
+  
+  .game-controls {
+    margin: -15px -15px 15px -15px;
+    padding: 10px;
+    gap: 8px;
+  }
+  
+  .game-controls .btn-small {
+    padding: 6px 12px;
+    font-size: 0.85em;
+  }
+  
+  .save-notification {
+    top: 60px;
+    right: 10px;
+    font-size: 0.9em;
+  }
+}
+

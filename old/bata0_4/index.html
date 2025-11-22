@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="./assets/icon.png" type="image/x-icon" />
-    <title>B-HU 资源beta 0.5</title>
+    <title>B-HU 资源beta 0.4</title>
     <link rel="stylesheet" href="assets/pie-web.css" />
     <style>
       body {
@@ -82,25 +82,11 @@
       (function () {
         const contentEl = document.getElementById("content");
 
-        function getHashPath() {
-          const hash = window.location.hash;
-          if (!hash || hash === "#" || hash === "#/") {
-            return "index";
-          }
-          // 移除 # 和开头的 /，例如 #/index -> index, #/pages/xxx -> pages/xxx
-          return hash.replace(/^#\/?/, "").trim() || "index";
-        }
-
         function resolveTargetPath(rawPage) {
-          const safeName = (rawPage || "index").trim();
+          const safeName = (rawPage || "index").trim().replace(/[^a-zA-Z0-9-_]/g, "");
           if (!safeName || safeName === "index") {
             return "index.md";
           }
-          // 如果路径已经包含 .md，直接返回
-          if (safeName.endsWith(".md")) {
-            return safeName;
-          }
-          // 否则尝试在 pages 目录下查找
           return `pages/${safeName}.md`;
         }
 
@@ -114,8 +100,9 @@
         }
 
         async function loadMarkdown() {
-          const hashPath = getHashPath();
-          const targetPath = resolveTargetPath(hashPath);
+          const params = new URLSearchParams(window.location.search);
+          const page = params.get("page");
+          const targetPath = resolveTargetPath(page);
 
           try {
             const response = await fetch(`${targetPath}?t=${Date.now()}`);
@@ -130,33 +117,12 @@
             updateTitle("Markdown 查看器");
           } catch (error) {
             console.error(error);
-            // 如果加载失败且不是 index.md，则回退到 index.md
-            if (targetPath !== "index.md") {
-              try {
-                const fallbackResponse = await fetch(`index.md?t=${Date.now()}`);
-                if (fallbackResponse.ok) {
-                  const fallbackSource = await fallbackResponse.text();
-                  contentEl.innerHTML = marked.parse(fallbackSource, {
-                    mangle: false,
-                    headerIds: true,
-                  });
-                  updateTitle("Markdown 查看器");
-                  return;
-                }
-              } catch (fallbackError) {
-                console.error("Fallback to index.md also failed:", fallbackError);
-              }
-            }
             contentEl.innerHTML = "";
             updateTitle("Markdown 查看器", "加载失败");
           }
         }
 
-        // 初始加载
         loadMarkdown();
-
-        // 监听 hash 变化
-        window.addEventListener("hashchange", loadMarkdown);
       })();
     </script>
   </body>
