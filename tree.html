@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://gstatic.qaq.qa/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap">
     
     <style>
+      /* Font Display Strategy: font-display: swap is enabled via Google Fonts URL parameter */
       
       body {
         font-family: 'Inter', 'Noto Sans SC', sans-serif;
@@ -295,7 +296,7 @@
  */
 const state = {
     treeData: [],
-    csvData: [],
+    jsonData: [],
     selectedTags: new Set(),
     tagDescendants: new Map(),
     nodeCounts: new Map(), // Map<TagName, count>
@@ -405,7 +406,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error(e);
         document.getElementById('loading-screen').classList.add('hidden');
         document.getElementById('error-screen').classList.remove('hidden');
-        document.getElementById('error-message').textContent = "数据加载失败，请确保目录下存在 fenlei.md 和 data.csv";
+        document.getElementById('error-message').textContent = "数据加载失败，请确保目录下存在 fenlei.md 和 data.json";
     }
 });
 
@@ -493,7 +494,7 @@ async function initOpenCC() {
 }
 
 function updateCounts() {
-    const totalRes = state.csvData.length;
+    const totalRes = state.jsonData.length;
     const totalTags = countTreeNodes(state.treeData);
     document.getElementById('total-resource-count').textContent = totalRes;
     document.getElementById('total-tags-count').textContent = totalTags;
@@ -516,29 +517,29 @@ function countTreeNodes(nodes) {
  * Data Parsing & Loading
  */
 async function loadData() {
-    const [mdRes, csvRes] = await Promise.all([
+    const [mdRes, jsonRes] = await Promise.all([
         fetch("./data/fenlei.md"),
-        fetch("./data/data.csv")
+        fetch("./data/data.json")
     ]);
 
-    if (!mdRes.ok || !csvRes.ok) throw new Error("Failed to fetch data files");
+    if (!mdRes.ok || !jsonRes.ok) throw new Error("Failed to fetch data files");
 
     const mdText = await mdRes.text();
-    const csvText = await csvRes.text();
+    const jsonData = await jsonRes.json();
 
     state.treeData = parseMarkdownTree(mdText);
-    state.csvData = parseCSV(csvText);
+    state.jsonData = parseJSON(jsonData);
     state.tagDescendants = buildDescendantMap(state.treeData);
     
     // Calculate recursive counts for tree visualization
-    state.nodeCounts = calculateRecursiveCounts(state.treeData, state.csvData);
+    state.nodeCounts = calculateRecursiveCounts(state.treeData, state.jsonData);
 }
 
-function calculateRecursiveCounts(treeData, csvData) {
+function calculateRecursiveCounts(treeData, jsonData) {
     // 1. Map direct counts: TagName -> Set of indices
     const tagDirectItems = new Map();
     
-    csvData.forEach((item, index) => {
+    jsonData.forEach((item, index) => {
         if (item.tags) {
             item.tags.forEach(tag => {
                 if (!tagDirectItems.has(tag)) {
@@ -632,49 +633,19 @@ function parseMarkdownTree(md) {
     return root;
 }
 
-function parseCSV(csv) {
-    const lines = csv.split(/\r?\n/).filter(line => line.trim() !== "");
-    if (lines.length === 0) return [];
-
-    const parseLine = (line) => {
-        const result = [];
-        let current = "";
-        let inQuote = false;
-        for (let i = 0; i < line.length; i++) {
-            const char = line[i];
-            if (char === '"') {
-                inQuote = !inQuote;
-            } else if (char === ',' && !inQuote) {
-                result.push(current.trim());
-                current = "";
-            } else {
-                current += char;
-            }
+function parseJSON(jsonData) {
+    if (!Array.isArray(jsonData)) return [];
+    
+    return jsonData.map(item => {
+        // Ensure tags is an array
+        if (!Array.isArray(item.tags)) {
+            item.tags = [];
         }
-        result.push(current.trim());
-        return result;
-    };
-
-    const headers = parseLine(lines[0]).map(h => h.toLowerCase().replace(/^[\uFEFF]/, '').trim());
-    const tagsIndex = headers.findIndex(h => h.includes("tag") || h.includes("fenlei") || h.includes("分类"));
-
-    return lines.slice(1).map(line => {
-        const values = parseLine(line);
-        const item = {};
-        headers.forEach((header, index) => {
-            let value = values[index] || "";
-            if (value.startsWith('"') && value.endsWith('"')) value = value.slice(1, -1);
-            item[header] = value;
-        });
-
-        let rawTags = tagsIndex !== -1 ? values[tagsIndex] : "";
-        if (!rawTags) rawTags = "";
-        item.tags = rawTags.replace(/[\[\]"]/g, "").split(/[,，、]/).map(t => t.trim()).filter(t => t.length > 0);
         
         // PRE-PROCESS SEARCH STRING for performance
         // Concatenate title, desc, tags and lowercase them once.
-        const title = (item.title || item.name || Object.values(item)[0] || "");
-        const desc = (item.description || item.desc || "");
+        const title = item.title || item.name || "";
+        const desc = item.description || item.desc || "";
         const tagStr = item.tags.join(" ");
         item._searchStr = `${title} ${desc} ${tagStr}`.toLowerCase();
         
@@ -949,7 +920,7 @@ async function executeSearch() {
     const hasTags = state.selectedTags.size > 0;
     const hasQuery = searchTerms.length > 0;
 
-    const results = state.csvData.filter(item => {
+    const results = state.jsonData.filter(item => {
         // 1. Tag Match (Fastest check first)
         if (hasTags) {
             if (!item.tags || item.tags.length === 0) return false;
