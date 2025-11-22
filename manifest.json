@@ -1,0 +1,22 @@
+{
+  "name": "B-HU资源beta 0.5",
+  "short_name": "B-HU资源",
+  "description": "B-HU资源分类树和搜索系统",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "orientation": "any",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "lang": "zh-CN"
+}
+

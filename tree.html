@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#4f46e5" />
+    <meta name="description" content="B-HU资源分类树和搜索系统" />
     <title>B-HU资源beta 0.5</title>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="./assets/icon.svg" />
     <script src="./assets/tailwind.css"></script>
     <!-- Lucide Icons -->
     <script src="./assets/lucide.min.js"></script>
     <!-- Papa Parse for CSV parsing -->
-    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-    <!-- Google Fonts and icon.png will be loaded after page is ready -->
+    <script src="./assets/papaparse.min.js"></script>
+    <!-- Google Fonts and icon.svg will be loaded after page is ready -->
     
     <style>
       /* Font Display Strategy: font-display: swap is enabled via Google Fonts URL parameter */
@@ -147,7 +151,7 @@
             <!-- Header -->
             <div class="h-16 flex items-center justify-between px-6 border-b border-slate-100 shrink-0 bg-white">
                 <div class="flex items-center gap-2 text-indigo-700 font-bold text-xl tracking-tight">
-                    <img id="sidebar-icon" data-src="./assets/icon.png" alt="Icon" class="w-5 h-5" />
+                    <img id="sidebar-icon" src="./assets/icon.svg" alt="Icon" class="w-5 h-5" />
                     <span>B-HU资源beta 0.5</span>
                 </div>
                 <button onclick="toggleMobileMenu(false)" class="md:hidden text-slate-400 hover:text-slate-600 p-1 hover:bg-slate-100 rounded-md">
@@ -218,6 +222,7 @@
                         <a href="https://forms.office.com/r/AMncKSa0ZD" target="_blank" class="header-link">报告错误</a>
                         <span class="text-slate-300">|</span>
                         <a href="#" id="lang-toggle-btn" onclick="toggleLanguage(); return false;" class="header-link text-indigo-500 font-medium">English</a>
+                        <button id="install-btn" onclick="installPWA()" class="header-link text-indigo-500 font-medium hidden" style="background: none; border: none; cursor: pointer; padding: 0;"><span class="text-slate-300">|</span>安装为应用</button>
                     </div>
                 </div>
                 
@@ -232,7 +237,7 @@
                 
                 <!-- Welcome State -->
                 <div id="welcome-view" class="flex-1 flex flex-col items-center justify-center text-center pb-10 select-none">
-                    <img id="welcome-icon" data-src="./assets/icon.png" alt="Icon" class="w-24 h-24 mb-8" />
+                    <img id="welcome-icon" src="./assets/icon.svg" alt="Icon" class="w-24 h-24 mb-8" />
                     <h1 class="text-3xl font-bold text-slate-800 mb-3">B-HU资源beta 0.5</h1>
                     <p class="text-slate-500 max-w-md mx-auto mb-6 leading-relaxed">
                         目前共收录 <span id="hero-resource-count" class="font-bold text-indigo-600">0</span> 条资源<br/>
@@ -382,6 +387,102 @@ function loadStateFromLocalStorage() {
 }
 
 /**
+ * PWA Installation
+ */
+let deferredPrompt = null;
+
+// 监听 beforeinstallprompt 事件
+window.addEventListener('beforeinstallprompt', (e) => {
+    // 阻止默认的安装提示
+    e.preventDefault();
+    // 保存事件以便稍后使用
+    deferredPrompt = e;
+    // 显示安装按钮
+    const installBtn = document.getElementById('install-btn');
+    if (installBtn) {
+        installBtn.classList.remove('hidden');
+    }
+});
+
+// 安装 PWA
+async function installPWA() {
+    if (!deferredPrompt) {
+        // 如果事件不存在，可能是已经安装或浏览器不支持
+        alert('应用已安装或您的浏览器不支持安装功能');
+        return;
+    }
+
+    // 显示安装提示
+    deferredPrompt.prompt();
+    
+    // 等待用户响应
+    const { outcome } = await deferredPrompt.userChoice;
+    
+    if (outcome === 'accepted') {
+        console.log('用户接受了安装提示');
+    } else {
+        console.log('用户拒绝了安装提示');
+    }
+    
+    // 清除保存的事件
+    deferredPrompt = null;
+    
+    // 隐藏安装按钮
+    const installBtn = document.getElementById('install-btn');
+    if (installBtn) {
+        installBtn.classList.add('hidden');
+    }
+}
+
+// 监听应用安装完成事件
+window.addEventListener('appinstalled', () => {
+    console.log('PWA 已安装');
+    deferredPrompt = null;
+    const installBtn = document.getElementById('install-btn');
+    if (installBtn) {
+        installBtn.classList.add('hidden');
+    }
+});
+
+// 检查是否已安装
+if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
+    console.log('应用已以独立模式运行');
+    const installBtn = document.getElementById('install-btn');
+    if (installBtn) {
+        installBtn.classList.add('hidden');
+    }
+}
+
+/**
+ * Service Worker Registration
+ */
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+            .then((registration) => {
+                console.log('Service Worker 注册成功:', registration.scope);
+                
+                // 检查更新
+                registration.addEventListener('updatefound', () => {
+                    const newWorker = registration.installing;
+                    newWorker.addEventListener('statechange', () => {
+                        if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                            // 新版本可用，提示用户刷新
+                            if (confirm('发现新版本，是否立即刷新？')) {
+                                newWorker.postMessage({ type: 'SKIP_WAITING' });
+                                window.location.reload();
+                            }
+                        }
+                    });
+                });
+            })
+            .catch((error) => {
+                console.error('Service Worker 注册失败:', error);
+            });
+    });
+}
+
+/**
  * Initialization
  */
 document.addEventListener('DOMContentLoaded', async () => {
@@ -408,6 +509,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('loading-screen').classList.add('hidden');
         document.getElementById('app').classList.remove('hidden');
         
+        // Load icon immediately (don't wait for window.load)
+        loadIcon().catch(e => console.warn('Icon loading failed:', e));
+        
         // Initialize back to top button icon after app is shown
         setTimeout(() => {
             lucide.createIcons();
@@ -432,7 +536,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
         
         // Lazy load non-critical features after page is shown
-        // Load in sequence: opencc -> fonts -> busuanzi -> icon.png
+        // Load in sequence: opencc -> fonts -> busuanzi -> icon.svg
         window.addEventListener('load', () => {
             loadResourcesSequentially();
         });
@@ -509,8 +613,7 @@ async function loadResourcesSequentially() {
         // Step 3: Load busuanzi
         initBusuanzi();
         
-        // Step 4: Load icon.png (only once, then apply to all places)
-        await loadIcon();
+        // Step 4: Icon is already loaded in DOMContentLoaded, skip here
     } catch (e) {
         console.warn('Failed to load some resources:', e);
     }
@@ -598,7 +701,7 @@ function loadFonts() {
     });
 }
 
-// Load icon.png only once and apply to all places
+// Load icon.svg only once and apply to all places
 function loadIcon() {
     return new Promise((resolve, reject) => {
         if (window._iconLoaded) {
@@ -606,37 +709,66 @@ function loadIcon() {
             return;
         }
         
-        const iconUrl = './assets/icon.png';
-        const img = new Image();
+        const iconUrl = './assets/icon.svg';
         
-        img.onload = () => {
+        // Set favicon immediately (SVG can be set directly)
+        const existingFavicon = document.querySelector('link[rel="icon"]');
+        if (existingFavicon) {
+            existingFavicon.remove();
+        }
+        const favicon = document.createElement('link');
+        favicon.rel = 'icon';
+        favicon.href = iconUrl;
+        favicon.type = 'image/svg+xml';
+        document.head.appendChild(favicon);
+        
+        // Verify images are loaded (they should already have src set in HTML)
+        const sidebarIcon = document.getElementById('sidebar-icon');
+        const welcomeIcon = document.getElementById('welcome-icon');
+        
+        // Check if images are already loaded or need to be verified
+        let loadedCount = 0;
+        const totalImages = (sidebarIcon ? 1 : 0) + (welcomeIcon ? 1 : 0);
+        
+        if (totalImages === 0) {
             window._iconLoaded = true;
-            
-            // Set favicon
-            const favicon = document.createElement('link');
-            favicon.rel = 'icon';
-            favicon.href = iconUrl;
-            favicon.type = 'image/x-icon';
-            document.head.appendChild(favicon);
-            
-            // Apply to all img elements with data-src
-            const sidebarIcon = document.getElementById('sidebar-icon');
-            const welcomeIcon = document.getElementById('welcome-icon');
-            
-            if (sidebarIcon) {
-                sidebarIcon.src = iconUrl;
-                sidebarIcon.removeAttribute('data-src');
-            }
-            if (welcomeIcon) {
-                welcomeIcon.src = iconUrl;
-                welcomeIcon.removeAttribute('data-src');
-            }
-            
             resolve();
+            return;
+        }
+        
+        const checkComplete = () => {
+            loadedCount++;
+            if (loadedCount >= totalImages) {
+                window._iconLoaded = true;
+                resolve();
+            }
         };
         
-        img.onerror = () => reject(new Error("Failed to load icon.png"));
-        img.src = iconUrl; // Start loading
+        // Verify sidebar icon
+        if (sidebarIcon) {
+            if (sidebarIcon.complete && sidebarIcon.naturalHeight !== 0) {
+                checkComplete();
+            } else {
+                sidebarIcon.onload = checkComplete;
+                sidebarIcon.onerror = () => {
+                    console.warn('Failed to load sidebar icon');
+                    checkComplete(); // Continue anyway
+                };
+            }
+        }
+        
+        // Verify welcome icon
+        if (welcomeIcon) {
+            if (welcomeIcon.complete && welcomeIcon.naturalHeight !== 0) {
+                checkComplete();
+            } else {
+                welcomeIcon.onload = checkComplete;
+                welcomeIcon.onerror = () => {
+                    console.warn('Failed to load welcome icon');
+                    checkComplete(); // Continue anyway
+                };
+            }
+        }
     });
 }
 

@@ -1,36 +1,33 @@
 title,description,link,tags
-MainOnly,一个浏览器的JS小书签工具，可以隔离并突出显示网页上的特定元素，有效隐藏所有其他元素。,https://github.com/jerrylususu/mainonly,"插件,综合"
+MainOnly,一个浏览器的JS小书签工具，可以隔离并突出显示网页上的特定元素，有效隐藏所有其他元素。,https://github.com/jerrylususu/mainonly,插件
 Deep Tab Search,一款可以全文搜索已打开的 Chrome 标签页内容的扩展，支持中文。输入关键词后自动跳转页面。,https://github.com/MrViolets/Deep-Tab-Search,插件
 Ries.ai,一个浏览器插件。Ries 能帮你 在刷网页、看视频时 “无痛”地增加 适当的英语接触。,https://ries.ai/,插件
 reader view,<p>一个网页排版优化插件，可以很舒服的在浏览器内阅读，同时也可以做笔记<br/></p>,https://chrome.google.com/webstore/detail/reader-view/ecabifbgmdmgdllomnfinbmaellmclnh,插件
 bionic reading,<p>快速阅读工具，每个单词开头几个字母放大+黑体，读起来确实更专注了不容易跳词了<br/></p>,https://chrome.google.com/webstore/detail/bionic-reading/kdfkejelgkdjgfoolngegkhkiecmlflj,插件
-SingleFile,<p>支持在 Chrome、MS Edge 和 Firefox上安装，可以将当前网页保存为单个可供浏览的离线 HTML 文件，其中的图片会被转码为 Base64 并嵌入这个 HTML 文件中。因此非常适合存档一些可能被 404 的微信公众号文章，然后上传到 IPFS，或者简单作为一个网页本地存档的工具。<br/>同时作者也提供了自带压缩功能的SingleFileZ<br/><a class="outline" href="https://github.com/gildas-lormeau/SingleFile" role="button" target="_blank">SingleFile</a><br/><a class="outline" href="https://github.com/gildas-lormeau/SingleFileZ" role="button" target="_blank">SingleFileZ</a></p>,https://github.com/gildas-lormeau/SingleFile,插件
+SingleFile,"<p>支持在 Chrome、MS Edge 和 Firefox上安装，可以将当前网页保存为单个可供浏览的离线 HTML 文件，其中的图片会被转码为 Base64 并嵌入这个 HTML 文件中。因此非常适合存档一些可能被 404 的微信公众号文章，然后上传到 IPFS，或者简单作为一个网页本地存档的工具。<br/>同时作者也提供了自带压缩功能的SingleFileZ<br/><a class=""outline"" href=""https://github.com/gildas-lormeau/SingleFile"" role=""button"" target=""_blank"">SingleFile</a><br/><a class=""outline"" href=""https://github.com/gildas-lormeau/SingleFileZ"" role=""button"" target=""_blank"">SingleFileZ</a></p>",https://github.com/gildas-lormeau/SingleFile,插件
 uBlock Origin,<p>一个广告屏蔽插件，屏蔽广告还有网页上任何你不想看到的东西。可以自建规则。<br/></p>,https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm,插件
 Raindrop.io,<p>在线存书签工具，你能想到的功能它都有，支持快捷键，可以分组，加标签，高亮，检索功能非常强大。<br/></p>,https://chrome.google.com/webstore/detail/raindropio/ldgfbffkinooeloadekpmfoklnobpien,插件
 Listen 1,<p>在线听歌插件 可绑定网易云，qq或者github<br/></p>,https://chrome.google.com/webstore/detail/listen-1/indecfegkejajpaipjipfkkbedgaodbp,插件
 Clear URL,<p>一个可以去除链接中追踪参数的插件<br/></p>,https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk,插件
 Language Reactor,<p>一款支持英语字幕查词的插件，安装该插件以后，就可以直接点击字幕中的生词查询。<br/>提供了上一句、重复本句、下一句的快捷键，根据字幕划分，可以简单地循环播放句子。<br/>支持每句后自动暂停的。<br/>支持设置成默认隐藏字幕，然后快捷键显示，可以先听几遍再看字幕。<br/></p>,https://www.languagereactor.com/,插件
 Bypass Paywalls Clean,<p>绕过付费墙chrome插件（支持纽约客，纽约时报，大西洋月刊，金融时报等等等），由于作者承认在翻墙后页面内植入Google Analytics跟踪用户，且拒绝移除，所以此处提供的是Clean版的链接<br/><i>有钱还是建议支持一下正版内容啦</i><br/></p>,https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean,插件
-Infinity标签页,<p>一个浏览器新标签页美化插件，可以给你的浏览器设置一个美观的主页，可以自定义壁纸/自定义多搜索引擎<br/><a class="outline" href="https://chrome.google.com/webstore/detail/infinity-new-tab/dbfmnekepjoapopniengjbcpnbljalfg" role="button" target="_blank">商店地址</a><br/><a class="outline" href="https://www.infinitytab.com/zh/" role="button" target="_blank">官网</a></p>,https://chrome.google.com/webstore/detail/infinity-new-tab/dbfmnekepjoapopniengjbcpnbljalfg,插件
-OneTab,<p>一个轻量网址收纳插件，可以一键将多个标签页收纳/打开，让浏览器不再卡顿，同时支持一键分享收纳后的网址列表。<br/>安装后点击插件中的OneTab图标即可实现网址的收纳，点击左侧的OneTab图标可查看收纳后的网址。<br/><a class="outline" href="https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall" role="button" target="_blank">商店地址</a><br/><a class="outline" href="https://www.one-tab.com/" role="button" target="_blank">官网</a></p>,https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall,插件
-沙拉查词,<p>一个开源的聚合划词插件，支持网页划词查询词义。<br/><a class="outline" href="https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg" role="button" target="_blank">商店地址</a><br/><a class="outline" href="https://saladict.crimx.com/" role="button" target="_blank">官网</a></p>,https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg,插件
-Video Speed Controller,<p>一个开源的视频倍速播放的小插件，最高支持16倍速。<br/><a class="outline" href="https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk" role="button" target="_blank">商店地址</a><br/><a class="outline" href="https://github.com/igrigorik/videospeed" role="button" target="_blank">官网</a></p>,https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk,插件
+Infinity标签页,"<p>一个浏览器新标签页美化插件，可以给你的浏览器设置一个美观的主页，可以自定义壁纸/自定义多搜索引擎<br/><a class=""outline"" href=""https://chrome.google.com/webstore/detail/infinity-new-tab/dbfmnekepjoapopniengjbcpnbljalfg"" role=""button"" target=""_blank"">商店地址</a><br/><a class=""outline"" href=""https://www.infinitytab.com/zh/"" role=""button"" target=""_blank"">官网</a></p>",https://chrome.google.com/webstore/detail/infinity-new-tab/dbfmnekepjoapopniengjbcpnbljalfg,插件
+OneTab,"<p>一个轻量网址收纳插件，可以一键将多个标签页收纳/打开，让浏览器不再卡顿，同时支持一键分享收纳后的网址列表。<br/>安装后点击插件中的OneTab图标即可实现网址的收纳，点击左侧的OneTab图标可查看收纳后的网址。<br/><a class=""outline"" href=""https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall"" role=""button"" target=""_blank"">商店地址</a><br/><a class=""outline"" href=""https://www.one-tab.com/"" role=""button"" target=""_blank"">官网</a></p>",https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall,插件
+沙拉查词,"<p>一个开源的聚合划词插件，支持网页划词查询词义。<br/><a class=""outline"" href=""https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg"" role=""button"" target=""_blank"">商店地址</a><br/><a class=""outline"" href=""https://saladict.crimx.com/"" role=""button"" target=""_blank"">官网</a></p>",https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg,插件
+Video Speed Controller,"<p>一个开源的视频倍速播放的小插件，最高支持16倍速。<br/><a class=""outline"" href=""https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk"" role=""button"" target=""_blank"">商店地址</a><br/><a class=""outline"" href=""https://github.com/igrigorik/videospeed"" role=""button"" target=""_blank"">官网</a></p>",https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk,插件
 Relingo,<p>一个可以在浏览任何网站的时候渐进地背单词的Chrome拓展<br/></p>,https://relingo.net/zh/index,插件
 图书互助,<p>一个可以下载超星读秀库的油猴插件，需要先安装油猴才能用<br/></p>,https://greasyfork.org/zh-CN/scripts/420751-%E5%9B%BE%E4%B9%A6%E4%BA%92%E5%8A%A9,插件
 简阅,<p>一个可以让网页变成阅读模式的插件，看起来更舒服，且高度可自定义<br/></p>,http://ksria.com/simpread/,插件
 【W】Google文档,<p>一个浏览器拓展程序，安装后可在线预览word、ppt、excel等文档<br/></p>,https://chrome.google.com/webstore/detail/office-editing-for-docs-s/gbkeegbaiigmenfmjfclcdgdpimamgkj?hl=zh-CN,插件
-WebToEpub,<p>一个可以把网页保存为epub的插件，具体使用方法可以看作者提供的文档<br/><a class="outline" href="https://chrome.google.com/webstore/detail/webtoepub/akiljllkbielkidmammnifcnibaigelm?hl=zh-CN" role="button" target="_blank">商店地址</a></p>,https://chrome.google.com/webstore/detail/webtoepub/akiljllkbielkidmammnifcnibaigelm?hl=zh-CN,插件
-沉浸式翻译,<p>一个可以进行对照逐行翻译的插件，支持多种翻译API和多种显示模式，很方便<br/><a class="outline" href="https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?hl=zh-CN" role="button" target="_blank">商店地址</a><br/></p>,https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?hl=zh-CN,插件
-MarkDownload,<p>一个开源浏览器插件，可以将网页以MarkDown格式保存，支持所有的现代浏览器<br/><a class="outline" href="https://chromewebstore.google.com/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB&amp;pli=1" role="button" target="_blank">商店地址</a><br/><a class="outline" href="https://github.com/deathau/markdownload" role="button" target="_blank">项目地址</a></p>,https://chromewebstore.google.com/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB&pli=1,插件
-Scholarscope,<p>一个可以免费查看文献的影响因子（IF）、分区和被引次数等信息的浏览器插件，支持所有的现代浏览器<br/><a class="outline" href="https://chromewebstore.google.com/detail/scholarscope/mokcaeplgcdllmhdmfhcbjcgmaibpdgk" role="button" target="_blank">商店地址</a><br/></p>,https://chromewebstore.google.com/detail/scholarscope/mokcaeplgcdllmhdmfhcbjcgmaibpdgk,插件
+WebToEpub,"<p>一个可以把网页保存为epub的插件，具体使用方法可以看作者提供的文档<br/><a class=""outline"" href=""https://chrome.google.com/webstore/detail/webtoepub/akiljllkbielkidmammnifcnibaigelm?hl=zh-CN"" role=""button"" target=""_blank"">商店地址</a></p>",https://chrome.google.com/webstore/detail/webtoepub/akiljllkbielkidmammnifcnibaigelm?hl=zh-CN,插件
+沉浸式翻译,"<p>一个可以进行对照逐行翻译的插件，支持多种翻译API和多种显示模式，很方便<br/><a class=""outline"" href=""https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?hl=zh-CN"" role=""button"" target=""_blank"">商店地址</a><br/></p>",https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?hl=zh-CN,插件
+MarkDownload,"<p>一个开源浏览器插件，可以将网页以MarkDown格式保存，支持所有的现代浏览器<br/><a class=""outline"" href=""https://chromewebstore.google.com/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB&amp;pli=1"" role=""button"" target=""_blank"">商店地址</a><br/><a class=""outline"" href=""https://github.com/deathau/markdownload"" role=""button"" target=""_blank"">项目地址</a></p>",https://chromewebstore.google.com/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB&pli=1,插件
+Scholarscope,"<p>一个可以免费查看文献的影响因子（IF）、分区和被引次数等信息的浏览器插件，支持所有的现代浏览器<br/><a class=""outline"" href=""https://chromewebstore.google.com/detail/scholarscope/mokcaeplgcdllmhdmfhcbjcgmaibpdgk"" role=""button"" target=""_blank"">商店地址</a><br/></p>",https://chromewebstore.google.com/detail/scholarscope/mokcaeplgcdllmhdmfhcbjcgmaibpdgk,插件
 Ruffle,<p>一个可以让现代浏览器兼容以前的Flash程序的小插件，但只兼容Flash2.0，有应用程序和浏览器拓展，支持所有的现代浏览器<br/></p>,https://ruffle.rs/,插件
-MainOnly,一个浏览器的JS小书签工具，可以隔离并突出显示网页上的特定元素，有效隐藏所有其他元素。,https://github.com/jerrylususu/mainonly,插件
-Deep Tab Search,一款可以全文搜索已打开的 Chrome 标签页内容的扩展，支持中文。输入关键词后自动跳转页面。,https://github.com/MrViolets/Deep-Tab-Search,插件
-Ries.ai,一个浏览器插件。Ries 能帮你 在刷网页、看视频时 “无痛”地增加 适当的英语接触。,https://ries.ai/,插件
 LapisCV,在 VSCode / Typora / Obsidian 上轻松使用 Markdown 创建简历。仅支持以上三款软件。还是比较美观的,https://github.com/BingyanStudio/LapisCV,软件
 Simple-IT-Markdown-Resume,Trpora简历主题。一款适合 IT 行业的 Markdown 简约简历模版，拒绝花里胡哨,https://github.com/Lcry/Simple-IT-Markdown-Resume,软件
 AltSnap,一个小工具，支持在windows上按下 Alt 键时轻松拖动窗口,https://github.com/RamonUnch/AltSnap/,软件
-markdownlint,一个Markdown语法检查器，有一个基于的<a href="https://github.com/markdownlint/markdownlint">Ruby</a>原版和一个Node.js版。介绍可以看<a href="https://sspai.com/prime/story/markdown-linter-a-primer">这里</a>,https://github.com/DavidAnson/markdownlint,软件
+markdownlint,"一个Markdown语法检查器，有一个基于的<a href=""https://github.com/markdownlint/markdownlint"">Ruby</a>原版和一个Node.js版。介绍可以看<a href=""https://sspai.com/prime/story/markdown-linter-a-primer"">这里</a>",https://github.com/DavidAnson/markdownlint,软件
 稳部落,<p>一个可以备份微博的软件<br/></p>,https://github.com/YaoZeyuan/stablog,软件
 pdf补丁丁,<p>永久免费，绝不过期，免费的 PDF 文档处理工具<br/></p>,https://github.com/wmjordan/PDFPatcher,软件
 iwck,<p>一个可以临时锁定键盘的小软件，可以清理键盘的时候用，或者...防止猫在你的键盘上打滚？<br/></p>,https://github.com/Nigh/I-wanna-clean-keyboard,软件
@@ -47,31 +44,27 @@ pyTranscriber,<p>一个上字幕的软件，可用于通过友好的图形用户
 Aegisub,<p>知名的上字幕软件，缺点是上超过三十分钟会开始跳掉或音画不同步，教程可以自己上网搜一下，记得有特效或是有一次两个字幕交叠之类的储存时要选ASS档（复杂的字幕档）<br/></p>,https://github.com/Aegisub/Aegisub,软件
 HandBrake,<p>开源的视频转换软件，压制字幕也很好用，具体来说是点subtitles右键选择新增字幕选到做好的文件，然后记得勾burn in，就可以等他输出了<br/></p>,https://handbrake.fr/,软件
 Just Color Picker,<p>一个免费的取色器软件，好像功能还挺多<br/></p>,https://annystudio.com/software/colorpicker/,软件
-Snapseed,<p>一个手机APP，调照片的光影和颜色很好用，修复可以涂掉污点，扩增很好用，自由度高，操作偏直觉<br/>提供的是Google Play的下载地址，需要【W】，也可自行去搜索引擎搜索其他下载渠道<br/><a class="outline" href="https://play.google.com/store/apps/details?id=com.niksoftware.snapseed&amp;hl=zh" role="button" target="_blank">访问网站</a></p>,https://play.google.com/store/apps/details?id=com.niksoftware.snapseed&hl=zh,软件
+Snapseed,"<p>一个手机APP，调照片的光影和颜色很好用，修复可以涂掉污点，扩增很好用，自由度高，操作偏直觉<br/>提供的是Google Play的下载地址，需要【W】，也可自行去搜索引擎搜索其他下载渠道<br/><a class=""outline"" href=""https://play.google.com/store/apps/details?id=com.niksoftware.snapseed&amp;hl=zh"" role=""button"" target=""_blank"">访问网站</a></p>",https://play.google.com/store/apps/details?id=com.niksoftware.snapseed&hl=zh,软件
 Microsoft Lens,<p>微软出品的良心扫描软件，可以输出PDF/图片类型的文件，而且无需登录！<br/></p>,https://play.google.com/store/apps/details?id=com.microsoft.office.officelens,软件
-博看书苑,<p>可以免费阅读正版电子图书、期刊、报纸，总存储量 21TB。首次登录会要求机构授权码。<br/><a class="outline" href="https://yibook.org/post/bksy/" role="button" target="_blank">可用机构授权码</a></p>,https://download.bookan.com.cn/,软件
+博看书苑,"<p>可以免费阅读正版电子图书、期刊、报纸，总存储量 21TB。首次登录会要求机构授权码。<br/><a class=""outline"" href=""https://yibook.org/post/bksy/"" role=""button"" target=""_blank"">可用机构授权码</a></p>",https://download.bookan.com.cn/,软件
 ScienceDecrypting,<p>一个可以解锁CAJ文件为PDF的软件<br/></p>,https://wwpan.lanzoul.com/ikyOB0j4acwd,软件
-Copy++,<p>一款可以去除PDF复制文字中的换行和空格的小软件<br/><a class="outline" href="https://github.com/CopyPlusPlus/CopyPlusPlus" role="button" target="_blank">查看仓库</a></p>,https://copyplusplus.tk/,软件
+Copy++,"<p>一款可以去除PDF复制文字中的换行和空格的小软件<br/><a class=""outline"" href=""https://github.com/CopyPlusPlus/CopyPlusPlus"" role=""button"" target=""_blank"">查看仓库</a></p>",https://copyplusplus.tk/,软件
 ZoomIt,<p>微软出品的一个可以放大屏幕以及在屏幕上写字的小工具，绿色免安装，上课之类的很方便<br/></p>,https://learn.microsoft.com/zh-cn/sysinternals/downloads/zoomit,软件
-QrCodeScanner,<p>一个开源的电脑扫描二维码的小软件<br/><a class="outline" href="https://github.com/1357310795/QrCodeScanner" role="button" target="_blank">查看仓库</a></p>,https://github.com/1357310795/QrCodeScanner,软件
-FastGestures,<p>鼠标手势、手势快捷键、 激活/启动应用、发送快捷键、三指拖拽、快速搜索、执行命令行脚本、资源管理器导航、微信多开、图片OCR、Lua脚本、自定义扩展等！<br/><a class="outline" href="https://github.com/zhaokeli/FastGestures" role="button" target="_blank">项目地址</a></p>,https://fg.zhaokeli.com/,软件
+QrCodeScanner,"<p>一个开源的电脑扫描二维码的小软件<br/><a class=""outline"" href=""https://github.com/1357310795/QrCodeScanner"" role=""button"" target=""_blank"">查看仓库</a></p>",https://github.com/1357310795/QrCodeScanner,软件
+FastGestures,"<p>鼠标手势、手势快捷键、 激活/启动应用、发送快捷键、三指拖拽、快速搜索、执行命令行脚本、资源管理器导航、微信多开、图片OCR、Lua脚本、自定义扩展等！<br/><a class=""outline"" href=""https://github.com/zhaokeli/FastGestures"" role=""button"" target=""_blank"">项目地址</a></p>",https://fg.zhaokeli.com/,软件
 词根单词,<p>一个个人开发的背单词软件，也可以当词典用，从词根的角度出发进行单词背诵和查询，目前好像只在腾讯应用宝上架了<br/></p>,https://sj.qq.com/appdetail/com.xfs.rootwords,软件
-ScreenToGif,<p>一个可以录屏GIF并支持编辑的软件，在GitHub开源<br/><a class="outline" href="https://github.com/NickeManarin/ScreenToGif" role="button" target="_blank">仓库地址</a></p>,https://www.screentogif.com/,软件
+ScreenToGif,"<p>一个可以录屏GIF并支持编辑的软件，在GitHub开源<br/><a class=""outline"" href=""https://github.com/NickeManarin/ScreenToGif"" role=""button"" target=""_blank"">仓库地址</a></p>",https://www.screentogif.com/,软件
 USBWebserver,<p>最轻量级的本地便携式 Web 服务器，带有适用于 Windows 的 Apache、PHP、MySQL 和 PHPMyAdmin。只需解压任意位置（包括 USB 闪存驱动器），运行并开始使用。<br/></p>,https://usbwebserver.yura.mk.ua/,软件
-Html2EXE,<p>一个可以把HTML打包成exe的小软件，没找到官方的下载地址，所以就贴了一个pc6的<br/><a class="outline" href="http://www.pc6.com/softview/SoftView_28828.html" role="button" target="_blank">下载地址（非官方）</a></p>,http://www.pc6.com/softview/SoftView_28828.html,软件
+Html2EXE,"<p>一个可以把HTML打包成exe的小软件，没找到官方的下载地址，所以就贴了一个pc6的<br/><a class=""outline"" href=""http://www.pc6.com/softview/SoftView_28828.html"" role=""button"" target=""_blank"">下载地址（非官方）</a></p>",http://www.pc6.com/softview/SoftView_28828.html,软件
 showumd,<p>一键批量转换md为html并部署于本地或服务器<br/></p>,https://kz16.top/showumd/index.html,软件
-OpenSearcher,<p>一个开源的基于PyQT5开源的、本地的、安全的、支持全文检索的搜索器。<br/><a class="outline" href="https://github.com/Gaoyongxian666/OpenSearcher" role="button" target="_blank">项目地址</a></p>,https://github.com/Gaoyongxian666/OpenSearcher,软件
+OpenSearcher,"<p>一个开源的基于PyQT5开源的、本地的、安全的、支持全文检索的搜索器。<br/><a class=""outline"" href=""https://github.com/Gaoyongxian666/OpenSearcher"" role=""button"" target=""_blank"">项目地址</a></p>",https://github.com/Gaoyongxian666/OpenSearcher,软件
 smart toc,<p>可以自动生成网页目录，方便阅读长文<br/></p>,https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba,软件
-LapisCV,在 VSCode / Typora / Obsidian 上轻松使用 Markdown 创建简历。仅支持以上三款软件。还是比较美观的,https://github.com/BingyanStudio/LapisCV,软件
-Simple-IT-Markdown-Resume,Trpora简历主题。一款适合 IT 行业的 Markdown 简约简历模版，拒绝花里胡哨,https://github.com/Lcry/Simple-IT-Markdown-Resume,软件
-AltSnap,一个小工具，支持在windows上按下 Alt 键时轻松拖动窗口,https://github.com/RamonUnch/AltSnap/,软件
-markdownlint,一个Markdown语法检查器，有一个基于的<a href="https://github.com/markdownlint/markdownlint">Ruby</a>原版和一个Node.js版。介绍可以看<a href="https://sspai.com/prime/story/markdown-linter-a-primer">这里</a>,https://github.com/DavidAnson/markdownlint,软件
 中文开放知识图谱,一个非常炫酷的网站，旨在促进以中文为核心的知识图谱数据的开放、互联与众包，以及知识图谱工具、模型和平台的开源开放,http://openkg.cn/,学科
 全国行政区划信息查询平台,<p>由中华人民共和国民政部提供的平台，可以查看中国目前的行政区划，精确到县。<br/></p>,http://xzqh.mca.gov.cn/map,地理相关
 全国地理信息资源目录服务系统,<p>可以查询地理相关的信息。<br/></p>,https://www.webmap.cn/main.do?method=index,地理相关
 中国铁路地图,<p>网友制作的中国铁路线地图，可显示每个站开的车次（更新不及时），显示完整地图可能需要外网环境。<br/></p>,http://cnrail.geogv.org/zhcn/,地理相关
 city roads,<p>一个可以获取城市路网的网站<br/></p>,https://anvaka.github.io/city-roads/,地理相关
-Little Big City,<p>一个开源项目，可以通过输入地图坐标就可以生成3D的城市模型，可以调整各种参数，还可以下载模型。<br/><a class="outline" href="https://github.com/pissang/little-big-city" role="button" target="_blank">查看源码</a></p>,https://pissang.github.io/little-big-city/,地理相关
+Little Big City,"<p>一个开源项目，可以通过输入地图坐标就可以生成3D的城市模型，可以调整各种参数，还可以下载模型。<br/><a class=""outline"" href=""https://github.com/pissang/little-big-city"" role=""button"" target=""_blank"">查看源码</a></p>",https://pissang.github.io/little-big-city/,地理相关
 天地图,<p>国家地理信息公共服务平台提供的地图服务，可以获得一些标准地图<br/></p>,https://www.tianditu.gov.cn/,地理相关
 高德地图API,<p>高德开放平台的地图API，可以创建很漂亮的地图样式，作图或者ppt很有用<br/></p>,https://lbs.amap.com/product/map#/,地理相关
 NBCharts-Map3d,<p>一个可以创建很漂亮的3d地图样式的网站<br/></p>,https://nbcharts.com/map/map3d.php,地理相关
@@ -170,7 +163,7 @@ Europeana,<p>一个免费数字图书馆，整合了欧洲各图书馆、博物�
 ORBIS,一个记录古罗马交通网络的在线可互动地图,https://orbis.stanford.edu/,历史地图
 上海圖書館古籍目錄,上图的古籍扫描数据，登录即可阅览全文,https://gj.library.sh.cn/org/shl,古籍下载
 中国历代人物传记资料库,<p>复旦和哈佛合作的历史人物传记数据库。<br/></p>,https://projects.iq.harvard.edu/chinesecbdb,历史相关
-中国朝代跨度表,<p>网友整理的中国朝代跨度表，是一个Excel文件，需要下载查看。<br/><a class="outline" href="https://wwpan.lanzoul.com/iyUrT01inj6d" role="button" target="_blank">蓝奏云链接</a></p>,https://wwpan.lanzoul.com/iyUrT01inj6d,历史相关
+中国朝代跨度表,"<p>网友整理的中国朝代跨度表，是一个Excel文件，需要下载查看。<br/><a class=""outline"" href=""https://wwpan.lanzoul.com/iyUrT01inj6d"" role=""button"" target=""_blank"">蓝奏云链接</a></p>",https://wwpan.lanzoul.com/iyUrT01inj6d,历史相关
 数字清史实验室,<p>由教育部人文社科研究基地清史研究所主持，成立于2018年1月14日。实验室致力于清史数据的开发与共享，致力于打造集时空于一体的数据平台。<br/>目前可用的数据库包括：清史专题数据库；中国历史官员量化数据库——清代，缙绅录；清代以来经济史数据<br/></p>,http://39.96.59.69/,历史相关
 中国第一历史档案馆,<p>有很多可以查的数据，比如可以全文检索《清会典》、《清实录》等书，以及可以查询清朝档案。<br/></p>,http://www.lsdag.com/,历史相关
 中国海报网,<p>一个收录了超过3050张中国宣传海报的网站，其中包含有关其历史、背景和设计的信息。<br/></p>,https://www.chineseposters.net/,历史图像
@@ -251,7 +244,7 @@ HOLLIS Images,HOLLIS 图像是哈佛图书馆的专用图像目录。它包含�
 CIA Readingroom,美国中情局的在线阅读室，包含了一些很有意思的资料。也有一个中国档案全文检索数据库,https://www.cia.gov/readingroom/,历史相关
 澳门大学珍稀文献数字全文资源库,该数字全文数据库分为五大类，包括早期中国研究选辑十六至二十世纪（共计中外文献2020种）、开放取用图书（共计6890种），另有中文古籍影像系统、西方古籍影像系统、开放期刊三类。但是小编经过初步探索，后三类文献仅有条目，似乎无法进入全文系统，也有可能是小编的网络问题，大家可以分别试试。然而，前两种开放的文献已经相当珍贵了。第一大类早期中国研究选辑中包含大量19世纪西方人在华游记、研究、回忆录等，亦有经典如《通报》这样的期刊。另外，虽然有少量20世纪三四十年代的中文杂志，但是似乎无法看全文。馆方提供了检索栏，建议使用者善加利用。该库部分文献来自Google Book，支持整本下载。,http://libdigital.umac.mo/home,历史相关
 The Smithsonian Institution Archives' Collections,史密森学会档案馆藏品。有一个Sterling Clark晚清在中国西北考察的数据库，直接搜这个人名就可以找到,https://siarchives.si.edu/collections,历史相关
-Chinese Pamphlets (1947-1954) ,1947-1954年中文连环画、小册子全文影像库。海外学术研究机构将200余种中文连环画、小册子制作成全文影像库，供研究使用。部分资料极为稀见。这批资料库总计204种，出版地包括中国大陆和香港，时间从1947-1954年，以1949年后居多，形式以连环画为主，也有部分为小册子。出版者除了中国大陆机构也有香港出版社。内容主要分为三个方面：中共在建国初期的政治宣传；反动派的反动宣传；其他不含政治色彩的内容。使用者应对这些材料以客观中立的研究视角来看待和分析。所有资料均可在线浏览，亦可以图片形式单页下载。在站长编辑的时候，网站似乎进不去，所以这里把介绍文章也贴在<a href="https://libguides.nypl.org/az/chinese-pamphlets-1947-1954">此处</a>,https://dds.crl.edu/search/collection/1,历史图像
+Chinese Pamphlets (1947-1954) ,"1947-1954年中文连环画、小册子全文影像库。海外学术研究机构将200余种中文连环画、小册子制作成全文影像库，供研究使用。部分资料极为稀见。这批资料库总计204种，出版地包括中国大陆和香港，时间从1947-1954年，以1949年后居多，形式以连环画为主，也有部分为小册子。出版者除了中国大陆机构也有香港出版社。内容主要分为三个方面：中共在建国初期的政治宣传；反动派的反动宣传；其他不含政治色彩的内容。使用者应对这些材料以客观中立的研究视角来看待和分析。所有资料均可在线浏览，亦可以图片形式单页下载。在站长编辑的时候，网站似乎进不去，所以这里把介绍文章也贴在<a href=""https://libguides.nypl.org/az/chinese-pamphlets-1947-1954"">此处</a>",https://dds.crl.edu/search/collection/1,历史图像
 中華民國政府官職資料庫,该数据库提供从1912以来中华民国政府官员的资料，资料来源为官方出版的公报，对于研究职官制度极具参考价值。,https://gpost.lib.nccu.edu.tw/,历史相关
 罗家伦文库,罗家伦（1897-1967）为近代著名学者、教育家，曾出任清华大学校长。馆方这一数据库提供了罗家伦文库、未出版文稿、手稿等大量珍稀资料全文影像，对于研究罗家伦和近代思想史、教育史极具参考价值！,http://da.lib.nccu.edu.tw/lochialuen/,历史相关
 政大特藏中心,中华民国政治大学的数位典藏中心，有很多有意思的内容，可以点进去看看,https://da.lib.nccu.edu.tw/,历史相关
@@ -304,8 +297,8 @@ Colgate University 民国上海《时代漫画》全文影像库,美国Colgate U
 中國歷史地名查詢系統,中国历史地名查询系统目前着重于建置从明至今各行政区划的演变资料，并搜罗文献所藏之舆图（如明清方志之疆域图、山川图、城池图等）。本查询系统主要提供地名、地图、坐标三种检索方式与树状浏览功能，让用户能透过关键词迅速搜寻到各行政区划沿革与相关地图之信息，同时亦提供在线阅览地图影像的功能，以利与地名数据相互参照，树状浏览功来自中华民国中央研究院歷史語言研究所的一个系统，能则以树形图形式呈现政区地名的阶层隶属关系，有助于使用者掌握行政体系的基本轮廓。,https://newarchive.ihp.sinica.edu.tw/hplname/,历史地图
 中国古代史地图集,<p>由郭刚教授整理的中国古代地图，内容比较少。<br/></p>,https://home.olemiss.edu/~gg/hstrymap/lishidit.htm,历史地图
 太史古卷,<p>在线的中国历史地图（用现代地图渲染的），支持每年的郡县标记和查询。拖动滑块和直接输入数字就可以看到相应年份的郡县地图。而且还支持了年号和在位时间的搜索和索引。<br/></p>,https://hisgeomap.com/,历史地图
-世界歷史地圖（by:x768）,<p>有中文、英文、日文三种语言；时间从公元前4000年开始，最新更新到了2014年；除了表明一个时期的全球势力分布，还表明了该势力的统治者。原作者提供的是离线版本，本站自行维护了一个在线版本，但功能残缺，请自行选择。<br/><a class="outline" href="http://x768.com/w/twha.zh-hant" role="button" target="_blank">离线版本</a><br/><a class="outline" href="https://mmo.rth.app/" role="button" target="_blank">在线版本</a></p>,http://x768.com/w/twha.zh-hant,历史地图
-中国历史地图详细版,<p>涵盖了中国重大历史事件导致的地图疆域的变化，文件较大，以百度网盘的形式提供，下载后离线使用。<br/><a class="outline" href="https://pan.baidu.com/s/1mgKFhB6" role="button" target="_blank">网盘链接</a></p>,https://pan.baidu.com/s/1mgKFhB6,历史地图
+世界歷史地圖（by:x768）,"<p>有中文、英文、日文三种语言；时间从公元前4000年开始，最新更新到了2014年；除了表明一个时期的全球势力分布，还表明了该势力的统治者。原作者提供的是离线版本，本站自行维护了一个在线版本，但功能残缺，请自行选择。<br/><a class=""outline"" href=""http://x768.com/w/twha.zh-hant"" role=""button"" target=""_blank"">离线版本</a><br/><a class=""outline"" href=""https://mmo.rth.app/"" role=""button"" target=""_blank"">在线版本</a></p>",http://x768.com/w/twha.zh-hant,历史地图
+中国历史地图详细版,"<p>涵盖了中国重大历史事件导致的地图疆域的变化，文件较大，以百度网盘的形式提供，下载后离线使用。<br/><a class=""outline"" href=""https://pan.baidu.com/s/1mgKFhB6"" role=""button"" target=""_blank"">网盘链接</a></p>",https://pan.baidu.com/s/1mgKFhB6,历史地图
 禹贡（中国历史地理信息系统）,<p>复旦大学和哈佛合作开发的一个历史地图系统，实测在线版好像有一些问题，建议下载使用。<br/></p>,http://yugong.fudan.edu.cn/views/chgis_index.php,历史地图
 OldMapsOnline,<p>在线旧地图查询，有一个似乎很高级的查找系统。（英文）<br/></p>,https://www.oldmapsonline.org/,历史地图
 MappingHistory,<p>按各大洲分类，可以选择不同的历史时期时间段进入子页面，子页面还能播放动画展示地图变化情况的历史地图网站。（英文，没有亚洲部分）<br/></p>,https://mappinghistory.uoregon.edu/english/index.html,历史地图
@@ -313,28 +306,26 @@ MappingHistory,<p>按各大洲分类，可以选择不同的历史时期时间�
 Euratlas历史地图,<p>主要收集了欧洲、中东、古罗马和世界地图。（英文）<br/></p>,https://www.euratlas.net/history/index.html,历史地图
 DavidRumsey地图收藏,<p>一个地图收集网站，看起来挺高端的。（英文）<br/></p>,https://www.davidrumsey.com/,历史地图
 世界历史地图,<p>外国网友们自行绘制的世界历史地图。（英文）<br/></p>,https://www.worldhistorymaps.info/,历史地图
-中国历史地理信息系统（CHGIS）,<p>一个免费的中国朝代地名和历史行政单位数据库。（需要下载使用，但提供了在线查询入口）<br/><a class="outline" href="https://sites.fas.harvard.edu/~chgis/search/" role="button" target="_blank">在线查询入口</a></p>,http://chgis.fas.harvard.edu/,历史地图
-中国历史地图集,<p>谭其骧先生主编的《中国历史地图集》的扫描版本（是一个压缩包，下载解压后使用），如果此链接失效，这套图书也可以在Zlibrary上找到。<br/><a class="outline" href="https://drive.b-hu.org/Index/%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E5%9C%B0%E5%9B%BE%E9%9B%86.rar" role="button" target="_blank">点击下载</a></p>,https://drive.b-hu.org/Index/%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E5%9C%B0%E5%9B%BE%E9%9B%86.rar,历史地图
+中国历史地理信息系统（CHGIS）,"<p>一个免费的中国朝代地名和历史行政单位数据库。（需要下载使用，但提供了在线查询入口）<br/><a class=""outline"" href=""https://sites.fas.harvard.edu/~chgis/search/"" role=""button"" target=""_blank"">在线查询入口</a></p>",http://chgis.fas.harvard.edu/,历史地图
+中国历史地图集,"<p>谭其骧先生主编的《中国历史地图集》的扫描版本（是一个压缩包，下载解压后使用），如果此链接失效，这套图书也可以在Zlibrary上找到。<br/><a class=""outline"" href=""https://drive.b-hu.org/Index/%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E5%9C%B0%E5%9B%BE%E9%9B%86.rar"" role=""button"" target=""_blank"">点击下载</a></p>",https://drive.b-hu.org/Index/%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E5%9C%B0%E5%9B%BE%E9%9B%86.rar,历史地图
 全历史,<p>一个可以很方便的查询时空地图和人物关系图谱的网站，也有app<br/></p>,https://www.allhistory.com/,历史地图
 日本古地图,<p>日本地理空间信息局收集和保存旧地图等，作为历史、文化和学术研究的资料。<br/></p>,https://kochizu.gsi.go.jp/,历史地图
-Histo Atlas,<p>一个开源的提供历史地图的在线编辑、分享的网站。站点同时提供了geojson格式的数据下载，可以下载后在类似QGIS这类软件上再做二次加工<br/><a class="outline" href="https://github.com/shevekk/Historical-Atlas" role="button" target="_blank">项目地址</a></p>,http://histoatlas.org/,历史地图
+Histo Atlas,"<p>一个开源的提供历史地图的在线编辑、分享的网站。站点同时提供了geojson格式的数据下载，可以下载后在类似QGIS这类软件上再做二次加工<br/><a class=""outline"" href=""https://github.com/shevekk/Historical-Atlas"" role=""button"" target=""_blank"">项目地址</a></p>",http://histoatlas.org/,历史地图
 CHGIS中国历史地理信息系统,<p>一个免费的中国历代地名和历史行政单位数据库，为研究人员提供了一个基础 GIS 平台，用于空间分析或将中国的历史划分可视化为数字地图。<br/></p>,https://chgis.fas.harvard.edu/,历史地图
-观沧海,<p>观沧海是一个2015年上线，由志愿者开放运营，提供地图制作分享服务的公益网站，也有开源项目。其运营有网站“地图书”<br/><a class="outline" href="https://gitee.com/ageeye/ageeye.cn" role="button" target="_blank">仓库地址</a></p>,https://www.ageeye.cn/,历史地图
-TimeMapper,<p>一个可以把地图和时间线结合起来的网站，对于研究古代战争很方便，支持自定义。<br/><a class="outline" href="https://github.com/okfn/timemapper" role="button" target="_blank">项目地址</a><br/><a class="outline" href="https://mp.weixin.qq.com/s/8ianrDwfBp6TMOx5HZADAQ" role="button" target="_blank">使用教程</a></p>,https://timemapper.okfnlabs.org/,历史地图
-中国历史地名在线服务系统,一个可以在线查询古地名，还可以用地图进行可视化的网站，需要登录注册使用。,https://timespace-china.fudan.edu.cn/HPNOS/#/home/,历史地图
-中國歷史地名查詢系統,中国历史地名查询系统目前着重于建置从明至今各行政区划的演变资料，并搜罗文献所藏之舆图（如明清方志之疆域图、山川图、城池图等）。本查询系统主要提供地名、地图、坐标三种检索方式与树状浏览功能，让用户能透过关键词迅速搜寻到各行政区划沿革与相关地图之信息，同时亦提供在线阅览地图影像的功能，以利与地名数据相互参照，树状浏览功来自中华民国中央研究院歷史語言研究所的一个系统，能则以树形图形式呈现政区地名的阶层隶属关系，有助于使用者掌握行政体系的基本轮廓。,https://newarchive.ihp.sinica.edu.tw/hplname/,历史地图
+观沧海,"<p>观沧海是一个2015年上线，由志愿者开放运营，提供地图制作分享服务的公益网站，也有开源项目。其运营有网站“地图书”<br/><a class=""outline"" href=""https://gitee.com/ageeye/ageeye.cn"" role=""button"" target=""_blank"">仓库地址</a></p>",https://www.ageeye.cn/,历史地图
+TimeMapper,"<p>一个可以把地图和时间线结合起来的网站，对于研究古代战争很方便，支持自定义。<br/><a class=""outline"" href=""https://github.com/okfn/timemapper"" role=""button"" target=""_blank"">项目地址</a><br/><a class=""outline"" href=""https://mp.weixin.qq.com/s/8ianrDwfBp6TMOx5HZADAQ"" role=""button"" target=""_blank"">使用教程</a></p>",https://timemapper.okfnlabs.org/,历史地图
 Room for Diplomacy,由Mark Bertram所创建的网站Room for Diplomcary，将1800年以来英国驻外使领馆所在地以分类的方式做了介绍，该站是作者 _Room for Diplomacy Britain's Diplomatic Buildings Overseas 1800-2000_ 一书的在线版，其中也涉及中国方面，对于相关领域研究具有一定的参考价值。进入网站主页后，可以看到在顶端的菜单栏按照地理区域的形式对英国所有驻外使领馆做了分了，其中Asia下列出了所有亚洲地区的使领馆所在地，然后选择中国即可看到相关情况，除了北京、香港以外，还将当时几个重要的外人避暑地如北京西山、北戴河、庐山的情况也单独列了出来。1900年以前的情况统归为一栏，除了文字叙述，作者还将相关地点的地图、历史照片等资料附在边上，其中不少是稀见的，极具参考价值。所有图片均可下载，清晰度情况不一，可以满足一般使用要求。,https://roomfordiplomacy.com/,历史地图
 伦敦Map House中国古地图全文影像库,"该全文影像库收录了超过10000幅古地图，地图语言大多为西欧国家语言如荷兰、西班牙、法语、拉丁文等，大多是16、17世纪西欧的安特卫普、阿姆斯特丹、伦敦、巴黎等地所印刷，其中有大量早期欧洲殖民者所印制，极为罕见，具有重要研究和收藏价值。使用者在网站主页可以按照地理区域选择需要的地图。搜寻中国相关地图方法为，选择map search，然后选择China、HongKong、Tibet即可，具体如下图。中国地图总数为222幅（China179幅、HongKong26幅，Tibet17幅,）。每幅地图均提供详细信息如图名、尺寸、印制者、印刷时间、印刷地点、地图所覆盖区域，部分地图为早期珍罕古董，还提供了该图更加全面和深入的信息，方便使用者和感兴趣者。所有地图均提供在线高清放大显示，也可右键保存。注意，保存图片时应点击地图放大后再右键。另外，根据网站信息所有地图均提供了询价购买渠道，使用者若有意购买，可以直接在每幅地图下面点击购买询价按钮。",https://www.themaphouse.com/Default.aspx,历史地图
 天下老照片网,主要是搜集了外网已经公开的近代历史照片，并且按照图片地理位置以省的形式进行了分类，便于使用者查找。由于带宽所限，网站上传的为非高清照片，但是提供了管理者的联系方式，有需要者可以直接联系。同时，网站也有少量建国后、外国老照片。值得注意的是，在经典影集菜单下，提供了80个近代稀见老照片影集，也有不少是较为罕见的，直接提供了百度网盘的高清大图下载链接，十分难得。,http://www.laozhaopian5.com/,历史图像
 荷兰国家档案馆中国近现代史档案、照片、小册子全文影像库,,Nationaal Archief,历史图像
 中港電視電影刊物資料庫,香港浸会大学中港电视电影刊物全文影像库收集了大量香港出版的影视刊物，其中电影刊物面向全网免费开发。该资料库共分为两大类，其中电视相关刊物仅面向香港高校IP开放，其他则全网开放。注意，该库持续更新，建议有兴趣者关注。,https://digital.lib.hkbu.edu.hk/film-tv/,历史图像
 Beijing of Dream,由The History of Chinese Science and Culture Foundation所创建的Beijing of Dream网站则专门搜集与北京城墙、城门相关的老照片，并且按照各个城门的位置，分门别类的将其排列，对于研究北京历史文化具有一定的参考价值。该网站的原始图片来自瑞典汉学家喜仁龙和德国摄影家汉斯.佩克哈默于1924年和1928年出版的中国影集。图片总数约在百余张，使用者可以点击主页菜单Gate和Walls & Corners即可按照城门和城墙浏览不同时期、不同角度同一位置的照片。另外，网站还提供了在线互动地图和一幅北京旧城图，可以形象地展示各照片中城门或城墙所处的地理位置。所有图片均可以右键保存的形式下载高清大图。,https://beijingofdreams.com/index.html,历史图像
-PastVU,由数位俄罗斯技术人员创建的pastvu网站就提供了这样一个在线互动网站，其中也有不少与中国相关的老照片。该网站创建于2009年，由 Ilya Varlamov and Alexey Duk开发，目前已收集了全球各地照片1358025张，中国照片6074张、绘画386幅。进入主页后，可以看到地图上加载的照片，默认语言为俄语，建议修改为英文。默认地图为俄罗斯，可以转移到所需国家或者地区。在中国方面，可以看到照片主要集中在上海和东北地区，另外华北集中在北京和天津一带，在放大地图后，图片数量会根据位置变化而不断变化，点击图片后会在新的页面显示图片的详细信息如位置、时间、周边环境等。载入图片需要一定时间，如果地图上无图片显示，请耐心等待一段时间即可。<br/>该网站同时开源于<a href="https://github.com/PastVu/pastvu">GitHub</a>,https://pastvu.com/,历史图像
-洛杉矶公共图书馆宋美龄抗战时期访美影集,洛杉矶公共图书馆有大量数码化全文藏品，其中有抗战时期宋美龄访问美国的历史图片，还有美国华人老照片特别是洛杉矶中国城的图片。该资料库主要是洛杉矶当地历史文献和照片库，使用者在检索框输入“Madame Chiang Kai-shek”，即可得到74张1943年宋美龄于抗战时期访问洛杉矶的历史照片，所有图片均提供详细信息如图中人物、时间、地点、场景等等。每张照片均可在线浏览或下载，提供三种不同分辨率的图片供选择，建议下载最大格式的。使用者也可以用不同关键词检索，如输入"China"则可以获得数百张相关的照片。小编从中下载了数张宋美龄的照片供鉴赏。如打开较慢，多刷新几次即可。使用者务必遵守馆方的版权规定！,https://tessa.lapl.org/CollectionPage,历史图像
+PastVU,"由数位俄罗斯技术人员创建的pastvu网站就提供了这样一个在线互动网站，其中也有不少与中国相关的老照片。该网站创建于2009年，由 Ilya Varlamov and Alexey Duk开发，目前已收集了全球各地照片1358025张，中国照片6074张、绘画386幅。进入主页后，可以看到地图上加载的照片，默认语言为俄语，建议修改为英文。默认地图为俄罗斯，可以转移到所需国家或者地区。在中国方面，可以看到照片主要集中在上海和东北地区，另外华北集中在北京和天津一带，在放大地图后，图片数量会根据位置变化而不断变化，点击图片后会在新的页面显示图片的详细信息如位置、时间、周边环境等。载入图片需要一定时间，如果地图上无图片显示，请耐心等待一段时间即可。<br/>该网站同时开源于<a href=""https://github.com/PastVu/pastvu"">GitHub</a>",https://pastvu.com/,历史图像
+洛杉矶公共图书馆宋美龄抗战时期访美影集,"洛杉矶公共图书馆有大量数码化全文藏品，其中有抗战时期宋美龄访问美国的历史图片，还有美国华人老照片特别是洛杉矶中国城的图片。该资料库主要是洛杉矶当地历史文献和照片库，使用者在检索框输入“Madame Chiang Kai-shek”，即可得到74张1943年宋美龄于抗战时期访问洛杉矶的历史照片，所有图片均提供详细信息如图中人物、时间、地点、场景等等。每张照片均可在线浏览或下载，提供三种不同分辨率的图片供选择，建议下载最大格式的。使用者也可以用不同关键词检索，如输入""China""则可以获得数百张相关的照片。小编从中下载了数张宋美龄的照片供鉴赏。如打开较慢，多刷新几次即可。使用者务必遵守馆方的版权规定！",https://tessa.lapl.org/CollectionPage,历史图像
 亞洲藝術文獻庫,亚洲艺术文献库由徐文玠和張頌仁于2000年创办于香港，为独立的非盈利机构，旨在搜集、展示、研究近代亚洲艺术。截止目前，该库已经建立了一个实体图书文献资料库，另将大量近代亚洲艺术资料数码化。,https://aaa.org.hk/tc,历史图像
 青銅器拓片數位典藏,一個可以查詢中華民國歷史語言研究所珍藏的、逾萬件高品質殷周青銅器拓片（包括銘文拓本和珍貴的全形拓）的網站，也提供了拓片的來源資訊、收藏家題跋與鈐印等資料。,https://rub.ihp.sinica.edu.tw/~bronze/,文博
 【W】先秦甲骨金文簡牘詞彙資料庫,「先秦甲骨金文簡牘詞彙庫」分為詞彙檢索與全文檢索，收錄甲骨文、金文、簡牘三種文字材料，依詞類、材質做為搜尋條件，展示詞彙的詞性、時代、書目來源、釋文段落。 特色在於打破材質作為前提的預設，以詞彙本身為焦點，橫跨不同時代觀察詞彙的流變。本資料庫所收語料忠實記錄了殷周到春秋、戰國時期曆法、官制、地理、戰爭、法律、土地買賣、賞賜、漁獵、祭祀、嫁娶、親屬稱謂、氏族標誌、國際關係等諸多問題，這些豐富的語文材料正能補充傳統文獻之不足。<br/><b>注意：</b>这个资料库好像会封锁不干净的IP，所以请大家选择适当的节点进行访问,https://inscription.asdc.sinica.edu.tw/c_index.php,文博
-中國金石總録,一个可以查询金文和石刻的数据库，需要注册，但可以免费查询，还有<a href="http://dbase1.gslib.com.cn/">另一个链接</a>,http://www.ch5000.com.cn/jsk_sy.aspx,文博
+中國金石總録,"一个可以查询金文和石刻的数据库，需要注册，但可以免费查询，还有<a href=""http://dbase1.gslib.com.cn/"">另一个链接</a>",http://www.ch5000.com.cn/jsk_sy.aspx,文博
 故宫博物院藏品,<p>包括藏品总目、数字文物库、故宫名画记三个板块，可以检索到文物的基本信息和图片，收录了8万多件文物<br/></p>,https://www.dpm.org.cn/explore/collections.html,文博
 【W】國立故宮博物院,<p>中华民国国立故宫博物院出品，可以查询故宫典藏资料、清代档案、国图文献等<br/></p>,https://www.npm.gov.tw/,文博
 敦煌遗书数据库,<p>由敦煌研究所开发的数据库系统，可以查询到敦煌文书的高清图片和对应的文字内容<br/></p>,https://dhyssjk.dha.ac.cn/dbc_ys/,文博
@@ -349,14 +340,12 @@ PastVU,由数位俄罗斯技术人员创建的pastvu网站就提供了这样一�
 大英博物馆,<p></p>,https://www.britishmuseum.org/collection,文博
 根津美术馆,<p></p>,https://www.nezu-muse.or.jp/,文博
 中华珍宝馆,<p>绝大部分馆藏博物馆的公开资源在这里都可以找到，图像清晰度有的时候甚至比馆藏博物馆提供的还要好，并且查看无需登录，不过也有部分画作属于VIP资源，这类画作在标题名旁边会有一个小金钱符号<br/></p>,https://g2.ltfc.net/home,文博
-中国传统山水画数据集,<p>WACV 2021 论文使用的数据集：“使用生成对抗网络进行端到端的中国山水画创作”<br/><a class="outline" href="https://github.com/alicex2020/Chinese-Landscape-Painting-Dataset" role="button" target="_blank">项目地址</a></p>,https://github.com/alicex2020/Chinese-Landscape-Painting-Dataset,文博
+中国传统山水画数据集,"<p>WACV 2021 论文使用的数据集：“使用生成对抗网络进行端到端的中国山水画创作”<br/><a class=""outline"" href=""https://github.com/alicex2020/Chinese-Landscape-Painting-Dataset"" role=""button"" target=""_blank"">项目地址</a></p>",https://github.com/alicex2020/Chinese-Landscape-Painting-Dataset,文博
 中国图像志索引典,<p>所谓的「索引」，就是提取识别出来画作中的物体，可以根据单项进行过滤查看，方便进行探索式浏览。<br/></p>,https://chineseiconography.org/search/,文博
 全国珍贵文物数据库,<p>该数据库包含全国博物馆馆藏数据2354373条。提供相关文物类别、年代、名称、收藏单位等信息。<br/></p>,http://gl.ncha.gov.cn/#/Industry/Collection-Collection?title=%E5%85%A8%E5%9B%BD%E7%8F%8D%E8%B4%B5%E6%96%87%E7%89%A9%E6%95%B0%E6%8D%AE%E5%BA%93,文博
 中国历代墓志数据库,<p>由浙江大学图书馆古籍碑帖研究与保护中心建设，收录各类型金石拓片19730件，部分有高清图像。<br/></p>,http://csid.zju.edu.cn/tomb/#,文博
 丝绸之路历史地理信息开放平台,<p>丝绸之路历史地理开放平台是受国家社科重大项目与国家文化产业发展专项资金共同支持的科研项目。该平台响应习近平总书记“一带一路”建设号召，由首都师范大学历史地理研究中心张萍教授牵头，汇聚学界历史地理信息建设学者，共同研制开发。基于空间信息技术及其他相关信息技术，结合传统的历史学、考古学等方法，针对丝绸之路沿线的环境、民族、经济、交通、文化等要素进行空间定位，重点针对汉、唐、明、清丝绸之路经济带的兴起、发展和逐渐衰落，结合相应的历史文献资料、考古信息及遥感影像数据等资料，利用GIS技术，构建2000年丝绸之路沿线时空数据库。<br/></p>,http://www.srhgis.com/,文博
 上海图书馆历史人文大数据平台,<p>上海图书馆历史人文大数据平台旨在利用数字人文方法和技术将其馆藏历史人文资源整合起来，实现资源、数据、知识的统一管理和服务，支持数字人文的典型研究范式和应用场景。当前版本基于上述长期目标进行了初步的探索截止到2020年10月，已整合近代报纸510余种、篇目140760余种、广告44210余条、图片20张；期刊8种、篇目30余种、图片16张；近代图书124400余种；家谱71820余种；古籍602450余种；盛档15万余件；红色文献8500余种。以及1332440余人物和7480余事件。本平台为“Demo”（演示）版本。<br/></p>,https://dhc.library.sh.cn/,文博
-青銅器拓片數位典藏,一個可以查詢中華民國歷史語言研究所珍藏的、逾萬件高品質殷周青銅器拓片（包括銘文拓本和珍貴的全形拓）的網站，也提供了拓片的來源資訊、收藏家題跋與鈐印等資料。,https://rub.ihp.sinica.edu.tw/~bronze/,文博
-【W】先秦甲骨金文簡牘詞彙資料庫,「先秦甲骨金文簡牘詞彙庫」分為詞彙檢索與全文檢索，收錄甲骨文、金文、簡牘三種文字材料，依詞類、材質做為搜尋條件，展示詞彙的詞性、時代、書目來源、釋文段落。 特色在於打破材質作為前提的預設，以詞彙本身為焦點，橫跨不同時代觀察詞彙的流變。本資料庫所收語料忠實記錄了殷周到春秋、戰國時期曆法、官制、地理、戰爭、法律、土地買賣、賞賜、漁獵、祭祀、嫁娶、親屬稱謂、氏族標誌、國際關係等諸多問題，這些豐富的語文材料正能補充傳統文獻之不足。<br/><b>注意：</b>这个资料库好像会封锁不干净的IP，所以请大家选择适当的节点进行访问,https://inscription.asdc.sinica.edu.tw/c_index.php,文博
 中國金石總録,一个可以查询金文和石刻的数据库，需要注册，但可以免费查询,http://www.ch5000.com.cn/jsk_sy.aspx,文博
 J. Paul Getty Museum博物馆数字收藏,美国加洲地区著名的艺术博物馆，以收藏西方中世纪和古希腊、罗马艺术品享誉全球。该艺术博物馆亦收藏有大量中国艺术品,https://www.getty.edu/art/collection/,文博
 西班牙马德里大学藏日本浮世绘画册全文影像库,西班牙马德里大学（康普斯顿）将所藏38种日本稀见浮世绘画册全文数码化，放在互联网上供公众免费使用。这些画册作者包括日本明治时期最著名的浮世绘宗师丰原国周、国川歌芳、月冈芳年等人，因而相当珍贵。进入资料库主页后，点击任意一个画面后，即可看到该画册的作者和详细信息。使用者可以点击上面图二中标记的地方，即可直接下载PDF高清版画册，注意每种画册篇幅不一，多在100页以上。,https://www.arc.ritsumei.ac.jp/e/report/2022b3/pc/,文博
@@ -370,7 +359,7 @@ naver新聞,<p>包括京鄉新聞， 東亞日報， ???（韓民族）， 每�
 影像歷史館,<p></p>,http://film.ktv.go.kr/index.jsp,报纸新闻
 國土地理情報院國土檢索,<p>包括韓國地理志， 地名由來集， 地圖學發達<br/></p>,http://www.land.go.kr/portal/main.do,地理与地图
 韓國學資料,<p>包括電子古地圖『東輿圖』<br/></p>,http://www.kostma.net/dbMain.aspx,地理与地图
-奎章閣古地圖,<p><a class="outline" href="http://e-kyujanggak.snu.ac.kr/home/index.do?idx=06&amp;siteCd=KYU&amp;topMenuId=206&amp;targetId=379" role="button" target="_blank">访问网站</a></p>,http://e-kyujanggak.snu.ac.kr/home/index.do?idx=06&siteCd=KYU&topMenuId=206&targetId=379,地理与地图
+奎章閣古地圖,"<p><a class=""outline"" href=""http://e-kyujanggak.snu.ac.kr/home/index.do?idx=06&amp;siteCd=KYU&amp;topMenuId=206&amp;targetId=379"" role=""button"" target=""_blank"">访问网站</a></p>",http://e-kyujanggak.snu.ac.kr/home/index.do?idx=06&siteCd=KYU&topMenuId=206&targetId=379,地理与地图
 韓國的古地圖,<p></p>,http://ssrr.new21.net/geo_map/map_01.htm,地理与地图
 East Asia – Images of Early Maps on the Web —Map History / History of Cartography: THE Gateway to the Subject,<p></p>,http://www.maphistory.info/imageasia.html#east,地理与地图
 ?????,<p></p>,http://www.bookisland.co.kr/,二手书网站
@@ -401,11 +390,11 @@ KSI韓國學術情報 ebooks,<p></p>,http://ebook.kstudy.com/,韩国学相关基
 韓國近現代史雜誌資料 (國史編纂委員會),<p></p>,http://db.history.go.kr/item/level.do;jsessionid=1A12D105D8C562D0D4B93FDCE370F6B0?itemId=ma,学术论文与杂志
 韓國民族文化大百科,<p></p>,http://encykorea.aks.ac.kr/,主要辞典
 韓國歷代人物綜合檢索 – 韓國學中央研究院,<p></p>,http://people.aks.ac.kr/index.aks,主要辞典
-韓國文化藝術人名檢索,<p><a class="outline" href="http://artsnet.co.kr/sub.php3?cell=B&amp;dir=webjin&amp;load=index&amp;lang=php" role="button" target="_blank">访问网站</a></p>,http://artsnet.co.kr/sub.php3?cell=B&dir=webjin&load=index&lang=php,主要辞典
+韓國文化藝術人名檢索,"<p><a class=""outline"" href=""http://artsnet.co.kr/sub.php3?cell=B&amp;dir=webjin&amp;load=index&amp;lang=php"" role=""button"" target=""_blank"">访问网站</a></p>",http://artsnet.co.kr/sub.php3?cell=B&dir=webjin&load=index&lang=php,主要辞典
 北朝鮮人物影像大百科,<p></p>,http://www.kppeople.com/,主要辞典
 韓國韓醫學研究院,<p></p>,http://www.kiom.re.kr/index.jsp,科学技术
 韓醫學古典名著叢書,<p></p>,http://jisik.kiom.re.kr/index.jsp,科学技术
-國防部軍事編纂研究所刊行物案內,<p>“兵書” “戰史”<br/><a class="outline" href="http://www.imhc.mil.kr/user/indexSub.action?codyMenuSeq=70543&amp;siteId=imhc&amp;menuUIType=top" role="button" target="_blank">访问网站</a></p>,http://www.imhc.mil.kr/user/indexSub.action?codyMenuSeq=70543&siteId=imhc&menuUIType=top,科学技术
+國防部軍事編纂研究所刊行物案內,"<p>“兵書” “戰史”<br/><a class=""outline"" href=""http://www.imhc.mil.kr/user/indexSub.action?codyMenuSeq=70543&amp;siteId=imhc&amp;menuUIType=top"" role=""button"" target=""_blank"">访问网站</a></p>",http://www.imhc.mil.kr/user/indexSub.action?codyMenuSeq=70543&siteId=imhc&menuUIType=top,科学技术
 農業振興廳 農業科學圖書館,<p>“農業古書”<br/></p>,http://lib.rda.go.kr/ebook/userpage/index.asp,科学技术
 韓國歷史情報綜合系統,<p>Korean History On-line 編年資料<br/></p>,http://www.koreanhistory.or.kr/,历史
 韓國史資料 Korean History Database,<p>時代別/形態別/國史編纂委員會資料<br/></p>,http://db.history.go.kr/,历史
@@ -473,13 +462,13 @@ BCC语料库,<p>包括：报刊、文学、综合、古汉语和对话等多领�
 文学网成语词典,<p>一个内容挺完整、全面的免费在线成语词典<br/></p>,https://cy.hwxnet.com/,中文相关
 读书网,<p>一个可以在线阅读一些书籍的网站<br/></p>,https://www.dushu.com/,中文相关
 汉辞网,<p>一个可以在线查询的汉语大辞典网站<br/></p>,http://www.hydcd.com/,中文相关
-国学大师,<p>一个提供古籍全文检索、部件查字等功能的很全的国学网站<br/><a href="https://www.guoxuemi.com/">这个</a>似乎也是他的网址。</p>,http://www.guoxuedashi.net/,中文相关
+国学大师,"<p>一个提供古籍全文检索、部件查字等功能的很全的国学网站<br/><a href=""https://www.guoxuemi.com/"">这个</a>似乎也是他的网址。</p>",http://www.guoxuedashi.net/,中文相关
 古今文字集成,<p>一个可以通过多种方式（如拼音、四角号码、五笔、郑码、部首等）查询汉字、西夏文、契丹文、女书和八思巴文的网站<br/></p>,http://www.ccamc.org/,中文相关
 字统网,<p>一个可以通过多种方式检字的网站，收录字库较全，可以通过组合偏旁部首的方式查字<br/></p>,https://zi.tools/,中文相关
 教育部重編國語辭典修訂本,<p>民国国家教育研究院编撰的国语辞典，查字和词比较方便<br/></p>,https://dict.revised.moe.edu.tw/index.jsp,中文相关
 國字標準字體筆順學習網,<p>由民国教育部设计的网站，可以查询字体的笔顺，方便学习<br/></p>,https://stroke-order.learningweb.moe.edu.tw/home.do,中文相关
 中文標準交換碼全字庫,<p>民国数位发展部设计的全字库，可以查询到生僻字等<br/></p>,https://www.cns11643.gov.tw/index.jsp,中文相关
-白云深处有人家在线检索,<p>一个关于中华传统文化、道教和词典的在线检索网站，主站访问速度较快，海外站对移动设备更友好。可在线检索的内容由： 有：道教大辞典、英汉词典、汉语大词典四库全书等<br/><a class="outline" href="http://www.homeinmists.com/About.htm#S" role="button" target="_blank">主站检索</a><br/><a class="outline" href="https://homeinmists.ilotus.org/%e7%b6%b2%e7%ab%99%e5%85%ac%e5%91%8a/%e5%9c%a8%e7%b7%9a%e6%aa%a2%e7%b4%a2/" role="button" target="_blank">海外站检索</a></p>,http://www.homeinmists.com/About.htm#S,中文相关
+白云深处有人家在线检索,"<p>一个关于中华传统文化、道教和词典的在线检索网站，主站访问速度较快，海外站对移动设备更友好。可在线检索的内容由： 有：道教大辞典、英汉词典、汉语大词典四库全书等<br/><a class=""outline"" href=""http://www.homeinmists.com/About.htm#S"" role=""button"" target=""_blank"">主站检索</a><br/><a class=""outline"" href=""https://homeinmists.ilotus.org/%e7%b6%b2%e7%ab%99%e5%85%ac%e5%91%8a/%e5%9c%a8%e7%b7%9a%e6%aa%a2%e7%b4%a2/"" role=""button"" target=""_blank"">海外站检索</a></p>",http://www.homeinmists.com/About.htm#S,中文相关
 教育部异体字字典,<p>中华民国国家教育研究院开发的异体字字典，可以通过部首、笔画、单字、拼音、注音、仓颉、四角号码或复合查询等方式查询汉字信息，包括字形、读音字意等。<br/></p>,https://dict.variants.moe.edu.tw/variants/rbt/home.do,中文相关
 深言达意,<p>深言达意可根据模糊描述找词找句。产品基于强大的语言理解和算法能力，在深邃词海中快速找到更贴切的表达，由清华大学开发。<br/></p>,https://www.shenyandayi.com/,中文相关
 古诗词网,<p>可以查询到常见古诗古文的译文、词语、创作背景等，重点是免登录<br/></p>,https://www.gushici.net/,中文相关
@@ -491,9 +480,6 @@ BCC语料库,<p>包括：报刊、文学、综合、古汉语和对话等多领�
 辞海,<p>可在线查询辞海，需要注册账号。《辞海》是以字带词，集字典、语文词典和百科词典主要功能于一体的大型综合性辞书。<br/></p>,https://www.cihai.com.cn/home,中文相关
 DocuSky 數位人文學術研究平台,<p>DocuSky 数字人文学术研究平台是一个符合人文学者研究需要，进行个性化材料整理、使用与分析的网络平台。<br/>目前主要包括标记与编辑、转换文本格式、建库与重整、探勘与分析、GIS 与视觉化、外部资源、外部工具等系列工具。<br/></p>,https://docusky.org.tw/,中文相关
 小學堂文字學資料庫,一個形、音、義綜合的文字學資料庫，可提供使用者根據文字的形、音等屬性先檢索出字頭，再透過字頭連接到個別的形、音、義資料庫或字書索引。資料庫收錄的字形涵蓋甲骨文、金文、戰國文字、小篆及楷書，總數超過22萬字；收錄的聲韻資料涵蓋上古、中古、近代及現代，總數超過134萬筆；收錄的字書索引資料則超過36萬筆。,https://xiaoxue.iis.sinica.edu.tw/,中文相关
-汉语国学汉语字典,收录各类汉字共9万4千多个，是国内收录汉字最多、最全、最专业、功能最多的免费在线查字网站之一。覆盖了新华字典中所有汉字，还包括了9000多个汉字的书写动画和笔顺笔画规范。您可以通过汉字的全字、拼音、五笔编码、仓颉编码、郑码、电码、汉字笔顺、四角号码、UNICODE等来查询相关汉字的拼音、读音、字义、解释、引证、输入法、书写动画、笔顺笔画、各类编码、康熙字典、说文解字和翻译等等。,https://www.hanyuguoxue.com/,中文相关
-现代汉语词典第7版,一个支持在线查词典的网站。,https://ano-via.github.io/dict/,中文相关
-港中大人文電算研究中心,中大下属的研究中心，提供汉语多功能字库；林语堂当代汉语词典；劳荣光儒学词典；粵語審音配詞字庫；香港、大陸、臺灣 – 跨地區、跨年代現代漢語常用字頻度統計；兩文三語教育網上支援計劃等多个项目,https://humanum.arts.cuhk.edu.hk/web/,中文相关
 苏州图书馆古籍库,<p></p>,http://fzk.szlib.com,地方馆藏
 北京故宫博物院,<p></p>,http://www.dpm.org.cn,地方馆藏
 台湾师大善本古籍,<p></p>,http://da.lib.ntnu.edu.tw,地方馆藏
@@ -559,7 +545,7 @@ DocuSky 數位人文學術研究平台,<p>DocuSky 数字人文学术研究平台
 古籍刻工名录,<p></p>,http://data.library.sh.cn/kegong/,古籍目录
 全国馆藏文物数据库,<p></p>,http://gl.sach.gov.cn/#/Industry/Collection-Collection/,古籍目录
 香港大学冯平山图书馆藏善本目录,<p></p>,https://fpslidx.lib.hku.hk/exhibits/show/fpslidx/home/,古籍目录
-常熟图书馆古籍,<p><a class="outline" href="http://www.cslib.cn/newlibs/2012/a_list2013.asp?fmid=54&amp;nodt=1&amp;odr=1/" role="button" target="_blank">访问网站</a></p>,http://www.cslib.cn/newlibs/2012/a_list2013.asp?fmid=54&nodt=1&odr=1/,古籍目录
+常熟图书馆古籍,"<p><a class=""outline"" href=""http://www.cslib.cn/newlibs/2012/a_list2013.asp?fmid=54&amp;nodt=1&amp;odr=1/"" role=""button"" target=""_blank"">访问网站</a></p>",http://www.cslib.cn/newlibs/2012/a_list2013.asp?fmid=54&nodt=1&odr=1/,古籍目录
 英国汉籍联合目录,<p></p>,http://www.bodley.ox.ac.uk/rslpchin/search.htm/,古籍目录
 明清档案目录,<p></p>,http://www.lsdag.com/nets/lsdag/page/topic/Topic_1697_1.shtml/,古籍目录
 中国开放档案共享平台,<p></p>,http://www.archives.gov.cn/,古籍目录
@@ -576,22 +562,22 @@ DocuSky 數位人文學術研究平台,<p>DocuSky 数字人文学术研究平台
 北大图书馆古文献资源库,<p></p>,http://rbdl.calis.edu.cn/aopac/indexold.jsp,古籍目录
 徽州文书影本目录 台湾,<p></p>,http://www.ihp.sinica.edu.tw/ttscgi/ttsweb?@0:0:1:hzho@@,古籍目录
 中国近代文献联合目录,<p></p>,http://search.library.sh.cn/lhml/,古籍目录
-清史稿艺文志,<p><a class="outline" href="https://gj.library.sh.cn/ancientBookCatalogue/search?dataType=10&amp;isSearch=1" role="button" target="_blank">访问网站</a></p>,https://gj.library.sh.cn/ancientBookCatalogue/search?dataType=10&isSearch=1,古籍目录
-贩书偶记续编,<p><a class="outline" href="https://gj.library.sh.cn/ancientBookCatalogue/search?dataType=25&amp;isSearch=1" role="button" target="_blank">访问网站</a></p>,https://gj.library.sh.cn/ancientBookCatalogue/search?dataType=25&isSearch=1,古籍目录
-贩书偶记,<p><a class="outline" href="https://gj.library.sh.cn/ancientBookCatalogue/search?dataType=24&amp;isSearch=1" role="button" target="_blank">访问网站</a></p>,https://gj.library.sh.cn/ancientBookCatalogue/search?dataType=24&isSearch=1,古籍目录
-铁琴铜剑楼藏书目录,<p><a class="outline" href="http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=18&amp;isSearch=1" role="button" target="_blank">访问网站</a></p>,http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=18&isSearch=1,古籍目录
-皕宋楼藏书志,<p><a class="outline" href="http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=26&amp;isSearch=1" role="button" target="_blank">访问网站</a></p>,http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=26&isSearch=1,古籍目录
-郘亭知见传本书目,<p><a class="outline" href="http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=3&amp;isSearch=1" role="button" target="_blank">访问网站</a></p>,http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=3&isSearch=1,古籍目录
-四库总目提要,<p><a class="outline" href="http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=4&amp;isSearch=1" role="button" target="_blank">访问网站</a></p>,http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=4&isSearch=1,古籍目录
-明史艺文志,<p><a class="outline" href="http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=9&amp;isSearch=1" role="button" target="_blank">访问网站</a></p>,http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=9&isSearch=1,古籍目录
-读书敏求记,<p><a class="outline" href="http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=21&amp;isSearch=1" role="button" target="_blank">访问网站</a></p>,http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=21&isSearch=1,古籍目录
-宋史艺文志,<p><a class="outline" href="http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=13&amp;isSearch=1 " role="button" target="_blank">访问网站</a></p>,http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=13&isSearch=1,古籍目录
-郡斋读书志,<p><a class="outline" href="http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=15&amp;isSearch=1" role="button" target="_blank">访问网站</a></p>,http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=15&isSearch=1,古籍目录
-新唐书艺文志,<p><a class="outline" href="http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=12&amp;isSearch=1" role="button" target="_blank">访问网站</a></p>,http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=12&isSearch=1,古籍目录
-崇文总目,<p><a class="outline" href="http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=2&amp;isSearch=1" role="button" target="_blank">访问网站</a></p>,http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=2&isSearch=1,古籍目录
-旧唐书经籍志,<p><a class="outline" href="http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=11&amp;isSearch=1" role="button" target="_blank">访问网站</a></p>,http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=11&isSearch=1,古籍目录
-隋书经籍志,<p><a class="outline" href="http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=7&amp;isSearch=1" role="button" target="_blank">访问网站</a></p>,http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=7&isSearch=1,古籍目录
-汉书艺文志,<p><a class="outline" href="http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=8&amp;isSearch=1/" role="button" target="_blank">访问网站</a></p>,http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=8&isSearch=1/,古籍目录
+清史稿艺文志,"<p><a class=""outline"" href=""https://gj.library.sh.cn/ancientBookCatalogue/search?dataType=10&amp;isSearch=1"" role=""button"" target=""_blank"">访问网站</a></p>",https://gj.library.sh.cn/ancientBookCatalogue/search?dataType=10&isSearch=1,古籍目录
+贩书偶记续编,"<p><a class=""outline"" href=""https://gj.library.sh.cn/ancientBookCatalogue/search?dataType=25&amp;isSearch=1"" role=""button"" target=""_blank"">访问网站</a></p>",https://gj.library.sh.cn/ancientBookCatalogue/search?dataType=25&isSearch=1,古籍目录
+贩书偶记,"<p><a class=""outline"" href=""https://gj.library.sh.cn/ancientBookCatalogue/search?dataType=24&amp;isSearch=1"" role=""button"" target=""_blank"">访问网站</a></p>",https://gj.library.sh.cn/ancientBookCatalogue/search?dataType=24&isSearch=1,古籍目录
+铁琴铜剑楼藏书目录,"<p><a class=""outline"" href=""http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=18&amp;isSearch=1"" role=""button"" target=""_blank"">访问网站</a></p>",http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=18&isSearch=1,古籍目录
+皕宋楼藏书志,"<p><a class=""outline"" href=""http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=26&amp;isSearch=1"" role=""button"" target=""_blank"">访问网站</a></p>",http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=26&isSearch=1,古籍目录
+郘亭知见传本书目,"<p><a class=""outline"" href=""http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=3&amp;isSearch=1"" role=""button"" target=""_blank"">访问网站</a></p>",http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=3&isSearch=1,古籍目录
+四库总目提要,"<p><a class=""outline"" href=""http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=4&amp;isSearch=1"" role=""button"" target=""_blank"">访问网站</a></p>",http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=4&isSearch=1,古籍目录
+明史艺文志,"<p><a class=""outline"" href=""http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=9&amp;isSearch=1"" role=""button"" target=""_blank"">访问网站</a></p>",http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=9&isSearch=1,古籍目录
+读书敏求记,"<p><a class=""outline"" href=""http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=21&amp;isSearch=1"" role=""button"" target=""_blank"">访问网站</a></p>",http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=21&isSearch=1,古籍目录
+宋史艺文志,"<p><a class=""outline"" href=""http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=13&amp;isSearch=1 "" role=""button"" target=""_blank"">访问网站</a></p>",http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=13&isSearch=1,古籍目录
+郡斋读书志,"<p><a class=""outline"" href=""http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=15&amp;isSearch=1"" role=""button"" target=""_blank"">访问网站</a></p>",http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=15&isSearch=1,古籍目录
+新唐书艺文志,"<p><a class=""outline"" href=""http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=12&amp;isSearch=1"" role=""button"" target=""_blank"">访问网站</a></p>",http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=12&isSearch=1,古籍目录
+崇文总目,"<p><a class=""outline"" href=""http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=2&amp;isSearch=1"" role=""button"" target=""_blank"">访问网站</a></p>",http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=2&isSearch=1,古籍目录
+旧唐书经籍志,"<p><a class=""outline"" href=""http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=11&amp;isSearch=1"" role=""button"" target=""_blank"">访问网站</a></p>",http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=11&isSearch=1,古籍目录
+隋书经籍志,"<p><a class=""outline"" href=""http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=7&amp;isSearch=1"" role=""button"" target=""_blank"">访问网站</a></p>",http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=7&isSearch=1,古籍目录
+汉书艺文志,"<p><a class=""outline"" href=""http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=8&amp;isSearch=1/"" role=""button"" target=""_blank"">访问网站</a></p>",http://gj.library.sh.cn/ancientBookCatalogue/search?dataType=8&isSearch=1/,古籍目录
 哥伦比亚大学东亚馆中文古籍目录,<p></p>,http://gj.library.sh.cn/org/search/columbia/,古籍目录
 伯克莱加州大学东亚图书馆汉文古籍目录,<p></p>,http://gj.library.sh.cn/org/search/bkl/,古籍目录
 日本の古本屋,<p></p>,http://www.kosho.or.jp/,古籍目录
@@ -605,7 +591,7 @@ DocuSky 數位人文學術研究平台,<p>DocuSky 数字人文学术研究平台
 国家珍贵古籍名录数据库,<p></p>,http://202.96.31.79/nlcab/public!mlSearch.action,古籍目录
 古籍联合目录 台湾,<p></p>,http://rbook2.ncl.edu.tw/Search/Index/2,古籍目录
 日本古典籍総合目录データベース,<p></p>,https://base1.nijl.ac.jp/infolib/meta_pub/G0001401KTG,古籍目录
-澳大利亚国立大学图书馆藏汉籍善本,<p><a class="outline" href="https://openresearch-repository.anu.edu.au/advanced-search?query=&amp;location=1885%2F9199" role="button" target="_blank">访问网站</a></p>,https://openresearch-repository.anu.edu.au/advanced-search?query=&location=1885%2F9199,古籍目录
+澳大利亚国立大学图书馆藏汉籍善本,"<p><a class=""outline"" href=""https://openresearch-repository.anu.edu.au/advanced-search?query=&amp;location=1885%2F9199"" role=""button"" target=""_blank"">访问网站</a></p>",https://openresearch-repository.anu.edu.au/advanced-search?query=&location=1885%2F9199,古籍目录
 联合目录简单检索,<p></p>,http://opac.calis.edu.cn/simpleSearch.doCALIS,古籍目录
 高校古文献资源库读者检索系统,<p></p>,http://rbsc.calis.edu.cn:8086/aopac/jsp/indexXyjg.jsp,古籍目录
 上海图书馆古籍目录,<p></p>,https://gj.library.sh.cn/org/shl,古籍目录
@@ -675,8 +661,8 @@ e国宝,<p></p>,http://emuseum.nich.go.jp/top?langId=zhe,世界馆藏
 静嘉堂文库美术馆,<p></p>,http://www.seikado.or.jp/,世界馆藏
 日本国立歴史民俗博物馆,<p></p>,https://khirin-a.rekihaku.ac.jp/,世界馆藏
 古典籍総合,<p></p>,https://www.wul.waseda.ac.jp/kotenseki/index.htmlデータベース,世界馆藏
-高丽大学海外韩国学资料中心,<p><a class="outline" href="http://kostma.korea.ac.kr/dir/list?dirType=sabu&amp;lang=zh" role="button" target="_blank">访问网站</a></p>,http://kostma.korea.ac.kr/dir/list?dirType=sabu&lang=zh,世界馆藏
-新加坡国立大学图书馆藏,<p><a class="outline" href="https://libguides.nus.edu.sg/c.php?g=145672&amp;p=955379" role="button" target="_blank">访问网站</a></p>,https://libguides.nus.edu.sg/c.php?g=145672&p=955379,世界馆藏
+高丽大学海外韩国学资料中心,"<p><a class=""outline"" href=""http://kostma.korea.ac.kr/dir/list?dirType=sabu&amp;lang=zh"" role=""button"" target=""_blank"">访问网站</a></p>",http://kostma.korea.ac.kr/dir/list?dirType=sabu&lang=zh,世界馆藏
+新加坡国立大学图书馆藏,"<p><a class=""outline"" href=""https://libguides.nus.edu.sg/c.php?g=145672&amp;p=955379"" role=""button"" target=""_blank"">访问网站</a></p>",https://libguides.nus.edu.sg/c.php?g=145672&p=955379,世界馆藏
 数字藏书阁,<p></p>,https://jsg.aks.ac.kr/,世界馆藏
 名古屋市蓬左文库,<p></p>,https://housa.city.nagoya.jp/index.html,世界馆藏
 牛津大学图书馆收藏,<p></p>,http://serica.bodleian.ox.ac.uk/home,世界馆藏
@@ -772,10 +758,10 @@ JPCOAR＞会员机关,<p>日本JPCOAR（开放获取知识库促进协会）成�
 白云深处人家,<p></p>,http://www.homeinmists.com/index.htm,宗教玄学
 佛教数字档案馆,<p></p>,http://buda.zju.edu.cn/,宗教玄学
 嘉兴藏 日本,<p></p>,http://dzkimgs.l.u-tokyo.ac.jp/kkz,宗教玄学
-赵城金藏,<p><a class="outline" href="http://read.nlc.cn/allSearch/searchList?searchType=10021&amp;showType=1&amp;pageNo=1" role="button" target="_blank">访问网站</a></p>,http://read.nlc.cn/allSearch/searchList?searchType=10021&showType=1&pageNo=1,宗教玄学
+赵城金藏,"<p><a class=""outline"" href=""http://read.nlc.cn/allSearch/searchList?searchType=10021&amp;showType=1&amp;pageNo=1"" role=""button"" target=""_blank"">访问网站</a></p>",http://read.nlc.cn/allSearch/searchList?searchType=10021&showType=1&pageNo=1,宗教玄学
 汉籍全文佛典经录资料库,<p></p>,http://jinglu.cbeta.org/jinglu.htm,宗教玄学
 山东图书馆佛经数据库,<p></p>,http://www.sdlib.com/channels/ch00762,宗教玄学
-奥斯陆大学梵文佛典,<p><a class="outline" href="http://www2.hf.uio.no/polyglotta/index.php?page=library&amp;bid=2" role="button" target="_blank">访问网站</a></p>,http://www2.hf.uio.no/polyglotta/index.php?page=library&bid=2,宗教玄学
+奥斯陆大学梵文佛典,"<p><a class=""outline"" href=""http://www2.hf.uio.no/polyglotta/index.php?page=library&amp;bid=2"" role=""button"" target=""_blank"">访问网站</a></p>",http://www2.hf.uio.no/polyglotta/index.php?page=library&bid=2,宗教玄学
 道教大辞典联合检索,<p></p>,http://www.homeinmists.com/DaoD/search.html,宗教玄学
 一行佛学辞典搜寻,<p></p>,http://buddhaspace.org/dict,宗教玄学
 香光資訊網-圖書館服務,<p></p>,http://www.gaya.org.tw/library/index.html,宗教玄学
@@ -783,7 +769,7 @@ JPCOAR＞会员机关,<p>日本JPCOAR（开放获取知识库促进协会）成�
 美国犹他家谱协会,<p></p>,http://www.familysearch.org/,族谱追寻
 中国家谱知识服务平台,<p></p>,http://jiapu.library.sh.cn/,族谱追寻
 上图家谱选览,<p></p>,http://wrd2016.library.sh.cn/channel/stjp,族谱追寻
-徽州善本家谱,<p><a class="outline" href="http://read.nlc.cn/allSearch/searchList?searchType=40&amp;showType=1&amp;pageNo=1" role="button" target="_blank">访问网站</a></p>,http://read.nlc.cn/allSearch/searchList?searchType=40&showType=1&pageNo=1,族谱追寻
+徽州善本家谱,"<p><a class=""outline"" href=""http://read.nlc.cn/allSearch/searchList?searchType=40&amp;showType=1&amp;pageNo=1"" role=""button"" target=""_blank"">访问网站</a></p>",http://read.nlc.cn/allSearch/searchList?searchType=40&showType=1&pageNo=1,族谱追寻
 家谱联合目录 台湾,<p></p>,http://rbook2.ncl.edu.tw/Search/Info/3,族谱追寻
 中国家谱族谱库,<p></p>,http://gd.ccnu.edu.cn/,族谱追寻
 书格,<p>书格是一个自由开放的在线古籍图书馆。致力于开放式分享、介绍、推荐有价值的古籍善本，并鼓励将文化艺术作品数字化归档。<br/></p>,https://new.shuge.org/,古籍下载
@@ -797,21 +783,21 @@ JPCOAR＞会员机关,<p>日本JPCOAR（开放获取知识库促进协会）成�
 全球漢籍影像開放集成系統,<p>一个可以检索古籍影像的集成系统，仅支持用繁体中文搜索<br/></p>,https://guji.wenxianxue.cn/index,古籍下载
 中國古典文獻資源導航系統,<p>一个资源聚合网站，不但可以检索各大平台收录的古籍，还提供了一些有用的在线工具：有古籍OCR工具、古文断句标注、知识图谱、各种数据的GIS应用展示等<br/></p>,https://www.wenxianxue.cn/,古籍下载
 【W】殆知阁古代文献txt大全集,<p>由网友殆知阁整理的古代文献数据，txt格式，总大小5G多<br/></p>,https://github.com/garychowcmu/daizhigev20,古籍下载
-漢籍リポジトリ,<p>日本友人整理的中国古籍，全是txt格式，可以在线阅读，目前有9000多本。<br/><a class="outline" href="https://github.com/kanripo/KR-Catalog" role="button" target="_blank">项目地址</a></p>,https://www.kanripo.org/,古籍下载
+漢籍リポジトリ,"<p>日本友人整理的中国古籍，全是txt格式，可以在线阅读，目前有9000多本。<br/><a class=""outline"" href=""https://github.com/kanripo/KR-Catalog"" role=""button"" target=""_blank"">项目地址</a></p>",https://www.kanripo.org/,古籍下载
 善本古籍資料庫,<p>资料库收录本所傅斯年图书馆珍藏善本古籍的历年数字化成果，涵盖经部、史部、子部、集部、丛书、俗文学等类，提供书目检索及全文影像浏览。 傅图所藏善本书主要为宋、元、明及清初刊本、稿本，以及名人之批校本、手钞本、绘写本等，其中颇多世间罕见秘籍或海内外孤本; 古籍线装书主要为清代及民初刊本，以史部与集部居多，为国内外研究者所重视的典籍。 本资料库特色在于提供详尽的书目后设资料描述、内容分析及全文影像连结，含丛书、单行本、册次、卷次、篇目等，并与印记资料库、人名权威资料库等相关资源建立串连，强化各项后设资料的搜寻与关联性。<br/></p>,https://ihparchive.ihp.sinica.edu.tw/ihpkmc/ihpkm_op?!!FUNC330,古籍下载
 江苏省古籍数字资源集成平台,由南京图书馆建设的江苏省古籍数字资源集成平台于年初上线，现该平台免费供读者在线使用全文影像。所收文献在原南京市图书馆清人文集基础上增加了3倍（具体见本公号之前所推送的文章 南京图书馆藏清人珍稀文集全文影像库），且可浏览全文。,http://zggj.jslib.org.cn/#/home,古籍下载
 香港公共圖書館學海書樓特藏,"學海書樓特藏逾1,900多種，合共34,600餘冊，大部分為國學古籍的線裝本和手抄本，經、史、子、集一應俱全。此外，學海書樓歷年出版的書籍及目錄亦包括在藏書內。學海書樓特藏的古籍大部分經已絕版，而該書樓出版的書籍亦甚具學術和參考價值",https://sls.hkpl.gov.hk/digital-collection/tc/collection_hok-hoi-collection.html,古籍下载
 天津图书馆古籍全文影像库,特别提醒：该全文影像库要求浏览器支持Flash。天津图书馆将馆藏部分古籍全文数码化，放在互联网上供公众免费使用。这些古籍中不乏珍稀的善本，而且数量较多,http://lswx.tjl.tj.cn:8001/,古籍下载
 近代华文书籍数据库,一个商业数据库，需要花钱购买，没用过，不知道实际使用体验如何。近代华文书籍数据库，是国内领先的民国图书文献全文检索资料库，现有在线资源共计近代中文图书超过9万种13万册，内容超过2500万页。民国图书文献数量仍在不断扩展中，包含13个基础分类，数百个下级分类，所有图书文档都具有完整的图书章节目录基础元数据，均经过系统自动批量OCR处理，可供检索字数超过80亿字。相对于市面上现有的民国图书数据库，其综合性能上佳，特点突出，可以对所收录图书的所有元数据进行检索，并支持多平台自适应阅读模式！,http://www.mgebooks.cn/,古籍下载
 红叶山古籍文库,该站建于2015年，短短几年间已经积累了超过2万种古籍，绝大多数来自海内外学术机构，另有部分则是网友提供的稿钞本或自藏图书，较为珍贵。注意，该站于2017年7月起，上传的图书均需要收费。而在此之前的文献则以网盘的形式，提供免费下载链接。主页的第506页以前的所有文献均可下载,https://hongyeshan.com/,古籍下载
-国家图书馆古籍数码资源,国家图书馆于二零一三年与康乐及文化事务署签订合作协议，提供部分数码古籍馆藏予香港公共图书馆，存放在「国家图书馆古籍数码资源」网站供读者浏览。这个网站由国家图书馆和香港公共图书馆共同开发，分爲「古籍资源」和「善本精选」两个主要部分。香港公共图书馆会把国家图书馆提供的上述古籍资源分批上载至「数码馆藏」，让市民可以通过香港公共图书馆网站认识古籍资源和欣赏源远流长的中华文化瑰宝。<br/>还有<a href="https://sls.hkpl.gov.hk/digital-collection/tc/collection_ancient-chinese-book-resources-from-the-national-library-of-china.html">另一个网址</a>,https://sls.hkpl.gov.hk/digital-collection/sc/nlc.html,古籍下载
+国家图书馆古籍数码资源,"国家图书馆于二零一三年与康乐及文化事务署签订合作协议，提供部分数码古籍馆藏予香港公共图书馆，存放在「国家图书馆古籍数码资源」网站供读者浏览。这个网站由国家图书馆和香港公共图书馆共同开发，分爲「古籍资源」和「善本精选」两个主要部分。香港公共图书馆会把国家图书馆提供的上述古籍资源分批上载至「数码馆藏」，让市民可以通过香港公共图书馆网站认识古籍资源和欣赏源远流长的中华文化瑰宝。<br/>还有<a href=""https://sls.hkpl.gov.hk/digital-collection/tc/collection_ancient-chinese-book-resources-from-the-national-library-of-china.html"">另一个网址</a>",https://sls.hkpl.gov.hk/digital-collection/sc/nlc.html,古籍下载
 Chinese Rare Books,哈佛大学燕京学社图书馆收藏有大量中国珍贵资料，此前学术界和出版界已经影印和出版了多种丛刊、书目，如《美国哈佛大学哈佛燕京图书馆藏中文善本彙刊》、《美国哈佛大学哈佛燕京图书馆藏蒙文文献汇刊》、《 美国哈佛大学哈佛燕京图书馆藏清代善本别集丛刊》、《 美国哈佛大学哈佛燕京图书馆藏稿钞校本汇刊》、《 美国哈佛大学哈佛燕京图书馆藏民国文献丛刊》《美国哈佛大学哈佛燕京图书馆藏宝卷汇刊》、《美国哈佛大学哈佛燕京图书馆藏善本方志书志》、《美国哈佛大学哈佛燕京图书馆中文善本书志》、《美国哈佛大学哈佛燕京图书馆藏民国时期图书总目》、《美国哈佛大学哈佛燕京图书馆中文古籍目录》、《美国哈佛大学哈佛燕京图书馆藏晚清民国间新教传教士中文译著目录提要》。其实这些珍稀善本文献，哈佛燕京图书馆已经在馆方网站全文公布了。对于无法利用这些已出版汇编的朋友，哈佛燕京馆方网站可以弥补这一缺憾。这批已经公开的文献总计9621种，共分为善本方志（749种）、宝卷（86种）、传教士文献（754种）、齐氏兄弟藏书（180种）、齐如山藏书（71种）、中文善本特藏-稿钞本选辑（31种）、中文善本特藏稿钞孤本傅斯年图书馆项目（279种）、满文古籍（68种）、蒙文古籍（31种）、明清妇女著作（83种）、韩南教授藏书（179种）、哈特教授藏书（103种）、中文善本稀见书目丛刊选目（34种）、中文善本特藏经史部（1440种）、中文善本特藏子部（922种）、中文善本特藏集部（1848种）、中文善本特藏丛部（2881种）、中文善本特藏特大尺寸（32种）。这些文献很多是孤本，尤其是其中的钞本、稿本，非常罕见。对于中国历史、文化研究的价值不言而喻。馆方提供了按照分类的浏览方式，也可以进行检索。小编建议使用者根据需要以分类方式进行查看。所有文献均提供书目的详细信息，图书以高清大图方式呈现，图片可以实现放大、缩小等操作。下载则只能以单个图片的形式，不过网络已经出现将所有这些图书打包下载的资源，建议有需要者自行查找。使用请务必遵守馆方的版权规定，特别是部分文献已经有出版社公开影印出版了。,https://curiosity.lib.harvard.edu/chinese-rare-books,古籍下载
 云南古籍数字图书馆,,http://msq.ynlib.cn/,古籍下载
 日本学习院大学中国古籍全文数据库,日本学习院大学东洋文化研究所收藏有大量中国古代珍稀古籍，馆方将其中32种全文数码化，放在互联网上供公众免费使用。这批文献总计32种，比较庞杂，馆方未作分类，但是提供了每种书目的详细信息。点击每种书影即可进入全文影像系统，图片可以放大为高清大图。但是未提供全书整本下载链接，只能单张下载。,https://www.gakushuin.ac.jp/univ/rioc/vm/c04/_kanseki/c0106/_shozou/_list.html,古籍下载
 答印,一款专为幼小学生设计的练习题和字帖生成工具，帮助孩子提升学习效果，培养良好的学习习惯。,https://www.dayin.page/,其他
 口算题生成器,一个小学生口算生成器，用起来还蛮方便的。,https://www.jsongj.com/text/kousuanti,其他
 MyLens.AI,一个基于AI的小工具，专门用于为任何主题生成时间线，既可以优化流行主题的时间线，也支持多种语言。,https://mylens.ai/,其他
-Website-downloader,一个可以下载任意网站源码的网站。同时也开源于<a href="https://github.com/Ahmadibrahiim/Website-downloader">GitHub</a>,https://website-downloader.onrender.com/,其他
+Website-downloader,"一个可以下载任意网站源码的网站。同时也开源于<a href=""https://github.com/Ahmadibrahiim/Website-downloader"">GitHub</a>",https://website-downloader.onrender.com/,其他
 LabPlot,"一款免费、开源且跨平台的数据可视化和分析软件，它旨在为用户提供一个易于使用的界面来展示和探索数据。LabPlot提供了一种创建、管理和编辑绘图的简单方法。它允许您根据电子表格中的数据或从外部文件导入的数据生成绘图,可以导出为多种像素图和矢量图形格式。同时也开源于<a href=""https://github.com/KDE/labplot"">GitHub</a>",https://labplot.org/,其他
 RecordsScreen.io,<p>一款不需要安装就能使用的在线录屏工具，支持录制整个屏幕、浏览器、指定标签页，支持前置摄像头，无需下载任何安装包，有浏览器、有网就能录屏。但不能关掉麦克风声音，输出是视频格式是webm。<br/></p>,https://recordscreen.io/,其他
 Privnote,<p>免费且开箱即用的阅后即焚网站。<br/></p>,https://privnote.com/,其他
@@ -836,20 +822,15 @@ ANIMATED DRAWINGS,<p>一个可以给自己的画绑定骨骼然后让它动起�
 即时工具,<p>一个内容挺全的在线工具箱<br/></p>,https://www.67tool.com/,其他
 Subscription Converter,<p>一个可以在各种科学上网软件之间转换订阅格式的网站<br/></p>,https://sub-web.netlify.app/,其他
 微信文件传输助手网页版,<p>如果临时需要在陌生电脑上传输文件，可以使用这个网页版文件传输助手，微信扫码登录即可，可以双向互传文本、图片和文件，退出浏览器即退出登录，无需下载微信，比较方便。<br/></p>,https://filehelper.weixin.qq.com/,其他
-ScreenGo,<p>一个可以通过浏览器共享屏幕的网站<br/><a class="outline" href="https://github.com/screego/server/" role="button" target="_blank">源码地址</a></p>,https://app.screego.net/,其他
+ScreenGo,"<p>一个可以通过浏览器共享屏幕的网站<br/><a class=""outline"" href=""https://github.com/screego/server/"" role=""button"" target=""_blank"">源码地址</a></p>",https://app.screego.net/,其他
 背个X啊,<p>一个通过挖孔的方法辅助背书的网站，也有自己的APP和小程序。APP和小程序用起来会更顺手一些<br/></p>,https://beigexa.com/,其他
-Qwerty Learner,<p>为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件 <br/><a class="outline" href="https://github.com/RealKai42/qwerty-learner" role="button" target="_blank">项目地址</a></p>,https://qwerty.kaiyi.cool/,其他
-资源网站,<p>由小众软件论坛网友提供的一些免费、免登录、免回复的资源网站合集，包括软件、音乐、影视下载等<br/><a class="outline" href="https://web.archive.org/web/20240111085216/https://meta.appinn.net/t/topic/48365" role="button" target="_blank">【W】访问备份</a></p>,https://meta.appinn.net/t/topic/48365,其他
+Qwerty Learner,"<p>为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件 <br/><a class=""outline"" href=""https://github.com/RealKai42/qwerty-learner"" role=""button"" target=""_blank"">项目地址</a></p>",https://qwerty.kaiyi.cool/,其他
+资源网站,"<p>由小众软件论坛网友提供的一些免费、免登录、免回复的资源网站合集，包括软件、音乐、影视下载等<br/><a class=""outline"" href=""https://web.archive.org/web/20240111085216/https://meta.appinn.net/t/topic/48365"" role=""button"" target=""_blank"">【W】访问备份</a></p>",https://meta.appinn.net/t/topic/48365,其他
 最佳平替,<p>旨在帮助你找到最便宜的搜索词: 输入你想搜索的商品名，AI会给出低价的替代品，结果可能不准，开心就好 : )<br/></p>,https://www.pingti.xyz/,其他
-Excalidraw,<p>一个开源的用于绘制手绘图的虚拟白板，数据完全保存在本地，可导出<br/><a class="outline" href="https://github.com/excalidraw/excalidraw" role="button" target="_blank">项目地址</a></p>,https://excalidraw.com/,其他
+Excalidraw,"<p>一个开源的用于绘制手绘图的虚拟白板，数据完全保存在本地，可导出<br/><a class=""outline"" href=""https://github.com/excalidraw/excalidraw"" role=""button"" target=""_blank"">项目地址</a></p>",https://excalidraw.com/,其他
 LiveGap,<p>一个在线表格制作网站，可以制作精美的图表，基本功能可免登录使用<br/></p>,https://charts.livegap.com/?lan=zh,其他
-紀年轉換工具,<p>本工具可作东亚各王朝纪年与公历间之转换，包括中西历转换。现已完成246 BCE–2100 CE 之中历、太平天历、日本元号、?m l?ch (越南阴历)等之转换工作；并已针对某些纪年，如秦汉历、唐肃宗、武后、太平天国等时期作特殊处理。<br/><a class="outline" href="https://github.com/kanasimi/CeJS" role="button" target="_blank">项目地址</a></p>,https://kanasimi.github.io/CeJS/_test%20suite/era.htm,其他
+紀年轉換工具,"<p>本工具可作东亚各王朝纪年与公历间之转换，包括中西历转换。现已完成246 BCE–2100 CE 之中历、太平天历、日本元号、?m l?ch (越南阴历)等之转换工作；并已针对某些纪年，如秦汉历、唐肃宗、武后、太平天国等时期作特殊处理。<br/><a class=""outline"" href=""https://github.com/kanasimi/CeJS"" role=""button"" target=""_blank"">项目地址</a></p>",https://kanasimi.github.io/CeJS/_test%20suite/era.htm,其他
 兩千年中西曆轉換,<p>由中华民国中央研究院提供的中西方历法互转程序<br/></p>,https://sinocal.sinica.edu.tw/,其他
-答印,一款专为幼小学生设计的练习题和字帖生成工具，帮助孩子提升学习效果，培养良好的学习习惯。,https://www.dayin.page/,其他
-口算题生成器,一个小学生口算生成器，用起来还蛮方便的。,https://www.jsongj.com/text/kousuanti,其他
-MyLens.AI,一个基于AI的小工具，专门用于为任何主题生成时间线，既可以优化流行主题的时间线，也支持多种语言。,https://mylens.ai/,其他
-Website-downloader,一个可以下载任意网站源码的网站。同时也开源于<a href="https://github.com/Ahmadibrahiim/Website-downloader">GitHub</a>,https://website-downloader.onrender.com/,其他
-LabPlot,"一款免费、开源且跨平台的数据可视化和分析软件，它旨在为用户提供一个易于使用的界面来展示和探索数据。LabPlot提供了一种创建、管理和编辑绘图的简单方法。它允许您根据电子表格中的数据或从外部文件导入的数据生成绘图,可以导出为多种像素图和矢量图形格式。同时也开源于<a href=""https://github.com/KDE/labplot"">GitHub</a>",https://labplot.org/,其他
 SCISPACE,<p>一个可以用AI帮你读论文的网站，可以直接在线查找，也可以上传PDF<br/></p>,https://typeset.io/,AI相关
 HUMETA,<p>一个可以自己上传PDF，让AI帮你读论文的网站<br/></p>,https://www.humata.ai/,AI相关
 ChatPDF,<p>一个可以上传PDF并让AI理解PDF内容的网站<br/></p>,https://www.chatpdf.com/,AI相关
@@ -870,10 +851,10 @@ IHaveNoTV,<p>一个可以看高清无水印纪录片的网站<br/></p>,https://i
 ZzzFun动漫视频网,<p></p>,http://www.zzzfun.com/,观影网站
 风车动漫,<p></p>,https://dm530.org/,观影网站
 双辞动漫,<p></p>,https://www.scfun.net/,观影网站
-Mirror List,<p>这是一个由私人维护的镜像站列表，其中包含了中国大陆可直接访问的Google Search、Google Scholar、Wayback Machine（网页时光机）、DuckDuckGo（另一个搜索引擎）、Github、OpenSources镜像。现在域名已被DNS污染，无法打开，请直接访问仓库GitHub【W】。<br/><a class="outline" href="https://github.com/librarycloud/list" role="button" target="_blank">GitHub仓库</a></p>,https://www.library.ac.cn/,镜像列表
+Mirror List,"<p>这是一个由私人维护的镜像站列表，其中包含了中国大陆可直接访问的Google Search、Google Scholar、Wayback Machine（网页时光机）、DuckDuckGo（另一个搜索引擎）、Github、OpenSources镜像。现在域名已被DNS污染，无法打开，请直接访问仓库GitHub【W】。<br/><a class=""outline"" href=""https://github.com/librarycloud/list"" role=""button"" target=""_blank"">GitHub仓库</a></p>",https://www.library.ac.cn/,镜像列表
 PublicMirrorsNetwork,<p>一个免费国外网站反向代理网站，提供Google、Google Scholar、Wikipedia、Telegraph等网站的镜像服务。原mirrors.pw，因域名被污染所以换了域名<br/></p>,https://sb250.gq/,镜像列表
 小白工具箱,<p>一个搜集了SCIHub、ZLibrary、LibGen、Google和Google学术等网站镜像站的网站。<br/></p>,https://www.ooopn.com/,镜像列表
-MirrorSite,<p>GitHub上网友整理的镜像网站列表，包括ChatGPT、Google系列产品、SCI-Hub、GitHub等网站<br/><a class="outline" href="https://githubfast.com/runningcheese/Awesome-AI" role="button" target="_blank">镜像链接（1）</a><br/><a class="outline" href="https://521github.com/runningcheese/MirrorSite" role="button" target="_blank">镜像链接（2）</a></p>,https://github.com/runningcheese/MirrorSite,镜像列表
+MirrorSite,"<p>GitHub上网友整理的镜像网站列表，包括ChatGPT、Google系列产品、SCI-Hub、GitHub等网站<br/><a class=""outline"" href=""https://githubfast.com/runningcheese/Awesome-AI"" role=""button"" target=""_blank"">镜像链接（1）</a><br/><a class=""outline"" href=""https://521github.com/runningcheese/MirrorSite"" role=""button"" target=""_blank"">镜像链接（2）</a></p>",https://github.com/runningcheese/MirrorSite,镜像列表
 浙江大学Google镜像,<p>验证你是否来自浙江大学，三个问题的答案分别是：心灵之约、水朝夕、csxy@123<br/></p>,https://g.luciaz.me/,镜像列表
 Google学术镜像,<p></p>,https://scholar.lanfanshu.cn/,镜像列表
 谷粉学术,<p>由学术文献研究者联合建立的文献检索服务，方便大家稳定快速地利用谷歌学术搜索查找文献进行学术研究.您所在区域google学术无法访问时用谷粉学术进行文献查找就对了。<br/></p>,https://gfsoso.99lb.net/,镜像列表
@@ -881,9 +862,8 @@ Google镜像,<p></p>,https://scholar.niostack.com/,镜像列表
 SCI-HUB 第三方镜像合辑,<p><br/><br/><br/><br/></p>,https://sci-hub.org.cn/,镜像列表
 Glgoo,<p>一个比较稳定的Google学术镜像<br/></p>,https://gg.xueshu5.com/,镜像列表
 一饭厨房,一个很有意思，可以通过AI生成可以制作的随机菜谱的网站。,https://eat.lz-t.top/,食谱？
-隔离食用手册,<p>一个UI很漂亮的开源做菜网站，可以根据你现有的食材和烹饪工具选择合适的菜，并且提供b站的视频教程地址<br/><a class="outline" href="https://github.com/YunYouJun/cook" role="button" target="_blank">查看源码</a></p>,https://cook.yunyoujun.cn/,食谱？
-How To Cook,<p>一个开源的菜谱很精准可控的做菜网站<br/><a class="outline" href="https://github.com/Anduin2017/HowToCook" role="button" target="_blank">查看源码</a></p>,https://cook.aiurs.co/,食谱？
-一饭厨房,一个很有意思，可以通过AI生成可以制作的随机菜谱的网站。,https://eat.lz-t.top/,食谱？
+隔离食用手册,"<p>一个UI很漂亮的开源做菜网站，可以根据你现有的食材和烹饪工具选择合适的菜，并且提供b站的视频教程地址<br/><a class=""outline"" href=""https://github.com/YunYouJun/cook"" role=""button"" target=""_blank"">查看源码</a></p>",https://cook.yunyoujun.cn/,食谱？
+How To Cook,"<p>一个开源的菜谱很精准可控的做菜网站<br/><a class=""outline"" href=""https://github.com/Anduin2017/HowToCook"" role=""button"" target=""_blank"">查看源码</a></p>",https://cook.aiurs.co/,食谱？
 Fast SRT Subtitle Toolkit,<p>超快上字幕的网站工具，把视频传到右边，逐字稿贴到左边，按开始之后再按播放视频，按K就可以自动帮你结束这行跳下一行，详细的快捷键下面有写，输出选SRT档（最简单的字幕档），建议一行不要超过22个字<br/></p>,https://srt.coderemixer.com/,视频处理
 cSubtitle,<p>一个可以自动辨识逐字稿且会生成正确的SRT档的网站，正确率很高，但只能用于三分钟的视频免费<br/></p>,https://www.csubtitle.com/,视频处理
 Youtube Subtitle Downloader,<p>可以下载youtube已经有的字幕SRT档<br/></p>,https://toolboxtw.com/downloader/youtube_subtitle,视频处理
@@ -892,7 +872,7 @@ Audacity,<p>一个开源的音频编辑软件，去噪音之类的功能很棒<b
 SubPlayer,<p>一个可以在线处理Srt字幕的网站，调整自动生成的字幕时很好用<br/></p>,https://subplayer.js.org/,视频处理
 Srt字幕编辑器,<p>另一个可以在线编辑字幕的网站<br/></p>,https://huiyingzimu.com/srt-editor/,视频处理
 GhostArchive,<p>目前大陆可用且可以存档微信公众号的备份网站<br/></p>,https://ghostarchive.org/,视频处理
-嘟文备份工具,<p>长毛象嘟文备份工具<br/><a class="outline" href="https://1234.as/@zero/106737013233732646" role="button" target="_blank">使用教程</a></p>,https://github.com/zero-mstd/mav-z,长毛象专题
+嘟文备份工具,"<p>长毛象嘟文备份工具<br/><a class=""outline"" href=""https://1234.as/@zero/106737013233732646"" role=""button"" target=""_blank"">使用教程</a></p>",https://github.com/zero-mstd/mav-z,长毛象专题
 Moa,<p>可以把自己的推特账号上的发帖同步到自己毛象<br/></p>,https://moa.party/,长毛象专题
 BirdsiteLIVE,<p>可以让长毛象账号关注推特账号<br/></p>,https://birdsite.slashdev.space/,长毛象专题
 建站后的运维及装修手册,<p>长毛象建站指南！可以自己建一个玩玩！<br/></p>,https://mantyke.icu/posts/2022/mastodon_mammota/,长毛象专题
@@ -915,12 +895,12 @@ OpenColor,一个专为字体、背景、边框等用户界面元素优化的开�
 Nord,一个北极风格的调色板,https://github.com/nordtheme/nord,图片绘制
 Watabou's Procgen Arcana,一个非常酷炫的跑团地图生成器。,https://watabou.github.io/city.html,图片绘制
 SVG-Edit,一个可以在线编辑SVG的网站，非常方便,https://svgedit.netlify.app/editor/index.html#ungroup,图片绘制
-Cover Paint,可以在线制作微信公众号封面的网站，同时也开源于<a href="https://github.com/youngle316/cover-paint">GitHub</a>,https://coverpaint.yanglele.cc/,图片绘制
+Cover Paint,"可以在线制作微信公众号封面的网站，同时也开源于<a href=""https://github.com/youngle316/cover-paint"">GitHub</a>",https://coverpaint.yanglele.cc/,图片绘制
 Vectorpea,一款免费的在线矢量图编辑器，由著名的在线 PS 工具 Photopea 同款开发者推出，目前处于 Beta 测试阶段，支持读取并编辑 .svg、.ai、.eps、.pdf 等常见的矢量图格式。,https://www.vectorpea.com/,图片绘制
 draw.io,<p>开源、免费、可离线、有客户端的流程图等图的绘制网站。<br/></p>,https://app.diagrams.net/,图片绘制
 Excalidraw,<p>一款开源虚拟白板工具，用于勾画手绘风格的图画，拥有海量的第三方图形素材库，支持多人协作、从 Excel 粘贴表格、快捷键等功能。<br/></p>,https://excalidraw.com/,图片绘制
 NIPPON COLORS,<p>很多好看的颜色精选，可以在左边逛主题色，把鼠标移到RGB那一区会跳出「#OOOOOO」的六色码，复制下来就可以到处贴颜色<br/></p>,https://nipponcolors.com/,图片绘制
-CHINESE COLORS,<p>中国传统色，操作方法和日本传统色差不多，也有一个排版不同但内容相同的仿制版<br/><a class="outline" href="https://coolfishstudio.github.io/cfs-color/" role="button" target="_blank">仿制版</a></p>,http://zhongguose.com/,图片绘制
+CHINESE COLORS,"<p>中国传统色，操作方法和日本传统色差不多，也有一个排版不同但内容相同的仿制版<br/><a class=""outline"" href=""https://coolfishstudio.github.io/cfs-color/"" role=""button"" target=""_blank"">仿制版</a></p>",http://zhongguose.com/,图片绘制
 Palettable,<p>一个可以自动配色的网站<br/></p>,https://www.palettable.io/,图片绘制
 Paletton,<p>也是一个自动配色网站，操作方式更加专业<br/></p>,https://paletton.com/,图片绘制
 Adobe Color,<p>Adobe出的配色网站<br/></p>,https://color.adobe.com/zh/create/color-wheel/,图片绘制
@@ -928,26 +908,20 @@ Colorion,<p>一个好看的配色网站<br/></p>,https://www.colorion.co/,图片
 Coolors,<p>一个可以通过敲击空格配色的网站，也可以对配色进行细微调整以及从图片中提取配色方案<br/></p>,https://coolors.co/,图片绘制
 GoodPalette,<p>一个配色工具，很直观的预览样式非常方便，这个网站是可以配一些对比色，并不止是同色系的配色工具。<br/></p>,https://goodpalette.io/,图片绘制
 UIColors,<p>一个同色系自动生成配色的网站，看起来非常和谐<br/></p>,https://uicolors.app/create,图片绘制
-Hue,<p>一个开源的颜色工具箱<br/><a class="outline" href="https://github.com/pabueco/hue.tools" role="button" target="_blank">查看源码</a></p>,https://hue.tools/,图片绘制
+Hue,"<p>一个开源的颜色工具箱<br/><a class=""outline"" href=""https://github.com/pabueco/hue.tools"" role=""button"" target=""_blank"">查看源码</a></p>",https://hue.tools/,图片绘制
 百度脑图,<p>百度出品的图表（流程图）制作工具，需要登陆，汇集了XMind和Smartart的基本功能，并且容易上手。可以选择SVG、PNG、XMind等多种格式导出<br/></p>,https://naotu.baidu.com/,图片绘制
 百度图说,<p>百度出品的数据表制作工具，需要登陆，可制作地图型图表，包括世界地图、中国地图、国内分省地图、多地图4种类型。<br/></p>,https://tushuo.baidu.com/,图片绘制
 Chartify,<p>一个给忙碌的人设计图表的工具。需要登陆，自动完成颜色、样式的设计、可以直接在图上拖拉、可根据需求导出为图片或继续编辑格式分享给他人<br/></p>,https://www.chartify.it/,图片绘制
 图表秀,<p>一个图表制作网站，提供数十种传统图表和高级可视化图表，涵盖地图、词云、弦图、散点图等； 支持图表、文字、图片混排和任意拖拽布局及定制个性化数据分析报告；支持导出图片、PPT、PDF、动态图册，或进行公开/私密分享至社交平台。<br/></p>,https://www.tubiaoxiu.com/,图片绘制
 镝数图表,<p>一个由武汉大学新闻传播学院王琼教授带领的创业项目，定位是“中国首个数据查找与可视化平台”，追求“数据与文字的美丽共生”。聚合了中国各大开放数据平台6大领域，100多家行业，50万个权威精选数据；数据可自由搜索或筛选查找，提供了统计数据和数据报告两种数据类型；每条数据都搭配可交互式图表展示，帮助你快速get数据内容；图表样式一键切换，无需重新输入数据生成。<br/></p>,https://dydata.io/appv2/#/pages/index/home,图片绘制
-OpenColor,一个专为字体、背景、边框等用户界面元素优化的开源色彩方案,https://yeun.github.io/open-color/,图片绘制
-Nord,一个北极风格的调色板,https://github.com/nordtheme/nord,图片绘制
-Watabou's Procgen Arcana,一个非常酷炫的跑团地图生成器。,https://watabou.github.io/city.html,图片绘制
-SVG-Edit,一个可以在线编辑SVG的网站，非常方便,https://svgedit.netlify.app/editor/index.html#ungroup,图片绘制
-Cover Paint,可以在线制作微信公众号封面的网站，同时也开源于<a href="https://github.com/youngle316/cover-paint">GitHub</a>,https://coverpaint.yanglele.cc/,图片绘制
-Vectorpea,一款免费的在线矢量图编辑器，由著名的在线 PS 工具 Photopea 同款开发者推出，目前处于 Beta 测试阶段，支持读取并编辑 .svg、.ai、.eps、.pdf 等常见的矢量图格式。,https://www.vectorpea.com/,图片绘制
 PureRef,<p>这个用来放参考的剪贴板真的挺好用的……直接复制黏贴进来就行还支持放大缩小翻转和旋转等等<br/>可能会有人以为是收费的，其实在下载页面选custom amount填0就可以免费下载了<br/></p>,https://www.pureref.com/,图片收集
 Flow,一个免费、开源、纯前端的浏览器阅读器，支持Epub等书，阅读体验不错,https://app.flowoss.com/zh-CN,文件处理
 Resumd,一个可以用Markdown做简历的网站，支持导出PDF，但是样式比较基础,https://resumd.t9t.io/,文件处理
 木及简历,一个支持用Markdown做简历的网站，模板比较美观，需要登录使用,https://www.mujicv.com/editor/,文件处理
 Markdown简历,一个支持用Markdown做简历的网站，模板比较美观，可以免登录使用,https://resume.mdnice.com/,文件处理
 PDFのテキスト変換,非常少见的能把竖排PDF转txt的网站。虽然是日语但是用起来很简单,https://www.petitmonte.com/labo/pdf2text/,文件处理
-MarkdownDocx,一个非常方便的在线Markdown转Docx网站，也在<a href="https://github.com/vace/markdown-docx">GitHub</a>上开源。开箱即用，非常优雅,https://md-docx.vace.me/,文件处理
-TurnDown,一个支持把Html转成Markdown的纯前端工具。提供了一个Demo界面可以让你直接把HTML转换成Markdown，非常方便，同时也在<a href="https://github.com/mixmark-io/turndown">GitHub</a>开源,https://mixmark-io.github.io/turndown/,文件处理
+MarkdownDocx,"一个非常方便的在线Markdown转Docx网站，也在<a href=""https://github.com/vace/markdown-docx"">GitHub</a>上开源。开箱即用，非常优雅",https://md-docx.vace.me/,文件处理
+TurnDown,"一个支持把Html转成Markdown的纯前端工具。提供了一个Demo界面可以让你直接把HTML转换成Markdown，非常方便，同时也在<a href=""https://github.com/mixmark-io/turndown"">GitHub</a>开源",https://mixmark-io.github.io/turndown/,文件处理
 Ensō,一个在线写作平台，一次只能输入一行字，不能删改。思路是先写再改，理念非常有意思,https://sonnet.io/posts/ulysses,文件处理
 思绪思维导图,一个非常美观漂亮的在线思维导图工具,https://wanglin2.github.io/mind-map/#/,文件处理
 AConvert,<p>免费且开箱即用的在线格式转换软件（基本上啥都能转）。<br/></p>,https://www.aconvert.com/,文件处理
@@ -960,36 +934,23 @@ Sturt,<p>超酷的演示文稿制作网站。（基于impress.js）<br/></p>,htt
 PDF24 Tools,<p>一个PDF处理网站（有软件），可以合并切割排序压缩解密添加电子签名格式转换，功能应有尽有而且没有文件大小数量的限制，而且完全免费。<br/></p>,https://tools.pdf24.org/zh/,文件处理
 I?PDF,<p>一个很好用的PDF编辑网站，只是免费版好像有使用次数限制<br/></p>,https://www.ilovepdf.com/zh-cn,文件处理
 Tinywow,<p>一个在线文件处理工具合辑<br/></p>,https://tinywow.com/,文件处理
-Reveal.js,<p>另一个可以制作很酷的网页幻灯片的网站，但需要懂一点HTML语法（Markdown也行！）<br/><a class="outline" href="https://revealjs.com/demo/" role="button" target="_blank">查看Demo</a></p>,https://revealjs.com/,文件处理
+Reveal.js,"<p>另一个可以制作很酷的网页幻灯片的网站，但需要懂一点HTML语法（Markdown也行！）<br/><a class=""outline"" href=""https://revealjs.com/demo/"" role=""button"" target=""_blank"">查看Demo</a></p>",https://revealjs.com/,文件处理
 Markmap,<p>一个可以用Markdown写思维导图的网站！（可以在线使用！）<br/></p>,https://markmap.js.org/,文件处理
-Koodo Reader,<p>一个跨平台的电子书阅读器，支持多种电子书格式（这个是web版）<br/><a class="outline" href="https://github.com/troyeguo/koodo-reader" role="button" target="_blank">访问仓库</a></p>,https://reader.960960.xyz/,文件处理
+Koodo Reader,"<p>一个跨平台的电子书阅读器，支持多种电子书格式（这个是web版）<br/><a class=""outline"" href=""https://github.com/troyeguo/koodo-reader"" role=""button"" target=""_blank"">访问仓库</a></p>",https://reader.960960.xyz/,文件处理
 pdf2md,<p>一个可以把pdf文件转换成markdown的网站，不过转换效果不是很完美<br/></p>,https://pdf2md.morethan.io/,文件处理
 图形方格纸,<p>一款自定义纸张模板的网页，主要用来制作各种大小的田字格/拼音、作业本、信纸、分镜表等模板，并用来打印。免费，高自定义（纸张大小、方向、边框、留白、标题、横线等等）能设计出你要想的绝大多数纸张模板。<br/></p>,https://www.mygraphpaper.com/index.php?lang=zh-hans,文件处理
 USDoc,<p>可以在线预览Word、Excel、PPT文件的网站<br/></p>,http://usdoc.cn/use.html,文件处理
 微软在线文档预览,<p>微软提供的文档在线预览接口，可以在线预览Word、Excel、PPT文件的网站，把文件url填写到“?src=”后即可。<br/></p>,https://view.officeapps.live.com/op/view.aspx?src=,文件处理
-百度网盘秒传链接转存,<p>可以在线把百度网盘的秒传链接转存到自己网盘的网站，不需要安装插件<br/><a class="outline" href="https://github.com/mengzonefire/baidupan-rapidupload" role="button" target="_blank">GitHub仓库</a></p>,https://mengzonefire.github.io/baidupan-rapidupload/,文件处理
+百度网盘秒传链接转存,"<p>可以在线把百度网盘的秒传链接转存到自己网盘的网站，不需要安装插件<br/><a class=""outline"" href=""https://github.com/mengzonefire/baidupan-rapidupload"" role=""button"" target=""_blank"">GitHub仓库</a></p>",https://mengzonefire.github.io/baidupan-rapidupload/,文件处理
 PDG2PDF,<p>一个可以把超星库下载的pdg文件压缩包在线转换为pdf的网站，真的很方便<br/></p>,https://pdg2pdf.online/convert,文件处理
 Split PDF pages down the middle,<p>可以把双页扫描的PDF从中间切开的网站<br/></p>,https://www.sejda.com/split-pdf-down-the-middle,文件处理
 音子AI,<p>一个可以用AI分离人声和伴奏的网站，对中文支持较好，需要注册，可以免费使用<br/></p>,https://app.yinziai.com/#/,文件处理
 萤火虫文件转换,<p>一个可以把知网下载的CAJ格式论文在线转换成PDF格式的网站，需要微信扫码登陆<br/></p>,https://firefly.libertynlp.com/#/docConvert,文件处理
 批量文件重命名,<p>一个可以在线给文件批量重命名的网站。偶尔有这种需求的话，倒也不用特意下载一个软件<br/></p>,https://rename.jgrass.xyz/,文件处理
 WebRename,<p>另一个在线文件批量重命名工具，无需下载&amp;安装，支持大文件与多种重命名模式，一键批量完成文件重命名，高效便捷<br/></p>,https://webrename.cn/,文件处理
-Flow,一个免费、开源、纯前端的浏览器阅读器，支持Epub等书，阅读体验不错,https://app.flowoss.com/zh-CN,文件处理
-Resumd,一个可以用Markdown做简历的网站，支持导出PDF，但是样式比较基础,https://resumd.t9t.io/,文件处理
-木及简历,一个支持用Markdown做简历的网站，模板比较美观，需要登录使用,https://www.mujicv.com/editor/,文件处理
-Markdown简历,一个支持用Markdown做简历的网站，模板比较美观，可以免登录使用,https://resume.mdnice.com/,文件处理
-PDFのテキスト変換,非常少见的能把竖排PDF转txt的网站。虽然是日语但是用起来很简单,https://www.petitmonte.com/labo/pdf2text/,文件处理
-MarkdownDocx,一个非常方便的在线Markdown转Docx网站，也在<a href="https://github.com/vace/markdown-docx">GitHub</a>上开源。开箱即用，非常优雅,https://md-docx.vace.me/,文件处理
-TurnDown,一个支持把Html转成Markdown的纯前端工具。提供了一个Demo界面可以让你直接把HTML转换成Markdown，非常方便，同时也在<a href="https://github.com/mixmark-io/turndown">GitHub</a>开源,https://mixmark-io.github.io/turndown/,文件处理
-Ensō,一个在线写作平台，一次只能输入一行字，不能删改。思路是先写再改，理念非常有意思,https://sonnet.io/posts/ulysses,文件处理
-思绪思维导图,一个非常美观漂亮的在线思维导图工具,https://wanglin2.github.io/mind-map/#/,文件处理
 CatBox,一个匿名文件上传平台，可以上传最大200M的文件,https://catbox.moe/,文件传输
 Fatbox,CatBox的TOR代理，支持使用TOR将文件上传至CatBox,https://fatbox.moe/,文件传输
-文件快递柜,通过输入取件码匿名传递文件的网站，同时也开源在<a href="https://github.com/vastsa/FileCodeBox">GitHub</a>,https://share.lanol.cn/#/,文件传输
-Upload.ee,一个来自爱沙尼亚的第一个也是唯一一个免费空间服务，使用者可以将文件上传、生成下载链接或通过Email 与其他人共享。无需注册就能使用，支持最大单个文件不超过100 MB（注册后可提高到200 MB）。,https://www.upload.ee/,文件传输
-CatBox,一个匿名文件上传平台，可以上传最大200M的文件,https://catbox.moe/,文件传输
-Fatbox,CatBox的TOR代理，支持使用TOR将文件上传至CatBox,https://fatbox.moe/,文件传输
-文件快递柜,通过输入取件码匿名传递文件的网站，同时也开源在<a href="https://github.com/vastsa/FileCodeBox">GitHub</a>,https://share.lanol.cn/#/,文件传输
+文件快递柜,"通过输入取件码匿名传递文件的网站，同时也开源在<a href=""https://github.com/vastsa/FileCodeBox"">GitHub</a>",https://share.lanol.cn/#/,文件传输
 Upload.ee,一个来自爱沙尼亚的第一个也是唯一一个免费空间服务，使用者可以将文件上传、生成下载链接或通过Email 与其他人共享。无需注册就能使用，支持最大单个文件不超过100 MB（注册后可提高到200 MB）。,https://www.upload.ee/,文件传输
 WeTransfer,<p>免费且开箱即用的临时文件传输网站。<br/></p>,https://wetransfer.com/,临时网盘
 SendAnywhere,<p>免费且开箱即用的临时文件传输网站（全平台友好）。<br/></p>,https://send-anywhere.com/,临时网盘
@@ -998,11 +959,11 @@ Airportal,<p>免费且开箱即用的临时文件传输网站（页面很简洁�
 pCloud Transfer,<p>免费且开箱即用的临时文件传输网站（最大可传送5GB的文件）。<br/></p>,https://transfer.pcloud.com/,临时网盘
 Wormhole,<p> 一个简单、私密（端到端加密）的网页文件传输工具，支持最大10GB的文件传输。文件会在服务器上保留24小时。<br/></p>,https://wormhole.app/,临时网盘
 MuseTransfer,<p>一款看起来还挺漂亮的临时网盘，无需注册即可使用，单文件最大 10GB，并未限制总容量，可保存 7 天、30天、1年，支持在线预览部分文件，可使用密码下载，登录后还可以查看文件传输记录。<br/></p>,https://musetransfer.com/,临时网盘
-SnapDrop,<p>一个可以让局域网内设备互传文件的网站。<br/><a class="outline" href="https://snapdrop.net" role="button" target="_blank">官方链接</a><br/><a class="outline" href="https://drop.ioiox.com" role="button" target="_blank">第三方链接(1)</a><br/><a class="outline" href="https://drop.bingchunmoli.com/" role="button" target="_blank">第三方链接(2)</a><br/><a class="outline" href="http://snapdrop.fairysoft.net/" role="button" target="_blank">第三方链接(3)</a><br/><a class="outline" href="https://www.wulingate.com/" role="button" target="_blank">魔改版链接</a></p>,https://snapdrop.net,临时网盘
+SnapDrop,"<p>一个可以让局域网内设备互传文件的网站。<br/><a class=""outline"" href=""https://snapdrop.net"" role=""button"" target=""_blank"">官方链接</a><br/><a class=""outline"" href=""https://drop.ioiox.com"" role=""button"" target=""_blank"">第三方链接(1)</a><br/><a class=""outline"" href=""https://drop.bingchunmoli.com/"" role=""button"" target=""_blank"">第三方链接(2)</a><br/><a class=""outline"" href=""http://snapdrop.fairysoft.net/"" role=""button"" target=""_blank"">第三方链接(3)</a><br/><a class=""outline"" href=""https://www.wulingate.com/"" role=""button"" target=""_blank"">魔改版链接</a></p>",https://snapdrop.net,临时网盘
 Catbox,<p>一个很二次元的匿名文件上传网站，最大可以上传200M的文件，好处是永远不会过期。<br/>用之前建议读一下FAQ，有一些行为是被禁止的。<br/></p>,https://catbox.moe/,临时网盘
-金鱼网盘,<p>一个不限大小的匿名文件传输工具，可以保存7天文件。<br/><i>* 这个是作者建的demo，更多的是为了方便自己使用，所以请珍惜，不要滥用。同时这也是一个开源程序，如果你有服务器，也可以考虑自己建一个。</i><br/><a class="outline" href="https://gitee.com/lovefc/jinyu" role="button" target="_blank">源码地址</a></p>,http://jinyu.lovefc.cn/,临时网盘
+金鱼网盘,"<p>一个不限大小的匿名文件传输工具，可以保存7天文件。<br/><i>* 这个是作者建的demo，更多的是为了方便自己使用，所以请珍惜，不要滥用。同时这也是一个开源程序，如果你有服务器，也可以考虑自己建一个。</i><br/><a class=""outline"" href=""https://gitee.com/lovefc/jinyu"" role=""button"" target=""_blank"">源码地址</a></p>",http://jinyu.lovefc.cn/,临时网盘
 GigaFile,<p>一个匿名文件上传网盘，无需注册，单个文件最大300g，电脑网页更可以直接拖动文件夹，最多可以保存100天。缺点是界面比较丑，并且是日文的。<br/></p>,https://gigafile.nu/,临时网盘
-Firefox Send社区版,<p>Firefox Send由于被滥用已经被关闭了，这是社区托管的一个版本。同时你也可以自己下载源代码并构建自己的版本<br/><a class="outline" href="https://gitlab.com/timvisee/send" role="button" target="_blank">查看代码</a></p>,https://send.zcyph.cc/,临时网盘
+Firefox Send社区版,"<p>Firefox Send由于被滥用已经被关闭了，这是社区托管的一个版本。同时你也可以自己下载源代码并构建自己的版本<br/><a class=""outline"" href=""https://gitlab.com/timvisee/send"" role=""button"" target=""_blank"">查看代码</a></p>",https://send.zcyph.cc/,临时网盘
 Transfer.zip,<p>一个可以点对点传输文件的网站，无需注册，没有文件大小限制<br/></p>,https://transfer.zip/about/,临时网盘
 KOOFR,<p></p>,https://koofr.eu/,没有被墙且支持WebDav的云盘
 TeraCLOUD,<p></p>,https://teracloud.jp/en/,没有被墙且支持WebDav的云盘
@@ -1031,15 +992,15 @@ MyScript Math,<p>一个可以将手写公式转换成LaTeX代码的网站<br/></
 彩云小梦尝鲜版,<p>（需登录）可AI续写文章的网站，拿来应付一些不太重要的文章可用。<br/></p>,https://if.caiyunai.com/,文章生成器
 中文假文产生器,<p>可以产生繁体中文的假文，方便用来做网页测试。<br/></p>,https://textgen.cqd.tw/,文章生成器
 Lorem Ipsum,<p>一个英文假文产生网站，方便用来做网页测试。<br/></p>,https://lipsum.com/,文章生成器
-CopyBook,<p>一个开源的文案项目，包含产品中常用的文案（英文）<br/><a class="outline" href="https://github.com/praveenjuge/copybook/" role="button" target="_blank">查看源码</a></p>,https://copybook.me/,文章生成器
-ChatGPT,<p>一个基于GPT的聊天型人工智能，目前已经可以写出基本可用的文章，注册方法见教程<br/><a class="outline" href="https://51.ruyo.net/18252.html" role="button" target="_blank">查看教程</a></p>,https://chat.openai.com/,文章生成器
-全字库,<p>中华民国出品的字库，很全<br/>授权情况<a href="https://www.cns11643.gov.tw/pageView.jsp?ID=59" target="_blank">见此</a><br/></p>,https://www.cns11643.gov.tw/pageView.jsp?ID=59,字符检索
+CopyBook,"<p>一个开源的文案项目，包含产品中常用的文案（英文）<br/><a class=""outline"" href=""https://github.com/praveenjuge/copybook/"" role=""button"" target=""_blank"">查看源码</a></p>",https://copybook.me/,文章生成器
+ChatGPT,"<p>一个基于GPT的聊天型人工智能，目前已经可以写出基本可用的文章，注册方法见教程<br/><a class=""outline"" href=""https://51.ruyo.net/18252.html"" role=""button"" target=""_blank"">查看教程</a></p>",https://chat.openai.com/,文章生成器
+全字库,"<p>中华民国出品的字库，很全<br/>授权情况<a href=""https://www.cns11643.gov.tw/pageView.jsp?ID=59"" target=""_blank"">见此</a><br/></p>",https://www.cns11643.gov.tw/pageView.jsp?ID=59,字符检索
 特殊字,<p>一款基于 Unicode 的全球字符知识图谱和智能检索系统，你可以通过网页进行手写识别，进而更方便的输入生僻字、特殊符号、表情符号、Emoji。<br/></p>,https://teshuzi.com/zh/handwriting/,字符检索
 Unicode 字符百科,<p>一个可以通过Unicode码查找字符，或者根据字符查找Unicode码的网站。<br/></p>,https://unicode-table.com/cn/,字符检索
 日语字符信息搜索系统,<p>日本文字技术情报促进协会开发的字符检索系统，可以检索中日韩字符的基本信息<br/></p>,https://moji.or.jp/mojikibansearch/,字符检索
 Unicode汉字异体信息字典,<p>韩国人开发的字符检索系统，可以检索到中日韩字符及拓展字符，并提供其在字典上位置信息。<br/>参考字典：《康熙字典》（中华书局，1958）；《汉语大字》(湖北辞书出版社， 1988)；《大汉和辞典》（大修馆书店，1960）；《中国与韩国研究》（檀国大学东方学研究院，2008）<br/></p>,http://waks.aks.ac.kr/unicode/,字符检索
 拼音IPA,<p>通过此页面，您可以轻松输入国??际音标 (IPA) 的音标。您可以在框中编辑文本，然后将其复制到文档、电子邮件等中。<br/></p>,https://ipa.typeit.org/full/,字符检索
-可以申请的基金,<p>15-25岁朋友可以申请的基金，有直接帮你付全部大学学费的，有给你的项目 $1k - $50k 的，有让你免费去参加培训的，还有付你工资让你参加培训的，面向全球年轻人。<br/><a class="outline" href="http://archive.today/8k9Iw" role="button" target="_blank">【W】备份</a></p>,https://m.weibo.cn/status/4770623845566624,RUN学专题
+可以申请的基金,"<p>15-25岁朋友可以申请的基金，有直接帮你付全部大学学费的，有给你的项目 $1k - $50k 的，有让你免费去参加培训的，还有付你工资让你参加培训的，面向全球年轻人。<br/><a class=""outline"" href=""http://archive.today/8k9Iw"" role=""button"" target=""_blank"">【W】备份</a></p>",https://m.weibo.cn/status/4770623845566624,RUN学专题
 DecisionMade加拿大移民频道,<p></p>,https://www.youtube.com/c/DecisionMade?app=desktop,跟中介/持牌挂钩的信息类渠道
 新生代移民事务所,<p>可以了解不少加拿大移民的信息，微信公众号的名字是快速通道<br/></p>,https://eoivisa.com/,跟中介/持牌挂钩的信息类渠道
 一些微信公众号,<p><b>哪儿移</b>：各国都会介绍一点<br/><b>加拿大留学移民联盟</b>：是中介，可以看看信息<br/><b>加在上海</b>：加拿大使馆官方公众号，会不定期有线上讲座可以听听也可以提问<br/><b>ABIC移民</b>：加拿大相关<br/><b>阎佐红</b>：申请加拿大学签可以翻翻案例之类的参考一下<br/><b>daad</b>：（主要是德国）定期举办各种线上讲座，包括各个学校的招生讲座。</p>,,跟中介/持牌挂钩的信息类渠道
@@ -1058,8 +1019,8 @@ StudyPortals,<p>可以根据专业、国家、费用、学制、上课方式、�
 MathematicsGRE,<p>数学系专用，主要是大家汇报offer的论坛（英文）。可以查看和自己相似条件的人收到哪些offer，也可以随便逛逛看有哪些项目。<br/></p>,https://mathematicsgre.com/,移民留学信息获取渠道
 公民与社会发展科/通识教育科网上资源平台,<p>一个香港通识教育科课程资源册系列的电子书，PDF可以直接下载。由于这是教师用书，更能直观看出课程设计、教学大纲和知识点。<br/></p>,https://ls.edb.hkedcity.net/tc/about_RelatedPublications.php,公民教育/性教育
 CEU Press provides free access to ten of its titles on Ukraine,<p>中欧大学出版的关于乌克兰地区政治形势的电子书<br/></p>,https://ceupress.com/article/2022-03-01/ceu-press-provides-free-access-ten-its-titles-ukraine,公民教育/性教育
-【W】应对喝茶小贴士,<p>象友的经验之谈<br/><a class="outline" href="https://alive.bar/@evelinece/108243911905307867" role="button" target="_blank">查看</a></p>,https://alive.bar/@evelinece/108243911905307867,公民教育/性教育
-【W】反洗脑思维导图,<p>下载该Html文件后打开查看<br/><a class="outline" href="https://raw.githubusercontent.com/mylifewaiting/brainwashing/master/brainwash.html" role="button" target="_blank">查看</a></p>,https://raw.githubusercontent.com/mylifewaiting/brainwashing/master/brainwash.html,公民教育/性教育
+【W】应对喝茶小贴士,"<p>象友的经验之谈<br/><a class=""outline"" href=""https://alive.bar/@evelinece/108243911905307867"" role=""button"" target=""_blank"">查看</a></p>",https://alive.bar/@evelinece/108243911905307867,公民教育/性教育
+【W】反洗脑思维导图,"<p>下载该Html文件后打开查看<br/><a class=""outline"" href=""https://raw.githubusercontent.com/mylifewaiting/brainwashing/master/brainwash.html"" role=""button"" target=""_blank"">查看</a></p>",https://raw.githubusercontent.com/mylifewaiting/brainwashing/master/brainwash.html,公民教育/性教育
 性/别研究室,<p>国立中央大学性／別研究室的出版讯息，点進去有电子书，有些分简繁。<br/></p>,https://sex.ncu.edu.tw/index.html,公民教育/性教育
 WCD China,<p>世界避孕日网站，提供一些避孕相关的信息<br/></p>,https://www.china-wcd.com/,公民教育/性教育
 KnowSex,<p>一个性教育网站，内容适合初中及以上阶段的人群阅读。<br/></p>,https://knowsex.net/,公民教育/性教育
@@ -1067,11 +1028,11 @@ KnowSex,<p>一个性教育网站，内容适合初中及以上阶段的人群阅
 法律白话文运动,<p>專注打造台灣法律文化的垂直媒體。從法律認識議題，從議題反思法律。<br/></p>,https://plainlaw.me/,公民教育/性教育
 花惹法理學,<p>來吧！英美法理學與政治哲學 | Blog for Legal Philosophy<br/></p>,https://wtfjurisprudence.wordpress.com/,公民教育/性教育
 哲学新媒体,<p>台湾哲学网站，内含当今美国比较新的自由主义理论，罗尔斯主义（也叫New liberals）的科普<br/></p>,https://philomedium.com/,公民教育/性教育
-上海交通大学学生生存手册,<p>号称本科自救指南的一本小册子，挺有意思的，值得一读<br/><a class="outline" href="http://www.houxiaodi.com/assets/misc/manual.pdf" role="button" target="_blank">PDF下载</a><br/><a class="outline" href="https://survivesjtu.gitbook.io/survivesjtumanual/" role="button" target="_blank">在线阅读</a><br/><a class="outline" href="https://survivesjtu.github.io/SJTU-Application/#/" role="button" target="_blank">飞跃手册</a></p>,http://www.houxiaodi.com/assets/misc/manual.pdf,公民教育/性教育
+上海交通大学学生生存手册,"<p>号称本科自救指南的一本小册子，挺有意思的，值得一读<br/><a class=""outline"" href=""http://www.houxiaodi.com/assets/misc/manual.pdf"" role=""button"" target=""_blank"">PDF下载</a><br/><a class=""outline"" href=""https://survivesjtu.gitbook.io/survivesjtumanual/"" role=""button"" target=""_blank"">在线阅读</a><br/><a class=""outline"" href=""https://survivesjtu.github.io/SJTU-Application/#/"" role=""button"" target=""_blank"">飞跃手册</a></p>",http://www.houxiaodi.com/assets/misc/manual.pdf,公民教育/性教育
 【W】台大开放式课程,<p>台湾大学提供的开放式课程，涵盖了很多领域，提供PPT课件。<br/></p>,http://ocw.aca.ntu.edu.tw/ntu-ocw/,课程
-PAPAYA电脑教室,<p>一个台湾人出品的电脑办公软件教学，有系统的Word、PowerPoint、Excel、PhotoShop教学，以及一些其他的在线工具教学，讲的很细，很好理解。<br/><a class="outline" href="https://www.youtube.com/channel/UCdEpz2A4DzV__4C1x2quKLw" role="button" target="_blank">【W】访问课程（YouTube）</a><br/></p>,https://www.youtube.com/channel/UCdEpz2A4DzV__4C1x2quKLw,课程
+PAPAYA电脑教室,"<p>一个台湾人出品的电脑办公软件教学，有系统的Word、PowerPoint、Excel、PhotoShop教学，以及一些其他的在线工具教学，讲的很细，很好理解。<br/><a class=""outline"" href=""https://www.youtube.com/channel/UCdEpz2A4DzV__4C1x2quKLw"" role=""button"" target=""_blank"">【W】访问课程（YouTube）</a><br/></p>",https://www.youtube.com/channel/UCdEpz2A4DzV__4C1x2quKLw,课程
 Johnny学的公开课,<p>一个关于obsidian的讲解课程，这个视频所在的合集下还有一个提升直播课，看完这两个视频，基本功就差不多了（总计约6h），进阶一点的话，这个up的主页下有个“学ob”的分类。<br/></p>,https://www.bilibili.com/video/av421407255,课程
-【W】超虚弱人类健身指南,<p>不能算是指南，只能算是心得分享<br/>适合在学生阶段从未独立跑过800米、上两层台阶就喘的“超虚弱人类”<br/>1、<a href="https://www.bilibili.com/video/BV1B54y1Q72M" target="_blank">脚尖不离地热身</a><br/>前三天只做这个，告诉身体“我要运动了”<br/>只要放弃超过一周就从这个再开始<br/>另外<a href="https://space.bilibili.com/503479504/" target="_blank">这个UP主</a>的视频都短、简单、操作性强、实测有效，可以自行选择做做<br/>2、<a href="https://www.bilibili.com/video/BV1jt411x7zZ" target="_blank">PUMP IT UP2004第1-2节</a><br/>最开始先完成第一节，第二节看着做，做不完也没关系<br/>3、室内走<br/><a href="https://www.bilibili.com/video/BV1ev41187Wp" target="_blank">保护膝盖有氧运动</a><br/>4、<a href="https://www.bilibili.com/video/BV1Sx411r7y" target="_blank">入门级拉伸</a><br/><a class="outline" href="https://malu.today/@malu/106233302510948378" role="button" target="_blank">【W】原文地址</a></p>,https://www.bilibili.com/video/BV1B54y1Q72M,课程
+【W】超虚弱人类健身指南,"<p>不能算是指南，只能算是心得分享<br/>适合在学生阶段从未独立跑过800米、上两层台阶就喘的“超虚弱人类”<br/>1、<a href=""https://www.bilibili.com/video/BV1B54y1Q72M"" target=""_blank"">脚尖不离地热身</a><br/>前三天只做这个，告诉身体“我要运动了”<br/>只要放弃超过一周就从这个再开始<br/>另外<a href=""https://space.bilibili.com/503479504/"" target=""_blank"">这个UP主</a>的视频都短、简单、操作性强、实测有效，可以自行选择做做<br/>2、<a href=""https://www.bilibili.com/video/BV1jt411x7zZ"" target=""_blank"">PUMP IT UP2004第1-2节</a><br/>最开始先完成第一节，第二节看着做，做不完也没关系<br/>3、室内走<br/><a href=""https://www.bilibili.com/video/BV1ev41187Wp"" target=""_blank"">保护膝盖有氧运动</a><br/>4、<a href=""https://www.bilibili.com/video/BV1Sx411r7y"" target=""_blank"">入门级拉伸</a><br/><a class=""outline"" href=""https://malu.today/@malu/106233302510948378"" role=""button"" target=""_blank"">【W】原文地址</a></p>",https://www.bilibili.com/video/BV1B54y1Q72M,课程
 Scitable by nature EDUCATION,<p>《自然》期刊旗下，面向本科生和高中生的遗传学及细胞生物学资源网站，似乎不再更新了，但存档的都还能看。也有很多环境科学的有趣东西。<br/></p>,https://www.nature.com/scitable/,课程
 洪后防疫科普手册,<p>由原子团整理的一些洪水可能诱发的身心健康问题以及简单的诊断和处理措施，包含生理篇与心理篇，所有内容均交由在岗医生审核通过。<br/></p>,https://1.gover.ml/,课程
 FreeCodeCamp,<p>一个互动式编程学习网站，课程质量不错，有中文<br/></p>,https://www.freecodecamp.org/chinese/,课程
@@ -1079,21 +1040,20 @@ Udemy,<p>一个在线课程学习平台<br/></p>,https://www.udemy.com/,课程
 从零开始了解波斯,<p>一个英文的波斯相关播客<br/></p>,https://podcasts.apple.com/us/podcast/history-of-persia/id1452677220,课程
 商业简报网,<p>一个台湾老师制作的PPT教学网站，同时也有一些PPT模板和小组件可供下载<br/></p>,https://www.pook.com.tw/,课程
 古埃及练习曲,<p>一个中文埃及学博客，翻译介绍一些关于埃及的资料。<br/></p>,https://egyptianpractice.com/,课程
-【W】Google工程师带你学编程,<p>一个Google工程师出品的面向零基础人群的编程课。<br/><a class="outline" href="https://docs.google.com/forms/d/e/1FAIpQLSdwWnCvD31tVp0IGgEGV5ILqTvUp5huoxyrgzS_-ficO2Z2sQ/viewform?fbzx=-3697804490486520350" role="button" target="_blank">报名表单</a><br/><a class="outline" href="https://docs.google.com/document/d/1CyWQMCepViYVvVz-ESAKXiWGOhj-SXk_SybrvC0Mogw/" role="button" target="_blank">学习指南</a></p>,https://docs.google.com/forms/d/e/1FAIpQLSdwWnCvD31tVp0IGgEGV5ILqTvUp5huoxyrgzS_-ficO2Z2sQ/viewform?fbzx=-3697804490486520350,课程
+【W】Google工程师带你学编程,"<p>一个Google工程师出品的面向零基础人群的编程课。<br/><a class=""outline"" href=""https://docs.google.com/forms/d/e/1FAIpQLSdwWnCvD31tVp0IGgEGV5ILqTvUp5huoxyrgzS_-ficO2Z2sQ/viewform?fbzx=-3697804490486520350"" role=""button"" target=""_blank"">报名表单</a><br/><a class=""outline"" href=""https://docs.google.com/document/d/1CyWQMCepViYVvVz-ESAKXiWGOhj-SXk_SybrvC0Mogw/"" role=""button"" target=""_blank"">学习指南</a></p>",https://docs.google.com/forms/d/e/1FAIpQLSdwWnCvD31tVp0IGgEGV5ILqTvUp5huoxyrgzS_-ficO2Z2sQ/viewform?fbzx=-3697804490486520350,课程
 GeeksForGeeks,<p>一个可以自学编程的网站<br/></p>,https://www.geeksforgeeks.org/,课程
 Exercism,<p>一个可以自学编程的网站<br/></p>,https://exercism.org/,课程
 CodePen,<p>面向前端设计人员和开发人员的社交开发环境。构建和部署网站、展示您的作品、构建测试用例以学习和调试并寻找灵感。<br/></p>,https://codepen.io/,课程
-Exercism,<p>一个可以自学编程的网站<br/></p>,https://exercism.org/,课程
 Programming Historian,<p>发布初学者友好、经过同行评审的教程，帮助人文学者学习各种数字工具、技术和工作流，以促进研究和教学。<br/></p>,https://programminghistorian.org/,课程
 可汗学院,<p>一个免费的非盈利在线教育网站，可以学习数学、科学、编程等课程，需要注册账号<br/></p>,https://zh.khanacademy.org/,课程
 数字时代生存手记,<p>一份关于网络安全的指导手册<br/></p>,https://reconsidera.github.io/zh/,网络安全
-【W】推荐的代理,<p><i>2022年推荐的代理方式</i><br/><a class="outline" href="https://kwaa.moe/objects/ab72a271-0bae-49ba-94e5-e6bdec8afbf3" role="button" target="_blank">查看</a></p>,https://kwaa.moe/objects/ab72a271-0bae-49ba-94e5-e6bdec8afbf3,网络安全
-【W】上网安全,<p>一条关于上网安全的嘟文<br/><a class="outline" href="https://alive.bar/web/@cmx/108225370022958679" role="button" target="_blank">查看</a></p>,https://alive.bar/web/@cmx/108225370022958679,网络安全
+【W】推荐的代理,"<p><i>2022年推荐的代理方式</i><br/><a class=""outline"" href=""https://kwaa.moe/objects/ab72a271-0bae-49ba-94e5-e6bdec8afbf3"" role=""button"" target=""_blank"">查看</a></p>",https://kwaa.moe/objects/ab72a271-0bae-49ba-94e5-e6bdec8afbf3,网络安全
+【W】上网安全,"<p>一条关于上网安全的嘟文<br/><a class=""outline"" href=""https://alive.bar/web/@cmx/108225370022958679"" role=""button"" target=""_blank"">查看</a></p>",https://alive.bar/web/@cmx/108225370022958679,网络安全
 【W】键政新手包,<p>网络安全相关<br/></p>,https://mastodon.online/@CapComGang/108213394378429562,网络安全
-阿里云英语学习资源,<p>互联网上搜集的一些英语学习资源，大部分是阿里云盘的形式<br/>【英语学习系列合集】<br/>《Kristin英语课堂》核心VIP会员课程(185节课)<br/><a href="https://www.aliyundrive.com/s/JL9FgvDgcff" target="_blank">https://www.aliyundrive.com/s/JL9FgvDgcff</a><br/>《Little Fox一起快乐学英语》<a href="https://www.aliyundrive.com/s/3kDCbPVe3uw" target="_blank">https://www.aliyundrive.com/s/3kDCbPVe3uw</a><br/>《Reading Exporer》第2版 F-5级【外教课】全144集<br/><a href="https://www.aliyundrive.com/s/jUGxHgLzXAC" target="_blank">https://www.aliyundrive.com/s/jUGxHgLzXAC</a><br/>【学而思】乐学英语口语1-6级全<br/><a href="https://www.aliyundrive.com/s/ZMBngD6fHbX" target="_blank">https://www.aliyundrive.com/s/ZMBngD6fHbX</a><br/>牛津树、RAZ、KIDS等全包括<br/><a href="https://www.aliyundrive.com/s/HijxaWCCNKL" target="_blank">https://www.aliyundrive.com/s/HijxaWCCNKL</a><br/>【DK-Help Your Kids Series】<br/><a href="https://www.aliyundrive.com/s/pgXEko7G3QX" target="_blank">https://www.aliyundrive.com/s/pgXEko7G3QX</a><br/>经典英文原著(黑猫系列1-6级)-MP3+中英文本+纯英文本格式。适合：小学、中学、大学，分为1-6个级别，不论你是小学、中学、大学均可选读。<br/>1级：适合四、五、六年级学生阅读<br/>2级：适合七年级学生阅读<br/>3级：适合八年级学生阅读<br/>4级：适合九年级学生阅读<br/>5-6级：适合高中及大学生阅读<br/><a href="https://www.aliyundrive.com/s/eyNiGfVqG8L" target="_blank">https://www.aliyundrive.com/s/eyNiGfVqG8L</a><br/><a href="https://www.aliyundrive.com/s/3Gb9dhh2kFJ" target="_blank">https://www.aliyundrive.com/s/3Gb9dhh2kFJ</a></p>,https://www.aliyundrive.com/s/JL9FgvDgcff,英语
-英语语法笔记,<p>一个从零开始学习英语语法的项目，写的比较清晰<br/><a class="outline" href="https://github.com/hzpt-inet-club/english-note" role="button" target="_blank">项目地址</a></p>,https://hzpt-inet-club.github.io/english-note/,英语
-离谱的英语学习指南,<p>一个稍微进阶一点的英语学习指南<br/><a class="outline" href="https://github.com/byoungd/English-level-up-tips/" role="button" target="_blank">项目地址</a></p>,https://byoungd.github.io/English-level-up-tips/,英语
-A Programmer's Guide to English,<p>专为程序员编写的英语学习指南。<br/><a class="outline" href="https://github.com/yujiangshui/A-Programmers-Guide-to-English" role="button" target="_blank">项目地址</a></p>,https://a-programmers-guide-to-english.harryyu.me/,英语
+阿里云英语学习资源,"<p>互联网上搜集的一些英语学习资源，大部分是阿里云盘的形式<br/>【英语学习系列合集】<br/>《Kristin英语课堂》核心VIP会员课程(185节课)<br/><a href=""https://www.aliyundrive.com/s/JL9FgvDgcff"" target=""_blank"">https://www.aliyundrive.com/s/JL9FgvDgcff</a><br/>《Little Fox一起快乐学英语》<a href=""https://www.aliyundrive.com/s/3kDCbPVe3uw"" target=""_blank"">https://www.aliyundrive.com/s/3kDCbPVe3uw</a><br/>《Reading Exporer》第2版 F-5级【外教课】全144集<br/><a href=""https://www.aliyundrive.com/s/jUGxHgLzXAC"" target=""_blank"">https://www.aliyundrive.com/s/jUGxHgLzXAC</a><br/>【学而思】乐学英语口语1-6级全<br/><a href=""https://www.aliyundrive.com/s/ZMBngD6fHbX"" target=""_blank"">https://www.aliyundrive.com/s/ZMBngD6fHbX</a><br/>牛津树、RAZ、KIDS等全包括<br/><a href=""https://www.aliyundrive.com/s/HijxaWCCNKL"" target=""_blank"">https://www.aliyundrive.com/s/HijxaWCCNKL</a><br/>【DK-Help Your Kids Series】<br/><a href=""https://www.aliyundrive.com/s/pgXEko7G3QX"" target=""_blank"">https://www.aliyundrive.com/s/pgXEko7G3QX</a><br/>经典英文原著(黑猫系列1-6级)-MP3+中英文本+纯英文本格式。适合：小学、中学、大学，分为1-6个级别，不论你是小学、中学、大学均可选读。<br/>1级：适合四、五、六年级学生阅读<br/>2级：适合七年级学生阅读<br/>3级：适合八年级学生阅读<br/>4级：适合九年级学生阅读<br/>5-6级：适合高中及大学生阅读<br/><a href=""https://www.aliyundrive.com/s/eyNiGfVqG8L"" target=""_blank"">https://www.aliyundrive.com/s/eyNiGfVqG8L</a><br/><a href=""https://www.aliyundrive.com/s/3Gb9dhh2kFJ"" target=""_blank"">https://www.aliyundrive.com/s/3Gb9dhh2kFJ</a></p>",https://www.aliyundrive.com/s/JL9FgvDgcff,英语
+英语语法笔记,"<p>一个从零开始学习英语语法的项目，写的比较清晰<br/><a class=""outline"" href=""https://github.com/hzpt-inet-club/english-note"" role=""button"" target=""_blank"">项目地址</a></p>",https://hzpt-inet-club.github.io/english-note/,英语
+离谱的英语学习指南,"<p>一个稍微进阶一点的英语学习指南<br/><a class=""outline"" href=""https://github.com/byoungd/English-level-up-tips/"" role=""button"" target=""_blank"">项目地址</a></p>",https://byoungd.github.io/English-level-up-tips/,英语
+A Programmer's Guide to English,"<p>专为程序员编写的英语学习指南。<br/><a class=""outline"" href=""https://github.com/yujiangshui/A-Programmers-Guide-to-English"" role=""button"" target=""_blank"">项目地址</a></p>",https://a-programmers-guide-to-english.harryyu.me/,英语
 muitin?,<p>端传媒的镜像文章<br/><i>虽然但是...有钱还是建议去支持一下他们啦（笑）</i><br/></p>,https://agora0.gitlab.io/blog/initium/,资讯
 查询国内外论文,<p>一些查询国内外论文的方法<br/></p>,http://web.lib.ntu.edu.tw/question//node/44,资讯
 Mixkit Sound,<p>一家专门提供各种免费、可商用素材的网站。<br/></p>,https://mixkit.co/free-sound-effects/bleep/,素材相关
@@ -1106,28 +1066,27 @@ WordArt,<p>这是一家主打把词云打印在衣服上、杯子上、卡片上
 Coverr,<p>一个免费可商用的航拍视频素材网站。<br/></p>,https://coverr.co/,其他
 3DModelsCC0,<p>一个基于 CC0 授权的 3D 模型库，可直接下载 .obj 格式，可用于 3D 打印。<br/></p>,https://www.3dmodelscc0.com/,其他
 100font,<p>一个收集可商用字体的网站。<br/></p>,https://www.100font.com/,其他
-欧洲古典服饰,<p>网友搜集的服装素材相关书籍，大范围是欧洲古典服饰，搜集的目标是17th-18th法国服饰（密码36s9xc，失效不补）<br/><a class="outline" href="https://share.weiyun.com/sdabuMRX" role="button" target="_blank">查看资源</a></p>,https://share.weiyun.com/sdabuMRX,其他
+欧洲古典服饰,"<p>网友搜集的服装素材相关书籍，大范围是欧洲古典服饰，搜集的目标是17th-18th法国服饰（密码36s9xc，失效不补）<br/><a class=""outline"" href=""https://share.weiyun.com/sdabuMRX"" role=""button"" target=""_blank"">查看资源</a></p>",https://share.weiyun.com/sdabuMRX,其他
 Videezy,<p>有更多向量计算的视频，找火焰啊、水啊、墨水啊、光线啊，这种无主题性的素材这边比较好找<br/></p>,https://www.videezy.com/,其他
 motiontable,<p>一个特效资源库，可以下载一些图形特效周期表<br/></p>,http://foxcodex.html.xdomain.jp/index.html,其他
 缓动函数速查表,<p>可以做图形移动速度的网站<br/></p>,https://easings.net/cn,其他
 Textures for 3D,<p>一个3D模型素材库<br/></p>,https://www.textures.com/library,其他
-Mixkit,<p>一个免费的视频素材网站，具体授权情况<a href="https://mixkit.co/license/" target="_blank">见此</a><br/></p>,https://mixkit.co/license/,其他
-【W】免费可商用的36个字体,<p>台湾网友整理的<br/><a class="outline" href="https://forum.gamer.com.tw/C.php?bsn=60076&amp;snA=3906436" role="button" target="_blank">访问网站</a></p>,https://forum.gamer.com.tw/C.php?bsn=60076&snA=3906436,其他
+Mixkit,"<p>一个免费的视频素材网站，具体授权情况<a href=""https://mixkit.co/license/"" target=""_blank"">见此</a><br/></p>",https://mixkit.co/license/,其他
+【W】免费可商用的36个字体,"<p>台湾网友整理的<br/><a class=""outline"" href=""https://forum.gamer.com.tw/C.php?bsn=60076&amp;snA=3906436"" role=""button"" target=""_blank"">访问网站</a></p>",https://forum.gamer.com.tw/C.php?bsn=60076&snA=3906436,其他
 动画素材,<p>一个免费的动画素材网站<br/></p>,http://xn--hhro09bn9j8uh.com/,其他
 Bunny Fonts,<p>一个开源的网络字体平台。除了 Google Font 之外的另一个最佳选择。没有中文字体。<br/></p>,https://fonts.bunny.net/,其他
-Emoji Mart,<p>一个开源的用于web 的表情选择器 HTML 组件<br/><a class="outline" href="https://github.com/missive/emoji-mart" role="button" target="_blank">查看源码</a></p>,https://missiveapp.com/open/emoji-mart,其他
+Emoji Mart,"<p>一个开源的用于web 的表情选择器 HTML 组件<br/><a class=""outline"" href=""https://github.com/missive/emoji-mart"" role=""button"" target=""_blank"">查看源码</a></p>",https://missiveapp.com/open/emoji-mart,其他
 字集,<p>一个分享免费可商用的正版中文字体的网站<br/></p>,https://wordshub.github.io/free-font/,其他
 HTML5UP,<p>一个免费的网站模板提供网站，都是现代化的网页设计。<br/></p>,https://html5up.net/,其他
 OS Templates,<p>另一个网站模板提供网站<br/></p>,https://www.os-templates.com/,其他
-书法字体,支持直接输入文字集字，有历代书法家的作品，非常方便,http://www.shufaziti.com/,其他
 Tabler Icons,<p>一个基于 MIT 许可证的免费 SVG 图标服务，提供了 558 个不同的图标，可自定义颜色、大小、线条粗细，一键导出 HTML 代码。<br/></p>,https://tablericons.com/,图标
 ハンコでアソブ,<p>一些日式西洋风、手账风、艺术感之类的很好用的小ICON，都是PNG档，免费可商用，无需署名<br/></p>,http://hankodeasobu.com/,图标
-icooon-mono,<p>非常简洁现代的ICON，选色选下载文件（甚至是SVG都可以），使用时请参照其<a href="https://icooon-mono.com/license/" target="_blank">使用条款</a><br/></p>,https://icooon-mono.com/license/,图标
-SILHOUETTE DESIGN,<p>一个皮影风格的图标库，使用条款<a href="https://kage-design.com/terms-of-use/" target="_blank">见此</a><br/></p>,https://kage-design.com/terms-of-use/,图标
-flaticon,<p>免费的矢量图标网站，使用条款<a href="https://www.freepikcompany.com/legal#nav-flaticon-agreement" target="_blank">见此</a><br/></p>,https://www.freepikcompany.com/legal#nav-flaticon-agreement,图标
+icooon-mono,"<p>非常简洁现代的ICON，选色选下载文件（甚至是SVG都可以），使用时请参照其<a href=""https://icooon-mono.com/license/"" target=""_blank"">使用条款</a><br/></p>",https://icooon-mono.com/license/,图标
+SILHOUETTE DESIGN,"<p>一个皮影风格的图标库，使用条款<a href=""https://kage-design.com/terms-of-use/"" target=""_blank"">见此</a><br/></p>",https://kage-design.com/terms-of-use/,图标
+flaticon,"<p>免费的矢量图标网站，使用条款<a href=""https://www.freepikcompany.com/legal#nav-flaticon-agreement"" target=""_blank"">见此</a><br/></p>",https://www.freepikcompany.com/legal#nav-flaticon-agreement,图标
 ICONFINDER,<p>一个付费的图标素材网站<br/></p>,https://www.iconfinder.com/,图标
-Simple Icons,<p>一个开源的图标库，可以下载很多品牌的 SVG 的标志?LOGO?图标。<br/><a class="outline" href="https://github.com/simple-icons/simple-icons" role="button" target="_blank">查看源码</a></p>,https://simpleicons.org/,图标
-Flag-icons,<p>一个开源项目，所有国家国旗标志的 SVG 集合，可以下载，也可以引用 CSS<br/><a class="outline" href="https://github.com/lipis/flag-icons" role="button" target="_blank">查看源码</a></p>,https://flagicons.lipis.dev/,图标
+Simple Icons,"<p>一个开源的图标库，可以下载很多品牌的 SVG 的标志?LOGO?图标。<br/><a class=""outline"" href=""https://github.com/simple-icons/simple-icons"" role=""button"" target=""_blank"">查看源码</a></p>",https://simpleicons.org/,图标
+Flag-icons,"<p>一个开源项目，所有国家国旗标志的 SVG 集合，可以下载，也可以引用 CSS<br/><a class=""outline"" href=""https://github.com/lipis/flag-icons"" role=""button"" target=""_blank"">查看源码</a></p>",https://flagicons.lipis.dev/,图标
 VectorWiki,<p>可以免费搜索和下载任何矢量的品牌标志<br/></p>,https://vectorwiki.com/,图标
 Jam Icons,<p>940 个 SVG 图标素材，可以免费下载使用<br/></p>,https://jam-icons.com/,图标
 Crypto Logos,<p>一个收录加密货币标志的免费图库，可搜索查找，每个加密货币图标都有透明背景的 .PNG 和矢量图 .SVG 格式，点选就能立即下载，有一些加密货币标志还会列出他们历年标志更新历史。<br/></p>,https://cryptologos.cc/,图标
@@ -1145,7 +1104,7 @@ Icones,<p>另一个基于Iconify的图标搜索引擎<br/></p>,https://icones.js
 PNGIMG,<p>一个提供纯色背景的png素材的网站，但版权情况比较复杂<br/></p>,https://pngimg.com/,图片
 Unsplash,<p>一个免费的照片共享网站。<br/></p>,https://unsplash.com/,图片
 Pixabay,<p>免费无版权的正版高清图片素材库。<br/></p>,https://pixabay.com/zh/,图片
-Pexels,<p>一个免费可商用的图库。<br/>（这个图库对照片的使用有一些规则，详情请参见：<a href="https://pexels-help.zendesk.com/hc/en-us/articles/360042332714-What-are-the-rules-for-using-Pexels-photos-or-videos-" target="_blank">这里</a>）<br/></p>,https://pexels-help.zendesk.com/hc/en-us/articles/360042332714-What-are-the-rules-for-using-Pexels-photos-or-videos-,图片
+Pexels,"<p>一个免费可商用的图库。<br/>（这个图库对照片的使用有一些规则，详情请参见：<a href=""https://pexels-help.zendesk.com/hc/en-us/articles/360042332714-What-are-the-rules-for-using-Pexels-photos-or-videos-"" target=""_blank"">这里</a>）<br/></p>",https://pexels-help.zendesk.com/hc/en-us/articles/360042332714-What-are-the-rules-for-using-Pexels-photos-or-videos-,图片
 BgGenerator,<p>一个免费创建高分辨率背景图片的在线工具：背景生成器，有中文版。这个工具提供了 7 种不同的背景创建类型，然后可以通过随机算法生成独一无二的高分辨率的背景图片。<br/></p>,https://bggenerator.com/zh-cn.php,图片
 Blush,<p> AI生成无版权插画的网站。<br/></p>,https://blush.design/zh-CN,图片
 CoolBackgrounds,<p>可以生成5种炫酷背景的网站。<br/></p>,https://coolbackgrounds.io/,图片
@@ -1154,34 +1113,34 @@ Mega Creator,<p>著名的图标库 Icons8 推出的免费矢量插图设计工�
 Openverse,<p>适用于图片的搜索引擎，提供了超过 3 亿张可使用的免费图片，来源于公开的 API 以及 Common Crawl 数据库。<br/></p>,https://wordpress.org/openverse/?referrer=creativecommons.org,图片
 Pixel Me,<p>可以将插画，3d图片，真实照片，通通转成像素画，支持自动扣图，转换效果较好<br/><b>注意：这个网站转换的图片商用并不是免费的！</b><br/></p>,https://pixel-me.tokyo/en/,图片
 ThisPersonDoesNotExist,<p>可以用AI生成一个不存在的人脸的网站。<br/></p>,https://thispersondoesnotexist.com/,图片
-かわいいフリー素材集 いらすとや,<p>一个画风比较古早的日式卡通贴图素材网站，商用时请参照该网站的<a href="https://www.irasutoya.com/p/terms.html" target="_blank">使用条款</a><br/></p>,https://www.irasutoya.com/p/terms.html,图片
+かわいいフリー素材集 いらすとや,"<p>一个画风比较古早的日式卡通贴图素材网站，商用时请参照该网站的<a href=""https://www.irasutoya.com/p/terms.html"" target=""_blank"">使用条款</a><br/></p>",https://www.irasutoya.com/p/terms.html,图片
 StickPNG,<p>一个透明背景的PNG素材网站，有很多灵活的素材，有分类型主题，但不可商用，版权问题比较复杂<br/></p>,https://www.stickpng.com/,图片
 StorySet,<p>英文课本插画风的图片，图片可以设定动作、显示项目和主题颜色<br/></p>,https://storyset.com/,图片
-フリー素材ぱくたそ,<p>免费可商用的图库，但有一些限制条款，具体请<a href="https://www.pakutaso.com/userpolicy.html" target="_blank">见此</a><br/></p>,https://www.pakutaso.com/userpolicy.html,图片
+フリー素材ぱくたそ,"<p>免费可商用的图库，但有一些限制条款，具体请<a href=""https://www.pakutaso.com/userpolicy.html"" target=""_blank"">见此</a><br/></p>",https://www.pakutaso.com/userpolicy.html,图片
 AI?EPS,<p>一个免费素材网站<br/></p>,https://www.xn--eckzb3bzhw32znfcp1zduw.com/,图片
 8sukeの人物イラスト屋,<p>一个人物素材网站，卡通向，矢量素材收费<br/></p>,https://www.8suke.net/,图片
-罫線,<p>免费可商用的分割线网站，使用条款<a href="http://free-line-design.com/?page_id=17" target="_blank">见此</a><br/></p>,http://free-line-design.com/?page_id=17,图片
+罫線,"<p>免费可商用的分割线网站，使用条款<a href=""http://free-line-design.com/?page_id=17"" target=""_blank"">见此</a><br/></p>",http://free-line-design.com/?page_id=17,图片
 Freepik,<p>一下设计图库，只要标注网站几乎能使用上面八成以上的设计资源，从背景、设计好的海报到简历菜单统统都有，每一项上都写了各自的CC要求，能商用的素材也非常多，唯一的缺点是免费版每天能下载的次数很少，要慎选图库里的资料，提供的原档大多是esp档，用免费软件inkscape就可以开启编辑<br/></p>,https://www.freepik.com/,图片
-猫画工房,<p>一个以猫猫为主题的素材网站，使用条款<a href="https://nekoillust.com/terms-of-service/" target="_blank">见此</a><br/><del>猫猫，嘿嘿，猫猫！</del><br/></p>,https://nekoillust.com/terms-of-service/,图片
+猫画工房,"<p>一个以猫猫为主题的素材网站，使用条款<a href=""https://nekoillust.com/terms-of-service/"" target=""_blank"">见此</a><br/><del>猫猫，嘿嘿，猫猫！</del><br/></p>",https://nekoillust.com/terms-of-service/,图片
 【W】無料背景 - アキ二号機のイラスト,<p>一位Pixiv画师提供的一些免费使用的场景图，使用需标明出处<br/></p>,https://www.pixiv.net/users/61071305/illustrations/%E7%84%A1%E6%96%99%E8%83%8C%E6%99%AF,图片
 Paper-co,<p>一个免费可商用的纸张纹理素材网站。<br/></p>,https://free-paper-texture.com/,图片
-mokcup,<p>免费可商用的模型素材网站，使用时需要遵循一些<a href="https://mockups-design.com/license/" target="_blank">许可</a><br/></p>,https://mockups-design.com/license/,图片
-ガーリー素材,<p>一个画风偏少女的免费可商用素材网站，使用许可<a href="http://girlysozai.com/about/" target="_blank">见此</a><br/></p>,http://girlysozai.com/about/,图片
+mokcup,"<p>免费可商用的模型素材网站，使用时需要遵循一些<a href=""https://mockups-design.com/license/"" target=""_blank"">许可</a><br/></p>",https://mockups-design.com/license/,图片
+ガーリー素材,"<p>一个画风偏少女的免费可商用素材网站，使用许可<a href=""http://girlysozai.com/about/"" target=""_blank"">见此</a><br/></p>",http://girlysozai.com/about/,图片
 Stock Up,<p>一个聚合式图片网站，大部分是免费素材，把鼠标悬停在图片上可查看授权情况<br/></p>,https://stockup.sitebuilderreport.com/,图片
-Free stock photos,<p>一个免费可商用的素材网站，需要遵循<a href="https://kaboompics.com/page/license-and-faq" target="_blank">许可协议</a><br/></p>,https://kaboompics.com/page/license-and-faq,图片
+Free stock photos,"<p>一个免费可商用的素材网站，需要遵循<a href=""https://kaboompics.com/page/license-and-faq"" target=""_blank"">许可协议</a><br/></p>",https://kaboompics.com/page/license-and-faq,图片
 Skitterphoto,<p>一个收集CC0授权的图片素材网站，免费可商用，无需署名<br/></p>,https://skitterphoto.com/,图片
 無料写真素材 東京デート,<p>一个以东京为主题的免费可商用素材网站<br/></p>,https://www.tokyo-date.net/,图片
 Artvee,<p>这个网站收录的是古典艺术作品，完全免费浏览和下载高分辨率的公共领域艺术品。<br/></p>,https://artvee.com/,图片
-chalk.ist,<p>一个开源的代码截图美化工具<br/><a class="outline" href="https://github.com/Idered/chalk.ist" role="button" target="_blank">查看源码</a></p>,https://chalk.ist/,图片
+chalk.ist,"<p>一个开源的代码截图美化工具<br/><a class=""outline"" href=""https://github.com/Idered/chalk.ist"" role=""button"" target=""_blank"">查看源码</a></p>",https://chalk.ist/,图片
 Reshot,<p>一个免费的图标，矢量插画，图片下载的网站，可以直接下载矢量源文件，SVG等，无套路无广告无付费，素材都可以商用<br/></p>,https://www.reshot.com/,图片
-pika,<p>一个可以生成浏览器截图的开源工具<br/><a class="outline" href="https://github.com/rishimohan/pika" role="button" target="_blank">查看源码</a></p>,https://pika.style/,图片
+pika,"<p>一个可以生成浏览器截图的开源工具<br/><a class=""outline"" href=""https://github.com/rishimohan/pika"" role=""button"" target=""_blank"">查看源码</a></p>",https://pika.style/,图片
 Meshgradient,<p>在线调整渐变壁纸背景的工具<br/></p>,https://meshgradient.com/,图片
 無料効果音で遊ぼう！,<p>一个音效网站，分主题，电流声啊翻书声啊到僵尸的吼声啊击剑声啊都有，换成日文版东西更多<br/></p>,https://taira-komori.jpn.org/freesound.html,音乐/音效
 【W】PeriTune,<p>一个免费音乐素材频道，是日本人，和风曲啊中世纪战斗啊有点中二啊之类的音乐很棒，标题里带着ほのぼの的曲子很多也很适合做一般视频的配乐<br/></p>,https://www.youtube.com/c/PeriTune/videos,音乐/音效
 【W】NoCopyrightSounds,<p>非常西方的免费音乐频道，很适合用来做那种科技、现代、流行的风格，缺点是曲子没有情绪分类只有乐风、要一个一个听，建议有空时就慢慢听备着用，使用时需要告知来源<br/></p>,https://www.youtube.com/channel/UC_aEa8K-EOJ3D6gOs7HcyNg,音乐/音效
 【W】Vlog No Copyright Music,<p>一个西方的免费音乐频道，曲子多半很适合旅游、休闲的视频，提供按情绪分类的清单，使用时需要列出来源<br/></p>,https://www.youtube.com/c/VlogNoCopyrightMusic/featured,音乐/音效
-フリー音楽素材MusMus,<p>一个以爵士、轻松风格音乐居多的音乐素材网站，只要标明出处就能免费商用。同时他们也有油管频道。<br/><a class="outline" href="https://www.youtube.com/channel/UCQuMmwxT25MPI1E0YXwARhA" role="button" target="_blank">油管频道</a></p>,https://musmus.main.jp/,音乐/音效
-H/MIX GALLERY,<p>一个很不错的音乐素材网站，非商用可免费，商用需<a href="http://www.hmix.net/music_gallery/info.htm" target="_blank">付费</a><br/></p>,http://www.hmix.net/music_gallery/info.htm,音乐/音效
+フリー音楽素材MusMus,"<p>一个以爵士、轻松风格音乐居多的音乐素材网站，只要标明出处就能免费商用。同时他们也有油管频道。<br/><a class=""outline"" href=""https://www.youtube.com/channel/UCQuMmwxT25MPI1E0YXwARhA"" role=""button"" target=""_blank"">油管频道</a></p>",https://musmus.main.jp/,音乐/音效
+H/MIX GALLERY,"<p>一个很不错的音乐素材网站，非商用可免费，商用需<a href=""http://www.hmix.net/music_gallery/info.htm"" target=""_blank"">付费</a><br/></p>",http://www.hmix.net/music_gallery/info.htm,音乐/音效
 Flowful,<p>一个由生成器生成的音乐的网站，无需注册，无需付费，永远不会结束。有十几种不同主题特色的生成器供选择，很适合冥想。<br/></p>,https://flowful.app/,音乐/音效
 波斯语睡前故事,<p>一个用波斯语讲睡前故事的播客<br/></p>,https://podcasts.apple.com/us/podcast/persian-night-story/id1338732915,波斯语
 【W】柏林广场A1,<p>大佬上传到YouTube的德语课程<br/></p>,https://www.youtube.com/watch?v=2IHVwey8FV0,德语
@@ -1195,19 +1154,19 @@ Lesestart 德语绘本,<p>适合1-3岁孩子看的德语绘本，可以拿来当
 千亿词霸,<p>可以查词的同时，也可以进行在线翻译。它将每一个词条按照不同专业进行分类，这针对俄语中的一词多义现象，词义显示更清晰。<br/></p>,http://www.igimu.com/,俄语
 译酷俄语,<p>一个俄语学习翻译网站，它可以查到一些词组的专业释义，并带有发音、词组、例句解释等。<br/></p>,http://ru.yicool.cn/,俄语
 灵格斯,<p>一款简明易用的词典与文本翻译软件，可支持多种语言翻译，不需要网络也可以查询单词，在网络情况下可以进行多语言的全文翻译转换。只要去官网下载软件与字典包便可安装使用<br/></p>,http://www.lingoes.cn/,俄语
-拉丁语汉语简明词典,<p>由雷立柏编写的拉-中词典，是PDF格式的，需要下载使用<br/><a class="outline" href="https://downloads.freemdict.com/uploads/Ludovicus/%E6%8B%89%E4%B8%81%E8%AF%AD-%E6%90%AC%E8%BF%90/%E9%9B%B7%E7%AB%8B%E6%9F%8F%E2%80%94%E7%AE%80%E6%98%8E%E6%8B%89%E4%B8%81%E8%AF%AD%E6%95%99%E7%A8%8B_.pdf" role="button" target="_blank">下载文件</a></p>,https://downloads.freemdict.com/uploads/Ludovicus/%E6%8B%89%E4%B8%81%E8%AF%AD-%E6%90%AC%E8%BF%90/%E9%9B%B7%E7%AB%8B%E6%9F%8F%E2%80%94%E7%AE%80%E6%98%8E%E6%8B%89%E4%B8%81%E8%AF%AD%E6%95%99%E7%A8%8B_.pdf,拉丁语
-Lewis & Short,<p>一个拉-英的词典，有很多的数字化项目，但比较老了<br/><a class="outline" href="https://alatius.com/ls/" role="button" target="_blank">网站1</a><br/><a class="outline" href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059" role="button" target="_blank">网站2</a><br/><a class="outline" href="http://archimedes.fas.harvard.edu/pollux/" role="button" target="_blank">网站3</a><br/><a class="outline" href="http://latinlexicon.org/index.php" role="button" target="_blank">网站4</a><br/><a class="outline" href="http://logeion.uchicago.edu/index.html" role="button" target="_blank">网站5</a><br/><a class="outline" href="http://athirdway.com/glossa/" role="button" target="_blank">网站6</a><br/><a class="outline" href="http://philolog.us/" role="button" target="_blank">网站7</a></p>,https://alatius.com/ls/,拉丁语
+拉丁语汉语简明词典,"<p>由雷立柏编写的拉-中词典，是PDF格式的，需要下载使用<br/><a class=""outline"" href=""https://downloads.freemdict.com/uploads/Ludovicus/%E6%8B%89%E4%B8%81%E8%AF%AD-%E6%90%AC%E8%BF%90/%E9%9B%B7%E7%AB%8B%E6%9F%8F%E2%80%94%E7%AE%80%E6%98%8E%E6%8B%89%E4%B8%81%E8%AF%AD%E6%95%99%E7%A8%8B_.pdf"" role=""button"" target=""_blank"">下载文件</a></p>",https://downloads.freemdict.com/uploads/Ludovicus/%E6%8B%89%E4%B8%81%E8%AF%AD-%E6%90%AC%E8%BF%90/%E9%9B%B7%E7%AB%8B%E6%9F%8F%E2%80%94%E7%AE%80%E6%98%8E%E6%8B%89%E4%B8%81%E8%AF%AD%E6%95%99%E7%A8%8B_.pdf,拉丁语
+Lewis & Short,"<p>一个拉-英的词典，有很多的数字化项目，但比较老了<br/><a class=""outline"" href=""https://alatius.com/ls/"" role=""button"" target=""_blank"">网站1</a><br/><a class=""outline"" href=""http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059"" role=""button"" target=""_blank"">网站2</a><br/><a class=""outline"" href=""http://archimedes.fas.harvard.edu/pollux/"" role=""button"" target=""_blank"">网站3</a><br/><a class=""outline"" href=""http://latinlexicon.org/index.php"" role=""button"" target=""_blank"">网站4</a><br/><a class=""outline"" href=""http://logeion.uchicago.edu/index.html"" role=""button"" target=""_blank"">网站5</a><br/><a class=""outline"" href=""http://athirdway.com/glossa/"" role=""button"" target=""_blank"">网站6</a><br/><a class=""outline"" href=""http://philolog.us/"" role=""button"" target=""_blank"">网站7</a></p>",https://alatius.com/ls/,拉丁语
 Gaffiot,<p>一个拉-法在线词典<br/></p>,https://micmap.org/dicfro/introduction/gaffiot,拉丁语
-【W】拉丁语汉语词典,<p>由谢大任编写的拉-中词典，质量堪忧，但可以参考使用，是PDF格式，需要下载使用<br/><a class="outline" href="https://zh.b-ok.cc/book/3572273/87f34f" role="button" target="_blank">下载文件</a></p>,https://zh.b-ok.cc/book/3572273/87f34f,拉丁语
-【W】拉丁汉文辞典,<p>由吴金瑞编写的拉-中词典，是PDF格式，需要下载使用<br/><a class="outline" href="https://zh.b-ok.cc/book/3403668/fe2f03" role="button" target="_blank">下载文件</a></p>,https://zh.b-ok.cc/book/3403668/fe2f03,拉丁语
-【W】Oxford Latin Dictionary,<p>一个拉-英词典，PDF格式，需要下载使用<br/><a class="outline" href="https://zh.b-ok.cc/book/3647306/d6b88d" role="button" target="_blank">下载文件</a></p>,https://zh.b-ok.cc/book/3647306/d6b88d,拉丁语
-Logeion,<p>一个在线的拉丁语、希腊语-英语的词典，由芝加哥大学开发，也有IOS版的软件<br/><a class="outline" href="https://apps.apple.com/us/app/logeion/id727860177" role="button" target="_blank">APP STORE</a></p>,https://logeion.uchicago.edu/lexidium,拉丁语
+【W】拉丁语汉语词典,"<p>由谢大任编写的拉-中词典，质量堪忧，但可以参考使用，是PDF格式，需要下载使用<br/><a class=""outline"" href=""https://zh.b-ok.cc/book/3572273/87f34f"" role=""button"" target=""_blank"">下载文件</a></p>",https://zh.b-ok.cc/book/3572273/87f34f,拉丁语
+【W】拉丁汉文辞典,"<p>由吴金瑞编写的拉-中词典，是PDF格式，需要下载使用<br/><a class=""outline"" href=""https://zh.b-ok.cc/book/3403668/fe2f03"" role=""button"" target=""_blank"">下载文件</a></p>",https://zh.b-ok.cc/book/3403668/fe2f03,拉丁语
+【W】Oxford Latin Dictionary,"<p>一个拉-英词典，PDF格式，需要下载使用<br/><a class=""outline"" href=""https://zh.b-ok.cc/book/3647306/d6b88d"" role=""button"" target=""_blank"">下载文件</a></p>",https://zh.b-ok.cc/book/3647306/d6b88d,拉丁语
+Logeion,"<p>一个在线的拉丁语、希腊语-英语的词典，由芝加哥大学开发，也有IOS版的软件<br/><a class=""outline"" href=""https://apps.apple.com/us/app/logeion/id727860177"" role=""button"" target=""_blank"">APP STORE</a></p>",https://logeion.uchicago.edu/lexidium,拉丁语
 Forvo发音指南,<p>一个提供各种语言发音的网站，由用户提供读音，还有一些方言收录。<br/></p>,https://zh.forvo.com/languages/,其他
 The Fable Cotage,<p>一个双语绘本网站，支持英法意西德语，可以作为初学者的阅读材料。<br/></p>,https://www.thefablecottage.com/,其他
 【W】维基词典,<p>一个由志愿者编纂的多语言词典计划，它旨在囊括各种语言词汇的语源、读音和解释。<br/></p>,https://zh.wiktionary.org/,其他
 inspod（安卓）,<p>兼容podcasts和YouTube，打关键帧+自动出字幕+做笔记，内置检索你想要的频道<br/></p>,https://www.inspod.io/zh-cn,其他
 Linguee,<p>一个词典，可以提供很多例句<br/></p>,https://www.linguee.com/,其他
-PReVo,<p>一个开源的世（世界语）-世（世界语）词典，是安卓软件<br/><a class="outline" href="https://github.com/bpeel/prevo" role="button" target="_blank">查看源码</a></p>,https://www.busydoingnothing.co.uk/prevo/,其他
+PReVo,"<p>一个开源的世（世界语）-世（世界语）词典，是安卓软件<br/><a class=""outline"" href=""https://github.com/bpeel/prevo"" role=""button"" target=""_blank"">查看源码</a></p>",https://www.busydoingnothing.co.uk/prevo/,其他
 言語資料検索システム,<p>一个可以在线查询满、蒙、汉语词汇及语料的词典<br/></p>,http://hkuri.cneas.tohoku.ac.jp/guide/guide.html,其他
 nihongo switch,<p>收听非常方便，官网无需翻墙可以直接收听，也可下载用音乐软件收听，同时官网贴有transcript，也有上传youtube，自带日语字幕，b站有合集，可以自行选择适合的收听方式。内容会涉及一些日本文化相关或者一些比较地道的词汇用语，每周更新一集，目前集数已有110+，时长10-15左右，难度未标注。<br/>象友体验：我个人感觉N3-N1不等，通常culture类会难度高一些，vocabulary类会简单一些，我个人感觉随着集数增加有慢慢变短变简单的趋势。主播语速类似于N3听力，用语更偏向于书面语，跟普通对话的说话方式不同，会有一些长句，非常适合跟读和shadowing。但是我自己感觉语调和用词会ちょっと古い感じ ，想要练习日常对话可能不合适<br/></p>,https://nihongoswitch.com/,日文播客
 the real Japanese podcast,<p>Podcast/Spotify 可收听。youtube有上传视频，带有日语cc字幕，也有台湾听众做的中文字幕。内容会方面主要是会根据听众的request每集讲一个主题，包括文化，社会议题、アニメ等等，每周更新一集，目前集数已有140+，时长偏短，10-20min不等。<br/>象友体验：走在路上听也很方便。每集会标注难度，基本集中在N3-N2， 偶尔会有N1难度，不过不知道是不是我自己词汇量有偏重，我个人听起来感觉标注的难度不是很准。语速是日常会话语速，短句和口癖偏多，不适合跟读，但很适合练听力，说话的腔调和方式也更年轻オシャレ一些<br/></p>,https://nihongoswitch.com/,日文播客
@@ -1216,8 +1175,8 @@ mall talk in Japanese,<p>Podcast / Spotify 可收听，主播是两个女生，�
 【W】yuyuの日本語podcast,<p>Podcast/Spotify 可收听，没有transcript。youtube有上传视频，并配有日语字幕，但是上传会比音源那边晚一段时间。每周更新一集，目前集数已有120+，内容包括他自己的生活和感悟还有一些日本文化相关，近期开了日本史的新系列。时长在20分钟左右，难度我个人感觉在N2-N1左右，日常会话语速，用语的正式程度介于上面两档节目之间，个人感觉不太适合跟读。<br/></p>,https://www.youtube.com/channel/UC8dWfySP_cKDMFj6aFfQbFA,日文播客
 時雨の町,<p>一个保姆级的自学日语网站<br/></p>,https://www.sigure.tw/,日语
 yuki先生的N2文法课,<p>优点：<br/>1.老师是native speaker，口音很自然，听起来很舒服；<br/>2.全日语教学，看评论N3水平应该就可以听懂，我个人比起中文教学更偏向这种，包括用日语来解答文法，我觉得更能贴近本身的语义，也更有利于练习听力；<br/>3.课程内容很轻松，老师本人非常可爱，每讲解一个语法都会有一个幽默短句，上课会觉得蛮有意思，不会有任务感<br/>缺点：<br/>1.因为是单独的文法课，单词听力口语方面可能还需要自己另外补充；<br/>2.本身不是单独面向中文学生而是面向海外（主越南）的教程，所以有一些语法可能对中文掌握者来说很显而易见；<br/>3.视频的时间比较早了，可能跟现在的N2文法要求有一些出入<br/></p>,https://www.bilibili.com/video/BV1JX4y1g7Hw,日语
-いろどり（irodori）,<p>一套偏向日语口语应用的教材，对话有框架可以背！除了对话，还有各种实际生活在日本会用上的，比较教怎么读传单，通知，怎么看说明书，手把手教学习者怎么开始新生活。目前三册电子版官网全免费开放下载！（配套的听力可以在喜马拉雅找到）<br/>提供有在线课程，可以作为课后练习，也适合自学者。几乎覆盖了自学者面临的所有情况，还设置了模拟对话的板块。对发音有自信/不在意发音，且注重日语实用性，有打算在日本生活的入门/初级学习者完全可以用这个网站自学。<br/><a class="outline" href="https://www.irodori.jpf.go.jp/index.html" role="button" target="_blank">官方网站</a><br/><a class="outline" href="https://www.irodori-online.jpf.go.jp/" role="button" target="_blank">在线课程</a></p>,https://www.irodori.jpf.go.jp/index.html,日语
-日语汉字学习,<p>可以参照中文维基的《学年別漢字配当表》《日語常用漢字》<br/><a class="outline" href="https://zh.m.wiktionary.org/wiki/Appendix:%E6%97%A5%E8%AA%9E%E5%B8%B8%E7%94%A8%E6%BC%A2%E5%AD%97" role="button" target="_blank">日語常用漢字</a><br/><a class="outline" href="https://zh.m.wiktionary.org/wiki/Appendix:%E6%95%99%E8%82%B2%E7%94%A8%E6%BC%A2%E5%AD%97" role="button" target="_blank">学年別漢字配当表</a></p>,https://zh.m.wiktionary.org/wiki/Appendix:%E6%97%A5%E8%AA%9E%E5%B8%B8%E7%94%A8%E6%BC%A2%E5%AD%97,日语
+いろどり（irodori）,"<p>一套偏向日语口语应用的教材，对话有框架可以背！除了对话，还有各种实际生活在日本会用上的，比较教怎么读传单，通知，怎么看说明书，手把手教学习者怎么开始新生活。目前三册电子版官网全免费开放下载！（配套的听力可以在喜马拉雅找到）<br/>提供有在线课程，可以作为课后练习，也适合自学者。几乎覆盖了自学者面临的所有情况，还设置了模拟对话的板块。对发音有自信/不在意发音，且注重日语实用性，有打算在日本生活的入门/初级学习者完全可以用这个网站自学。<br/><a class=""outline"" href=""https://www.irodori.jpf.go.jp/index.html"" role=""button"" target=""_blank"">官方网站</a><br/><a class=""outline"" href=""https://www.irodori-online.jpf.go.jp/"" role=""button"" target=""_blank"">在线课程</a></p>",https://www.irodori.jpf.go.jp/index.html,日语
+日语汉字学习,"<p>可以参照中文维基的《学年別漢字配当表》《日語常用漢字》<br/><a class=""outline"" href=""https://zh.m.wiktionary.org/wiki/Appendix:%E6%97%A5%E8%AA%9E%E5%B8%B8%E7%94%A8%E6%BC%A2%E5%AD%97"" role=""button"" target=""_blank"">日語常用漢字</a><br/><a class=""outline"" href=""https://zh.m.wiktionary.org/wiki/Appendix:%E6%95%99%E8%82%B2%E7%94%A8%E6%BC%A2%E5%AD%97"" role=""button"" target=""_blank"">学年別漢字配当表</a></p>",https://zh.m.wiktionary.org/wiki/Appendix:%E6%97%A5%E8%AA%9E%E5%B8%B8%E7%94%A8%E6%BC%A2%E5%AD%97,日语
 最最日语（App）,<p>适合入门，聚合了很多种教材，五十音和标日初级上下的课都可以免费看（其他教材我没用不太清楚）。平时没有广告，课程促销的点掉就不会再出现了。<br/>课程讲解是单词+语法，闯关练习是单词+口语。总之跟着系统安排的每日任务做就行了，平均一天大约30分钟，也可以自己调整。<br/></p>,http://www.xuewujing.com/,日语
 词典,<p>推荐日语词典app：大辞林和中日日中辞典。<br/>两个都是权威词典的电子版。两个app可以合并到物书堂的app里，输入一次可以同时在多个app里查找。ui做的非常轻快，查词速度很快，还可以查例句。尤其是中日日中辞典，在不知道中文词用日语怎么表达的时候参考一下例句里的不同用法特别好用！<br/>缺点就是贵吧……而且还老出新版而不是更新旧版……不过我用了七年感觉也用回本了，而且新词完全可以谷歌，不用着急更新。</p>,,日语
 吳語學堂,<p>吴语学堂是一个面向广泛受众、含有丰富及有益内容个吴语学习教育网站。 包括吴语区各地方言字音、词汇个免费在线吴语词典<br/></p>,https://www.wugniu.com/,吴语
@@ -1245,13 +1204,13 @@ ScriptSlug,<p>一个可以查剧本的网站，上面的内容都是免费公开
 粤典,<p>一个可以在线查询粤语词汇的字典<br/></p>,https://words.hk/,粤语
 【W】Z-Library,<p>一个免费的电子书共享社区，需要注册登录。注册后可以下载十本，直接搜索就能用，下载下来的多是PDF/EPUB/MOBI/AZW/AZW3格式的电子书。<br/></p>,https://singlelogin.re/,Zlibrary相关
 Z-Library中文书搜索引擎,<p>一个可以搜索并下载Zlibrary中标注为“中文”的书的搜索引擎<br/></p>,https://bk.hallowlib.org/,Zlibrary相关
-Pirate Library Mirror,<p>一个备份了截止到2022-09-25为止的Zlibrary资源的项目，内容只能通过TOR网络访问，需要全部下载后才能搜索。（也有网友提供了一个可以免TOR直接下载的地址）<br/><a class="outline" href="https://pangniao.net/Pirate-Library-Mirror.html" role="button" target="_blank">第三方免TOR地址</a></p>,http://pilimi.org/,Zlibrary相关
+Pirate Library Mirror,"<p>一个备份了截止到2022-09-25为止的Zlibrary资源的项目，内容只能通过TOR网络访问，需要全部下载后才能搜索。（也有网友提供了一个可以免TOR直接下载的地址）<br/><a class=""outline"" href=""https://pangniao.net/Pirate-Library-Mirror.html"" role=""button"" target=""_blank"">第三方免TOR地址</a></p>",http://pilimi.org/,Zlibrary相关
 zlib search,<p>一个Zlibrary资源的搜索网站<br/></p>,https://zlibsearch.1kbtool.com/,Zlibrary相关
-【W】Anna's Archive,<p>基于Pirate Library Mirror资源做的一个搜索引擎<br/>目前该站主站已被墙，故在此提供镜像站。<br/><a class="outline" href="https://annas-archive.org/search" role="button" target="_blank">访问主站</a><br/><a class="outline" href="https://zh.annas-archive.gs/" role="button" target="_blank">官方镜像站</a><br/><a class="outline" href="https://anna.zlib.ml/" role="button" target="_blank">第三方镜像站</a></p>,https://annas-archive.org/search,Zlibrary相关
+【W】Anna's Archive,"<p>基于Pirate Library Mirror资源做的一个搜索引擎<br/>目前该站主站已被墙，故在此提供镜像站。<br/><a class=""outline"" href=""https://annas-archive.org/search"" role=""button"" target=""_blank"">访问主站</a><br/><a class=""outline"" href=""https://zh.annas-archive.gs/"" role=""button"" target=""_blank"">官方镜像站</a><br/><a class=""outline"" href=""https://anna.zlib.ml/"" role=""button"" target=""_blank"">第三方镜像站</a></p>",https://annas-archive.org/search,Zlibrary相关
 【X】ALibrary,<p>另一个Zlibrary镜像项目。<br/><i><b>备注：</b>这个网站似乎是个盗链网站，用的是zlib.download的链接，但已经被原网站屏蔽了，因此只能搜索，不能下载，仅在此列出，不鼓励也不支持这种盗链行为。</i><br/></p>,https://alibrary.top/,Zlibrary相关
 Zlib镜像网址检测工具,<p>另一个收集第三方Zlibrary镜像站的网站<br/></p>,https://mirror.yibook.org/,Zlibrary相关
-Zlib.app,<p>一个Zlibrary的在线接口<br/><a class="outline" href="https://zlib.app/" role="button" target="_blank">项目主页</a><br/><a class="outline" href="https://search.zhelper.net/?[{%22name%22:%22zlib.app%22，%22url%22:%22https://api.zlib.app%22，%22type%22:%22full%22，%22sensitive%22:false，%22detail%22:false，%22download%22:%22https://d.zlib.app/download/%22}]" role="button" target="_blank">搜索地址</a></p>,https://zlib.app/,Zlibrary相关
-Ylibrary,<p>另一个去中心化的图书搜索项目，有一部分zlib的数据库<br/><a class="outline" href="https://ylibrary.org/" role="button" target="_blank">项目主页</a><br/><a class="outline" href="https://search.zhelper.net/?%5B%7B%22name%22:%22Ylibrary%22，%22url%22:%22https://api.ylibrary.org%22，%22type%22:%22full%22，%22sensitive%22:false，%22detail%22:true%7D%5D" role="button" target="_blank">搜索地址</a></p>,https://ylibrary.org/,Zlibrary相关
+Zlib.app,"<p>一个Zlibrary的在线接口<br/><a class=""outline"" href=""https://zlib.app/"" role=""button"" target=""_blank"">项目主页</a><br/><a class=""outline"" href=""https://search.zhelper.net/?[{%22name%22:%22zlib.app%22，%22url%22:%22https://api.zlib.app%22，%22type%22:%22full%22，%22sensitive%22:false，%22detail%22:false，%22download%22:%22https://d.zlib.app/download/%22}]"" role=""button"" target=""_blank"">搜索地址</a></p>",https://zlib.app/,Zlibrary相关
+Ylibrary,"<p>另一个去中心化的图书搜索项目，有一部分zlib的数据库<br/><a class=""outline"" href=""https://ylibrary.org/"" role=""button"" target=""_blank"">项目主页</a><br/><a class=""outline"" href=""https://search.zhelper.net/?%5B%7B%22name%22:%22Ylibrary%22，%22url%22:%22https://api.ylibrary.org%22，%22type%22:%22full%22，%22sensitive%22:false，%22detail%22:true%7D%5D"" role=""button"" target=""_blank"">搜索地址</a></p>",https://ylibrary.org/,Zlibrary相关
 CLibrary,<p>2022年9月建立的中文数字图书馆，图书来自Z-Library.<br/></p>,https://clibrary.top/,Zlibrary相关
 Zlibrary 镜像列表,<p>收集Z-Library镜像的新替代域名，长期有效，每1小时刷新一次<br/></p>,https://www.ooopn.com/tool/zlibrary/,Zlibrary相关
 奥地利文献,<p>超过12000 部奥地利文献，甚至包括明信片<br/></p>,https://www.literature.at/,奥地利语
@@ -1316,7 +1275,7 @@ NSC for Environmental Publications,<p>提供美国环境保护总署(EPA)出版�
 Science.gov,<p>美国“科学”网站收录内容以研究与开发报告为主，所有的信息均免费使用，也不必注册，但是通过这些站点链接的有些信息是限制使用或有条件使用的。<br/></p>,http://www.science.gov/,更多
 万方数据库,<p>万方数据库是由万方数据公司开发的，涵盖期刊、会议纪要、论文、学术成果、学术会议论文的大型网络数据库；也是和中国知网齐名的中国专业的学术数据库。整合数亿条全球优质学术资源，集成期刊、学位、会议、科技报告、专利、视频等十余种资源类型，覆盖各研究层次，感知用户学术背景，智慧搜索。致力于帮助用户精准发现、获取与沉淀学术精华。<br/></p>,http://www.wanfangdata.com.cn/index.html,更多
 中文社会科学引文索引（Chinese Social Sciences Citation Index）,<p>由南京大学中国社会科学研究评价中心开发研制的引文数据库，用来检索中文人文社会科学领域的论文收录和被引用情况。目前收录包括法学、管理学、经济学、历史学、政治学等在内的25大类的500多种学术期刊。<br/></p>,http://cssci.nju.edu.cn/,更多
-中国科学引文数据库,<p>Chinese Science Citation Database，简称CSCD，创建于1989年，收录我国数学、物理、化学、天文学、地学、生物学、农林科学、医药卫生、工程技术、环境科学和管理科学等领域出版的中英文科技核心期刊和优秀期刊千余种。<br/><a class="outline" href="http://apps.webofknowledge.com/CSCD\_GeneralSearch\_input.do?product=CSCD&amp;SID=8ChHhEqbhaoJPdGR6rg&amp;search\_mode=GeneralSearch" role="button" target="_blank">访问网站</a></p>,http://apps.webofknowledge.com/CSCD\_GeneralSearch\_input.do?product=CSCD&SID=8ChHhEqbhaoJPdGR6rg&search\_mode=GeneralSearch,更多
+中国科学引文数据库,"<p>Chinese Science Citation Database，简称CSCD，创建于1989年，收录我国数学、物理、化学、天文学、地学、生物学、农林科学、医药卫生、工程技术、环境科学和管理科学等领域出版的中英文科技核心期刊和优秀期刊千余种。<br/><a class=""outline"" href=""http://apps.webofknowledge.com/CSCD\_GeneralSearch\_input.do?product=CSCD&amp;SID=8ChHhEqbhaoJPdGR6rg&amp;search\_mode=GeneralSearch"" role=""button"" target=""_blank"">访问网站</a></p>",http://apps.webofknowledge.com/CSCD\_GeneralSearch\_input.do?product=CSCD&SID=8ChHhEqbhaoJPdGR6rg&search\_mode=GeneralSearch,更多
 新华文摘数据库,<p>《新华文摘》创刊于1979年，由国家新闻出版署主管、人民出版社主办、新华文摘杂志社编辑出版。作为大型理论性、综合性、资料性文摘类权威期刊，广涉千家报刊，精取天下文章，为广大读者提供了大量哲学社会科学新观点、新资料、新方法和文艺佳作。<br/></p>,http://www.xinhuawz.com/,更多
 人大复印报刊资料全文数据库,<p>中国人民大学复印报刊资料库，以人民大学书报资料中心的复印报刊资料系列数据库为内容基础，辅以先进的检索方式、优质的期刊、论文推荐而成的人文科学、社会科学资料库，汇集了自改革开放以来国内报刊公开发表近6000余种人文社科学术研究成果的精萃。<br/></p>,http://www.rdfybk.com/,更多
 人民日报图文数据全文检索系统,<p>《人民日报》图文数据库是中国最大的党政、时政类信息数据库。涵盖了自1946年至今的内容。该数据库可提供版次、作者、日期、标题、正文等字段的组合检索和全文检索，可方便快捷进行阅读与下载，且提供“原版样式”。<br/></p>,http://data.people.com.cn/rmrb/,更多
@@ -1340,8 +1299,8 @@ ResearchGATE?科学社交网站,<p>ResearchGATE是全球最大的科学社交网
 mathoverflow,<p>MathOverflow是StackExchangeNetwork技术问答网站一员，MathOverflow是一个互动数学网站是一种论坛式的交流互动模式是专业数学家的网络社区。<br/>该网站的最大特点就是用户可以在网站免费提交问题、浏览问题、索引相关学术内容。对问题或答案投票和评论，通过这些活动用户可以获取徽章和声望值。<br/></p>,http://mathoverflow.net/,更多
 中国社会科学网（免费）,<p>网站设50个栏目，将准确、及时报道国内外重大新闻，深度解析社会热点、难点问题，全面反映国内外学术动态。<br/></p>,http://www.cssn.cn/,更多
 文献检索,<p></p>,http://netl.istic.ac.cn/netl/index.jspNSTL,更多
-NIMS日本国立材料研究,<p>旗下有NIMS NOW International，NIMS所属的每月通讯，2003年7月成立。每月覆盖范围包括国立材料研究所的最新研究活动，管理政策，在国际合作方面取得的进展，世界著名学者的访问、优秀的研究人员和工作人员，以及其他信息，报告当前的科研进展以及材料科学的重要趋势。不仅如此，NIMS还具有在线材料数据库，绝对是查询材料参数的好去处。<br/><a class="outline" href="http://mits.nims.go.jp/index\_en.html" role="button" target="_blank">在线材料数据库地址</a></p>,http://www.nims.go.jp/eng/,更多
-Book系列,<p>Book系列网站书籍种类丰富，基本专业书籍都可找到免费下载。包括Bookie、Bookzz、Bookfi等，（Bookzz、Bookfi在Library Genesis的导航栏有，但是现在貌似打不开了）。均可免费下载文献和书籍，文献下载适合前几年的，书籍就不用说了，超级多！<br/>其中BookSC网站文献资料多。BookSC网站截止到今天，已有278多万书籍以及5242多万文献可以免费下载，大多数是pdf，djvu，eupb格式。下载也很方便，直接搜论文或者文章题目即可，还可将选择地区并设置成中国。BookSC网站体验很好，搜索后直接点下载就可以了，超级方便！<br/><a class="outline" href="http://bookzz.org/" role="button" target="_blank">BookZZ</a><br/><a class="outline" href="http://booksc.org/" role="button" target="_blank">BookSC</a><br/><a class="outline" href="http://en.booksee.org/" role="button" target="_blank">BookEE</a></p>,http://bookzz.org/,更多
+NIMS日本国立材料研究,"<p>旗下有NIMS NOW International，NIMS所属的每月通讯，2003年7月成立。每月覆盖范围包括国立材料研究所的最新研究活动，管理政策，在国际合作方面取得的进展，世界著名学者的访问、优秀的研究人员和工作人员，以及其他信息，报告当前的科研进展以及材料科学的重要趋势。不仅如此，NIMS还具有在线材料数据库，绝对是查询材料参数的好去处。<br/><a class=""outline"" href=""http://mits.nims.go.jp/index\_en.html"" role=""button"" target=""_blank"">在线材料数据库地址</a></p>",http://www.nims.go.jp/eng/,更多
+Book系列,"<p>Book系列网站书籍种类丰富，基本专业书籍都可找到免费下载。包括Bookie、Bookzz、Bookfi等，（Bookzz、Bookfi在Library Genesis的导航栏有，但是现在貌似打不开了）。均可免费下载文献和书籍，文献下载适合前几年的，书籍就不用说了，超级多！<br/>其中BookSC网站文献资料多。BookSC网站截止到今天，已有278多万书籍以及5242多万文献可以免费下载，大多数是pdf，djvu，eupb格式。下载也很方便，直接搜论文或者文章题目即可，还可将选择地区并设置成中国。BookSC网站体验很好，搜索后直接点下载就可以了，超级方便！<br/><a class=""outline"" href=""http://bookzz.org/"" role=""button"" target=""_blank"">BookZZ</a><br/><a class=""outline"" href=""http://booksc.org/"" role=""button"" target=""_blank"">BookSC</a><br/><a class=""outline"" href=""http://en.booksee.org/"" role=""button"" target=""_blank"">BookEE</a></p>",http://bookzz.org/,更多
 早稻田大学图书馆古籍数据库,<p>早稻田大学图书馆对外提供其馆藏的约 30 万册的部分古籍影像资料，日本古籍居多，也有大量中国古籍的扫描版本可供下载，是不可多得的珍贵资料。<br/></p>,https://www.wul.waseda.ac.jp/kotenseki/,日语
 青空文库,<p>日本文学著作( 格式包括 HTML ， ZIP(下载)和日文电子书格式)<br/></p>,https://www.aozora.gr.jp/,日语
 CiNii Articles – 日本の論文をさがす,<p>CiNii是日本国立情报研究所（National Institute of Informatics，简称NII）运营的日本最大的综合学术信息数据库，平台由3个数据库组成：<br/>CiNii Article收录了日本各学术机构及团体的期刊论文和大学学报论文，并可通过检索获取日本国会图书馆“日文期刊索引数据库”所收录的论文，索引文献较多，并含有相当数量的全文文献，可显示论文之间引用与被引用的情况。其中也有部分论文用英文或其他文字发表。<br/>CiNii Books可检索日本各大学图书馆的馆藏书刊的书目信息。<br/>CiNii Dissertations可检索日本大学及学位授予机构授予博士学位的学位论文，其中也包括部分公开的论文全文链接。<br/><br/></p>,http://ci.nii.ac.jp/,日语
@@ -1400,7 +1359,7 @@ SETIS悉尼大学学术电子文本及图像服务,<p></p>,https://digital.libra
 Project Gutenberg,<p>古登堡计划是世界上第一个数字图书馆，提供大量版权过期而进入公有领域的书籍（公版书）。<br/></p>,https://www.gutenberg.org/,英语
 【W】Open Library,<p>Open Library是互联网档案馆旗下的非营利网站暨在线图书馆项目，收录了许多公有领域图书的在线版本，旨在为每一本已出版的图书创建一个网页。<br/></p>,https://openlibrary.org/,英语
 Infomotions 西方文学/哲学,<p>包括自美国/英国的文学和西方哲学公开著作<br/></p>,http://infomotions.com/,英语
-康奈尔大学Arxiv,<p>收藏了物理，数学，非线性科学和计算机科学方面的数字化 "预印本" 出版物<br/></p>,https://arxiv.org/,英语
+康奈尔大学Arxiv,"<p>收藏了物理，数学，非线性科学和计算机科学方面的数字化 ""预印本"" 出版物<br/></p>",https://arxiv.org/,英语
 Bibliomania,<p>提供超过2000部免费电子文献，以及研究成果<br/></p>,http://www.bibliomania.com/,英语
 Cogprints,<p>有各类心理学，神经科学，语言学，哲学，生物学，人类学和计算机科学电子文献， 部分区域需要注册<br/></p>,http://cogprints.org/,英语
 印第安纳大学国际文献档案库,<p>这是一个服务公众的全文数字图书馆，作者可以提交著作，并被连入参考文献<br/></p>,https://dlc.dlib.indiana.edu/dlc/,英语
@@ -1423,12 +1382,12 @@ Bookyards,<p>Bookyards网站有24000+本电子书资源，同时包括电子书�
 Manybooks,<p>Manybooks是一个专门提供免费和打折电子书下载的网站，提供近3万本免费电子书。<br/></p>,https://manybooks.net/,英语
 三秋书屋,<p>一个电子书下载网站<br/></p>,https://www.sanqiu.mobi/,中文第三方电子书下载渠道
 SS Search,<p>可以查询和下载全国图书馆参考咨询联盟/超星电子书库的网站<br/></p>,https://beta.ssdown.org/,中文第三方电子书下载渠道
-本卡风读秀库下载,<p>一个可以下载读秀库图书的方法，需要关注公众号，仅支持ss号下载，详细请查看网址<br/><a class="outline" href="https://bkfeng.top/book" role="button" target="_blank">查看教程</a></p>,https://bkfeng.top/book,中文第三方电子书下载渠道
+本卡风读秀库下载,"<p>一个可以下载读秀库图书的方法，需要关注公众号，仅支持ss号下载，详细请查看网址<br/><a class=""outline"" href=""https://bkfeng.top/book"" role=""button"" target=""_blank"">查看教程</a></p>",https://bkfeng.top/book,中文第三方电子书下载渠道
 【W】无产阶级图书馆,<p>一个可以下载电子书的网站，非注册用户也不限速。但<b>这个网站打开自带国际歌音效，公共场合记得关一下声音再进！</b><br/></p>,https://library.proletarian.me/,中文第三方电子书下载渠道
 互助联盟,<p>本质上来讲，用这个玩意儿和直接在某宝上花钱买文件并没有什么区别，可能就是它提供了一个油猴脚本，方便一些吧。<br/></p>,https://www.xueshu86.com/,中文第三方电子书下载渠道
 SoBooks,<p>一个电子书下载网站<br/></p>,https://sobooks.net/,中文第三方电子书下载渠道
 书舟搜索,<p>一个电子书下载网站<br/></p>,https://www.shuzhou.cc/,中文第三方电子书下载渠道
-freembook全站资源,<p>freembook全站15.72万书(kindle格式为主) [rar][1.4TB]<br/>访问码：k715<br/><a class="outline" href="https://115.com/s/swn2iev3nvz?password=k715&amp;#" role="button" target="_blank">访问网站</a></p>,https://115.com/s/swn2iev3nvz?password=k715&#,中文第三方电子书下载渠道
+freembook全站资源,"<p>freembook全站15.72万书(kindle格式为主) [rar][1.4TB]<br/>访问码：k715<br/><a class=""outline"" href=""https://115.com/s/swn2iev3nvz?password=k715&amp;#"" role=""button"" target=""_blank"">访问网站</a></p>",https://115.com/s/swn2iev3nvz?password=k715&#,中文第三方电子书下载渠道
 台湾电子书搜寻,<p>一个综合搜索各大电子书出版商的网站（需要付费购买）<br/></p>,https://taiwan-ebook-lover.github.io/,中文第三方电子书下载渠道
 鸠摩搜索,<p>国内的电子书搜索引擎，可以找到一些常见的资源。<br/></p>,https://www.jiumodiary.com,中文第三方电子书下载渠道
 淘链客,<p>一个主要收集文档类资源下载链接的聚合型搜索引擎网站，现在还增加了古籍的搜索接口。下载资源主要是 PDF 格式的电子书，也有一些视频、资料啥的。国内资源大全，无广告直接下载，但有些内容搜索出来已经失效或者文不对题，请自行甄别。<br/></p>,https://www.toplinks.cc/s/,中文第三方电子书下载渠道
@@ -1442,8 +1401,8 @@ SaltTiger,<p>编程相关的电子书网站<br/></p>,https://salttiger.com/,中�
 萌先生图书馆,<p>一个卖数据库账号的，站长没用过，不做任何担保，但如果临时需要可以试试<br/></p>,https://www.kuaifaka.net/purchasing?link=886i32,中文第三方电子书下载渠道
 FreeMBook Search,<p>一个可以根据ss号下载超星/读秀数据库电子书的网站<br/></p>,https://freembook.com/,中文第三方电子书下载渠道
 Fives,<p>一个杂志平台，可以看读者意林之类的<br/></p>,http://qikan.lifves.com/,中文第三方电子书下载渠道
-【W】mcbooksbot,<p>一个可以下载超星/读秀库内容的Telegram Bot，详情请参见使用教程<br/><a class="outline" href="https://yibook.org/post/mcbook/" role="button" target="_blank">使用教程</a></p>,https://t.me/mcbooksbot,中文第三方电子书下载渠道
-布克盘,<p>聚合电子书数据库网站，截至目前已经同步了 三秋书屋、Sobooks、书舟资源 等网站数据用于检索<br/><a class="outline" href="https://bookpan.net/" role="button" target="_blank">网站主页</a><br/><a class="outline" href="https://search.zhelper.net/?[{%22name%22:%22bookpan%22，%22url%22:%22https://api.bookpan.net%22，%22type%22:%22light%22，%22sensitive%22:false，%22detail%22:true}]" role="button" target="_blank">搜索地址</a></p>,https://bookpan.net/,中文第三方电子书下载渠道
+【W】mcbooksbot,"<p>一个可以下载超星/读秀库内容的Telegram Bot，详情请参见使用教程<br/><a class=""outline"" href=""https://yibook.org/post/mcbook/"" role=""button"" target=""_blank"">使用教程</a></p>",https://t.me/mcbooksbot,中文第三方电子书下载渠道
+布克盘,"<p>聚合电子书数据库网站，截至目前已经同步了 三秋书屋、Sobooks、书舟资源 等网站数据用于检索<br/><a class=""outline"" href=""https://bookpan.net/"" role=""button"" target=""_blank"">网站主页</a><br/><a class=""outline"" href=""https://search.zhelper.net/?[{%22name%22:%22bookpan%22，%22url%22:%22https://api.bookpan.net%22，%22type%22:%22light%22，%22sensitive%22:false，%22detail%22:true}]"" role=""button"" target=""_blank"">搜索地址</a></p>",https://bookpan.net/,中文第三方电子书下载渠道
 电子书导航,<p>易书论坛提供的电子书导航网站，收集了一些可以下载电子书的渠道<br/></p>,https://nav.yibook.org/,中文第三方电子书下载渠道
 时光图书馆,<p>一个电子书合集下载软件，有一些挺珍贵的书的电子版的<br/></p>,https://atimebook.com/,中文第三方电子书下载渠道
 有书,<p>读秀库的电子书下载网站，2r/本，和某宝上价格一致，唯一比较方便的地方可能就是可以自助下载。价格较贵，仅供备用<br/></p>,https://www.ubooks.vip/,中文第三方电子书下载渠道
@@ -1464,15 +1423,14 @@ PubScholar公益学术平台,<p>整合集成了中国科学院的科技成果资
 上海研发公共服务平台,<p>上海研发公共服务平台的数据中心—上海科技创新资源数据中心，该数据中心功能非常全面，不仅仅有下载中文文献和西方文献的功能，还提供了知识产权、各类电子书籍以及文献求助的功能。进入网站后，进入“上海科技创新资源数据中心”，点击“数据中心”。开始免费注册账号。积分制下载，注册会送积分。查看积分可以去个人中心查看。积分不够做任务就可以了，任务都比较简单。<br/></p>,http://www.sgst.cn/,论文下载
 socolar学术服务平台,<p>SOCOLAR学术服务平台是由中国教育图书进出口有限公司打造的基于期刊文章的全文型数据库，为用户提供学术期刊和文章的检索、浏览、全文获取等一站式服务。数据库目前收录5442万篇以上外文付费期刊文章，1534万以上外文开放获取文章。开放获取部分读者可以注册登录后阅读下载。<br/></p>,http://www.socolar.com/,论文下载
 泉方教育,<p>泉方教育除了可以下载文献，云图书馆也是免费注册，还有人工代查功能，文献下载次数没有限制。注意：泉方教育下载文献是通过英文文献名查找的，无法用Doi直接搜索！<br/></p>,http://www.yuntsg.com/html/1/,论文下载
-【W】Sci-hub,<p>一个几乎可以下载任何论文的网站，但因为涉及到版权问题，网址总是打不开，以下是理论可用的链接。<br/><br/><a class="outline" href="https://sci.sssam.com/" role="button" target="_blank">非官方镜像站</a></p>,https://sci-hub.tw,论文下载
+【W】Sci-hub,"<p>一个几乎可以下载任何论文的网站，但因为涉及到版权问题，网址总是打不开，以下是理论可用的链接。<br/><br/><a class=""outline"" href=""https://sci.sssam.com/"" role=""button"" target=""_blank"">非官方镜像站</a></p>",https://sci-hub.tw,论文下载
 SSRN,<p>社会科学研究网，基本免费，未在期刊正式发表的论文也能下载<br/></p>,https://www.ssrn.com,论文下载
 莫若书单,<p>一个文档搜索网站<br/></p>,https://www.mrsd.top/,论文下载
 IDAta,<p>iData真的很好用，知网有权限下载的、没有权限下载的它都能下载，毕竟号称是全球最大的知网镜像网站。缺点就是每天下载次数有限。<br/></p>,https://www.cn-ki.net/,论文下载
 Dimensions,<p>Digital Science旗下的科研文献检索平台，整合了多种学术服务功能，汇聚包括期刊、图书、专利、临床试验等多种学术成果1.4亿余份。<br/></p>,https://www.dimensions.com/,论文下载
-【W】LibraryGenesis,<p>一个可以媲美Sci-hub的神站，LibraryGenesis号称是帮助全人类知识无版权传播的计划，实际上确实如此。网站上论文很多，下载方便，还有很多外文书籍和中文书籍，基本上所有的外文书籍和论文都可以搜到并下载，最近的学术论文也可以下载，几乎每天都在更新！与Sci-hub一样，Librarygenesis也会遇到被封的问题，遇到这个情况，可以尝试等待一会或者换个浏览器。<br/>由于历史原因，LibGen有两个站点，分别由不同的运营者在运营，库的内容也不完全相同。以下的(1)和(2)同属一个运营者，(3)属于另一个运营者。上传书籍推荐去(1)和(2)上传。<br/><br/><a class="outline" href="https://www.ooopn.com/tool/libgen/" role="button" target="_blank">镜像站列表（第三方）</a></p>,http://gen.lib.rus.ec/,论文下载
+【W】LibraryGenesis,"<p>一个可以媲美Sci-hub的神站，LibraryGenesis号称是帮助全人类知识无版权传播的计划，实际上确实如此。网站上论文很多，下载方便，还有很多外文书籍和中文书籍，基本上所有的外文书籍和论文都可以搜到并下载，最近的学术论文也可以下载，几乎每天都在更新！与Sci-hub一样，Librarygenesis也会遇到被封的问题，遇到这个情况，可以尝试等待一会或者换个浏览器。<br/>由于历史原因，LibGen有两个站点，分别由不同的运营者在运营，库的内容也不完全相同。以下的(1)和(2)同属一个运营者，(3)属于另一个运营者。上传书籍推荐去(1)和(2)上传。<br/><br/><a class=""outline"" href=""https://www.ooopn.com/tool/libgen/"" role=""button"" target=""_blank"">镜像站列表（第三方）</a></p>",http://gen.lib.rus.ec/,论文下载
 臺灣博碩士論文知識加值系統,<p>一个可以查询中华民国硕博论文的数据库<br/></p>,https://ndltd.ncl.edu.tw/,论文下载
 臺灣人文及社會科學引文索引資料庫,<p>收录台湾及海外华人出版之人文及社会科学期刊、台湾博士论文及专书。 以此为基础建立学术论著之来源文献及引用文献分析信息，同时持续致力于资料扩充及维运，以尽力完善收录内容，产出相对客观计量指标，并对所有用户无偿开放取用。<br/></p>,https://tci.ncl.edu.tw,论文下载
-中国社会科学文库,一个可以查询社科文献的工具，需要注册登录,https://www.sklib.cn/,论文下载
 哲学社会科学预印本平台,由中国人民大学书报资料中心建设。需要简单注册即可登录使用。目前提供个人研究成果上传、论文浏览、论文检索等功能。,https://zsyyb.cn/,论文下载
 SlideStart,一个非常好的可以提供PPT制作灵感的网站,https://www.slidestart.com/,其他
 Canon Creative Park,<p>可以下载纸制品图纸的网站，进首页右上角选择其他语言也可以，不要选中文，中文页会删减很多内容。<br/>所有图纸都是免费下载，但需要【W】（如果访问的是除中文外其他语种的页面），是否要对应地域的IP才能下载还没测试过，需要注册账号后才能下载。<br/><i>浏览页面不用挂梯，只有下载才要</i><br/><i>带CANON ID标志的才需要挂梯下载，没有标志的下载无需挂梯及登陆</i><br/>下载页面附带很详细的图文教程下载<br/></p>,https://creativepark.canon/en/index.html,其他
@@ -1481,17 +1439,16 @@ Slides Carnival,<p>一个PPT模板网站，很商业，可以选主题，也可�
 PPT BIZCAM,<p>一个很漂亮的免费PPT模板网站<br/></p>,http://pptbizcam.co.kr/,其他
 SlidesGo,<p>一个免费的PPT模板网站，免费帐户一个月可以下载10个<br/></p>,https://slidesgo.com/,其他
 大圣盘,<p>一个网盘聚合搜索网站，需要登陆<br/></p>,https://www.dashengpan.com/,其他
-SlideStart,一个非常好的可以提供PPT制作灵感的网站,https://www.slidestart.com/,其他
 PrivacyTools,<p>提供一些常用网站/软件的保护隐私的替代版<br/></p>,https://www.privacytools.io/,综合资源
 【W】一些软件的开源替代品,<p></p>,https://m.facebook.com/groups/apaspace/permalink/2940782509480052/,综合资源
 晨曦科技团队数字图书馆,<p>一个文献接口聚合网站，它不仅包括中国知网、万方、读秀、维普、超星等中文资源库，还有，谷歌学术、医学、法律这些常用的数据库<br/></p>,https://31sanyi.neocities.org/cxkj/,综合资源
 Jay的资源库,<p>一个资源搜集网站<br/></p>,https://www.lovejay.top/,综合资源
-阿虚同学的储物间,<p>另一个资源搜集网站，还提供软件下载和文章教程。<br/><a class="outline" href="https://axutongxue.net/" role="button" target="_blank">备用链接</a></p>,https://axutongxue.com/,综合资源
+阿虚同学的储物间,"<p>另一个资源搜集网站，还提供软件下载和文章教程。<br/><a class=""outline"" href=""https://axutongxue.net/"" role=""button"" target=""_blank"">备用链接</a></p>",https://axutongxue.com/,综合资源
 F-Droid,<p>一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。<br/></p>,https://f-droid.org/,综合资源
 《中国大百科全书》第三版网络版,<p>一个可以在线检索的中国大百科全书<br/></p>,https://www.zgbk.com/,百科全书
 数据库检索课,<p>收集全球数据库，提供数据库检索教程和最新进展。<br/></p>,https://www.jiansuoke.com/,数据库
 Awesome Public Datasets,<p>一个GitHub开源项目，搜集各种公开的数据库，语言以英语为主。<br/></p>,https://github.com/awesomedata/awesome-public-datasets,数据库
-数据网站汇总,<p>网友制作的数据网站汇总，收录了110个左右的网站，可以方便的查找各类数据<br/><a class="outline" href="https://tyi45di4ct.jiandaoyun.com/f/5e7d7262d70fb900060607c1" role="button" target="_blank">【W】查看备份</a><br/></p>,https://tyi45di4ct.jiandaoyun.com/f/5e7d7262d70fb900060607c1,数据库
+数据网站汇总,"<p>网友制作的数据网站汇总，收录了110个左右的网站，可以方便的查找各类数据<br/><a class=""outline"" href=""https://tyi45di4ct.jiandaoyun.com/f/5e7d7262d70fb900060607c1"" role=""button"" target=""_blank"">【W】查看备份</a><br/></p>",https://tyi45di4ct.jiandaoyun.com/f/5e7d7262d70fb900060607c1,数据库
 国家数据,<p>国家统计局开发的国内宏观数据查询平台，无需注册即可查询，主要是国内数据<br/></p>,https://data.stats.gov.cn/index.htm,数据库
 联合国粮食及农业组织的统计数据库,<p>联合国粮农组织的世界范围内的农业统计数据查询（需要下载使用）<br/></p>,https://www.fao.org/faostat/zh/#home,数据库
 中国社会科学年鉴数据库,<p>可以查询到按学科分类法分类的各学科年鉴，更新比较及时<br/></p>,https://www.eyearbook.cn/index,数据库
