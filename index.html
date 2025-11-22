@@ -31,35 +31,66 @@
         script.defer = true;
         script.onload = () => {
           if (!window.translate) {
-            console.error("Translate library loaded without exposing global.");
+            console.warn("Translate library loaded without exposing global.");
             return;
           }
-          translate.setUseVersion2();
-          translate.selectLanguageTag.show = false;
-          translate.language.setLocal("chinese_simplified");
-          translate.listener.start();
-          window.setTimeout(() => translate.execute(), 1000);
-          window._translateReady = true;
+          try {
+            translate.setUseVersion2();
+            translate.selectLanguageTag.show = false;
+            translate.language.setLocal("chinese_simplified");
+            translate.listener.start();
+            window.setTimeout(() => {
+              try {
+                translate.execute();
+              } catch (e) {
+                console.warn("Translate execute failed:", e);
+              }
+            }, 1000);
+            window._translateReady = true;
+          } catch (e) {
+            console.warn("Translate initialization failed:", e);
+          }
         };
         script.onerror = () => {
-          console.error("Failed to load translate.js");
+          console.warn("Failed to load translate.js, translation feature disabled");
+          // 不阻塞页面，只是禁用翻译功能
         };
         document.head.appendChild(script);
       })();
 
       window.handleLanguageChange = (lang) => {
         if (window.translate && typeof translate.changeLanguage === "function") {
-          translate.changeLanguage(lang);
+          try {
+            translate.changeLanguage(lang);
+          } catch (e) {
+            console.warn("Language change failed:", e);
+          }
         } else {
           console.warn("Translation library not ready yet.");
-          alert("页面翻译功能还在加载，请稍后再试。");
+          // 不显示 alert，避免在离线时打扰用户
+          if (window._translateReady !== false) {
+            console.warn("Translation feature unavailable");
+          }
         }
       };
     </script>
     <main class="markdown-shell">
       <article id="content" class="markdown-body"></article>
       <!--不蒜子-->
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script>
+      (function() {
+        const script = document.createElement("script");
+        script.async = true;
+        script.src = "//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js";
+        script.onerror = () => {
+          console.warn("Busuanzi stats failed to load, statistics feature disabled");
+          // 隐藏统计显示区域，避免显示空白
+          const containers = document.querySelectorAll('[id^="busuanzi_container"]');
+          containers.forEach(el => el.style.display = 'none');
+        };
+        document.head.appendChild(script);
+      })();
+    </script>
     <div style="text-align: center;">
         <span id="busuanzi_container_site_pv" style="font-family:Consolas;color:rgba(21,170,191,.6);font-size:12px;">
             访问量：<span id="busuanzi_value_site_pv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
@@ -68,14 +99,39 @@
             访问人数：<span id="busuanzi_value_site_uv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
         </span>
     </div>
-    <script src="https://res.zvo.cn/translate/translate.js"></script>
     <script>
-    translate.setUseVersion2(); //设置使用v2.x 版本
-    translate.selectLanguageTag.show = false; // 不显示切换语言的下拉框
-    translate.language.setLocal('chinese_simplified');
-    translate.listener.start();
-    window.onload = function() {setTimeout(function() {translate.execute();}, 1000);};
-    //translate.execute();//进行翻译
+      // 第二个翻译脚本（如果第一个失败，尝试这个）
+      (function() {
+        if (window._translateReady) return; // 如果第一个已经成功，跳过
+        
+        const script = document.createElement("script");
+        script.src = "https://res.zvo.cn/translate/translate.js";
+        script.onload = () => {
+          if (window.translate && typeof translate.setUseVersion2 === "function") {
+            try {
+              translate.setUseVersion2();
+              translate.selectLanguageTag.show = false;
+              translate.language.setLocal('chinese_simplified');
+              translate.listener.start();
+              window.onload = function() {
+                setTimeout(function() {
+                  try {
+                    translate.execute();
+                  } catch (e) {
+                    console.warn("Translate execute failed:", e);
+                  }
+                }, 1000);
+              };
+            } catch (e) {
+              console.warn("Translate initialization failed:", e);
+            }
+          }
+        };
+        script.onerror = () => {
+          console.warn("Second translate script failed to load");
+        };
+        document.head.appendChild(script);
+      })();
     </script>
     </main>
     <script>
@@ -129,7 +185,26 @@
             });
             updateTitle("Markdown 查看器");
           } catch (error) {
-            console.error(error);
+            console.warn("Failed to load markdown from network, trying cache:", error);
+            
+            // 离线回退：尝试从 Service Worker 缓存读取
+            try {
+              const cache = await caches.open('bhu-resource-v1');
+              const cachedResponse = await cache.match(`./${targetPath}`);
+              if (cachedResponse) {
+                const source = await cachedResponse.text();
+                contentEl.innerHTML = marked.parse(source, {
+                  mangle: false,
+                  headerIds: true,
+                });
+                updateTitle("Markdown 查看器");
+                console.log(`Loaded ${targetPath} from cache`);
+                return;
+              }
+            } catch (cacheError) {
+              console.warn("Failed to load from cache:", cacheError);
+            }
+            
             // 如果加载失败且不是 index.md，则回退到 index.md
             if (targetPath !== "index.md") {
               try {
@@ -144,10 +219,28 @@
                   return;
                 }
               } catch (fallbackError) {
-                console.error("Fallback to index.md also failed:", fallbackError);
+                // 尝试从缓存读取 index.md
+                try {
+                  const cache = await caches.open('bhu-resource-v1');
+                  const cachedIndex = await cache.match('./index.md');
+                  if (cachedIndex) {
+                    const source = await cachedIndex.text();
+                    contentEl.innerHTML = marked.parse(source, {
+                      mangle: false,
+                      headerIds: true,
+                    });
+                    updateTitle("Markdown 查看器");
+                    console.log('Loaded index.md from cache as fallback');
+                    return;
+                  }
+                } catch (cacheError2) {
+                  console.warn("Failed to load index.md from cache:", cacheError2);
+                }
+                console.warn("Fallback to index.md also failed:", fallbackError);
               }
             }
-            contentEl.innerHTML = "";
+            // 如果所有方法都失败，显示错误信息
+            contentEl.innerHTML = "<p style='text-align:center;color:#64748b;padding:2rem;'>内容加载失败，请检查网络连接或刷新页面重试。</p>";
             updateTitle("Markdown 查看器", "加载失败");
           }
         }

@@ -75,9 +75,10 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 跳过跨域请求（除非是数据文件）
-  if (url.origin !== location.origin && !url.pathname.includes('/data/')) {
-    return;
+  // 完全跳过所有跨域请求（让浏览器自然处理，包括失败）
+  // 这样可以避免在线资源（字体、CDN、统计等）加载失败时阻塞页面
+  if (url.origin !== location.origin) {
+    return; // 不拦截，让浏览器直接处理
   }
 
   event.respondWith(

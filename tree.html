@@ -604,18 +604,30 @@ function toggleLanguage() {
 // Load resources sequentially after page is ready
 async function loadResourcesSequentially() {
     try {
-        // Step 1: Load OpenCC first (priority)
-        await initOpenCC();
+        // Step 1: Load OpenCC first (priority) - 失败不影响页面
+        await initOpenCC().catch(e => console.warn('OpenCC load failed:', e));
         
-        // Step 2: Load fonts
-        await loadFonts();
+        // Step 2: Load fonts - 失败不影响页面（使用系统字体）
+        await loadFonts().catch(e => console.warn('Fonts load failed:', e));
         
-        // Step 3: Load busuanzi
-        initBusuanzi();
+        // Step 3: Load translate script - 失败不影响页面（翻译功能可选）
+        try {
+            initTranslate();
+        } catch (e) {
+            console.warn('Translate init failed:', e);
+        }
         
-        // Step 4: Icon is already loaded in DOMContentLoaded, skip here
+        // Step 4: Load busuanzi - 失败不影响页面（统计功能可选）
+        try {
+            initBusuanzi();
+        } catch (e) {
+            console.warn('Busuanzi init failed:', e);
+        }
+        
+        // Step 5: Icon is already loaded in DOMContentLoaded, skip here
     } catch (e) {
         console.warn('Failed to load some resources:', e);
+        // 即使所有资源加载失败，页面也应该能正常显示
     }
 }
 
@@ -678,13 +690,13 @@ async function initOpenCC() {
 
 // Load Google Fonts
 function loadFonts() {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
         if (document.getElementById('google-fonts-link')) {
             resolve();
             return;
         }
         
-        // Preconnect first
+        // Preconnect first (忽略失败)
         const preconnect = document.createElement('link');
         preconnect.rel = 'preconnect';
         preconnect.href = 'https://gstatic.qaq.qa';
@@ -696,7 +708,11 @@ function loadFonts() {
         link.rel = 'stylesheet';
         link.href = 'https://gstatic.qaq.qa/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap';
         link.onload = () => resolve();
-        link.onerror = () => reject(new Error("Failed to load fonts"));
+        // 字体加载失败不影响页面，使用系统字体即可
+        link.onerror = () => {
+            console.warn('Failed to load Google Fonts, using system fonts');
+            resolve(); // 不 reject，让页面继续加载
+        };
         document.head.appendChild(link);
     });
 }
