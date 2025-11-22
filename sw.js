@@ -2,16 +2,32 @@
 const CACHE_NAME = 'bhu-resource-v1'; //如果要更新应用，修改这个触发
 const RUNTIME_CACHE = 'bhu-runtime-v1';
 
-// 需要缓存的资源列表
+// 需要缓存的资源列表（网站所有核心文件）
 const STATIC_CACHE_URLS = [
+  // 核心 HTML 文件
+  './index.html',
+  './index.md',
   './tree.html',
+  './404.html',
+  './manifest.json',
+  
+  // Assets 目录 - CSS
   './assets/tailwind.css',
+  './assets/pie-web.css',
+  
+  // Assets 目录 - JavaScript
   './assets/lucide.min.js',
   './assets/papaparse.min.js',
+  './assets/marked.min.js',
+  './assets/full.js',
+  
+  // Assets 目录 - 图标和图片
   './assets/icon.svg',
+  './assets/clickme.svg',
+  
+  // Data 目录
   './data/fenlei.md',
-  './data/data.csv',  // 添加 data.csv 到预缓存列表
-  './manifest.json'
+  './data/data.csv'
 ];
 
 // 安装 Service Worker
