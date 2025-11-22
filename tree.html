@@ -7,16 +7,15 @@
     <script src="./assets/tailwind.css"></script>
     <!-- Lucide Icons -->
     <script src="./assets/lucide.min.js"></script>
-    <link rel="icon" href="./assets/icon.png" type="image/x-icon" />
-    <!-- Google Fonts Preload -->
-    <link rel="preconnect" href="https://gstatic.qaq.qa">
-    <link rel="stylesheet" href="https://gstatic.qaq.qa/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap">
+    <!-- Papa Parse for CSV parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <!-- Google Fonts and icon.png will be loaded after page is ready -->
     
     <style>
       /* Font Display Strategy: font-display: swap is enabled via Google Fonts URL parameter */
       
       body {
-        font-family: 'Inter', 'Noto Sans SC', sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Noto Sans SC', sans-serif;
         background-color: #f8fafc;
         color: #1e293b;
         overscroll-behavior: none; 
@@ -148,7 +147,7 @@
             <!-- Header -->
             <div class="h-16 flex items-center justify-between px-6 border-b border-slate-100 shrink-0 bg-white">
                 <div class="flex items-center gap-2 text-indigo-700 font-bold text-xl tracking-tight">
-                    <img src="./assets/icon.png" alt="Icon" class="w-5 h-5" />
+                    <img id="sidebar-icon" data-src="./assets/icon.png" alt="Icon" class="w-5 h-5" />
                     <span>B-HU资源beta 0.5</span>
                 </div>
                 <button onclick="toggleMobileMenu(false)" class="md:hidden text-slate-400 hover:text-slate-600 p-1 hover:bg-slate-100 rounded-md">
@@ -233,7 +232,7 @@
                 
                 <!-- Welcome State -->
                 <div id="welcome-view" class="flex-1 flex flex-col items-center justify-center text-center pb-10 select-none">
-                    <img src="./assets/icon.png" alt="Icon" class="w-24 h-24 mb-8" />
+                    <img id="welcome-icon" data-src="./assets/icon.png" alt="Icon" class="w-24 h-24 mb-8" />
                     <h1 class="text-3xl font-bold text-slate-800 mb-3">B-HU资源beta 0.5</h1>
                     <p class="text-slate-500 max-w-md mx-auto mb-6 leading-relaxed">
                         目前共收录 <span id="hero-resource-count" class="font-bold text-indigo-600">0</span> 条资源<br/>
@@ -433,11 +432,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
         
         // Lazy load non-critical features after page is shown
-        setTimeout(() => {
-            initOpenCC();
-            initTranslate();
-            initBusuanzi();
-        }, 100);
+        // Load in sequence: opencc -> fonts -> busuanzi -> icon.png
+        window.addEventListener('load', () => {
+            loadResourcesSequentially();
+        });
     } catch (e) {
         console.error(e);
         document.getElementById('loading-screen').classList.add('hidden');
@@ -499,34 +497,147 @@ function toggleLanguage() {
     }
 }
 
+// Load resources sequentially after page is ready
+async function loadResourcesSequentially() {
+    try {
+        // Step 1: Load OpenCC first (priority)
+        await initOpenCC();
+        
+        // Step 2: Load fonts
+        await loadFonts();
+        
+        // Step 3: Load busuanzi
+        initBusuanzi();
+        
+        // Step 4: Load icon.png (only once, then apply to all places)
+        await loadIcon();
+    } catch (e) {
+        console.warn('Failed to load some resources:', e);
+    }
+}
+
 async function initOpenCC() {
-    if (window._openccLoading) return;
+    if (window._openccLoading) {
+        // Wait for existing loading to complete
+        return new Promise((resolve) => {
+            const checkInterval = setInterval(() => {
+                if (state.converter) {
+                    clearInterval(checkInterval);
+                    resolve();
+                }
+            }, 50);
+            setTimeout(() => {
+                clearInterval(checkInterval);
+                resolve(); // Resolve anyway after 5 seconds
+            }, 5000);
+        });
+    }
     window._openccLoading = true;
-    // Lazy load OpenCC script
-    if (!window.OpenCC) {
-        const script = document.createElement("script");
-        script.src = "./assets/full.js";
-        script.onload = async () => {
-            if (window.OpenCC) {
+    
+    return new Promise((resolve, reject) => {
+        // Lazy load OpenCC script
+        if (!window.OpenCC) {
+            const script = document.createElement("script");
+            script.src = "./assets/full.js";
+            script.onload = async () => {
+                if (window.OpenCC) {
+                    try {
+                        const cvtS2T = await window.OpenCC.Converter({ from: 'cn', to: 'hk' });
+                        const cvtT2S = await window.OpenCC.Converter({ from: 'hk', to: 'cn' });
+                        state.converter = { s2t: cvtS2T, t2s: cvtT2S };
+                        resolve();
+                    } catch (e) {
+                        console.warn("OpenCC init failed", e);
+                        reject(e);
+                    }
+                } else {
+                    reject(new Error("OpenCC not available"));
+                }
+            };
+            script.onerror = () => reject(new Error("Failed to load OpenCC script"));
+            document.head.appendChild(script);
+        } else {
+            // OpenCC already loaded
+            (async () => {
                 try {
                     const cvtS2T = await window.OpenCC.Converter({ from: 'cn', to: 'hk' });
                     const cvtT2S = await window.OpenCC.Converter({ from: 'hk', to: 'cn' });
                     state.converter = { s2t: cvtS2T, t2s: cvtT2S };
+                    resolve();
                 } catch (e) {
                     console.warn("OpenCC init failed", e);
+                    reject(e);
                 }
-            }
-        };
-        document.head.appendChild(script);
-    } else {
-        try {
-            const cvtS2T = await window.OpenCC.Converter({ from: 'cn', to: 'hk' });
-            const cvtT2S = await window.OpenCC.Converter({ from: 'hk', to: 'cn' });
-            state.converter = { s2t: cvtS2T, t2s: cvtT2S };
-        } catch (e) {
-            console.warn("OpenCC init failed", e);
+            })();
         }
-    }
+    });
+}
+
+// Load Google Fonts
+function loadFonts() {
+    return new Promise((resolve, reject) => {
+        if (document.getElementById('google-fonts-link')) {
+            resolve();
+            return;
+        }
+        
+        // Preconnect first
+        const preconnect = document.createElement('link');
+        preconnect.rel = 'preconnect';
+        preconnect.href = 'https://gstatic.qaq.qa';
+        document.head.appendChild(preconnect);
+        
+        // Load font stylesheet
+        const link = document.createElement('link');
+        link.id = 'google-fonts-link';
+        link.rel = 'stylesheet';
+        link.href = 'https://gstatic.qaq.qa/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap';
+        link.onload = () => resolve();
+        link.onerror = () => reject(new Error("Failed to load fonts"));
+        document.head.appendChild(link);
+    });
+}
+
+// Load icon.png only once and apply to all places
+function loadIcon() {
+    return new Promise((resolve, reject) => {
+        if (window._iconLoaded) {
+            resolve();
+            return;
+        }
+        
+        const iconUrl = './assets/icon.png';
+        const img = new Image();
+        
+        img.onload = () => {
+            window._iconLoaded = true;
+            
+            // Set favicon
+            const favicon = document.createElement('link');
+            favicon.rel = 'icon';
+            favicon.href = iconUrl;
+            favicon.type = 'image/x-icon';
+            document.head.appendChild(favicon);
+            
+            // Apply to all img elements with data-src
+            const sidebarIcon = document.getElementById('sidebar-icon');
+            const welcomeIcon = document.getElementById('welcome-icon');
+            
+            if (sidebarIcon) {
+                sidebarIcon.src = iconUrl;
+                sidebarIcon.removeAttribute('data-src');
+            }
+            if (welcomeIcon) {
+                welcomeIcon.src = iconUrl;
+                welcomeIcon.removeAttribute('data-src');
+            }
+            
+            resolve();
+        };
+        
+        img.onerror = () => reject(new Error("Failed to load icon.png"));
+        img.src = iconUrl; // Start loading
+    });
 }
 
 function updateCounts() {
@@ -659,10 +770,10 @@ async function loadResourceData() {
             };
         }
         
-        // Fetch from server
-        const jsonRes = await fetch("./data/data.json", fetchOptions);
+        // Fetch CSV from server
+        const csvRes = await fetch("./data/data.csv", fetchOptions);
         
-        if (jsonRes.status === 304 && cachedData) {
+        if (csvRes.status === 304 && cachedData) {
             // Not modified, use cached data
             console.log('Using cached data (304 Not Modified)');
             state.jsonData = cachedData;
@@ -671,7 +782,7 @@ async function loadResourceData() {
             return;
         }
         
-        if (!jsonRes.ok) {
+        if (!csvRes.ok) {
             if (cachedData) {
                 // Use cached data as fallback
                 console.log('Fetch failed, using cached data');
@@ -680,14 +791,15 @@ async function loadResourceData() {
                 if (loadingNotice) loadingNotice.classList.add('hidden');
                 return;
             }
-            throw new Error("Failed to fetch data.json");
+            throw new Error("Failed to fetch data.csv");
         }
         
-        const jsonData = await jsonRes.json();
-        const etag = jsonRes.headers.get('ETag') || jsonRes.headers.get('etag');
+        const csvText = await csvRes.text();
+        const etag = csvRes.headers.get('ETag') || csvRes.headers.get('etag');
         
-        // Parse and process data
-        state.jsonData = parseJSON(jsonData);
+        // Parse CSV using Papa Parse
+        const parsedData = parseCSV(csvText);
+        state.jsonData = parsedData;
         processResourceData();
         
         // Save to cache
@@ -761,7 +873,7 @@ async function checkForDataUpdates() {
             }
         };
         
-        const response = await fetch("./data/data.json", fetchOptions);
+        const response = await fetch("./data/data.csv", fetchOptions);
         
         // If 304, no update needed
         if (response.status === 304) {
@@ -791,21 +903,21 @@ async function loadResourceDataSilently() {
             };
         }
         
-        const jsonRes = await fetch("./data/data.json", fetchOptions);
+        const csvRes = await fetch("./data/data.csv", fetchOptions);
         
-        if (jsonRes.status === 304) {
+        if (csvRes.status === 304) {
             return; // No update
         }
         
-        if (!jsonRes.ok) {
+        if (!csvRes.ok) {
             return; // Failed, keep using cached data
         }
         
-        const jsonData = await jsonRes.json();
-        const etag = jsonRes.headers.get('ETag') || jsonRes.headers.get('etag');
+        const csvText = await csvRes.text();
+        const etag = csvRes.headers.get('ETag') || csvRes.headers.get('etag');
         
-        // Parse and process data
-        const parsedData = parseJSON(jsonData);
+        // Parse CSV using Papa Parse
+        const parsedData = parseCSV(csvText);
         const oldDataLength = state.jsonData.length;
         
         // Update data
@@ -922,6 +1034,48 @@ function parseMarkdownTree(md) {
     return root;
 }
 
+function parseCSV(csvText) {
+    if (!window.Papa) {
+        console.error('Papa Parse library not loaded');
+        return [];
+    }
+    
+    // Parse CSV using Papa Parse
+    const result = Papa.parse(csvText, {
+        header: true,
+        skipEmptyLines: true,
+        transformHeader: (header) => {
+            // Normalize header names
+            return header.trim();
+        }
+    });
+    
+    if (result.errors && result.errors.length > 0) {
+        console.warn('CSV parsing errors:', result.errors);
+    }
+    
+    // Process parsed data
+    return result.data.map(item => {
+        // Ensure tags is an array
+        // Tags in CSV are comma-separated strings, need to split them
+        if (typeof item.tags === 'string') {
+            item.tags = item.tags.split(',').map(tag => tag.trim()).filter(tag => tag.length > 0);
+        } else if (!Array.isArray(item.tags)) {
+            item.tags = [];
+        }
+        
+        // PRE-PROCESS SEARCH STRING for performance
+        // Concatenate title, desc, tags and lowercase them once.
+        const title = (item.title || item.name || "");
+        const desc = (item.description || item.desc || "");
+        const tagStr = item.tags.join(" ");
+        item._searchStr = `${title} ${desc} ${tagStr}`.toLowerCase();
+        
+        return item;
+    });
+}
+
+// Legacy function for backward compatibility (if needed)
 function parseJSON(jsonArray) {
     if (!Array.isArray(jsonArray)) return [];
     
