@@ -205,10 +205,10 @@
               console.warn("Failed to load from cache:", cacheError);
             }
             
-            // 如果加载失败且不是 index.md，则回退到 index.md
-            if (targetPath !== "index.md") {
+            // 如果加载失败且不是 README.md，则回退到 README.md
+            if (targetPath !== "README.md") {
               try {
-                const fallbackResponse = await fetch(`index.md?t=${Date.now()}`);
+                const fallbackResponse = await fetch(`README.md?t=${Date.now()}`);
                 if (fallbackResponse.ok) {
                   const fallbackSource = await fallbackResponse.text();
                   contentEl.innerHTML = marked.parse(fallbackSource, {
@@ -219,10 +219,10 @@
                   return;
                 }
               } catch (fallbackError) {
-                // 尝试从缓存读取 index.md
+                // 尝试从缓存读取 README.md
                 try {
                   const cache = await caches.open('bhu-resource-v1');
-                  const cachedIndex = await cache.match('./index.md');
+                  const cachedIndex = await cache.match('./README.md');
                   if (cachedIndex) {
                     const source = await cachedIndex.text();
                     contentEl.innerHTML = marked.parse(source, {
@@ -230,13 +230,13 @@
                       headerIds: true,
                     });
                     updateTitle("Markdown 查看器");
-                    console.log('Loaded index.md from cache as fallback');
+                    console.log('Loaded README.md from cache as fallback');
                     return;
                   }
                 } catch (cacheError2) {
-                  console.warn("Failed to load index.md from cache:", cacheError2);
+                  console.warn("Failed to load README.md from cache:", cacheError2);
                 }
-                console.warn("Fallback to index.md also failed:", fallbackError);
+                console.warn("Fallback to README.md also failed:", fallbackError);
               }
             }
             // 如果所有方法都失败，显示错误信息

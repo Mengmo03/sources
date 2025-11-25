@@ -100,3 +100,5 @@
 <hr>
 
 使用[Marked.js](https://github.com/markedjs/marked)编写，托管于[GitHub](https://github.com/Mengmo03/sources).
+
+[Magic Speed Up](https://b-hu.yaha.click/)
