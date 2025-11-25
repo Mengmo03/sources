@@ -150,7 +150,7 @@
         function resolveTargetPath(rawPage) {
           const safeName = (rawPage || "index").trim();
           if (!safeName || safeName === "index") {
-            return "index.md";
+            return "README.md";
           }
           // 如果路径已经包含 .md，直接返回
           if (safeName.endsWith(".md")) {

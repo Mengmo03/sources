@@ -1289,11 +1289,12 @@ function parseCSV(csvText) {
         }
         
         // PRE-PROCESS SEARCH STRING for performance
-        // Concatenate title, desc, tags and lowercase them once.
+        // Concatenate title, desc, link, tags and lowercase them once.
         const title = (item.title || item.name || "");
         const desc = (item.description || item.desc || "");
+        const link = (item.link || item.url || "");
         const tagStr = item.tags.join(" ");
-        item._searchStr = `${title} ${desc} ${tagStr}`.toLowerCase();
+        item._searchStr = `${title} ${desc} ${link} ${tagStr}`.toLowerCase();
         
         return item;
     });
@@ -1310,11 +1311,12 @@ function parseJSON(jsonArray) {
         }
         
         // PRE-PROCESS SEARCH STRING for performance
-        // Concatenate title, desc, tags and lowercase them once.
+        // Concatenate title, desc, link, tags and lowercase them once.
         const title = (item.title || item.name || "");
         const desc = (item.description || item.desc || "");
+        const link = (item.link || item.url || "");
         const tagStr = item.tags.join(" ");
-        item._searchStr = `${title} ${desc} ${tagStr}`.toLowerCase();
+        item._searchStr = `${title} ${desc} ${link} ${tagStr}`.toLowerCase();
         
         return item;
     });
