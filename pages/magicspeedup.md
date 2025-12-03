@@ -16,6 +16,6 @@
 
 <div id="d" onclick="this.removeAttribute('style'); this.style.cursor='pointer'; this.innerHTML=atob('PGEgaHJlZj0iaHR0cHM6Ly8yMDI0Ljk4NzQwOC54eXovIj5MaW5rPC9hPg==')" style="cursor: pointer!important;width: 100px!important;display: inline-block!important;padding: 0!important;line-height: 0!important;"><img src="./pages/zlibrary.svg" alt="Icon" style="width: 100%!important;display: block!important;"><script>function atob(s){try{return decodeURIComponent(escape(window.atob(s)))}catch(e){return window.atob(s)}}</script></div>
 <br/>
-<iframe src="./pages/secret.html" width="800" height="600" frameborder="0" title="Secret">
+<iframe src="./pages/secret.html" frameborder="0" title="Secret">
         <a href="./pages/secret.html">Click Me</a>
     </iframe>
