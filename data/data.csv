@@ -1572,8 +1572,8 @@ Wason Pamphlet Collection,康奈尔大学Wason Pamphlet Collection即华生中�
 Donjon,一个面向桌面角色扮演游戏（TTRPG）的生成工具网站，主要为《龙与地下城》等跑团游戏的玩家和主持人提供各类辅助工具。网站内置了随机生成器，可以快速生成角色名字、地牢地图、城镇、遭遇事件、宝藏、魔法商店等内容；同时也提供先攻追踪、怪物数据查询、法术参考等实用功能。支持 D&D 5e、Pathfinder 等多个规则版本。适合需要节省准备时间、临时填充游戏内容的跑团玩家使用。,https://donjon.bin.sh/fantasy/inn/,跑团
 Watabou's Procgen Arcana,一个奇幻中世纪王国/城市/村庄/水系/地下城/房子生成器，也是英文的，但是很漂亮。,https://watabou.itch.io/medieval-fantasy-city-generator,跑团
 D&D Generators,DND的地图生成器、地牢生成器、NPC 生成器等，英文的，但是可以用浏览器的翻译功能使用,https://www.masterthedungeon.com/generators/,跑团
-国家法律法规数据库,"一个可以查询现行法律法规的网站。该数据库已收录了包括自1949年建国以来的全国人大法律、国务院行政法规、最高人民法院和最高人民检察院司法解释等内容的法律法规。<br/>另外找到一个GitHub仓库，也爬取了该平台2023年之前的所有数据，链接<a href=""https://github.com/twang2218/law-datasets"" target=""_blank"">见此</a>",https://flk.npc.gov.cn/index,资料下载
-国家标准全文公开,一个可以查询国家标准的网站。部分可以下载,https://openstd.samr.gov.cn/bzgk/std/,资料下载
+国家法律法规数据库,"一个可以查询现行法律法规的网站。该数据库已收录了包括自1949年建国以来的全国人大法律、国务院行政法规、最高人民法院和最高人民检察院司法解释等内容的法律法规。<br/>另外找到一个GitHub仓库，也爬取了该平台2023年之前的所有数据，链接<a href=""https://github.com/twang2218/law-datasets"" target=""_blank"">见此</a>",https://flk.npc.gov.cn/index,法律相关
+国家标准全文公开,一个可以查询国家标准的网站。部分可以下载,https://openstd.samr.gov.cn/bzgk/std/,法律相关
 Ping0,一个可以查询IP的网站，还可以查询IP地址是否干净，对于注册海外AI工具来讲比较方便,https://ping0.cc/,AI相关
 Vibe Style Explorer,可以通过图片和点点点的方式来定制网站风格的提示词，方便AI进行设计,https://ui-gallery.codebanana.app/,AI相关
 Draw.io MCP,一个可以让AI直接画Draw.io的图标的MCP工具,https://github.com/jgraph/drawio-mcp/,"AI相关, Skills, 图片绘制"
