@@ -743,7 +743,7 @@ DOAJ,<p>DOAJ(Directory of Open Access Journal)，由瑞典的隆德大学图书�
 【W】Google工程师带你学编程,<p>一个Google工程师出品的面向零基础人群的编程课。<br/><a class="outline" href="https://docs.google.com/forms/d/e/1FAIpQLSdwWnCvD31tVp0IGgEGV5ILqTvUp5huoxyrgzS_-ficO2Z2sQ/viewform?fbzx=-3697804490486520350" role="button" target="_blank">报名表单</a><br/><a class="outline" href="https://docs.google.com/document/d/1CyWQMCepViYVvVz-ESAKXiWGOhj-SXk_SybrvC0Mogw/" role="button" target="_blank">学习指南</a></p>,https://docs.google.com/forms/d/e/1FAIpQLSdwWnCvD31tVp0IGgEGV5ILqTvUp5huoxyrgzS_-ficO2Z2sQ/viewform?fbzx=-3697804490486520350,课程
 DocuSky 數位人文學術研究平台,<p>DocuSky 数字人文学术研究平台是一个符合人文学者研究需要，进行个性化材料整理、使用与分析的网络平台。<br/>目前主要包括标记与编辑、转换文本格式、建库与重整、探勘与分析、GIS 与视觉化、外部资源、外部工具等系列工具。<br/></p>,https://docusky.org.tw/,中文相关
 KK10,<p>前工业时代人为土地覆盖变化情况，以年为单位进行提供了1850年（也就是所谓的“前工业时代”）前共计7901年的数据<br/></p>,https://doi.pangaea.de/10.1594/PANGAEA.871369,历史相关
-微信Markdown编辑器,<p>一个可以用Markdown写出美观的公众号文章的网站<br/></p>,https://doocs.github.io/md/,文本处理
+微信Markdown编辑器,<p>一个可以用Markdown写出美观的公众号文章的网站<br/></p>,https://doocs.github.io/md/,文件处理
 博看书苑,<p>可以免费阅读正版电子图书、期刊、报纸，总存储量 21TB。首次登录会要求机构授权码。<br/><a class="outline" href="https://yibook.org/post/bksy/" role="button" target="_blank">可用机构授权码</a></p>,https://download.bookan.com.cn/,"软件, 中文官方机构正版电子书下载"
 拉丁语汉语简明词典,<p>由雷立柏编写的拉-中词典，是PDF格式的，需要下载使用<br/><a class="outline" href="https://downloads.freemdict.com/uploads/Ludovicus/%E6%8B%89%E4%B8%81%E8%AF%AD-%E6%90%AC%E8%BF%90/%E9%9B%B7%E7%AB%8B%E6%9F%8F%E2%80%94%E7%AE%80%E6%98%8E%E6%8B%89%E4%B8%81%E8%AF%AD%E6%95%99%E7%A8%8B_.pdf" role="button" target="_blank">下载文件</a></p>,https://downloads.freemdict.com/uploads/Ludovicus/%E6%8B%89%E4%B8%81%E8%AF%AD-%E6%90%AC%E8%BF%90/%E9%9B%B7%E7%AB%8B%E6%9F%8F%E2%80%94%E7%AE%80%E6%98%8E%E6%8B%89%E4%B8%81%E8%AF%AD%E6%95%99%E7%A8%8B_.pdf,拉丁语
 中国历史地图集,<p>谭其骧先生主编的《中国历史地图集》的扫描版本（是一个压缩包，下载解压后使用），如果此链接失效，这套图书也可以在Zlibrary上找到。<br/><a class="outline" href="https://drive.b-hu.org/Index/%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E5%9C%B0%E5%9B%BE%E9%9B%86.rar" role="button" target="_blank">点击下载</a></p>,https://drive.b-hu.org/Index/%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E5%9C%B0%E5%9B%BE%E9%9B%86.rar,历史地图
@@ -1141,7 +1141,6 @@ pCloud Transfer,<p>免费且开箱即用的临时文件传输网站（最大可�
 Transfer.zip,<p>一个可以点对点传输文件的网站，无需注册，没有文件大小限制<br/></p>,https://transfer.zip/about/,临时网盘
 联合国条约库,<p></p>,https://treaties.un.org,全球
 百度图说,<p>百度出品的数据表制作工具，需要登陆，可制作地图型图表，包括世界地图、中国地图、国内分省地图、多地图4种类型。<br/></p>,https://tushuo.baidu.com/,图片绘制
-【W】TUSKY,<p>一个开源的第三方Mastodon安卓客户端，使用体验很不错<br/></p>,https://tusky.app/,长毛象专题
 TXT.FYI,<p>一个极简的匿名文字发布网站，支持Markdown，发布后不可删除和修改<br/></p>,https://txt.fyi/,文本分享
 数据网站汇总,<p>网友制作的数据网站汇总，收录了110个左右的网站，可以方便的查找各类数据<br/><a class="outline" href="https://tyi45di4ct.jiandaoyun.com/f/5e7d7262d70fb900060607c1" role="button" target="_blank">【W】查看备份</a><br/></p>,https://tyi45di4ct.jiandaoyun.com/f/5e7d7262d70fb900060607c1,数据库
 SCISPACE,<p>一个可以用AI帮你读论文的网站，可以直接在线查找，也可以上传PDF<br/></p>,https://typeset.io/,AI相关
@@ -1568,3 +1567,62 @@ Wason Pamphlet Collection,康奈尔大学Wason Pamphlet Collection即华生中�
 東京大學東洋文化研究所雙紅堂文庫全文影像資料庫,,https://hong.ioc.u-tokyo.ac.jp/index.html,历史相关
 东京大学东洋文化研究所汉籍善本全文影像资料库,,https://shanben.ioc.u-tokyo.ac.jp/,"历史相关, 中文相关"
 臺灣民間傳說主題資料庫,一个看起来很有意思的网站，但是现在已经访问不了了。所以放的是Wayback Machine的链接，需要使用者自行解决网络问题,http://web.archive.org/web/20181128020159/http://folklore.ncl.edu.tw/ncltwfsFront/,"历史相关, 中文相关"
+5E Tools,"DND 5E的规则书在线速查网站，以及一些小工具。所有5e规则相关的网站我都放在这里了：<br/><a href=""https://5echm.kagangtuya.top/"" target=""_blank"">5E不全书-天麟版</a><br/><a href=""https://5e.tools/"" target=""_blank"">5E Tools 英文原版</a><br/><a href=""https://5etools.wayneh.tw/5etools.html"" target=""_blank"">5E Tools 繁体中文版</a>",https://5e.dickytwister.org/5etools.html,跑团
+【W】Shop Inventories,DND的商店库存生成表格，是一个Google Sheet，所以需要魔法使用。同样是英文的,https://docs.google.com/spreadsheets/d/1v4aH_2YanTp8cv8VSZfpvmHnFai_v4Gnb0Q9PwEduyc/edit?pli=1&gid=2117561204#gid=2117561204,跑团
+Donjon,一个面向桌面角色扮演游戏（TTRPG）的生成工具网站，主要为《龙与地下城》等跑团游戏的玩家和主持人提供各类辅助工具。网站内置了随机生成器，可以快速生成角色名字、地牢地图、城镇、遭遇事件、宝藏、魔法商店等内容；同时也提供先攻追踪、怪物数据查询、法术参考等实用功能。支持 D&D 5e、Pathfinder 等多个规则版本。适合需要节省准备时间、临时填充游戏内容的跑团玩家使用。,https://donjon.bin.sh/fantasy/inn/,跑团
+Watabou's Procgen Arcana,一个奇幻中世纪王国/城市/村庄/水系/地下城/房子生成器，也是英文的，但是很漂亮。,https://watabou.itch.io/medieval-fantasy-city-generator,跑团
+D&D Generators,DND的地图生成器、地牢生成器、NPC 生成器等，英文的，但是可以用浏览器的翻译功能使用,https://www.masterthedungeon.com/generators/,跑团
+国家法律法规数据库,"一个可以查询现行法律法规的网站。该数据库已收录了包括自1949年建国以来的全国人大法律、国务院行政法规、最高人民法院和最高人民检察院司法解释等内容的法律法规。<br/>另外找到一个GitHub仓库，也爬取了该平台2023年之前的所有数据，链接<a href=""https://github.com/twang2218/law-datasets"" target=""_blank"">见此</a>",https://flk.npc.gov.cn/index,资料下载
+国家标准全文公开,一个可以查询国家标准的网站。部分可以下载,https://openstd.samr.gov.cn/bzgk/std/,资料下载
+Ping0,一个可以查询IP的网站，还可以查询IP地址是否干净，对于注册海外AI工具来讲比较方便,https://ping0.cc/,AI相关
+Vibe Style Explorer,可以通过图片和点点点的方式来定制网站风格的提示词，方便AI进行设计,https://ui-gallery.codebanana.app/,AI相关
+Draw.io MCP,一个可以让AI直接画Draw.io的图标的MCP工具,https://github.com/jgraph/drawio-mcp/,"AI相关, Skills, 图片绘制"
+问真八字在线排盘,一个界面比较干净，内容比较多的八字排盘网站，也可以排合盘之类的。付费功能没必要，可以自己截图让AI去分析。,https://pcbz.iwzwh.com/#/home/index,在线工具
+在线秒表,这种工具也到处都是，但这个没广告且UI比较大。,https://onlinealarmkur.com/stopwatch/zh-cn/,在线工具
+Full Text RSS,一个单php工具，可以把只有摘要的rss源转换为全文rss,https://github.com/timothytylee/full-text-rss/,文件相关
+纯色背景,一个可以提供各种纯色背景的网站，可以方便的检测屏幕坏点，以及当手电筒等，也可以用来检测拼豆烫豆是否有孔洞。,https://pantallablanca.com/zh/,拼豆
+七卡瓦,拼豆图纸生成器，导入普通图片可以生成拼豆图纸,https://perlerbeads.zippland.com/,拼豆
+Pixel It,一个可以把普通图降画质为像素画的网站,https://giventofly.github.io/pixelit/#tryit,图片调整
+过云楼藏书数据库,凤凰出版社出品，收录凤凰集团所藏179种1292册过云楼古籍的数字影像资源。涵盖宋刻本、元刻本、稿抄本、批校本、明刻本、清刻本六类，提供版本、行款、题跋、藏印等书目信息，支持书名、作者、年代等多条件检索，影像可缩放查看。,https://gyl.fhcbs.com/home,历史相关
+伪像素降维器,一个可以把伪像素图片（例如AI生成的像素图）转换为真像素图的网站,https://xingduansuzhao.com/pixel-converter,"图片调整, 拼豆"
+归藏的PPT Skill,"一个适配 Claude Code / Codex 等 Agent 环境的网页 PPT 技能,用于生成单文件 HTML 横向翻页 PPT、PPT 配图和多平台封面。",https://github.com/op7418/guizang-ppt-skill,"AI相关, Skills, 文件处理"
+双人五子棋,一个免登录的面对面下五子棋的网站，UI比较简约。这种网站说实话也比较多，但是用的时候不好找，故收录于此。,https://wuziqi.xuecan.net/,在线工具
+Pounce,Chrome全局搜索插件<br/>一款 Chrome 扩展，让你通过键盘快捷键即时搜索打开的标签页、书签、历史记录和常用网站——无需离开当前页面。,https://github.com/TuYv/pounce,插件
+CookPad,一个台湾的食谱网站,https://cookpad.com/tw,食谱？
+Crx搜搜,一个可以直接下载浏览器拓展插件的crx或者zip格式文件的网站，方便不能翻墙的时候下载插件。,https://www.crxsoso.com/,综合资源
+anthropic-style-cn,一个A/风格的网页设计Skill，可以轻松设计出A/风格的网站。<br/>感觉效果蛮好的，我比较喜欢它们那种简约且克制的设计风格。<br/>Anthropic 风格中文前端设计规范 Skill — 42 个组件、离线字体、4 种场景模式,https://github.com/TartSlayer/anthropic-style-cn,"AI相关, Skills"
+Awesome Claude Design,一个搜集了很多品牌视觉风格的Design.md项目，可以拿来直接给Claude Code用,https://github.com/VoltAgent/awesome-claude-design,"AI相关, Skills"
+在线视频转音频提取器,在线将视频转音频或MP3，直接在浏览器中从视频文件中提取高质量声音。这款注重隐私的视频提取音频工具支持导出MP3、WAV、M4A或OGG，全程免上传，纯本地处理。,https://videotoframes.com/zh/video-to-mp3,视频处理
+Datawarapper,一个可以轻松的做数据可视化的网站<br/>轻松创建更精美的图表、地图和表格<br/>使用一款强大的网页应用，即可设计和发布高质量的数据可视化作品。,https://www.datawrapper.de/,文件处理
+Aura Share,临时文件分享网站。免注册，最大2GB，可保存7天。,https://share.dedyn.io/zh,文件传输
+中華語文知識庫,免費查詢中華語文大辭典、兩岸差異用詞、學術名詞及漢字源流，支援注音、漢語拼音、部首多元查詢，一站掌握中文語言知識。,https://www.chinese-linguipedia.org/,中文相关
+Oh My PPT,另一个HTML PPT的AI生成Skill<br/>描述你的需求——一份演示文稿、一堂课，或一个故事——<br/>然后让 AI 为你构建简洁美观的 HTML 幻灯片。<br/>本地优先 · 离线可用，为你所用。,https://github.com/arcsin1/oh-my-ppt,"AI相关, Skills, 文件处理"
+CV Pro,把你的 PDF 简历变成活的网站<br/>在 cv.ha7ch.com 上领取一个标识名，获取一个令牌，然后在 Claude Code 中粘贴一条提示。它会安装 CLI，读取你的 PDF，并将你的简历发布到 cv.ha7ch.com/{标识名}。,https://github.com/HA7CH/cv-pro,"文件传输, 文本处理, 文件处理, AI相关"
+UI UX PRO MAX,一个为跨多平台和框架构建专业 UI/UX 提供设计智能的 AI 技能。可以让AI给你设计用户界面,https://github.com/nextlevelbuilder/ui-ux-pro-max-skill,"AI相关, Skills"
+HTML 2 PPT Skill,一款专业级的 AgentSkill，让 AI 做出真正能打的 HTML 演示文稿。 36 套主题、15 套完整 deck 模板、31 种页面布局、47 个动效 (27 个 CSS + 20 个 Canvas FX)，加上全新的 演讲者模式 —— 像素级 完美预览 + 逐字稿提词器 + 计时器。纯静态 HTML/CSS/JS，无需构建。,https://github.com/lewislulu/html-ppt-skill,"AI相关, Skills, 文件处理"
+Waza,将你早已掌握的工程习惯，转化为 AI 智能体可执行的技能。这个和Kami这个Skill似乎是一个作者，蛮有想法的,https://github.com/tw93/waza,"AI相关, Skills"
+Trellis,开箱即用的 AI 编码工程化框架<br/>AI 写代码很快，但它每次会话都从零开始理解项目，记不住你的规范，也记不住团队级别的需求。Trellis 会把规范、任务、记忆沉淀进仓库，让任意 Coding Agent 都按你的工程标准来实践。,https://github.com/mindfold-ai/Trellis/,"AI相关, Skills"
+Lazy Web,一个有很多app真实截图的网站，拿来让AI做UI参考非常友好。目前主要是iOS的UI比较多，后续说是会增加Web和其它的,https://www.lazyweb.com/,"AI相关, 图片"
+Vibe Coding 一键发布,专为 AI 编程打造的网页发布平台。上传 .html 或 .zip，秒获公网链接。无需注册，7 天有效。,https://yiruocloud.com/,"文件传输, AI相关"
+Free Online HTML Viewer,免费且无需注册的在线 HTML 预览工具<br/>即时实时预览<br/>在左侧粘贴 HTML、CSS 或 JavaScript，右侧立刻呈现渲染后的页面。当你需要交付时，可将同一份预览以链接、二维码、图片或 PDF 的形式分享出去。,https://viewhtml.app/,文件传输
+在线二维码识别,其实此类工具有很多。这个支持上传、网络URL、摄像头扫码和截图后直接粘贴识别。我感觉粘贴识别对于电脑来讲还是比较方便的。截图后直接Ctrl+V即可。开箱即用,https://tuzim.net/decode/,二维码处理
+Files.md,一个很漂亮的开箱即用的在线md编辑工具，功能很轻量,https://app.files.md/,文本处理
+GitZip,"可以单独下载Git仓库中的文件，不用把整个仓库下载下来了。原理应该是在纯前端请求Github的资源<br/>还有另外两个功能相同的网站，<a class=""outline"" href=""https://minhaskamal.github.io/DownGit/#/home"" role=""button"" target=""_blank"">DownGit</a>和<a class=""outline"" href=""https://blog.luckly-mjw.cn/tool-show/github-directory-downloader/index.html"" role=""button"" target=""_blank"">GitHub 「特定」文件夹或文件下载工具</a>",https://kinolien.github.io/gitzip/,文件下载
+卡兹克的技能合集,博主“数字生命卡兹克”的Skill合集，目前包含清理垃圾、AI资讯查询、写作等。我觉得那个垃圾清理挺好用的,https://github.com/KKKKhazix/khazix-skills/tree/main,"Skills, AI相关"
+Kami,一个可以让AI排版出很美观的PDF的技能,https://github.com/tw93/kami,"文本处理, Skills, AI相关"
+Rico-Skills,三个Claude Code 技能集合，用于内容创作（通过多轮交互创建高质量的资源推荐类文章）、设计优化（一键优化视觉设计，内置 20 种主题）和资源策展（将任意网站转换为设计系统文档）。,https://github.com/ricocc/rico-skills/,"Skills, AI相关"
+Domd,"一个由 20 KB 从零开始编写的 Markdown 原生引擎驱动的所见即所得的Markdown编辑器。<br/>Github地址<a class=""outline"" href=""https://github.com/do-md/domd"" role=""button"" target=""_blank"">见此</a>",https://www.domd.app/editor,文本处理
+Office CLI,一个开源的Github项目，可以让AI直接读取和操作Word、PPT和Excel，也可以直接作为命令行操作常用办公文档的工具使用,https://github.com/iOfficeAI/OfficeCLI,软件
+Markdown to PDF 转换器,一个可以把markdown转换为pdf的在线网站，模板比较漂亮,https://yyforreal.github.io/md-2-pretty-pdf/,文件处理
+PPT Image First,一个 conversation-first、image-first 的 PPT 工作流 skill，用来把一个模糊的 PPT 需求，逐步推进成：内容基底、风格预览、定稿规划，以及后续可执行的生成流程。,https://github.com/NyxTides/ppt-image-first/,"文件处理, Skills, AI相关"
+Chinese Etymology 字源,一个可以查询某字的甲骨文、金文、小篆的数据库,https://hanziyuan.net/#home,中文相关
+开放古文字字形库,古今文字集成网站的另一个项目，可以查看某汉字的字形流变,http://ccamc.org/cjkv_oaccgd.php?cjkv=&type=qinjian,中文相关
+GIF动图大全,一个有很多GIF动图的网站，做课件插入很方便,https://www.aigei.com/lib/gif/,图片
+Desmos,另一个可以在线绘制函数图像的网站，也是无需登录，但是功能好像没有GeoGebra多,https://www.desmos.com/calculator,理科相关
+GeoGebra,一个可以在线绘制函数图像的网站，支持高级语法，拿来做题或者上课给学生演示都十分方便。<br/>绘制无需登录，分享需要登录，免费的,https://www.geogebra.org/calculator,理科相关
+Plain APP,"一个可以通过usb或wifi连接电脑，让电脑可以操作手机的开源项目。<br/>开源地址<a href=""https://github.com/plainhub/plain-app"" target=""_blank"">见此</a>",https://plainapp.app/,软件
+RSS Bridge,一个开源项目，可以将任意网站转换为rss。用php写的，任何支持php的主机都能用，非常方便。,https://github.com/rss-bridge/rss-bridge,"在线工具, 课程/资讯, 网站相关"
+Kill The Newsletter,一个可以将Newsletter转换成rss的在线网站，无需注册。<br/>RSS是世界上最伟大的发明（,https://kill-the-newsletter.com/,"在线工具, 课程/资讯, 网站相关"
+Mermaid在线编辑,一个可以在线可视化编辑Mermaid的网站，还挺方便的,https://www.mermaidflow.app/editor,文件处理
+富文本转markdown,富文本转Markdown转换器能帮助开发者和内容创作者轻松将富文本内容转换为Markdown格式，无需手动编写、修正代码，节省时间与精力。数据不传后台，保护隐私,https://seo.yiguotech.com/seo-tools/rich-text-to-markdown-converter,文本处理
+SummerStyle,一个可以生成图片的html地图的网站（大致可以理解为：找到图片上某点或某范围的坐标，方便在上面绘制元素之类的）,https://summerstyle.github.io/summer/,网站相关
