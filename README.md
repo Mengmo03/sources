@@ -12,7 +12,7 @@
 <hr/>
 
 
-**Last updata at: 25/11/22**
+**Last updata at: 26/07/12**
 
 
 <div><details><summary><b>About the English Version (If you want to use the English version of this website, you'd better read this first.)</b></summary><p>We are unable to provide English version (or any other multiple language versions) of this site at this time due to staffing and effort constraints.</p><p>If you are not a Simplified Chinese language speaker, please use the web translation function included with modern browsers such as Firefox, Google Chrome, or Microsoft Edge to access this website, or you can translate it using third-party web translation browser extensions.</p><p>We are providing an English language interface based on machine translation for your convenience. Because this is a beta version, it may be inaccurate, unstable, ineffective, or have other issues that we are unable to resolve. If any problems arise, refer to the solution in the preceding paragraph. </p><p>To get to the English page, click the "English" button below.(Refresh if the page is not translated completely) </p><p>If you are interested in assisting with the multilingualization of this site, please contact the webmaster using the information provided below!</p><p><a href="#" onclick="handleLanguageChange('english'); return false;">English</a>&nbsp;|&nbsp;<a href="#" onclick="handleLanguageChange('chinese_simplified'); return false;">简体中文</a></p></details></div>
