@@ -59,7 +59,7 @@
 
 - 点击[“报告错误”](https://forms.office.com/r/AMncKSa0ZD)可向本站匿名报告错误或联系站长。
 
-- 同时，本站也提供一个基于Google Gem的Gemini智能体，可以通过自然语言交互的方式查找资源。但该智能体的数据源可能比网站要滞后一些。你可以[【点此体验】](https://gemini.google.com/gem/1aMP3FETV0OroPzCubO-5hLdnUUCL-ux6?usp=sharing)<br/> *这玩意儿好像还有点幻觉，我再慢慢修复一下，暂时不要用*
+- 同时，本站也提供一个基于Google Gem的Gemini智能体，可以通过自然语言交互的方式查找资源。但该智能体的数据源可能比网站要滞后一些。你可以[【点此体验】](https://gemini.google.com/gem/1aMP3FETV0OroPzCubO-5hLdnUUCL-ux6?usp=sharing)<br/>还有一个Skill，可让任何AI Agent（如Claude Code、CodeX等）帮你搜索资源。<button onclick="navigator.clipboard.writeText('安装AI Skill：B-HU资源检索\n\n从 https://s.b-hu.org/data/SKILL.md 加载这个Skill，用于从精选资源库搜索工具/网站/软件。\n\n触发词：推荐、找、有什么工具/软件/网站\n\n测试：推荐一个PDF转换工具').then(()=>{const btn=event.target;btn.innerText='✓ 已复制';btn.style.backgroundColor='#4CAF50';setTimeout(()=>{btn.innerText='复制安装指令';btn.style.backgroundColor='#007bff';},2000);});" style="background-color:#007bff;color:white;border:none;padding:6px 12px;border-radius:4px;cursor:pointer;margin-left:8px;font-size:14px;">复制安装指令</button> 复制后粘贴给AI即可使用。
 
 ## 关于本站
 
@@ -102,3 +102,5 @@
 使用[Marked.js](https://github.com/markedjs/marked)编写，托管于[GitHub](https://github.com/Mengmo03/sources).
 
 [Magic Speed Up](./#/magicspeedup)
+
+翻译
