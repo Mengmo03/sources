@@ -1640,3 +1640,5 @@ meow-memory,<p>为 DeepSeek Harness 打造的跨会话记忆插件：七层 SQLi
 oil-ui,<p>给 AI Agent 用的 UI 设计 Skill：为网站、应用、仪表盘和组件探索多个设计方向，并排对比、按真实截图打磨，默认推荐一个方向由你确认；装完即用，支持 Claude Code、Codex 等，另有 Pro 版与 DeepSeek Harness 原生插件。</p>,https://github.com/oil-oil/oil-ui,"AI相关, Skills"
 VibeHub,<p>Vibe Coding 术语图鉴：用大白话找准前端、后端、AI 术语。每个条目配界面示例、使用场景与边界，讲清前端、后端、产品、测试、技术栈、AI、Git 与设计概念，共 360 个条目；不知道专业名也能按看到的样子搜到准确名称，更清楚地向 AI 表达需求。<br/>衍生工具：<br/><a class="outline" href="https://github.com/oil-oil/vibe-hub-skill" role="button" target="_blank">VibeHub Skill（让 Agent 用术语图鉴）</a></p>,https://vibe-hub.org/,在线工具
 中国统计年鉴,<p>国家统计局官网的《中国统计年鉴》索引页，按年份收录 1999–2025 年共 27 年的统计年鉴，每年点进去即是该年年鉴的全文数据。</p>,https://www.stats.gov.cn/sj/ndsj/,数据库
+Craft Anything,<p>指向任意网站、应用或游戏，AI 先用真实检测工具研究原作的工作方式，再由编码 Agent 从头写出自己的版本，并对照原作反复校验打磨；纯 Rust 开源引擎，目前为早期 alpha 版，支持 macOS、Windows、Linux 与网页版。</p>,https://github.com/storytold/craft-anything,AI相关
+REA,<p>用 Agent 逆向工程任何软件的 MCP 工具：从应用行为到底层二进制，看中某个功能就能弄清它是怎么实现的，还可用来搭建强化学习环境；通过 npx 一键安装，也提供 Agent Skill。<br/><a class="outline" href="https://github.com/morluto/rea" role="button" target="_blank">项目地址</a></p>,https://rea.tools,AI相关
