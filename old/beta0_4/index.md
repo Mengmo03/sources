@@ -23,7 +23,7 @@
 
 - 自去年12月以来，站长忙于自己的事，网站几乎没怎么更新过了。但感谢这个伟大的AI时代，我用AI重写了网站框架，现在用起来更舒服了！*-2025/11/21*
 
-- 由于站长维护精力有限，且每个人使用的网站不同，故取消Lite版，但你仍可以点击[这里](./old/lite/index.html)访问曾经的Lite版界面 *-2023/6/12*
+- 由于站长维护精力有限，且每个人使用的网站不同，故取消Lite版，但你仍可以点击[这里](../lite/index.html)访问曾经的Lite版界面 *-2023/6/12*
 
 - 为方便高频用户使用，增加Lite版 *-2023/01/17*
 
@@ -31,7 +31,7 @@
 
 - 由于网站顶部文字过多，影响观感，故将其折叠。 *-2022/04/28*
 
-- 由于旧版网站不便查找和阅读，现网站已改版，旧版页面即日起不再更新。您可以在<a href="./old/index0_1.html" target="_blank">此处</a>（beta 0.1）、<a href="./old/index0_2.html" target="_blank">此处</a>(beta 0.2)和<a href="./old/beta0_3/index.html" target="_blank">此处</a>(beta 0.3)访问旧版网站的备份。 *-2022/04/07*
+- 由于旧版网站不便查找和阅读，现网站已改版，旧版页面即日起不再更新。您可以在<a href="../index0_1.html" target="_blank">此处</a>（beta 0.1）、<a href="../index0_2.html" target="_blank">此处</a>(beta 0.2)和<a href="../beta0_3/index.html" target="_blank">此处</a>(beta 0.3)访问旧版网站的备份。 *-2022/04/07*
 
 </details></div>
 
